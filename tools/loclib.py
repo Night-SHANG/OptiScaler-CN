@@ -17,6 +17,26 @@ def save_json(path: Path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=False) + "\n", encoding="utf-8")
 
+def read_source_text(path: Path) -> tuple[str, str]:
+    """Read upstream C/C++ text while preserving its original byte encoding.
+
+    OptiScaler contains a small number of legacy Windows-encoded source files.
+    Localization injection only adds ASCII source text, so retaining the original
+    encoding avoids changing unrelated upstream bytes.
+    """
+    raw = path.read_bytes()
+    if raw.startswith(b"\xef\xbb\xbf"):
+        return raw.decode("utf-8-sig"), "utf-8-sig"
+    for encoding in ("utf-8", "cp1252", "latin-1"):
+        try:
+            return raw.decode(encoding), encoding
+        except UnicodeDecodeError:
+            continue
+    raise UnicodeDecodeError("utf-8", raw, 0, len(raw), "unable to decode source file")
+
+def write_source_text(path: Path, text: str, encoding: str) -> None:
+    path.write_bytes(text.encode(encoding))
+
 def sha(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 

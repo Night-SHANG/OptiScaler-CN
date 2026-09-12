@@ -8,7 +8,7 @@ INCLUDE_LINE = '#include "localization/Localization.h"\n'
 
 
 def patch_font_and_init(path: Path):
-    text=path.read_text(encoding='utf-8-sig')
+    text, source_encoding = read_source_text(path)
     if INCLUDE_LINE.strip() not in text:
         anchor='#include "menu_common.h"\n'
         if anchor not in text:
@@ -73,11 +73,11 @@ def patch_font_and_init(path: Path):
             f'{ind}{{{elsebody}{ind}}}'
         )
         text=text[:match.start()]+replacement+text[match.end():]
-    path.write_text(text,encoding='utf-8')
+    write_source_text(path, text, source_encoding)
 
 
 def patch_dynamic_helpers(path: Path):
-    text=path.read_text(encoding='utf-8-sig')
+    text, source_encoding = read_source_text(path)
     # Central translation for labels/tooltips stored in MenuOption vectors and
     # for the rotating splash string container. These are not direct literal
     # arguments, so the literal scanner cannot rewrite their call sites itself.
@@ -105,10 +105,10 @@ def patch_dynamic_helpers(path: Path):
                           'ImGui::BeginCombo("Upscaler Quality", selectedQ.c_str())',1)
         # If the first argument was already instrumented, patch the second argument instead.
         text=re.sub(r'(ImGui::BeginCombo\(OptiScalerCN::Loc::T\([^\n]+?\),\s*)selectedQ(\))',r'\1selectedQ.c_str()\2',text,count=1)
-    path.write_text(text,encoding='utf-8')
+    write_source_text(path, text, source_encoding)
 
 def instrument_file(path: Path, rel: str, rules: dict, source_to_key: dict):
-    text=path.read_text(encoding='utf-8-sig')
+    text, source_encoding = read_source_text(path)
     candidates=find_candidates(text,rel,rules)
     changes=[]
     for c in candidates:
@@ -138,7 +138,7 @@ def instrument_file(path: Path, rel: str, rules: dict, source_to_key: dict):
         pch='#include "pch.h"\n'
         if pch in text: text=text.replace(pch,pch+INCLUDE_LINE,1)
         else: text=INCLUDE_LINE+text
-    path.write_text(text,encoding='utf-8')
+    write_source_text(path, text, source_encoding)
     return len(changes)
 
 

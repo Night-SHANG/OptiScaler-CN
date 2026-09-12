@@ -97,7 +97,7 @@ def main():
     found=[]
     for p in iter_source_files(args.source,rules):
         rel=p.relative_to(args.source).as_posix()
-        text=p.read_text(encoding='utf-8-sig',errors='replace')
+        text,_=read_source_text(p)
         found.extend(find_candidates(text,rel,rules))
 
     result=reconcile(found, old_entries, zh, tm)

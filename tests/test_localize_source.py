@@ -89,4 +89,18 @@ ImGui::SetTooltip("%s", flag.description.c_str());
             self.assertIn('TL(flag.description)',out)
         finally: td.cleanup()
 
+    def test_cp1252_source_file_is_instrumented_without_reencoding_failure(self):
+        td=tempfile.TemporaryDirectory(); p=Path(td.name)/'legacy.cpp'
+        try:
+            raw=b'#include "pch.h"\n// legacy dash: \x97\nvoid f(){ auto x=StrFmt("Disable##%d", 4); }\n'
+            p.write_bytes(raw)
+            key=key_for_source('Disable##%d')
+            count=localize_source.instrument_file(p,'OptiScaler/menu/legacy.cpp',RULES,{'Disable##%d':key})
+            self.assertEqual(count,1)
+            out=p.read_bytes()
+            self.assertIn(b'\x97',out)
+            self.assertIn(f'OptiScalerCN::Loc::T("{key}", "Disable##%d")'.encode('ascii'),out)
+        finally:
+            td.cleanup()
+
 if __name__=='__main__': unittest.main()
