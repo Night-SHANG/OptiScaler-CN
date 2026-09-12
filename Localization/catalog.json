@@ -1,0 +1,2199 @@
+{
+  "schema": 1,
+  "upstream_commit": "",
+  "inventory_status": "bootstrap-from-reviewed-translation-memory",
+  "entries": {
+    "ui.auto.d01f6c691e27": {
+      "source": "%s is active, but not currently used by the game\nPlease enter the game",
+      "source_hash": "9f9915b3569bbba260ea0da96b1221f66798d3bec209cef418e9a393474dfb5b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c9fa7e7fb5c7": {
+      "source": "Accent Colour",
+      "source_hash": "593db4a6ca8ec798a5fdef6ccb62492f29dd97f23d9150343d0576d3524401bd",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a733b809d2f1": {
+      "source": "Active",
+      "source_hash": "92340695899bd2d86223e4a007620e0d6502fc0e08809773634c7e0743764a9c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.bc35d8fc6e83": {
+      "source": "Active input: %s",
+      "source_hash": "727ffe543092d4f451455bc812939a54190fa85d0b716e9db874643a8c0309bd",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ec74d5185449": {
+      "source": "Active output: %s",
+      "source_hash": "ddd5dce8aa95f8036ce922fcaa1e257c7d8744b24a747bf99a68432e281adb0f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.e71963fc298f": {
+      "source": "Active##3",
+      "source_hash": "38cbcd60b64f67b1837a09a92cda4c7c52482c47834dcb95ef679e69c78ad962",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4d064726954a": {
+      "source": "Advanced",
+      "source_hash": "9f088dbebd6c3c70a5ddbc2c943b11e4ca9acea5757b0b4f2b32479f0dbb747e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4a0faee226ec": {
+      "source": "Advanced Init Flags",
+      "source_hash": "8a64ea46c6980d82f7b47c9e45fde62e449bd29c01030726b0105fafbfd0e26e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4880ddab6a4a": {
+      "source": "Advanced OptiFG Settings",
+      "source_hash": "f3b9fc71c6018501ce2524f0b7299150efdd549be6bd32afc425264c8cf97ca4",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.0ae1c471e5be": {
+      "source": "Advanced XeFG Settings",
+      "source_hash": "a07aa419585a1ea59e001fcc15e148541708de74969a2adeb3dc3fa162fb6697",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3bb7a36446d6": {
+      "source": "Affects both FSR-FG & Upscalers",
+      "source_hash": "df8ad7621e1b05866c2fbb36e8374f213563a9263fd287188945b4c1e6b8429f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.24efee53e078": {
+      "source": "After changing this option, please Save Settings\nIt will be applied on next launch.",
+      "source_hash": "650f659419e009fbf0d8759bf432f28e012cbcd74f2182297330cf72481b8db5",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b46eb2e49d59": {
+      "source": "Aggressive",
+      "source_hash": "4ad0cc8ec0084946ade150954a43f214c3647a20fd4fa57aa8e1b6b2c35fc23c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.27d85503893f": {
+      "source": "Allows the use of a Reactive mask\nKeep in mind that a Reactive mask sent to DLSS\nwill not produce a good image in combination with FSR/XeSS",
+      "source_hash": "ab6029824f9133e4860d449ed05175fc35d955aa7de44191772fe766c1f9469b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.648bb52e8970": {
+      "source": "Allows WaitForSingleObject instead of spinning for fence value",
+      "source_hash": "f739377a26ef9b00d30b264f3a6f0db571b13fec41597f1a38467052055f301a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f3c1111702f1": {
+      "source": "Always Track Heaps",
+      "source_hash": "87d5d1e29faa7b703bd3252761b336d814939f89d8bd116952d05fa5064fbf8f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.201128f570bf": {
+      "source": "An active limit of 0 means auto-detect the display refresh rate",
+      "source_hash": "f29c0dfd0de2f0013d5c5e48069017bac999312062ac3c82703c24705c570480",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.92c246bca1c9": {
+      "source": "Apply Target",
+      "source_hash": "324d8713578bc9a6fe5ac4a685645d226210a78cdfd454106203ec63c068ef14",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.43de8982e594": {
+      "source": "Apply Timing Changes",
+      "source_hash": "568cfbd96a5171dd3ecbebcfc3567c1f7409f33cd0c9352b0b041c52f2baa238",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c614ba7c453c": {
+      "source": "Auto",
+      "source_hash": "0286249762f7c94349cdc0ba3bb2255baf9a80036e2193ead1d77696f888582f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4e6b92e877d9": {
+      "source": "Auto Exposure",
+      "source_hash": "9a570a82ccb11578b79bba06d0a83f48747185107f8ab3d4903bad9f0ab57f6f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7e08c82156b9": {
+      "source": "Background Colour",
+      "source_hash": "c85d561c67493b0a401165542231e3aaaff1c18f4ceaa5e07cb550ef977d9cbc",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.03342dbb856b": {
+      "source": "Balanced",
+      "source_hash": "5386ea5db81c8579a363438895a447d9580cbca1bdecdad43f2839af6d6fbf5c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.12741c6ad491": {
+      "source": "Block rarely used resources from using as Hudless \nto prevent flickers and other issues\n\n",
+      "source_hash": "128977e486899474d91aefdcc6332feca9b7bb44970bd4f33fe2625c069d473b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7d44bc449c2a": {
+      "source": "Blue",
+      "source_hash": "ec7d56a01607001e6401366417c5e2eb00ffa0df17ca1a9a831e0b32c8f11bf7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.9c69a2779766": {
+      "source": "Blue##2",
+      "source_hash": "b0d3a5edf07c7a1a9592f0badd11a56da489b853acfe5fe2441c00b3850a683d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.e1e4f213c70f": {
+      "source": "Borderless display mode required!",
+      "source_hash": "b0babd21e294ae3915b99ba22551303e7f45847e3ff19e11d7533f36503daf67",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ea4021e2a36f": {
+      "source": "Calculate Mipmap Bias",
+      "source_hash": "51c1a28d651c4e21e1281e334762e8cf6774ffb14d22bb63a9156516d0382c8d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.1a07901dc8c0": {
+      "source": "Can't find nvngx.dll and libxess.dll and FSR inputs\nUpscaling support will NOT work.",
+      "source_hash": "18bf074faed9568925994a17d7219be6ed46d0bce4f362b0b595bdb8d4842101",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c4b5fca9510b": {
+      "source": "Clear##4",
+      "source_hash": "f494fba5f81a95dc8425a461e5a55147e007728c8465fe42410baaa468a35f81",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.bbfa773e5a63": {
+      "source": "Close",
+      "source_hash": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d6ea6183dc0d": {
+      "source": "Close##4",
+      "source_hash": "7a9e6528b9791d1df4507d8e20958eb1f8645cc2a838062a3490f23851617885",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4d8c9c62195b": {
+      "source": "Conservative",
+      "source_hash": "75e1783e4e517e5459062db056ec2d886889cf94fc62c3b7e01f10ae3505a2f5",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.54dca177a715": {
+      "source": "Current : %.3f / %.3f, Target: %.3f",
+      "source_hash": "509a449c60b6c29eabd0c60a20f1ae08d8cc985bf98545937bc2fcc45af3d2ec",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.9006852aa9da": {
+      "source": "Current : %.3f / %.3f, Target: Base * %.3f",
+      "source_hash": "b16c7d390ab3a697dce71bd1602e215582dfa905c8b9df24c98cc977dbcebdc9",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b6210d50236a": {
+      "source": "Current : %.3f / %.3f, Target: Base + %.3f",
+      "source_hash": "6653120b4e73c36123145e31737954dbb403278aa1496c0470972bb82f60a9ec",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2ec3f7414d7a": {
+      "source": "Current DLSSG state:",
+      "source_hash": "2ad97adbc55e6c34ec7438808b0a597638ae7b2b1ec5bec5c71362179aacebbc",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.55ae380d32a8": {
+      "source": "Custom Accent Color",
+      "source_hash": "e5f233b47f5b40c508b561be08f1a0c17bb07487ec8e79a027feb91f1f78df54",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2ba0b98744db": {
+      "source": "Debug Reset Lines",
+      "source_hash": "8cb31d7e7639b3b35496dc6c01560d12f46f4d42359070d7f79181da7e25a071",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ccf6758ac014": {
+      "source": "Debug View",
+      "source_hash": "d7f53509d68344b381c8067dade4c1824e5387b8a9ec2cbaf0650573fc28fe7e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3027c2dd7216": {
+      "source": "Debug View##2",
+      "source_hash": "fd746ea2febd3e3cd11b3c3905c500b08eff9ea126a3c0a16a50dffa9aa9fda7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c189207a55da": {
+      "source": "DEFAULT",
+      "source_hash": "89dbf71048801678ca4abfbaa3ea8f7c651aae193357a3e23d68e21512cd07f5",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.250b76c1422c": {
+      "source": "Default model, Transformer",
+      "source_hash": "f1608054996b8cb6240c23168f58890506d1d16477e986e469faba640e5d3a35",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.172fed70fdfc": {
+      "source": "Depth Inverted",
+      "source_hash": "61992a293fe36053e940867aff7374b5139ecf505068a800803c4e360edc7e35",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.9a7d4e0687b1": {
+      "source": "Disable",
+      "source_hash": "b7e3e4aa4257b9a11a82f59faf34c8450ca10d4116885b0a29fedf60842d81d5",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.420c9621b37d": {
+      "source": "Disable DI Tracking",
+      "source_hash": "cfb109f36f802e863def591b0ee2901062081c6c9902bbafb795d4b8a711151a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.028adb3c7f10": {
+      "source": "Disable DII Tracking",
+      "source_hash": "642920c1fa9369b49577d48299310f65ce9d08fe1b104352dbe7c3d1b209b1d2",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.720d36626538": {
+      "source": "Disable Dispatch Tracking",
+      "source_hash": "ac090d800d4e045bf6f78b9f28dba7203616d1eda18a11501dcb0f1d8f78612d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.74c2b946cabd": {
+      "source": "Disable OM Tracking",
+      "source_hash": "51d14af79a32d381e1e45800aecd5c739cb8d6d431d5ae7dc21fe702daad72e7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.aee0a49bdff9": {
+      "source": "Disable Reactive Mask",
+      "source_hash": "be0c4236b4f7cae2ca60eddb9741cb88d0f7618e94c981d819d8440c40317ea0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2aae1927ee4f": {
+      "source": "Disable RTV Tracking",
+      "source_hash": "b72db476c6abecc1b01239f733bbf3261ff1f1cb05a8307d5c5fec2d8d77ea4c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3c6b7b38d68a": {
+      "source": "Disable SCR Tracking",
+      "source_hash": "0008dfc90998ca5fc305d6233bbe1fe5054abd63df4f2651e0ff72bcec145185",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a30c8329cf24": {
+      "source": "Disable SGR Tracking",
+      "source_hash": "abd53f49bc40fda308cf62e1f1019702205f39245a04690a076809d5c9eb4ab0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7ee51771092d": {
+      "source": "Disable SRV Tracking",
+      "source_hash": "611fe5dbd31ed9be54b05b1faf3bc5bc52f2ff1be07382a0ab4f1db966db1c5c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b220e0065439": {
+      "source": "Disable tracking of CreateRenderTargetView\nThis might help filtering of wrong hudless resources",
+      "source_hash": "2176619516526b639661a5452f9f4a38e871baee27b493c87f09cb0cd7c6b370",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c76ec1a9f58c": {
+      "source": "Disable tracking of CreateShaderResourceView\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "95f0815fde80e5dd48d4239cf64ce4d6cf3d5b55a6bf8fd51eb2f756e062fb5e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b08bccb22d5d": {
+      "source": "Disable tracking of CreateUnorderedAccessView\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "af14d5480aaf1bfb2e29c2d6f432a3f9e42f68976ff56177aa9c6b13b25f347d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.df0a3327c4e3": {
+      "source": "Disable tracking of Dispatch\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "d7a1dd2b9f6721ed205d1fb80484ec70b7d4bb530f8cad8f91e3154de017ffa4",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.be0a7d5ca2f9": {
+      "source": "Disable tracking of DrawIndexedInstanced\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "123eb9969c9116d136b11e55c425c7d08d5ef37c27bc2df851f5b6472322ea3d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.96f1c6a29689": {
+      "source": "Disable tracking of DrawInstanced\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "48677e373ef9fa67d72e82551e172f9f655a6a2106264ea15e388349e764ac08",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4bdd68714873": {
+      "source": "Disable tracking of OMSetRenderTargets\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "20649f57ea48178727dd1a5b2f48dc0742fc5db7d736d8948f048fa0e85bcaad",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.33dcd3305da5": {
+      "source": "Disable tracking of SetComputeRootDescriptorTable\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "044feaa564bf619f3902fdca4287905791184297124e71db4c4472d67db6f0c5",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b6f70fc37bab": {
+      "source": "Disable tracking of SetGraphicsRootDescriptorTable\nThis might help filtering of wrong Hudless resources",
+      "source_hash": "843cb8d7b122d6a1b27d0cb8afedfc677fb2717fb34a3e5a870f38793e24b40e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ef85f2cfcbd4": {
+      "source": "Disable UAV Tracking",
+      "source_hash": "35a7432f1d11bd50b78013d1867ce49f3701f28067539a12c5aa136891fdb5fc",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b2c1243fcb8a": {
+      "source": "Disable##%d",
+      "source_hash": "8bbd0ca298551822310e018b56eeb1bf0a75e520376e2efc6ec35d3d35a87533",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.24f318e95a73": {
+      "source": "Disable##2",
+      "source_hash": "f61149de776d464715206520c2917d2cac092636906017198a3b2f340d41afcc",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c7fdb009be59": {
+      "source": "Display only FSR 3.1 Generated frames",
+      "source_hash": "777cc2270b02bc06124cbae9f0c9384ee5f0ecd86c96b1f15822c42324ba188e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.55924763cc3f": {
+      "source": "Display Width",
+      "source_hash": "ccd63130c1c108d7f34feede249c9b745af226b6f609c8ebf2ce85869c03897e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.827c40257218": {
+      "source": "DLSS Enabler as dlss-enabler-headless.dll\nSelect DLSS-FG in-game",
+      "source_hash": "ce1c4794a38197ec50a3e903197694e5260f9a2f0e7f208663d6556a2aa45427",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.27e11ac935c4": {
+      "source": "DLSS Settings",
+      "source_hash": "a94488894381686c8fed846edde595ff3c5bf4c1c9f0ceed5bbf29e6b7665b24",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7c0f705f8251": {
+      "source": "DLSSD Settings",
+      "source_hash": "b5db4a43c104aaee14a2fb2daba0bef38c5cd960269c77f09e0ad38a3001014d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d30c821162de": {
+      "source": "DMFG FPS Target",
+      "source_hash": "e207c25908916d38bdd48e1af00298a552d34195186fa1140ce9a9f9b423b770",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.42b615a9f3b9": {
+      "source": "DRS (Dynamic Resolution Scaling)",
+      "source_hash": "7a754eab7f4267b6fa8240cf63739b23e97ec0ecc3a1e14c1de47a0a26a3d2ee",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.20063ad90532": {
+      "source": "Enable",
+      "source_hash": "5342e09f2729fbc6514528e727aeb9857afb31719d43568e6b18661ace7d1014",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b6e42115d464": {
+      "source": "Enable Frame Generation",
+      "source_hash": "bc8f3c7d88a5f764a313bff55b0fde44b36a5db27f4dfa22d080aba6352b07a9",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2aecc68a3a6f": {
+      "source": "Enable HUD stability fix, might cause crashes!",
+      "source_hash": "d04d045dddb5bc874d629ed0e644716c26ac5aa0f4f30212d52c00ae4a0dd090",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d22aeb9f4d69": {
+      "source": "Enable WaitForSingleObjectOnFence",
+      "source_hash": "18bb9fbfc755d992bd6844f42278547f0b17d646b61f71fb56e5326a46d8d3a9",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2db8915d9401": {
+      "source": "Enable XeFG Debug view",
+      "source_hash": "c397aade710c2951c3ed064fdb4e0a32d908f8f58f35aa45989951cef2964203",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.8b1831b27ee0": {
+      "source": "Enable##%d",
+      "source_hash": "70149c5d9663f31b74b8d9aca3d235a2b8aa0f0cd59df7f505f0f396b0f2897f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a0f3903726b0": {
+      "source": "Enable##2",
+      "source_hash": "d67fc4bf7bc3cf461e932df0c276b69a87f7c3a056583303081ef70ec58a8cc6",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.0335b19d7bf2": {
+      "source": "Enables drawing of Interpolation skip lines",
+      "source_hash": "5abb7d235537074d817e312f3574916dabb8d33185fe851540634562e9600637",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.e4b32be299fa": {
+      "source": "Extended",
+      "source_hash": "97b165f2f4e4ca544bb7aaa49d8ab5cd38566aa11aff9dfb7ae0609376148cd7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.0cf5825ed98f": {
+      "source": "FFX Settings",
+      "source_hash": "c0b926c81224964fe04bae9a49409ad2431db535562d0c6848cf1316cf527efd",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4696b997176d": {
+      "source": "FG Create List",
+      "source_hash": "4ed954b95de561f6dfeb65fbb337eaaf0c4740468353e711fdc8873544d9cca7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.8b4b1c423274": {
+      "source": "FG Make Depth Copies",
+      "source_hash": "3d8eb009559a94ac70cb956c1a03b19334066a9450abfda13a2e082746cf35fb",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.1faba50558b4": {
+      "source": "FG Make MV Copies",
+      "source_hash": "fde94fe432be76c47bcc41d4c989050fbd067ceb1f167c829f694c5431878582",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b028cd3332f7": {
+      "source": "FG Only Generated",
+      "source_hash": "eebd18fa02276e0f97ac3efd172c66d101034ebad69682dc3daa98a53d290e9a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3bccbf376083": {
+      "source": "FG Use List",
+      "source_hash": "954b7d68542b20075528644800c6e9441adffb41209ad755446d261114d0354e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.35b02cb7c3d7": {
+      "source": "Fix for DLSS-D wrong depth inputs",
+      "source_hash": "41f557aa0a60d6115c87b9277060174ca001c788a0004fd945a58a2cc05f93ff",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ad57c0a36ab7": {
+      "source": "Fix for games ignoring official DRS limits",
+      "source_hash": "3a21e7d47d1fa469b238af62e5c3ace2cdc0940e64c1fd89e653a4851b2f592a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5c4b194a637c": {
+      "source": "Flip (Unity)",
+      "source_hash": "e46b02e6151069131340b55f08c003e32b91d92e2c740c0801f5b8e1f46100af",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3642632a9661": {
+      "source": "Flip Use Offset",
+      "source_hash": "2d8af850c2c1b7c799ab92805b9ac094ebbf9772430f42b7ab123e38fd3fbe7c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ce9379d31f4c": {
+      "source": "Flip Velocity & Depth resources of Unity games",
+      "source_hash": "8c31bc04b14409e8cd5845ac75efd9395c55b3d6659b34a7cc5344f24731a9c1",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4d22ec45393b": {
+      "source": "Follow in-game",
+      "source_hash": "ef797c674b506c78dfb37bd2f7056beb601c9a65ea7fb17b9050601105d32729",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f4874053400e": {
+      "source": "Force Borderless",
+      "source_hash": "814f3724e872ee0ac8f7034b1a52856ceff3a939d63da48d3babea393d6d33f7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.1b3eb034f5e3": {
+      "source": "Force Disable",
+      "source_hash": "b393e34f6dc133dd238624dc7ec2fbc7f5eb4227a07703e1be132ce30c208fee",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.440e70b3154c": {
+      "source": "Force Dynamic MFG",
+      "source_hash": "9ead6a05b9d9ffc77388cd58145a5f2f159367822c52bb539b5f6dca2ea71991",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.bc55dd70dcbe": {
+      "source": "Force Enable",
+      "source_hash": "4214eb1a86325879b7b3eeb7a2753ce4bfb9b94dbc781ae37ed882a640325575",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.96d75b7a9775": {
+      "source": "Force Reflex",
+      "source_hash": "637c6c9e5c2753682e4f356e64b3b51ddca6197cc93df2bfd0a9d8ee0c31d5c9",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c1f887653368": {
+      "source": "Frame Generation",
+      "source_hash": "4a5d7f645dab89a8057382beaad9428da61f36623471c048b7bcd94cd8b70e36",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5efc857e08b3": {
+      "source": "Frame Generation (DLSSG)",
+      "source_hash": "c382ee6b4a370c54b84175b66aba1f347bebea49873178c23b91970c6c9828a2",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f0ff85310c01": {
+      "source": "Frame Generation (FSR FG)",
+      "source_hash": "b5bdb698ea6e943e61ddd795fbf6f2ff0bf556cebe2928be0b69348a0283e397",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7a7fa975a393": {
+      "source": "Frame Generation (FSR3-FG via Nukem's DLSSG)",
+      "source_hash": "de8c95a65e76dadbf3652641edf93122641eccb8fcc9d999a5f75f2ac2d6cf09",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.cda5e96596ba": {
+      "source": "Frame Generation (FSR3-MFG via DLSS Enabler)",
+      "source_hash": "83615e03304b2ddd76b3662f682687be431ea891987e406c966d9591c1906c59",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4626ac3b99a0": {
+      "source": "Frame Generation (OptiFG)",
+      "source_hash": "336f5cadb53f86d9fd9fb74e34060fd8928b903e632c73495653904cb05508b4",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b7fbbb308e96": {
+      "source": "Frame Generation (Streamline FG Inputs)",
+      "source_hash": "4bd67b86e9295949a66a60ed1d616ae9665b008fc60ca2e36d1e22c3361d64aa",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.8ae78cb11ee3": {
+      "source": "Frame Generation (XeFG)",
+      "source_hash": "158725d185fb1fc86875142cbb09879286cbbe6e16874f462e1b29dd07cecb07",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.634e5abf9cc7": {
+      "source": "FSR 3.1 Presets:",
+      "source_hash": "c8fe20373a31430fa85bbb857024683df000d526fea2634ecd1bccc71ddb3e38",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3042b35f9ed7": {
+      "source": "FSR 4 FP8 only works on AMD",
+      "source_hash": "fa3cef2d92e0011bc2c525bf62fef4d60cc6cc7c04fad46671fb71868f884b54",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4a345a54de33": {
+      "source": "FSR Common Settings",
+      "source_hash": "cfa127439a77beccecf468b13935a3bb243fc5254908eaf4b656c5367026adf1",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4f9beff18cc6": {
+      "source": "Gray",
+      "source_hash": "0d5adda3cdccf937bd9c9e66c8000f98d9d0a91e7c3a166e2dfdc91386911cd2",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3e6075403853": {
+      "source": "Gray##2",
+      "source_hash": "8205d01f0974986452472044e7f59a3ff94e02a3d547e710c34a97a0229d262a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.933bf21afdd5": {
+      "source": "Green",
+      "source_hash": "d486dfbd5fb578340bccbdd0a662527eab38550648d5f44517e5ac71b8824703",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5448e89a04ff": {
+      "source": "Green##2",
+      "source_hash": "bd1de15a75508f1c055849031d229f26c94242bdfa1280ddac04b514405f2558",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.0ce92088720d": {
+      "source": "HDR",
+      "source_hash": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.1825e3a5e4c3": {
+      "source": "HUDFix",
+      "source_hash": "2938aee6634e8463b02afbeb49c82a5ad2adb965d11c93002c11acc1bc9306d5",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f8f5513e69e7": {
+      "source": "Hudless Resources",
+      "source_hash": "bdaefe14e1aebbbd4a303632bde70a78742f55c3ac2b88dedbcd4f78b3f6674f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.77e95560da18": {
+      "source": "If you are using an AMD/Intel GPU, then make sure you have Fakenvapi",
+      "source_hash": "e222e0eacb63fda37d221e3cf57948f1baa3cf4794bc5c7b63213b39a0125d19",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f82d0d1f7f8b": {
+      "source": "Ignore Init Checks",
+      "source_hash": "d7826ea79678d0815676cbc9210846535e0a836b4684f0ddf78468b5c3d06272",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.78c285449b94": {
+      "source": "Ignores all prechecks for XeFG\nDon't use this option to skip MV size warning for UE games!\nIt might cause crashes and bad IQ!",
+      "source_hash": "eb35cc30be8e7de15ee716feb1e95204f5205ac1fa67cf21f4f51ba6ce270cb6",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b40a29942960": {
+      "source": "Immediate Capture",
+      "source_hash": "9bea62c5d93332400e79116c32f51b67f4ca98a34813bae977e700b85fd5450e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7f8d20979798": {
+      "source": "Init Flags",
+      "source_hash": "bab3f9fc11bda200b0ac9f1a491948f6a0dea282d1c5d741c45092499eeecc86",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b568d47f2e24": {
+      "source": "Input",
+      "source_hash": "36ecb4f8669133ce744c21982ba4abe2ecd7086e1dc2226ccd6f266f3a5005f8",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.1855190085a7": {
+      "source": "Input Resolution",
+      "source_hash": "db4599faf6bed558f83c8de93673e887c2f9932db6cdc5fd84f1705021d96477",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f0f7b3ce1bc6": {
+      "source": "Late Streamline hook detected",
+      "source_hash": "24cda0a48626b6e92a1eaf12c0ffe382d4681049191c67a527f23f32f135509d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.370e518fc5e1": {
+      "source": "LatencyFlex mode",
+      "source_hash": "732fa42b820bf93e4cb72beb0dea957f4b40ab4faf49219c639ab4533aeee9cd",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.decd7ca80010": {
+      "source": "Latest",
+      "source_hash": "8730d3c2022abf1f9665e4ca1da43e4d068843482053675af19176b0f6f51a3e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5e45dd5e65e4": {
+      "source": "Latest supported by the dll",
+      "source_hash": "2c7480e7224c0992d3c0ae6c820f2b3aa34502a7324af89116a6698c6f3df4d4",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.83b41287824c": {
+      "source": "Latest Transformer model\nMust use if DoF guide is needed",
+      "source_hash": "2c816fbd0d792379ce58cc1604bfe0ba09a88b39bb7ab115dc861f3107d66de0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.57003616863f": {
+      "source": "Logging",
+      "source_hash": "d3ef01b4a9c9910364c9b26b2499c8787a0461d2d24ab80376fff736a288b34c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.473547e79563": {
+      "source": "Low Latency",
+      "source_hash": "4dc2284414d2545354bf4ad2ee1b1be50c1d7ca35c081979beab095ea5da16a8",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.04c5628a4639": {
+      "source": "Make a copy of depth to use with OptiFG\nFor preventing corruptions that might happen",
+      "source_hash": "3dfbe895808dd03d78c1c398e641555acf298187307249d3ecbc413a1e41ef23",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.e88f2b9c586e": {
+      "source": "Make a copy of motion vectors to use with OptiFG\nFor preventing corruptions that might happen",
+      "source_hash": "b92670cfadf596b336fe1bf4db68b0292e633966b375bd16dab587ad5d321d4c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.473ba8dd3b5a": {
+      "source": "Mipmap Bias",
+      "source_hash": "8b043590cd4bf35df9d07dc7087d872dd258bbca2011c07a9a49bb1a5321ee07",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.816c52fd2bdd": {
+      "source": "No",
+      "source_hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.6c704f55810a": {
+      "source": "No support",
+      "source_hash": "e2312dc086efef5524c48bb4c1221e1537f678fabc8333a599ae1dfd2ea00d79",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.47b374d5a6a1": {
+      "source": "None (Off)",
+      "source_hash": "46c9f52734dc2a821ea68f5e4f692d3ce3052e82ae5dd26e38f1af801ed004c0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f45461efe4d4": {
+      "source": "Open release page",
+      "source_hash": "cd6c9851e91ad7b624b689182b8c8059166c1f9e49eada45a45f5c077233ade0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3fecb6c780f5": {
+      "source": "Option disabled because the game doesn't provide a Reactive mask",
+      "source_hash": "07a54207136de77c6c4ff9ac4c7207154cb72b0f66036f2fd8468ec384af78dc",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.e358814d5984": {
+      "source": "OptiScaler - %s for menu",
+      "source_hash": "aa4920f0ea0ecbec3e3b0af20ae55988e48b7c2ca2ee77549fbb22610a948b25",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.09fb6aaba794": {
+      "source": "Orange",
+      "source_hash": "78e7771b8b46e11ddb34ba48887e1330525215f96d94778980d1186e6f09f6b4",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d8c5ccc477d6": {
+      "source": "Orange##2",
+      "source_hash": "c60aff093a8736e8841bf0ee29c8b9a73b649187f96f742ae887ada25d28ab39",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4bed336194a9": {
+      "source": "Output",
+      "source_hash": "b2439bcb8dee14b685f137f294b0e0cb62f5aadf45143ce01d79777d435a93b4",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.e992b35b7d13": {
+      "source": "Output Resolution",
+      "source_hash": "9f8d59e3a85199714560f64eb866204decf4076a970ad43e8705466992f45c83",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.bd8ac732701e": {
+      "source": "Output Scaling",
+      "source_hash": "bb1305e066a0630694d37fd2588b539c2023e196730860cc6b760f16c5600d36",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.84219262228f": {
+      "source": "Override",
+      "source_hash": "43bc0f5fc035108f88cb7436ade1a103b0c710ba82c733cb5835a2b89dc4568f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5f8302e25319": {
+      "source": "Override DLSSG",
+      "source_hash": "f35d95e61e1913da8847e1b09b0e825012d857c1ceb1dfc5246f5e12d1f1bfc1",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c077ffe3940c": {
+      "source": "Override Minimum",
+      "source_hash": "5ce400b9857ebfcd2fd56ca3368479ae2174a76b955f2b1f8a986d777875dd94",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.84944f198d40": {
+      "source": "Passive",
+      "source_hash": "78c04330e9895ac818e3c1609e8a762674ca041a392c0cf459df04257522facd",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.63c904559993": {
+      "source": "Performance",
+      "source_hash": "442aded87a55aa8c8f7d5ff0c30228150d4b1cb8756e4be138d615ca4708fc26",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.312413596d39": {
+      "source": "Please put dlssg_to_fsr3_amd_is_better.dll or dlss-enabler-headless.dll next to OptiScaler",
+      "source_hash": "1ec192d2f0497577918a99e5d07df3326ac399e2955e3a825feebaf468ff0c70",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.77acdfa26abb": {
+      "source": "Please select %s as upscaler from game\noptions and load a save game to enable Opti settings.\nUpscalers don't always work in menus.",
+      "source_hash": "697ad5b09db7376167032d1e7f954b6fec6a2404ff342de733c9f9067422a918",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.484ecbc5668f": {
+      "source": "Please select DLSS Frame Generation in the game options\nYou might need to select DLSS first",
+      "source_hash": "c741cdffade37230650016f81ecf0652c8b4cc077e159d04cd039595bd7bc816",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.bca788763dd4": {
+      "source": "Preset",
+      "source_hash": "7252e7ce008587e1180459d95c2536df954971d6c51e6ac753518a6fe15da563",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4aefba8b951d": {
+      "source": "Presets:",
+      "source_hash": "1d096828d28c5cc308ca93526a2d783458f829b8a4d5b6c647b4e24c059658c8",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.da869d7ccf39": {
+      "source": "Press any key...",
+      "source_hash": "ff3e56ab0016131a020976f4d5114f6a7d81e8023b24658adc9c233dc2cdf38f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.32576f4fedc0": {
+      "source": "Purple",
+      "source_hash": "7d465fb9b9314846b72698017691e756af05e0a548e347a3b7c54ca5b85270de",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4cc25e9b4e6e": {
+      "source": "Purple##2",
+      "source_hash": "d2fbe6bf34996a37ceaef9f3e4507882647dffdf7a4c81f98562e8d933fb1a8e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a60f2c73604f": {
+      "source": "Quality",
+      "source_hash": "1b2c08a8733d7ff1d06e726107a977124929c975066a3a606d19055dfd4e3dbd",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a0a64f223435": {
+      "source": "Rect Height##2",
+      "source_hash": "215862d0fdedd086b9212d5d7d182e4895c2fde4741159f4528a50929c3b14d3",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.35e6a7df3e76": {
+      "source": "Rect Left##2",
+      "source_hash": "73abe82740ac43e4891a68d30b16a552772cbf2e957e31e44c13b8c4f38df4df",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7deb084d12e9": {
+      "source": "Rect Top##2",
+      "source_hash": "62e195441d9216a843bfb8e1c3f440c0a2ed73b685ddd5c31f0266195e2468b0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f39c7c4d9342": {
+      "source": "Rect Width##2",
+      "source_hash": "73da69b6d5593d261c77dc70531b3f4ab4ff5600ecb0278403eee1bb66cb8f21",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a56b24764411": {
+      "source": "Rectangle Settings",
+      "source_hash": "0a86d4773e586448c305d65faf22e046b5008ecc8b20aafa01f7a89ecc8454e8",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.cc9db3a79557": {
+      "source": "Red",
+      "source_hash": "ba19e9c3d5f49882ddaafed4f286a8a81491150426d321179270e27e74a89097",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4b3854dee462": {
+      "source": "Red##2",
+      "source_hash": "c552fd848dcec7f9f13da1a0494d1e43eb2f61bd679ef92336a31e4062da3cf0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.65ed4acb24e9": {
+      "source": "Reflex not hooked",
+      "source_hash": "e8b6dd60f1003f0639bcb94b70ccb8653ff4c28cbf99545eec621ed622ca2981",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.1228da274fb4": {
+      "source": "Relax resolution checks for Hudless by 32 pixels \n",
+      "source_hash": "ba3b388f934939208eb7d362ad9ec479f8b34a67080b7f4cb2d82653895db502",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c657a2d8e72d": {
+      "source": "Relaxed Resource Check",
+      "source_hash": "01c3d58935c2819f11b9c91f84d988cf238878dcc8cba739b48530ed99540bc7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3825db9ed4de": {
+      "source": "Removed on recent versions!",
+      "source_hash": "10c6047ae1fd93fec61e1ccedbe43e8049db532ac03589890f6b9dfe0bc589ec",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.8153f05c84be": {
+      "source": "Render Width",
+      "source_hash": "1431cb2db805b64035d6cad2e74f60455f88f1de3b3ac894b1ce5160aa1faeec",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b4e2fb550df7": {
+      "source": "Requires disabling dilated motion vectors",
+      "source_hash": "521d3ad938d9848a6532ab23b65ae2976b50518b79427af0a147d4a3ecb85ca3",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5308de00eeec": {
+      "source": "Requires Nukem's dlssg_to_fsr3 dll\nSelect DLSS-FG in-game",
+      "source_hash": "37573e46bd2b401d1484b3f4637d6e3e7e59f0f57da3705184508ead1c0ac3ff",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.81eaca0828cd": {
+      "source": "Reset Accent Color",
+      "source_hash": "d386497c60d920604294c5fc015a03feca9abe1d0d488de7089dc541459cf69d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4b5635cb5d5a": {
+      "source": "Reset FG Rect##2",
+      "source_hash": "2468d4db6a6d33ab6acded0ead8697e62ad8635655139022d7830734035c5adf",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.e498b8caa534": {
+      "source": "Reset Settings",
+      "source_hash": "c17307e2f5ac4d4095cf0ba78f044a79f7d3f045aaff0013be05290240acf8a5",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.95215553458f": {
+      "source": "Reset Target",
+      "source_hash": "bb0a43bb406d927ccbf78b40862b3a0f0ffdec36b6154a6ec09da313011806af",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.516aae52959d": {
+      "source": "Resolution",
+      "source_hash": "d4055fafa3794fa88b1e89e70c167d5a9575067a1442a6d94e9520d65a575378",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c64a9383c6e8": {
+      "source": "Resource Blocking",
+      "source_hash": "7210b7c9c8ffcc120378702976185387a31f39c76b6b6af3347baeb2b38c6d32",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.50d813ae8bb0": {
+      "source": "Resource Settings",
+      "source_hash": "d4119c7862ee29e792486ad6b7a4970c121d20d64ae6e27ff0fb0cf3e91f1089",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.8e19afaa9953": {
+      "source": "Restart the game to apply correct XeFG settings!",
+      "source_hash": "cba0bf2dbf11904681c0232098cdf518882513bc9a7c913269568acd44f7bc7c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.21663ab36761": {
+      "source": "Root Signatures",
+      "source_hash": "b15a5fbc5029da01c98b1a0df46da4d49ae8766542fc008d0f0c5128b93f502b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.0022a3e10caa": {
+      "source": "Save Settings",
+      "source_hash": "ec92e1dc9bb3bf7b98ee86042dc3380f3068e1163bd8a2bc707b189df617629f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.6eb83c91f488": {
+      "source": "Scale Depth to fix DLSS RR",
+      "source_hash": "5e8075b32386f1dd2be48ec0c4870bf308b9fac8dbf0a410833edaac7f5b6fbe",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f80c6ead9cc1": {
+      "source": "Select DLSS-FG in-game",
+      "source_hash": "966e8bb803557c9bd083de7ce7550ffb27de5dc0c35a9c7b2f7e883e7116ee8d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.448ab73ba1c2": {
+      "source": "Set",
+      "source_hash": "b6f6f3ad07b3c05fa0bbbbf2e3d257ff1e3e31a83efbe2c9369cd008594f94e0",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2256b073054f": {
+      "source": "Set DLSSG interpolation count",
+      "source_hash": "d4448dcd2f56fa1471b9f8e7363758341d9a93afb3658aa25a2f29a03d4865a7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f0572004732c": {
+      "source": "Set XeFG interpolation count",
+      "source_hash": "cc3e0bbfff10771a4ee6e2b6585828a21a93b15dea19b04c65fd1e8a60695ef4",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.74ff2464781f": {
+      "source": "Sharpness",
+      "source_hash": "6a4c00af2dbfd09ac502838157e6c7525f61c8bc7ede9e9769f05168b433fa72",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.9476e178decb": {
+      "source": "Silly goose detected",
+      "source_hash": "21c3b5bfa5bc6ff90a635b53418a050870fe618cafe70aea4bf5e86c0c7c0188",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.76ce312eb031": {
+      "source": "Splash",
+      "source_hash": "c3fa854c3d0cb74555b4004fb23812b3b351ec66dcea638d8a6e8d3382d7b46d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.785ca9526809": {
+      "source": "Stability",
+      "source_hash": "1e42d0c86af7a9c6a4d88038a3fe9043520f95c6b06afd2ac6ca5dcc885f6c36",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.df0ad373b7ff": {
+      "source": "Teal",
+      "source_hash": "fa15a5c1d61010553974997a19c7baef52cedd7f7ba0042d9cdf03aec5105c3d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.763e55a2bfeb": {
+      "source": "Teal##2",
+      "source_hash": "044e531e0ac7ddca3ca21596b0644bb9b71533b92bee05bf15774ec1c96e0533",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b4f437702a2d": {
+      "source": "Tracking Settings",
+      "source_hash": "f2cdd75d8c5153c132285376ae32ca8625917af51cd936269e481c92bf651f90",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.eef659264cf2": {
+      "source": "UI Composition",
+      "source_hash": "6537a16f1e8883745a867cb5e78abd1d01793b4c9021cf0bc2b77a48066b5ed3",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b32262113036": {
+      "source": "Ultra Performance",
+      "source_hash": "a6b707e6418be8cff0a50fd1e0aca81e487129e4da16bfa9aaef5814412b257a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5e3971101f57": {
+      "source": "Ultra Quality",
+      "source_hash": "c51ba4f1de00f431f933aa84c16fc3fcae518549488ca066a32a2acfbf49a56f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.8fbf9c7d0bf5": {
+      "source": "Unbound",
+      "source_hash": "6c9fa4e7961ea18064615efdabb4ea377a35f348b4c70853cc347492749ac73a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.bc7819b34ff8": {
+      "source": "Unknown",
+      "source_hash": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4136979d06ff": {
+      "source": "Unused",
+      "source_hash": "231aedffacea10497c1851e05277da1baa518600f56ebd2123410bc90e7a0190",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.4ca621be8da3": {
+      "source": "Update available: %s (current %s)",
+      "source_hash": "60d4aedb828e87f0c1813121b57295dc0ee90cc7c6835c3514ea6796c84a5d92",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.77d28b470e50": {
+      "source": "Upscale Ratio Override",
+      "source_hash": "8839ec291a7f6ae367d4064b4495bacc959437a2a467280e02315ec5d2ec6bee",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3c4590fa6c78": {
+      "source": "Upscaler Quality",
+      "source_hash": "090b8fc4ac9fc8468fda3f645152e75a3516f61ac58d57cce5e7a3ded97f3678",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.abffb30e1105": {
+      "source": "Upscaler Ratio",
+      "source_hash": "6ee5f4161647557604b245c6f49b9de2a95c1b0b5c62e08058b7b2ecb0aa2bfa",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a56aaaf2c8ef": {
+      "source": "Upscalers",
+      "source_hash": "9996f6b4bdfab6a9f56205c6cc74080b304207121c3591c469331f29eddf9025",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.957effa9aae3": {
+      "source": "Use Game's Reflex Markers",
+      "source_hash": "71ad8b1f17e476942ed5e3f90f86d02de68123120cb8d3f6f6d36eb1f28011fb",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.6736712ec7b7": {
+      "source": "Use height difference as offset",
+      "source_hash": "c1c54a91d6e3ee5cf05cc8510780d793143f370919bba8b43af11573b2de9410",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.55b96191d9cf": {
+      "source": "Use Value",
+      "source_hash": "4f351d39ea67797ae536d4edcdc404af60c23e65c6219fe079c5202ebbc2c034",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.eb6a91c77c28": {
+      "source": "Using a subset of features from DLSS Enabler",
+      "source_hash": "61779c98be24bddb49e74a96b4ac59c18a61a50847cb174299f41a5222dbea7a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d6f06272145b": {
+      "source": "Using upscaler data for FG",
+      "source_hash": "42e68f1b02d2a386cbd1eb419e39d31cb0ebbd95a2d3fce6859dd2508671a21a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.07d4a263749f": {
+      "source": "Velocity as ValidNow",
+      "source_hash": "2ca8446243a150db3db60f728d8761984b2b3cd44f6acef7f20d53082e626d41",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d67f8b5513fc": {
+      "source": "Watermark",
+      "source_hash": "3bebd4c4e3fb7ee44a15eff981abdaefd4fbebef40f399a66ed61abae96efdfb",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.c822e5841e53": {
+      "source": "Whatever the game uses",
+      "source_hash": "2c502cbb3d6fe9b16d3fe1ff1c4d1da733a2c89db57359a93f175db45552d40b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.1d2798180796": {
+      "source": "Which copium do you choose?",
+      "source_hash": "406cba4d4fa69303f850c56e78eaf3e5eb91ddb495399852ce86d2031d2d356d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.66ecd7d06454": {
+      "source": "Will use more VRAM, but Uniscaler needs this\nMaybe some other games might need too",
+      "source_hash": "ee35f11233eabd56842b6ce01809cc4fd3dc3c680fdda1a38d9088b4de3e0849",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.bf32f391c628": {
+      "source": "XeFG only supports HDR10",
+      "source_hash": "342277a4776c85860090cc317a6af3bcfb336f7dc8daf9404907840071a5e779",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3526f607bcd4": {
+      "source": "Yellow",
+      "source_hash": "19dd83f117525b931fccdafe808aaa6939af792ee549f359eff13fac0d622f5d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.9d447dcc932f": {
+      "source": "Yellow##2",
+      "source_hash": "3a9fe156905817b067b44b30ff514509b660941d87613458244fde48dee69093",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.5397e0583f14": {
+      "source": "Yes",
+      "source_hash": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a7aa54650b1c": {
+      "source": "You shouldn't need to change it",
+      "source_hash": "27ee98547eb8364c98b97f82f10fcea8dd0bc9ccca8dad361f6eb9835fda141a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.387d7a59dbaa": {
+      "source": "ON",
+      "source_hash": "e8a01133b1351e5fa434167135400d1998d3daa8ce74e3dd9bb57582fa4d7b97",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ad50489054dd": {
+      "source": "OFF",
+      "source_hash": "38cca6bea010af8adaf4be7d270456fa9adef8c0252db91f2767c607d077319b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.864564451c20": {
+      "source": "ON {}x",
+      "source_hash": "c4c0ed057a705cc2ae3ad4351d35aa5ea8014ab4af7831ac7e22ae3b6b573aca",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.8e05b7ef41bd": {
+      "source": "ACTIVATE FG",
+      "source_hash": "d6fe51b616d83ac9a041100dad57436a74eb3a36662625f1f3fdfaa42f0dc710",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b308632c7a01": {
+      "source": "Support not implemented",
+      "source_hash": "f4afe7e6db80a02deabb64430b01cfb2e2195f4e09a22532d8671a8bc4b6d80c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.64f9a7197352": {
+      "source": "Unsupported API",
+      "source_hash": "85593598c3c247ddbf8681d09047c156a09485f6eb19e5008356b9233263fb6d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.43f8944da680": {
+      "source": "amd_fidelityfx_dx12.dll is missing",
+      "source_hash": "384791a2d7efa459862dc9838d8980df360f71e07620dd0d5a32a9b27cfdded9",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3cb77a35304a": {
+      "source": "libxess_fg.dll is missing",
+      "source_hash": "c7057463b62a4a96f35101003251cc644ad5c9194d08ffa2006f358d395a2ad6",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.40c441d8c886": {
+      "source": "Unsupported hardware",
+      "source_hash": "c2525aae9dc4756b3b29fbcb9a385de3468733c2c21fae5263dd85583dbb94ca",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.a69b701b1f60": {
+      "source": "Missing dlssg_to_fsr3_amd_is_better.dll\nor dlss-enabler-headless.dll",
+      "source_hash": "612f9709ed702e8391cd75e84dc35bd5df73036253b6008a80519048319aa93b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f9a9ff647d5f": {
+      "source": "Missing the dlssg_to_fsr3_amd_is_better.dll file",
+      "source_hash": "947ce0cc340bbaa42fea1cbe62023badca91c6c04da87d8659e5db1de431660e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.40a87d1ea4e5": {
+      "source": "Enable anti-ghosting correction",
+      "source_hash": "a4c614c747662f9dd230f29f9c473a2795f265cdbd145f682a9234fcde2310c1",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7c65107d1020": {
+      "source": "Debug: red tint on corrected pixels",
+      "source_hash": "742e094280bdab7d19858ba8b088bfa3f86b6d9d53032823f4aa549ef1167efe",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.fac14504940d": {
+      "source": "Debug: split screen comparison",
+      "source_hash": "8ce4e9996f217cd77c33f40df46869fbbcceed2b9a3dcf2ef2a92d02c2cf0a14",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.930f59fac505": {
+      "source": "Debug: blue tint where camera MV fallback is used",
+      "source_hash": "599d28b9b5cb5bd34c47141620a2757bd7b7a693e38760768ad49a1d7bd7d4ab",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7e03940eac60": {
+      "source": "Debug: trapezoid zone visualization",
+      "source_hash": "eff2758d37f1c20169cb59f3bfc2abe6f9f89e0b977b9aa03a9195d7da826f7b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.dddf96192b2b": {
+      "source": "Use HUD-less as UI mask (DL2 inverted semantics)",
+      "source_hash": "e743ca6e2f934697d8f37bb789740aaa049049812204c1a0c313869641d816c6",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.caad8599650c": {
+      "source": "Enable temporal HUD pinning (present-backbuffer stability)",
+      "source_hash": "8cae979af2cb1879cfea44057f48e969de06a666d0cca7038481afd3185df855",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.0ab202ae0961": {
+      "source": "HUD OF interpolation (0=legacy pin-present, 1=OF warp)",
+      "source_hash": "c5573dc8b05100128be06bb6e704b1ef85958d47b62c2006dbfbc77677dcc81a",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f224ca173cb9": {
+      "source": "Ignore dedicated DLSSG.UI texture (force legacy HUD path)",
+      "source_hash": "22ea13deb20b8762acc01eea91e486d1eb07ee6b4b5b20add473153c4dccf1be",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.3f422e6edf99": {
+      "source": "OF pipeline using dp4a-accelerated SSD (SM 6.4+)",
+      "source_hash": "3e63cb485a8288465bccaff55759329a9060fc357289078c5b1ac715ce441e0e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ee3ee8d18606": {
+      "source": "Pin DLSSG.Backbuffer to subframe-1 snapshot across MFG frame",
+      "source_hash": "381800081c43844f427bf7bcc4e566f0c233dd4f4ca4b4465b2f676c24a9934d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.6adb01486bf8": {
+      "source": "Raw DispatchFlags:",
+      "source_hash": "25802ab3b42632ef7d40cc006a496ae8d6350af49977ec308359399de74f70fa",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.568ba9f716f1": {
+      "source": "Active DispatchFlags",
+      "source_hash": "2ea3678dc5503eaebd738f6c9d6da845728abea0f4620d5ac744ab080754c232",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.64aa8c7e5880": {
+      "source": "Enable Debug View",
+      "source_hash": "972b5a56b76768e3936af3475eb7d23b1578cb404317f765981b9dc025fd666c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.581888d9290b": {
+      "source": "Interpolated frames only",
+      "source_hash": "1bc35752b05eb0af66ed62387396ccbf72b84b986a70c448d2d6c17105649a9e",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.67af2750b89f": {
+      "source": "Select FSR-FG in-game",
+      "source_hash": "b211d415e166b19100e76a6e44115affd792a4fc242cabac070c55c1b74e42c2",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.b26edbc13352": {
+      "source": "Current FSR-FG state:",
+      "source_hash": "22da40de97d2294ee5f55cfb0f6b13b8d4373506934c8d8d0ee13f12e366f691",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.fcab2580c13c": {
+      "source": "Please select FSR Frame Generation in the game options\nYou might need to select FSR first",
+      "source_hash": "ee3b15d6440429b88ad5782f15527f6d67362da8eae3597688b2c77a0693137d",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.511e2c1bf991": {
+      "source": "Skip Config for Hudless",
+      "source_hash": "8325d74f138e85f98f1ed6fcb4b15d602fc33eaf6b083008d5724e2c17dd2574",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.337d94dd6314": {
+      "source": "Do not use Hudless set at ffxConfig",
+      "source_hash": "960d0540dbb98d0f956691d3f630cf851540725747ede03ae0276a35e76a7242",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.26e7ca840042": {
+      "source": "Skip Dispatch for Hudless",
+      "source_hash": "212f6975661d2144c9d5021d3fa04f14142a26e073506a97b86068e0fb35da05",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.9c82ff9074a6": {
+      "source": "Do not use Hudless set at ffxDispatch",
+      "source_hash": "9160be05881c452ab2071f150a1b4640746c1e3a22679775e7432cb8aece4f78",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ce8f157c15fb": {
+      "source": "Fix broken visuals",
+      "source_hash": "bc21cdb1a2bdacb80e18c900e9f536b0be41d500dda1cb8078f19e5696975075",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.f9ad1c27cdc8": {
+      "source": "Makes a copy of the depth buffer\nCan fix broken visuals in some games on AMD GPUs under Windows\nCan cause stutters, so best to use only when necessary",
+      "source_hash": "0cbd4c8ae58d4ca966a08f8b9b61415abb22c8f9625c72105587ee240897fd47",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.7aeee1096f9b": {
+      "source": "Only FSR1 and Bicubic are supported when Ratio is below 1.0.",
+      "source_hash": "de864898f915add738b6d717efc85bb7b012272e0663735f146d42898391facd",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.59f2a904143a": {
+      "source": "Opti",
+      "source_hash": "c2854dc2b604da5b86929e0ee26079d5315374de737788ca7aee79cbb6b39c34",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.afc6c45769ec": {
+      "source": "Zero",
+      "source_hash": "973d0c649aa97a0635e387399f32c49abdaa7b2e812a65812255d1ed863b1604",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.fea85aab13ad": {
+      "source": "Uses frametimes provided by\nDLSSG or FSR-FG ",
+      "source_hash": "9a9ed3af75251a476b9a002559c6b4141bfebf3ea2a1962f49864785fd538fbc",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d4aeeb5855b3": {
+      "source": "Uses frametimes calculated by Opti",
+      "source_hash": "9f9455876a7771f2a43c2403d3232add4582f56b3f07bf4a2af33ddd196fec5f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.225bf215541f": {
+      "source": "Let XeFG to handle frametimes",
+      "source_hash": "af365ee3416e0121ef42c0c9038b8e9f6afd405e16a16e6a25154e4f906c7401",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.99867ef82022": {
+      "source": "Select source for frametime\nMight help frame pacing and stutter issues",
+      "source_hash": "62bb03ed2420ab9fe83b9d7fdb07f180430594c78bf0f331cd07eafcd355dc3c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.aff808b54e2b": {
+      "source": "Frame Pacing Tuning",
+      "source_hash": "29020f3b431782281a693080274d821bac92360fc2c9243b1451afa0a572e6c7",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d01a8cbda477": {
+      "source": "Enable Tuning",
+      "source_hash": "958b959e6f6f8b4cb95f8f10b00502c6892fdd6b892d04f3a42a5878fa164e0b",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2edcd4b7b30b": {
+      "source": "Safety Margins in ms",
+      "source_hash": "c6fe8b9f3cdc0be1caafe7c64a242541a4cd9fa66de3de7caf33831f9a8193b8",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ac49e67cc6d2": {
+      "source": "Variance Factor",
+      "source_hash": "2540b744b596fbccef33ca3e82e082ea2f7b30d8253edae988e7f9609527c5f6",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d7e5a24a9e72": {
+      "source": "Enable Hybrid Spin",
+      "source_hash": "76829b1e3139d07e96834dd9eeae1d7c2a0a8ab1b68367796f1c120594b28d05",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.d43b878cb05f": {
+      "source": "Hybrid Spin Time",
+      "source_hash": "b457b96b06bba44549bb0d8070fff87d3587053a0a2823e6a97e271ec7798c3c",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.ad6fc6ddedf8": {
+      "source": "Syncing Settings",
+      "source_hash": "7ee63a35972b5887eb7635598a81b55bce73dfba45dbac1025843548b91af38f",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.792e1c1a6a50": {
+      "source": "FG Use Mutex for Present",
+      "source_hash": "afb91b3c2faf083983ed5a0ab774bd143cd048e386be22a982d37ec1f10323ce",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.2ed2c6a47574": {
+      "source": "FPS Overlay Enabled",
+      "source_hash": "9bb96f8ba542008ea4df418e00115a387c4ec6bb86926ba30e328942c203a245",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.524e7769f7b8": {
+      "source": "Open Wiki",
+      "source_hash": "9a6868949d4ee588956c34a712868407e2058768b9e7820384efb70378eb5e75",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    },
+    "ui.auto.42de5850ce6d": {
+      "source": "Click to open the OptiScaler Wiki page\nin your default browser\n\nCompatibility list with known game issues\nand workarounds, FG options explained\nand other useful info",
+      "source_hash": "072b285897e3e9694f96ecebb5c947bf9ca9073474ba1f9df0502a9fd1ef5c15",
+      "occurrences": [],
+      "obsolete": false,
+      "previous_sources": [],
+      "bootstrap": true
+    }
+  }
+}
