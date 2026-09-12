@@ -7,9 +7,10 @@ Before opening a pull request:
 ```bash
 python -m compileall -q tools tests
 python -m unittest discover -s tests -v
-python tools/check_localization.py --strict
+python tools/check_localization.py --channel all --strict
 python tools/update_translation_memory.py --check
-python tools/generate_cpp.py --out /tmp/Strings.generated.h
+python tools/generate_cpp.py --channel master --out /tmp/Strings.master.generated.h
+python tools/generate_cpp.py --channel stable --out /tmp/Strings.stable.generated.h
 ```
 
 For translation changes, keep technical names unchanged, follow `Localization/glossary.json`, preserve format placeholders and preserve ImGui `##` suffixes exactly. Mark manually confirmed translations as `reviewed`, then run `python tools/update_translation_memory.py` before committing.

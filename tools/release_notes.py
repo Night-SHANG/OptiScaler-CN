@@ -55,11 +55,12 @@ def main():
     ap.add_argument('--upstream-ref',required=True)
     ap.add_argument('--upstream-commit',required=True)
     ap.add_argument('--out',type=Path,required=True)
+    ap.add_argument('--channel',choices=('master','stable'),default='stable')
     ap.add_argument('--github-output',type=Path)
     a=ap.parse_args()
-    cat=json.loads((ROOT/'Localization/catalog.json').read_text(encoding='utf-8'))
+    cat=json.loads((ROOT/'Localization'/a.channel/'catalog.json').read_text(encoding='utf-8'))
     zh=json.loads((ROOT/'Localization/zh-CN.json').read_text(encoding='utf-8'))
-    pending_path=ROOT/'Localization/pending.json'
+    pending_path=ROOT/'Localization'/a.channel/'pending.json'
     pending=json.loads(pending_path.read_text(encoding='utf-8')) if pending_path.exists() else {}
     a.out.write_text(render_notes(a.upstream_ref,a.upstream_commit,cat,zh,pending),encoding='utf-8')
     tag=release_tag_name(a.upstream_ref,a.upstream_commit)

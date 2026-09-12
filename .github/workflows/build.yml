@@ -49,16 +49,16 @@ jobs:
         run: python tools/prepare_tree.py --worktree _upstream --ref "${{ steps.ref.outputs.ref }}"
 
       - name: Scan UI into ephemeral build catalog
-        run: python tools/scan_ui.py --source _upstream --update --report reports/localization-scan.md
+        run: python tools/scan_ui.py --source _upstream --channel master --upstream-ref "${{ steps.ref.outputs.ref }}" --update --report reports/master-localization-scan.md
 
       - name: Validate localization
-        run: python tools/check_localization.py --strict
+        run: python tools/check_localization.py --channel master --strict
 
       - name: Instrument localized build tree
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force -Path reports | Out-Null
-          python tools/localize_source.py --source _upstream 2>&1 | Tee-Object -FilePath reports\integration.log
+          python tools/localize_source.py --source _upstream --channel master 2>&1 | Tee-Object -FilePath reports\integration.log
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
       - name: Setup MSBuild
@@ -81,7 +81,7 @@ jobs:
           path: |
             dist/*.zip
             dist/build-metadata.json
-            reports/localization-scan.md
+            reports/master-localization-scan.md
           if-no-files-found: error
 
       - name: Upload build diagnostics

@@ -2,7 +2,7 @@
 from __future__ import annotations
 import argparse
 from pathlib import Path
-from loclib import LOC, load_json, save_json
+from loclib import LOC, CHANNELS, localization_channel_paths, load_json, save_json
 
 
 def merged_memory(existing: dict, catalog: dict, zh: dict) -> dict:
@@ -18,15 +18,21 @@ def merged_memory(existing: dict, catalog: dict, zh: dict) -> dict:
     return dict(sorted(result.items(),key=lambda kv: kv[0].casefold()))
 
 
+def merged_memory_many(existing: dict, catalogs: list[dict], zh: dict) -> dict:
+    result=dict(existing)
+    for catalog in catalogs:
+        result=merged_memory(result,catalog,zh)
+    return result
+
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--check',action='store_true',help='fail if translation memory is not synchronized')
     args=ap.parse_args()
     path=LOC/'translation-memory.zh-CN.json'
     current=load_json(path,{})
-    catalog=load_json(LOC/'catalog.json',{})
+    catalogs=[load_json(localization_channel_paths(channel)['catalog'],{}) for channel in CHANNELS]
     zh=load_json(LOC/'zh-CN.json',{})
-    merged=merged_memory(current,catalog,zh)
+    merged=merged_memory_many(current,catalogs,zh)
     if args.check:
         if merged!=current:
             print('translation memory is out of date; run tools/update_translation_memory.py')

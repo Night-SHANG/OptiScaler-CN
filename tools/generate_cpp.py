@@ -36,8 +36,9 @@ def render_header(catalog: dict, zh: dict) -> str:
     return '\n'.join(lines)
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--out',type=Path,required=True); args=ap.parse_args()
-    cat=load_json(LOC/'catalog.json',{}); zh=load_json(LOC/'zh-CN.json',{})
+    ap=argparse.ArgumentParser(); ap.add_argument('--out',type=Path,required=True); ap.add_argument('--channel',choices=CHANNELS,default='master'); args=ap.parse_args()
+    paths=localization_channel_paths(args.channel)
+    cat=load_json(paths['catalog'],{}); zh=load_json(LOC/'zh-CN.json',{})
     rendered=render_header(cat, zh)
     args.out.parent.mkdir(parents=True,exist_ok=True); args.out.write_text(rendered,encoding='ascii')
     count=sum(1 for e in cat.get('entries',{}).values() if not e.get('obsolete'))

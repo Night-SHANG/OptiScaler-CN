@@ -17,19 +17,19 @@ This repository is a low-coupling localization overlay rather than a vendored fo
 This model is intentionally fail-closed. If upstream changes an integration anchor in a way the patcher cannot prove safe, instrumentation exits non-zero and release stops. The last stable release remains untouched.
 
 ## Localization model
-- `Localization/en-US.json`: generated source-of-truth English catalog mirroring current upstream UI text.
-- `Localization/zh-CN.json`: keyed Simplified Chinese translations with `source_hash` and state (`reviewed` or `machine_translated`).
+- `Localization/master/{catalog,en-US,pending,meta}.json`: persisted inventory for the current upstream development branch.
+- `Localization/stable/{catalog,en-US,pending,meta}.json`: persisted inventory for the current upstream stable release.
+- `Localization/zh-CN.json`: one shared keyed Simplified Chinese translation store used by both channels, with `source_hash` and state (`reviewed` or `machine_translated`).
 - `Localization/translation-memory.zh-CN.json`: maintained exact-source translation memory used only to seed new keys.
 - `Localization/glossary.json`: terminology guidance.
-- `Localization/pending.json`: generated missing/changed work queue.
-- `Localization/catalog.json`: generated inventory of active/obsolete strings and occurrences.
+- Root `catalog.json`, `en-US.json`, and `pending.json` are compatibility mirrors of `master/`; channel directories are authoritative.
 
 Runtime calls use a small header-only layer copied into the materialized upstream tree. Direct literal UI arguments become `OptiScalerCN::Loc::T(key, englishFallback)`. Dynamic labels/tooltips stored in known menu containers pass through `TL(englishSource)`. English is always the runtime fallback.
 
 ## UI discovery
 The scanner walks configured `OptiScaler/**/*.cpp|h` scopes and only inspects known UI APIs plus explicitly configured UI containers. It deliberately ignores arbitrary string literals, logs, file paths, shader text, DLL names, technical-only identifiers, and comments. Each hit records file, line, callee, and argument index.
 
-Keys are stable across ordinary source movement because exact source text is matched first. Changed text in the same file/callee scope can retain a key via conservative fuzzy matching; its translation becomes stale until reviewed or machine-translated for the new `source_hash`.
+Keys are derived from exact English source text and remain stable across ordinary source movement. If upstream changes the English wording, the new wording receives a new immutable key while the old key remains available for the other channel or historical translation memory. This prevents `master` and `stable` from ever sharing one key with different English meanings.
 
 ## Translation safety
 - Existing `reviewed` translations are never overwritten by automatic translation.
@@ -47,9 +47,9 @@ Chinese mode requests HQ font creation even if official `UseHQFont` is false. Fo
 A candidate is accepted only if FreeType confirms glyph coverage for every non-ASCII code point in the effective Chinese catalog. ImGui glyph ranges are built from the default Latin range plus the exact Chinese translation text. If no valid font exists, Chinese is disabled in-memory and UI falls back to English instead of showing tofu/missing glyphs.
 
 ## Upstream synchronization
-`upstream-sync.yml` runs daily and manually. It resolves the latest upstream stable release and/or branch head, materializes the exact source, scans UI, optionally translates only pending strings, validates resources, performs instrumentation smoke checks, and commits generated localization metadata when it changed. It then dispatches/starts a Windows build. Integration conflicts stop the workflow and prevent release.
+`upstream-sync.yml` runs daily and manually. It resolves both the latest upstream `master` head and latest stable release, materializes and scans both exact sources, optionally translates only pending strings, validates the shared language store against both catalogs, performs instrumentation smoke checks, and commits generated localization metadata when it changed. Empty channel catalogs are treated as a bootstrap condition even when upstream itself has not changed.
 
-Stable automatic release is gated by a new upstream stable tag. Manual builds may target a tag/branch/SHA without publishing.
+A master change dispatches the Windows development build. A new stable tag dispatches a stable release, and an automated change to shared Chinese translations refreshes the current stable release as well. Integration conflicts stop the workflow and prevent publication.
 
 ## Build and release
 Windows Actions use official-compatible VS2022/MSBuild flow:

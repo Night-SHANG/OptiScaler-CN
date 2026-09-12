@@ -155,14 +155,15 @@ def instrument_file(path: Path, rel: str, rules: dict, source_to_key: dict):
 
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--source',required=True,type=Path); args=ap.parse_args()
-    cat=load_json(LOC/'catalog.json',{}); rules=load_json(LOC/'scanner-rules.json',{})
+    ap=argparse.ArgumentParser(); ap.add_argument('--source',required=True,type=Path); ap.add_argument('--channel',choices=CHANNELS,default='master'); args=ap.parse_args()
+    paths=localization_channel_paths(args.channel)
+    cat=load_json(paths['catalog'],{}); rules=load_json(LOC/'scanner-rules.json',{})
     active={k:v for k,v in cat.get('entries',{}).items() if not v.get('obsolete')}
     source_to_key={v['source']:k for k,v in active.items()}
     generated=args.source/'OptiScaler'/'localization'/'generated'/'Strings.generated.h'
     dst=args.source/'OptiScaler'/'localization'; dst.mkdir(parents=True,exist_ok=True)
     shutil.copy2(ROOT/'overlay'/'OptiScaler'/'localization'/'Localization.h',dst/'Localization.h')
-    subprocess.run([sys.executable,str(ROOT/'tools'/'generate_cpp.py'),'--out',str(generated)],check=True)
+    subprocess.run([sys.executable,str(ROOT/'tools'/'generate_cpp.py'),'--channel',args.channel,'--out',str(generated)],check=True)
 
     pch=args.source/'OptiScaler'/'pch.h'
     if not pch.exists(): raise RuntimeError('integration conflict: OptiScaler/pch.h missing')

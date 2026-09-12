@@ -58,7 +58,7 @@
 - Update: `Localization/glossary.json`
 - Update: `Localization/translation-memory.zh-CN.json`
 - Update: `Localization/zh-CN.json`
-- Update/generated from scan fixture when possible: `Localization/catalog.json`, `Localization/en-US.json`, `Localization/pending.json`
+- Update/generated from scan fixtures when possible: `Localization/master/{catalog,en-US,pending,meta}.json` and `Localization/stable/{catalog,en-US,pending,meta}.json`
 
 **Interfaces:**
 - Consumes: English UI inventory.
@@ -66,7 +66,8 @@
 
 - [ ] Normalize glossary terminology for NVIDIA/AMD/Intel/common player usage.
 - [ ] Seed reviewed translations from maintained translation memory without changing technical names/placeholders/ImGui IDs.
-- [ ] Validate with `python tools/check_localization.py`.
+- [ ] Maintain one shared `zh-CN.json` across persisted master and stable inventories.
+- [ ] Validate with `python tools/check_localization.py --channel all --strict`.
 
 ### Task 4: Complete upstream materialization and sync automation
 **Files:**

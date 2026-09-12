@@ -2,15 +2,15 @@
 
 ## Resource model
 
-The localization pipeline maintains five distinct resources:
+The localization pipeline keeps two persisted source inventories and one shared Chinese store:
 
-- `catalog.json`: active/obsolete source strings, stable generated keys, source hashes and source locations.
-- `en-US.json`: canonical current English strings copied from upstream UI.
-- `zh-CN.json`: translations tied to the exact English `source_hash`.
-- `translation-memory.zh-CN.json`: reviewed exact-source translations used to seed newly discovered catalog keys.
+- `master/catalog.json`, `master/en-US.json`, `master/pending.json`: current upstream `master`.
+- `stable/catalog.json`, `stable/en-US.json`, `stable/pending.json`: current latest stable tag.
+- `zh-CN.json`: shared translations tied to the exact English `source_hash`.
+- `translation-memory.zh-CN.json`: reviewed exact-source translations used to seed either channel.
 - `glossary.json`: stable product terminology supplied to optional machine translation.
 
-`pending.json` is generated from the current scan and contains missing and source-changed entries.
+The same English source receives the same deterministic key in both channels. If upstream wording changes, the new wording receives a new key; the older stable wording and translation remain valid instead of being overwritten.
 
 ## States
 
@@ -38,20 +38,15 @@ Example:
 Run:
 
 ```bash
-python tools/scan_ui.py --source _upstream --update --report reports/localization-scan.md
+python tools/scan_ui.py --source _upstream --channel master --update --report reports/master-localization-scan.md
+python tools/scan_ui.py --source _stable --channel stable --update --report reports/stable-localization-scan.md
 ```
 
-Stable key assignment follows this order:
-
-1. exact existing English source;
-2. high-similarity changed source in the same file/UI API scope;
-3. new deterministic source-derived key.
-
-The report lists added, removed, stale/changed and missing `zh-CN` strings. Removed catalog entries stay marked obsolete so translation history is not silently destroyed.
+Keys are immutable and derived from the exact English source. Exact existing sources retain their key. A highly similar replacement in the same UI scope is reported as a changed string, but receives a new source-derived key so master and stable can safely keep different wording at the same time. Removed catalog entries stay marked obsolete so translation history is not silently destroyed.
 
 ## Validation rules
 
-`python tools/check_localization.py` verifies:
+`python tools/check_localization.py --channel all` verifies both persisted inventories:
 
 - catalog/source hashes;
 - `en-US` parity;
@@ -90,11 +85,11 @@ python tools/translate_missing.py
 
 The tool sends only current missing/changed source strings plus the glossary. It never sends the whole language pack for retranslation and never overwrites a `reviewed` translation. Secrets are read only from environment variables and are never written to the repository.
 
-Without these secrets, the command exits successfully, keeps the entries in `pending.json`, and runtime falls back to English.
+Without these secrets, the command exits successfully, keeps entries in each channel's `pending.json`, and runtime falls back to English.
 
 ## Reviewing a changed string
 
-When a reviewed source changes, inspect `pending.json` and any generated `candidate`. After confirming the new wording, set `text` to the approved translation, set `source_hash` to the new hash from `pending.json`, set `state` to `reviewed`, then run:
+When a source changes, inspect the matching channel `pending.json` and any generated `candidate`. After confirming the new wording, set `text` to the approved translation, set `source_hash` to the new hash from `pending.json`, set `state` to `reviewed`, then run:
 
 ```bash
 python tools/update_translation_memory.py

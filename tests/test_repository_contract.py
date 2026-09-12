@@ -13,7 +13,7 @@ class RepositoryContractTests(unittest.TestCase):
         for relative in [
             'README.md', 'README.zh-CN.md', 'LICENSE', 'UPSTREAM.md',
             'TRANSLATION.md', 'CONTRIBUTING.md', 'upstream.json',
-            'Localization/en-US.json', 'Localization/zh-CN.json',
+            'Localization/master/en-US.json', 'Localization/stable/en-US.json', 'Localization/zh-CN.json',
             'Localization/glossary.json', 'Localization/scanner-rules.json',
             '.github/workflows/upstream-sync.yml', '.github/workflows/build.yml',
             '.github/workflows/release.yml', '.github/workflows/localization-check.yml',
@@ -63,3 +63,45 @@ class RepositoryContractTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class DualLocalizationRepositoryContractTests(unittest.TestCase):
+    def test_master_and_stable_catalog_directories_exist(self):
+        for channel in ('master','stable'):
+            for name in ('catalog.json','en-US.json','pending.json'):
+                self.assertTrue((ROOT/'Localization'/channel/name).is_file(), f'{channel}/{name}')
+
+    def test_sync_scans_and_persists_both_channels(self):
+        text=(ROOT/'.github/workflows/upstream-sync.yml').read_text(encoding='utf-8')
+        self.assertIn('--channel master',text)
+        self.assertIn('--channel stable',text)
+        self.assertIn('Materialize official stable for scan',text)
+
+    def test_sync_bootstraps_empty_dual_channel_catalogs_without_upstream_change(self):
+        text=(ROOT/'.github/workflows/upstream-sync.yml').read_text(encoding='utf-8')
+        self.assertIn('Detect localization catalog bootstrap', text)
+        self.assertIn('id: catalog_state', text)
+        self.assertIn('steps.catalog_state.outputs.bootstrap_needed', text)
+
+    def test_sync_runs_on_dual_channel_bootstrap_push(self):
+        text=(ROOT/'.github/workflows/upstream-sync.yml').read_text(encoding='utf-8')
+        self.assertIn('push:', text)
+        self.assertIn('Localization/stable/**', text)
+        self.assertIn('.github/workflows/upstream-sync.yml', text)
+
+    def test_sync_refreshes_stable_release_when_shared_translation_changes(self):
+        text=(ROOT/'.github/workflows/upstream-sync.yml').read_text(encoding='utf-8')
+        self.assertIn('translation_changed=true', text)
+        self.assertIn("steps.persist.outputs.translation_changed == 'true'", text)
+        self.assertIn('Dispatch stable release build when needed', text)
+
+    def test_build_and_release_use_matching_channel(self):
+        build=(ROOT/'.github/workflows/build.yml').read_text(encoding='utf-8')
+        release=(ROOT/'.github/workflows/release.yml').read_text(encoding='utf-8')
+        self.assertIn('--channel master',build)
+        self.assertIn('--channel stable',release)
+
+class ReleaseRefreshContractTests(unittest.TestCase):
+    def test_release_refreshes_when_shared_chinese_changes(self):
+        text=(ROOT/'.github/workflows/release.yml').read_text(encoding='utf-8')
+        self.assertIn('push:',text)
+        self.assertIn('Localization/zh-CN.json',text)

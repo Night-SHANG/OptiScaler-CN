@@ -7,6 +7,22 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parents[1]
 LOC = ROOT / "Localization"
+CHANNELS = ("master", "stable")
+
+def localization_channel_dir(channel: str) -> Path:
+    if channel not in CHANNELS:
+        raise ValueError(f"unsupported localization channel: {channel}")
+    return LOC / channel
+
+def localization_channel_paths(channel: str) -> dict[str, Path]:
+    base = localization_channel_dir(channel)
+    return {
+        "base": base,
+        "catalog": base / "catalog.json",
+        "en": base / "en-US.json",
+        "pending": base / "pending.json",
+        "meta": base / "meta.json",
+    }
 
 def load_json(path: Path, default=None):
     if not path.exists():

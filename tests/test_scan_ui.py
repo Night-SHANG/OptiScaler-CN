@@ -17,12 +17,15 @@ class ScanUiTests(unittest.TestCase):
         self.assertEqual(result.zh_entries['ui.custom.quality']['text'],'质量')
         self.assertEqual(result.missing,[])
 
-    def test_changed_source_keeps_key_but_marks_reviewed_translation_stale(self):
+    def test_changed_source_preserves_old_key_and_creates_new_missing_key(self):
         old={'ui.custom.apply':{'source':'Apply changes','source_hash':sha('Apply changes'),'occurrences':[{'file':'OptiScaler/menu/menu_common.cpp','callee':'ImGui::Text'}],'obsolete':False,'previous_sources':[]}}
         zh={'locale':'zh-CN','entries':{'ui.custom.apply':{'text':'应用更改','state':'reviewed','source_hash':sha('Apply changes')}}}
-        result=scan_ui.reconcile([self.c('Apply changes now')], old, zh, {})
-        self.assertEqual(result.catalog_entries['ui.custom.apply']['source'],'Apply changes now')
-        self.assertEqual(result.stale,['ui.custom.apply'])
+        c=Candidate('OptiScaler/menu/menu_common.cpp','ImGui::Text',0,'Apply changes now',0,1,1,'"x"',True)
+        result=scan_ui.reconcile([c], old, zh, {})
+        new_key=scan_ui.key_for_source('Apply changes now')
+        self.assertTrue(result.catalog_entries['ui.custom.apply']['obsolete'])
+        self.assertEqual(result.catalog_entries[new_key]['source'],'Apply changes now')
+        self.assertIn(new_key,result.missing)
         self.assertEqual(result.zh_entries['ui.custom.apply']['text'],'应用更改')
 
     def test_translation_memory_seeds_new_exact_source(self):
@@ -40,3 +43,16 @@ class ScanUiTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class DualChannelKeyTests(unittest.TestCase):
+    def test_changed_source_gets_new_immutable_key(self):
+        old_key='ui.auto.' + __import__('hashlib').sha1(b'Apply changes').hexdigest()[:12]
+        old={old_key:{'source':'Apply changes','source_hash':sha('Apply changes'),'occurrences':[{'file':'OptiScaler/menu/menu_common.cpp','callee':'ImGui::Text'}],'obsolete':False,'previous_sources':[]}}
+        zh={'locale':'zh-CN','entries':{old_key:{'text':'应用更改','state':'reviewed','source_hash':sha('Apply changes')}}}
+        c=Candidate('OptiScaler/menu/menu_common.cpp','ImGui::Text',0,'Apply changes now',0,1,1,'"x"',True)
+        result=scan_ui.reconcile([c], old, zh, {})
+        new_key='ui.auto.' + __import__('hashlib').sha1(b'Apply changes now').hexdigest()[:12]
+        self.assertIn(new_key,result.catalog_entries)
+        self.assertTrue(result.catalog_entries[old_key]['obsolete'])
+        self.assertIn(new_key,result.missing)
+        self.assertTrue(any(row[0] == new_key and row[1] == 'Apply changes' for row in result.changed))

@@ -24,16 +24,30 @@ def apply_translation(entries: dict, kind: str, item: dict, text: str, model: st
         return
     entries[item['key']]=candidate
 
+def collect_pending(channels: tuple[str, ...]) -> list[tuple[str, dict]]:
+    unique={}
+    for channel in channels:
+        pending=load_json(localization_channel_paths(channel)['pending'],{'missing':[],'changed':[]})
+        for kind in ('missing','changed'):
+            for item in pending.get(kind,[]):
+                token=(item.get('key'),item.get('source_hash'))
+                if not token[0] or token in unique: continue
+                unique[token]=(kind,item)
+    return list(unique.values())
+
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--batch-size',type=int,default=40); ap.add_argument('--dry-run',action='store_true'); args=ap.parse_args()
+    ap=argparse.ArgumentParser()
+    ap.add_argument('--batch-size',type=int,default=40)
+    ap.add_argument('--dry-run',action='store_true')
+    ap.add_argument('--channel',choices=(*CHANNELS,'all'),default='all')
+    args=ap.parse_args()
     url=os.getenv('TRANSLATION_API_URL','').strip(); key=os.getenv('TRANSLATION_API_KEY','').strip(); model=os.getenv('TRANSLATION_MODEL','').strip()
-    pending=load_json(LOC/'pending.json',{'missing':[],'changed':[]}); zh=load_json(LOC/'zh-CN.json',{'locale':'zh-CN','entries':{}}); glossary=load_json(LOC/'glossary.json',{})
-    work=[]
-    for item in pending.get('missing',[]): work.append(('missing',item))
-    for item in pending.get('changed',[]): work.append(('changed',item))
+    channels=CHANNELS if args.channel=='all' else (args.channel,)
+    zh=load_json(LOC/'zh-CN.json',{'locale':'zh-CN','entries':{}}); glossary=load_json(LOC/'glossary.json',{})
+    work=collect_pending(channels)
     if not work: print('nothing to translate'); return 0
     if not (url and key and model):
-        print(f'API not configured; {len(work)} strings remain pending and will use English fallback')
+        print(f'API not configured; {len(work)} unique strings remain pending and will use English fallback')
         return 0
     z=zh.setdefault('entries',{})
     for n in range(0,len(work),args.batch_size):
@@ -45,6 +59,6 @@ def main():
             if not text: continue
             apply_translation(z,kind,item,text,model)
     if not args.dry_run: save_json(LOC/'zh-CN.json',zh)
-    print(f'processed {len(work)} pending strings')
+    print(f'processed {len(work)} unique pending strings from {", ".join(channels)}')
     return 0
 if __name__=='__main__': raise SystemExit(main())

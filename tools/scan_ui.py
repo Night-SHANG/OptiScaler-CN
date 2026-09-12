@@ -20,10 +20,16 @@ class ReconcileResult:
 
 
 def reconcile(found: list[Candidate], old_entries: dict, zh: dict, tm: dict) -> ReconcileResult:
-    """Reconcile a fresh UI inventory with stable keys and existing translations."""
+    """Reconcile one upstream channel using immutable source-derived keys.
+
+    A changed English source receives a new key. This allows master and the
+    current stable release to coexist in one shared zh-CN translation store
+    even when the two branches use different wording for the same UI slot.
+    """
     old_by_source={v.get('source'):k for k,v in old_entries.items() if not v.get('obsolete')}
     old_by_scope={}
     for k,v in old_entries.items():
+        if v.get('obsolete'): continue
         for o in v.get('occurrences',[]):
             old_by_scope.setdefault((o.get('file'),o.get('callee')),[]).append((k,v))
 
@@ -31,29 +37,25 @@ def reconcile(found: list[Candidate], old_entries: dict, zh: dict, tm: dict) -> 
     used=set(); added=[]; changed=[]
     for c in found:
         key=old_by_source.get(c.source)
+        previous_source=None
         if key is None:
             best=None; best_ratio=0.0
-            for k,v in old_by_scope.get((c.file,c.callee),[]):
-                if k in used or v.get('obsolete'): continue
+            for old_key,v in old_by_scope.get((c.file,c.callee),[]):
+                if old_key in used: continue
                 r=difflib.SequenceMatcher(None,v.get('source',''),c.source).ratio()
-                if r>best_ratio: best_ratio=r; best=(k,v)
+                if r>best_ratio: best_ratio=r; best=(old_key,v)
             if best and best_ratio>=0.84:
-                key=best[0]
-                prev=entries[key].get('source','')
-                if prev!=c.source:
-                    entries[key].setdefault('previous_sources',[])
-                    if prev and prev not in entries[key]['previous_sources']: entries[key]['previous_sources'].append(prev)
-                    entries[key]['source']=c.source
-                    entries[key]['source_hash']=sha(c.source)
-                    changed.append((key,prev,c.source))
-            else:
-                key=key_for_source(c.source)
-                suffix=1; base=key
-                while key in entries and entries[key].get('source')!=c.source:
-                    suffix+=1; key=f'{base}.{suffix}'
-                if key not in entries:
-                    entries[key]={'source':c.source,'source_hash':sha(c.source),'occurrences':[],'obsolete':False,'previous_sources':[]}
-                    added.append(key)
+                previous_source=best[1].get('source','')
+            key=key_for_source(c.source)
+            suffix=1; base=key
+            while key in entries and entries[key].get('source')!=c.source:
+                suffix+=1; key=f'{base}.{suffix}'
+            if key not in entries:
+                entries[key]={'source':c.source,'source_hash':sha(c.source),'occurrences':[],
+                              'obsolete':False,'previous_sources':[previous_source] if previous_source else []}
+                added.append(key)
+            if previous_source and previous_source != c.source:
+                changed.append((key,previous_source,c.source))
         used.add(key)
         e=entries[key]; e['source']=c.source; e['source_hash']=sha(c.source); e['obsolete']=False
         occurrence={'file':c.file,'line':c.line,'callee':c.callee,'arg':c.arg_index}
@@ -70,7 +72,8 @@ def reconcile(found: list[Candidate], old_entries: dict, zh: dict, tm: dict) -> 
     for k,e in current.items():
         z=zentries.get(k)
         if z is None and e['source'] in tm:
-            zentries[k]={'text':tm[e['source']],'state':'reviewed','source_hash':e['source_hash'],'note':'seeded from maintained translation memory'}
+            zentries[k]={'text':tm[e['source']],'state':'reviewed','source_hash':e['source_hash'],
+                         'note':'seeded from maintained translation memory'}
 
     missing=[]; stale=[]
     for k,e in current.items():
@@ -84,12 +87,15 @@ def reconcile(found: list[Candidate], old_entries: dict, zh: dict, tm: dict) -> 
 def main():
     ap=argparse.ArgumentParser()
     ap.add_argument('--source',required=True,type=Path)
+    ap.add_argument('--channel',choices=CHANNELS,default='master')
+    ap.add_argument('--upstream-ref',default='')
     ap.add_argument('--update',action='store_true')
     ap.add_argument('--report',type=Path,default=ROOT/'reports'/'localization-scan.md')
     args=ap.parse_args()
     rules=load_json(LOC/'scanner-rules.json',{})
-    old=load_json(LOC/'catalog.json',{'schema':1,'entries':{}})
-    en=load_json(LOC/'en-US.json',{'locale':'en-US','entries':{}})
+    paths=localization_channel_paths(args.channel)
+    old=load_json(paths['catalog'],{'schema':1,'channel':args.channel,'entries':{}})
+    en=load_json(paths['en'],{'locale':'en-US','channel':args.channel,'entries':{}})
     zh=load_json(LOC/'zh-CN.json',{'locale':'zh-CN','entries':{}})
     tm=load_json(LOC/'translation-memory.zh-CN.json',{})
     old_entries=old.get('entries',{})
@@ -118,10 +124,10 @@ def main():
       'changed':[{'key':k,'source':current[k]['source'],'source_hash':current[k]['source_hash'],'old_translation':zentries.get(k,{}).get('text',''),'state':zentries.get(k,{}).get('state','')} for k in stale]
     }
     commit=git_sha(args.source)
-    catalog={'schema':1,'upstream_commit':commit,'entries':entries}
+    catalog={'schema':1,'channel':args.channel,'upstream_commit':commit,'entries':entries}
     coverage=(len(current)-len(missing)-len(stale))/len(current)*100 if current else 100.0
     report=[
-      '# Localization scan report','',f'- Upstream commit: `{commit or "unknown"}`',
+      '# Localization scan report','',f'- Channel: **{args.channel}**',f'- Upstream commit: `{commit or "unknown"}`',
       f'- Active UI strings: **{len(current)}**',f'- Added: **{len(added)}**',f'- Removed: **{len(removed)}**',
       f'- Source changed / translation stale: **{len(stale)}**',f'- Missing zh-CN: **{len(missing)}**',f'- Effective zh-CN coverage: **{coverage:.2f}%**',''
     ]
@@ -130,10 +136,17 @@ def main():
     if removed: report += ['## Removed','']+[f'- `{k}`' for k in removed[:100]]+['']
     args.report.parent.mkdir(parents=True,exist_ok=True); args.report.write_text('\n'.join(report)+'\n',encoding='utf-8')
     if args.update:
-        save_json(LOC/'catalog.json',catalog)
-        save_json(LOC/'en-US.json',{'locale':'en-US','entries':en_entries})
+        save_json(paths['catalog'],catalog)
+        save_json(paths['en'],{'locale':'en-US','channel':args.channel,'entries':en_entries})
         save_json(LOC/'zh-CN.json',{'locale':'zh-CN','entries':zentries})
-        save_json(LOC/'pending.json',pending)
+        save_json(paths['pending'],pending)
+        save_json(paths['meta'],{'channel':args.channel,'upstream_ref':args.upstream_ref,'upstream_commit':commit})
+        # Backward-compatible mirrors for repositories created before dual-channel layout.
+        # Authoritative files are Localization/master/* and Localization/stable/*.
+        if args.channel == 'master':
+            save_json(LOC/'catalog.json',catalog)
+            save_json(LOC/'en-US.json',{'locale':'en-US','channel':'master','entries':en_entries})
+            save_json(LOC/'pending.json',pending)
     print(f'active={len(current)} added={len(added)} removed={len(removed)} missing={len(missing)} stale={len(stale)} coverage={coverage:.2f}%')
 
 if __name__=='__main__': main()

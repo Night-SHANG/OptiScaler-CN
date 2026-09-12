@@ -57,6 +57,6 @@ Keeping thousands of upstream source files in the CN branch would turn ordinary 
 
 ## Automation state semantics
 
-`last_scanned_commit` means the development-branch UI scan and localization injection contract were accepted and persisted. The subsequent Windows `Build CN` is a separate workflow; a transient master build failure therefore requires a manual rerun or a later upstream change.
+`last_scanned_commit` means the development-branch UI scan and localization injection contract were accepted and persisted. Each successful sync also refreshes the persisted `Localization/stable/` inventory for the latest stable tag, so the repository always carries both current UI sets. The subsequent Windows `Build CN` is a separate workflow; a transient master build failure therefore requires a manual rerun or a later upstream change.
 
 `last_released_upstream_tag` has stronger semantics: it is written only after the exact stable tag has scanned, localized, compiled, packaged and successfully published as a GitHub Release. A failed stable build/publish remains eligible for the next scheduled retry.

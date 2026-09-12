@@ -1,6 +1,10 @@
 name: Release CN
 
 on:
+  push:
+    branches: [main, master]
+    paths:
+      - "Localization/zh-CN.json"
   workflow_dispatch:
     inputs:
       upstream_ref:
@@ -54,7 +58,7 @@ jobs:
         run: python tools/prepare_tree.py --worktree _upstream --ref "${{ steps.ref.outputs.ref }}"
 
       - name: Scan and seed translations for exact release source
-        run: python tools/scan_ui.py --source _upstream --update --report reports/localization-scan.md
+        run: python tools/scan_ui.py --source _upstream --channel stable --upstream-ref "${{ steps.ref.outputs.ref }}" --update --report reports/stable-localization-scan.md
 
       - name: Optional incremental machine translation
         continue-on-error: true
@@ -62,13 +66,13 @@ jobs:
           TRANSLATION_API_URL: ${{ secrets.TRANSLATION_API_URL }}
           TRANSLATION_API_KEY: ${{ secrets.TRANSLATION_API_KEY }}
           TRANSLATION_MODEL: ${{ secrets.TRANSLATION_MODEL }}
-        run: python tools/translate_missing.py
+        run: python tools/translate_missing.py --channel stable
 
       - name: Validate exact release localization
-        run: python tools/check_localization.py --strict
+        run: python tools/check_localization.py --channel stable --strict
 
       - name: Instrument localized release tree
-        run: python tools/localize_source.py --source _upstream
+        run: python tools/localize_source.py --source _upstream --channel stable
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
@@ -86,7 +90,7 @@ jobs:
         shell: pwsh
         run: |
           $sha=(git -C _upstream rev-parse HEAD).Trim()
-          python tools/release_notes.py --upstream-ref "${{ steps.ref.outputs.ref }}" --upstream-commit $sha --out release-notes.md --github-output "$env:GITHUB_OUTPUT"
+          python tools/release_notes.py --channel stable --upstream-ref "${{ steps.ref.outputs.ref }}" --upstream-commit $sha --out release-notes.md --github-output "$env:GITHUB_OUTPUT"
           "upstream_sha=$sha" >> $env:GITHUB_OUTPUT
 
       - name: Publish or refresh GitHub Release

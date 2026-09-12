@@ -48,15 +48,22 @@ def analyze(cat: dict, en: dict, zh: dict) -> dict:
 
 def main():
     ap=argparse.ArgumentParser()
-    # Kept for workflow/backward compatibility. "strict" means structural
-    # validation; safe English-fallback states (missing/stale) remain warnings.
     ap.add_argument('--strict',action='store_true')
+    ap.add_argument('--channel',choices=(*CHANNELS,'all'),default='all')
     args=ap.parse_args()
-    cat=load_json(LOC/'catalog.json',{}); en=load_json(LOC/'en-US.json',{}); zh=load_json(LOC/'zh-CN.json',{})
-    result=analyze(cat,en,zh); s=result['stats']
-    print(f"total={s['total']} reviewed={s['reviewed']} machine={s['machine']} missing={s['missing']} stale={s['stale']} coverage={s['coverage']:.2f}%")
-    for w in result['warnings'][:50]: print('WARN:',w)
-    for e in result['errors']: print('ERROR:',e,file=sys.stderr)
-    return 1 if result['errors'] else 0
+    zh=load_json(LOC/'zh-CN.json',{})
+    channels=CHANNELS if args.channel=='all' else (args.channel,)
+    failed=False
+    for channel in channels:
+        paths=localization_channel_paths(channel)
+        cat=load_json(paths['catalog'],{'entries':{}})
+        en=load_json(paths['en'],{'locale':'en-US','entries':{}})
+        result=analyze(cat,en,zh); st=result['stats']
+        print(f"[{channel}] total={st['total']} reviewed={st['reviewed']} machine={st['machine']} missing={st['missing']} stale={st['stale']} coverage={st['coverage']:.2f}%")
+        for w in result['warnings'][:50]: print(f'WARN [{channel}]:',w)
+        for e in result['errors']:
+            print(f'ERROR [{channel}]: {e}',file=sys.stderr)
+            failed=True
+    return 1 if failed else 0
 
 if __name__=='__main__': raise SystemExit(main())

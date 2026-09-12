@@ -9,7 +9,8 @@ Key properties:
 - English is always the runtime fallback.
 - Translation resources are separate from upstream UI code.
 - Reviewed translations are never overwritten by automated translation.
-- New/changed/deleted UI strings are reported automatically.
+- Master and current stable keep separate persisted UI inventories while sharing one zh-CN translation store.
+- New/changed/deleted UI strings are reported automatically for both channels.
 - UTF-8 Chinese is emitted as byte-escaped generated C++ and loaded with validated CJK fonts/glyph ranges.
 - Unsafe integration changes fail closed and block publication.
 - Daily/manual upstream sync and clean Windows build workflows are included.
