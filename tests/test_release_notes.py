@@ -44,5 +44,7 @@ class ReleaseNotesTests(unittest.TestCase):
         notes=release_notes.render_notes('v1','abc12345',cat,zh,pending)
         self.assertIn('本次新增/更新有效中文：1',notes)
         self.assertIn('本次扫描新增 UI：1',notes)
+        self.assertIn('未覆盖或待复核的项目会显示官方英文', notes)
+        self.assertNotIn('未覆盖或待复核的项目会显示官方中文', notes)
 
 if __name__=='__main__': unittest.main()

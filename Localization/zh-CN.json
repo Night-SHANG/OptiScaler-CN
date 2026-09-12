@@ -5669,6 +5669,426 @@
       "source_hash": "7d88975ce8be98a3a8bf9ad205d08fcc540a4138a61a56d9822898ba6f18392d",
       "model": "GPT-5.6 Sol (curated batch 2026-09-12)",
       "note": "assistant-curated translation; preserve until human review or source changes"
+    },
+    "ui.auto.68a853a2520d": {
+      "text": "这不是你要找的分辨率。",
+      "state": "machine_translated",
+      "source_hash": "961786a1bb6fd59b56d2a973993501e00fbc18ca0f88e8889a25dbd80b1796ef",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.0bbe12aaac8b": {
+      "text": "向无限远进发……不过先关掉光线追踪。",
+      "state": "machine_translated",
+      "source_hash": "7a9fbeb903b5443248696c618ca5b0b040490e43e540b4fa1a10d639665ca9d2",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.0018823f3a8f": {
+      "text": "我对这帧节奏有种不祥的预感。",
+      "state": "machine_translated",
+      "source_hash": "df3ec954753d731fd87e608b5da57fe1ea59749e6ab4b2ebe48004b1748f5704",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.c474c4fc233f": {
+      "text": "性能提升的幻觉，完美呈现。",
+      "state": "machine_translated",
+      "source_hash": "dd864978c9f29a5797e6b71499fdc5793aab0c51898f9d4dfb030b3aa4718fe8",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.c7de80c208a8": {
+      "text": "太糊了，别一个人硬撑，带上 RCAS 吧",
+      "state": "machine_translated",
+      "source_hash": "ae426a299ac307f8c3d70d21548429451e50c7736f03ac9fa426d8e27b430929",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.fef4a86c25ca": {
+      "text": "你真的花了 70 欧元买这游戏？！",
+      "state": "machine_translated",
+      "source_hash": "de0118776af864d55f7c081ef9ec9a2a84ba34dbc00c3ea7658fa30c25d499b7",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.51428912d9f4": {
+      "text": "FSR 2.2.1",
+      "state": "machine_translated",
+      "source_hash": "3802744b317671465ba79b23c92e6e9ab530b4b1a2c7e2c2d9c3547f602bff75",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.1bfcb5dcda51": {
+      "text": "FSR 3.X",
+      "state": "machine_translated",
+      "source_hash": "9d90e1f028bb958d72a78923fc8b541fecd93a1bae010f3f93db42a31d1d6d12",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.e93698123d14": {
+      "text": "XeSS 搭配 Dx12",
+      "state": "machine_translated",
+      "source_hash": "adb5aaa254bc68a9f5acb3cfdc9213d8707723cd3efbe7df097f80fec5e2c61f",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.fddecd4b3f42": {
+      "text": "FSR 2.1.2 搭配 Dx12",
+      "state": "machine_translated",
+      "source_hash": "e66044fec5721e1d691547546fc220d8db5f9198cf58f3d54c92c07aa458e3a5",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.8e2f266e068c": {
+      "text": "FSR 2.2.1 搭配 Dx12",
+      "state": "machine_translated",
+      "source_hash": "a938a627f01fbc5263db09d2675e5219ea52823d3f113218630b9bf730161069",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.f6794533031f": {
+      "text": "FSR 2.1.2",
+      "state": "machine_translated",
+      "source_hash": "981f433ffac7b3a28443c08fd53e8149f1a515a416f92117372e09386d2a5577",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.5391376f8580": {
+      "text": "FSR 3.X 搭配 Dx12",
+      "state": "machine_translated",
+      "source_hash": "d10f5c8978d45482b5d993535ea21908493e03e8579a0818dfa4066396da5616",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.67fd3a94d031": {
+      "text": "有可用更新",
+      "state": "machine_translated",
+      "source_hash": "5ae200f91c64da483b94b729655cad16205a13042a40d898494ee6f6afe60e26",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.6769dec68875": {
+      "text": "%s | FPS：%6.1f/%5.1f %s",
+      "state": "machine_translated",
+      "source_hash": "799743fe6510ab784ef2a31ccf90ad8d6c836461df163fa3e3986755f8f9db47",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.156703218c55": {
+      "text": "%s | FPS：%6.1f %s",
+      "state": "machine_translated",
+      "source_hash": "9256ecb44be79b882ecf2f6fc68e3512fd59420497f75cdb2e3b8667df609211",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.26a431266bf8": {
+      "text": "%s | FPS：%6.1f/%5.1f，%7.2f ms %s | %s -> %s %u.%u.%u",
+      "state": "machine_translated",
+      "source_hash": "76e82ab2866ecc4e00f4587dade6389e1b833d08f639b83c32fcc2544893f656",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.d7c7a2b07928": {
+      "text": "%s | FPS：%6.1f，%7.2f ms %s | %s -> %s %u.%u.%u",
+      "state": "machine_translated",
+      "source_hash": "1a49e4ef7afaaaa599fa647db99cfdb81e6083cde635033056ea53670f5be810",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.f08cc42ad2c9": {
+      "text": "%s | FPS：%6.1f/%5.1f，%7.2f ms %s",
+      "state": "machine_translated",
+      "source_hash": "da935e2213f3822a726b1860fc9a3023e0f7c83d39b74454034dce6b7b5eb6aa",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.17753522d422": {
+      "text": "%s | FPS：%6.1f，%7.2f ms %s",
+      "state": "machine_translated",
+      "source_hash": "06a9c2068e1c478cdcf9a4c95ffc4df9b2a4bd1b54631d607da82b7e38451c48",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.2ed8445fc964": {
+      "text": "%s | FPS：%6.1f/%5.1f，平均：%6.1f %s | %s -> %s %u.%u.%u",
+      "state": "machine_translated",
+      "source_hash": "6e906dea63e2fc0164e35a271b21c5d36e79c5994c4649aa73bc566b87715c00",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.13837a8bd212": {
+      "text": "%s | FPS：%6.1f，平均：%6.1f %s | %s -> %s %u.%u.%u",
+      "state": "machine_translated",
+      "source_hash": "7af56fc4e0ade7946fbad1bd8ff5c5735c000214ab4cfd60a28247c6b3a5e8ea",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.72565ec25429": {
+      "text": "%s | FPS：%6.1f/%5.1f，平均：%6.1f %s",
+      "state": "machine_translated",
+      "source_hash": "0d40f78a1e9852d3ea9e9924d54a5289df65ac93e35525c398bfbab425ba6508",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.0b0e0f628c9e": {
+      "text": "%s | FPS：%6.1f，平均：%6.1f %s",
+      "state": "machine_translated",
+      "source_hash": "14a6eb5280abbd05ac662b747cee98ce57225bbe70cc4b332c06fe53d11fb2fe",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.415ccec77c87": {
+      "text": "D3D11 %s| %s %d.%d.%d",
+      "state": "machine_translated",
+      "source_hash": "d30deaec4dc50f308888fe6bcc8a3684556fa623ec679d65b70b83d85d92b8a1",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.b0954b61f312": {
+      "text": "Vulkan %s| %s %d.%d.%d",
+      "state": "machine_translated",
+      "source_hash": "3236c5c9463e1036f7eb4c026f7062755a9a21a957f86ed5583448ca6b9b87ba",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.2a827b430d58": {
+      "text": "输入色彩空间",
+      "state": "machine_translated",
+      "source_hash": "0b259dc9bdd33eff8ea7b85faf2f89bd02bf7f5a9269164e6ff1dc30014759e0",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.fe5888fda05f": {
+      "text": "选择游戏使用的输入色彩空间。\n非线性 / sRGB：可能提高 FSR4 超分质量，也可能增加重影。\nPQ：最少见，可能增加重影并导致灯光异常。",
+      "state": "machine_translated",
+      "source_hash": "032103b59e7fb48e441de261bb49636d9c49c3c3f5f44b465ca02544cc755e0c",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.33e38b2c17ed": {
+      "text": "值为 0.0f 时可提高高亮像素的时间稳定性\n较低值更稳定，但重影更多\n较高值像素感更强，但重影更少。",
+      "state": "machine_translated",
+      "source_hash": "6dc16a51b8445226dd859b9b350eb15effff63b00dced3ab1278255c4855412c",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.f2732b43a5f4": {
+      "text": "增大此值会放大 FSR3.1 计算出的着色\n调整读取时的值可获得更高的反应度。",
+      "state": "machine_translated",
+      "source_hash": "942cfc8e8de58fe2c648b48829d786c81c53f7a9a76399f10338d53417ff1ad0",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.817c7dc1233b": {
+      "text": "NGX 使用通用 App ID\n可修复某些游戏中 OptiScaler 预设覆盖无效的问题\n需要重启游戏。",
+      "state": "machine_translated",
+      "source_hash": "2b107e621490d3e78df8cff579c7e93746000f07df5a51f1119d85c32cd8ece8",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.0009bc87576d": {
+      "text": "不支持的 Opti 工作模式",
+      "state": "machine_translated",
+      "source_hash": "81788b8ae42abfd41efe83ac1c1ee6f56d8b9294b3d341d32c64008be0c982ab",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.f5c1b19bff14": {
+      "text": "使用当前所选的帧生成来源时，此项无影响",
+      "state": "machine_translated",
+      "source_hash": "7d7a3920f773597f46592e767404a738ff1b89863d09fd8945389ce9c3a2dabc",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.c919eab7cb2d": {
+      "text": "帧生成水印",
+      "state": "machine_translated",
+      "source_hash": "cebc29461afa64f1ef47d81986330f1585753fcda7d6a4fc62b4750ff84b0c4b",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.06c4acd5292a": {
+      "text": "高级 FSR FG 设置",
+      "state": "machine_translated",
+      "source_hash": "cdda53b13bc2480a538be840b245e93cfaf674dd86140242bd7a8da5a50b046e",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.992ac48914e2": {
+      "text": "2X",
+      "state": "machine_translated",
+      "source_hash": "f1d106f917e3dbf468ff5eae3d43d12d0bf38a8909affd56399e04211f928402",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.5736a4c66680": {
+      "text": "3X",
+      "state": "machine_translated",
+      "source_hash": "69f04a035b2396214cfab006612d992b2f4fa028876bc398e318ce2dff48c05a",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.e5ce501b4fb1": {
+      "text": "4X",
+      "state": "machine_translated",
+      "source_hash": "cedf19b4ec873bd0ab6aea7ec442b5ae7e44d5475f3e317db698a58c9266fd13",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.dfd3eb4bffb4": {
+      "text": "5X",
+      "state": "machine_translated",
+      "source_hash": "841361d350818bc40d69812d551766ab224e32ab22a8eb4dc66e6d7a1c5b2f1d",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.31ad6e30bfd3": {
+      "text": "6X",
+      "state": "machine_translated",
+      "source_hash": "43650ec252ffc8c1674ef880157c62c68d9c3ea62e80cdcf31e4ee0822325196",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.c83164cf4aab": {
+      "text": "扩展格式检查以寻找可能的 HUDless\n可能导致崩溃和性能下降！",
+      "state": "machine_translated",
+      "source_hash": "288a060692b79a13cf1a63e8bc34de66a5d131a91094047fd375df1be6aecce7",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.350b77b922a7": {
+      "text": "允许在着色器执行前捕获资源。\n可提高 HUDless 捕获概率，但也可能捕获到不必要的资源。",
+      "state": "machine_translated",
+      "source_hash": "17803ccfe82788d8f7ad574b445df39db34428090fceb5ae9f8cdf872ada8e56",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.cf9ef85834fb": {
+      "text": "阻止很少使用的资源被当作 HUDless，\n以避免闪烁和其他问题\n\n启用/禁用 HUDfix 会重置阻止列表！",
+      "state": "machine_translated",
+      "source_hash": "233ea04be2cde237a792561f3adcd221173c15f36403b7aa51f8ca3332a64109",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.15a28dc2df8a": {
+      "text": "将 HUDless 的分辨率检查放宽 32 像素\n有助于处理某些分辨率或宽高比下使用黑边的游戏\n（例如《巫师 3》）",
+      "state": "machine_translated",
+      "source_hash": "c1f830205b255e1d50d0b54866dc27b22a58822601bff40a0afba73141f3107f",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.13dff5213a96": {
+      "text": "请将 dlssg_to_fsr3_amd_is_better.dll 放到 OptiScaler 所在目录",
+      "state": "machine_translated",
+      "source_hash": "5f2ef45f8fdde44a44141a6346a5f7e66085f11cd931451ee66cd35491ed7be4",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.0318f4bcaf47": {
+      "text": "同时使用 RTSS Reflex 注入、AntiLag 2 和 FSR FG 可能会出现问题",
+      "state": "machine_translated",
+      "source_hash": "becadc4c88940c44a196d8199d498bd5b9d8cc836632f48930de33ed3db9ea9c",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.a4f290af054d": {
+      "text": "在 OptiFG 下使用 Reflex 限帧会带来性能开销",
+      "state": "machine_translated",
+      "source_hash": "95cbeaabce0dca922f164906b31f0bad00f7b9f4fa726f1620a16988a83d2025",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.77e41ae1e5d5": {
+      "text": "启用文件日志",
+      "state": "machine_translated",
+      "source_hash": "f76632e2c64677f65cc6e59bff805747fa8006376b9916919d07879455398609",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.195781f1be45": {
+      "text": "启用跟踪日志",
+      "state": "machine_translated",
+      "source_hash": "8b0fa909dfc6df97591ba0628742f462ea7b839cb1fdd9f4747bd2fe8e5d160e",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.529026387327": {
+      "text": "默认情况下，会在可用时使用 AntiLag 2/XeLL。\n此设置允许强制改用 LatencyFlex",
+      "state": "machine_translated",
+      "source_hash": "92911d0793574e840189a2840b873432cee128eaabf589fc37b9eef26d3c3332",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.8c9cee599e60": {
+      "text": "应用##2",
+      "state": "machine_translated",
+      "source_hash": "3f3c47a276f13d760c6ceb9ba5cfdfa85b443e5080905640137e6bf446c533c1",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.4d906d674ea3": {
+      "text": "线性深度",
+      "state": "machine_translated",
+      "source_hash": "f2e69eb2e00f610f21befb745f449667a31e7130753a965494b062bf4fd85e59",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.d42c3a7174a1": {
+      "text": "大多数游戏使用非线性深度，但\nDLSS-D 可能需要启用此选项。\n可通过调试视图进行确认",
+      "state": "machine_translated",
+      "source_hash": "d26f8434005da24c439f18ceda4dd128ac7511676728f0a08be9673d31c55f82",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.05cc479408fd": {
+      "text": "DA 调试",
+      "state": "machine_translated",
+      "source_hash": "44e7ab11348d7cb10dd110ec6d6f074b823902289b82468906ceef37582f1bd4",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.3266ee5a4092": {
+      "text": "启用 DAS 调试视图\n\n检测到的边缘显示蓝色色调",
+      "state": "machine_translated",
+      "source_hash": "64c77eef83e1c14c355f97a131fb2ab24374bb7b6185a1dca48ff6ed445bde6c",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.3616ec5b2617": {
+      "text": "Lanczos2 的更重型版本。\n能提供最锐利的图像，但也最容易产生振铃。",
+      "state": "machine_translated",
+      "source_hash": "fb501627f050cd72704b56f5fed96e3bd5789da88f7b041913295965c027d15c",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.36489a0b8f36": {
+      "text": "与 Lanczos3 类似。\n伪影明显少于 Lanczos3，但 GPU 开销大得多。",
+      "state": "machine_translated",
+      "source_hash": "15b782d93a2f2243f975ace6becf516468307f91e632cc18224632817d35aa19",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.842a4403241c": {
+      "text": "菜单主题与颜色",
+      "state": "machine_translated",
+      "source_hash": "d3b3a93c2f6cd42feca755090ebcea8bbba3bcc9cc3a6f5edae650daadb9654b",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.006d6484dd77": {
+      "text": "自定义强调色",
+      "state": "machine_translated",
+      "source_hash": "ac222e9bb113861303ac71b05713ec9f37882bb95657384d7219f4921db824e2",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.bc423915019e": {
+      "text": "重置强调色",
+      "state": "machine_translated",
+      "source_hash": "46058655585683a13df014c198b5903b3f86a11c8d24aa763f2180aded61e459",
+      "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
+      "note": "assistant-curated stable-only translation; preserve until human review or source changes"
     }
   }
 }
