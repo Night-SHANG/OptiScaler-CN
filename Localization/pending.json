@@ -1,10 +1,3505 @@
 {
   "locale": "zh-CN",
-  "missing": [],
-  "changed": [],
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.fd81e2455ee4",
+      "ui.auto.84b1463bf94a",
+      "ui.auto.2003add9a84c",
+      "ui.auto.111f6685293b",
+      "ui.auto.ada7cc3b282b",
+      "ui.auto.181b4a52392c",
+      "ui.auto.9cb591bb4ec2",
+      "ui.auto.d92afe9f9da2",
+      "ui.auto.045b6438aadc",
+      "ui.auto.d5fb57e7d123",
+      "ui.auto.11963a26d9b4",
+      "ui.auto.46f4e5afa2c9",
+      "ui.auto.ff7b84504823",
+      "ui.auto.f0880d5c59a8",
+      "ui.auto.74fc7d7384f0",
+      "ui.auto.589bac8a3cc6",
+      "ui.auto.4518b625ab0e",
+      "ui.auto.4d0c0e932b03",
+      "ui.auto.162a3f67858c",
+      "ui.auto.4471791dd666",
+      "ui.auto.8a8679496220",
+      "ui.auto.30dc2b1e70d7",
+      "ui.auto.4d66d16d0805",
+      "ui.auto.2064ba6fee66",
+      "ui.auto.bd2d71e1822c",
+      "ui.auto.3ac7be3d28bd",
+      "ui.auto.dd0b075893d6",
+      "ui.auto.540c07c51ec8",
+      "ui.auto.bd7615fc1ca9",
+      "ui.auto.3857d25775cd",
+      "ui.auto.4b3d4c6ab300",
+      "ui.auto.935e1dacb0d2",
+      "ui.auto.31315a8bc9b5",
+      "ui.auto.5d4a245e203e",
+      "ui.auto.19fa3e7657c3",
+      "ui.auto.f5528f6dd72b",
+      "ui.auto.b787dcd8199d",
+      "ui.auto.7c4480c50147",
+      "ui.auto.2aa6b5d5e86b",
+      "ui.auto.560e0aed80b8",
+      "ui.auto.4a09448d52ed",
+      "ui.auto.03275d86b515",
+      "ui.auto.d68d0717b694",
+      "ui.auto.9398231fa849",
+      "ui.auto.f85f5da0b4e9",
+      "ui.auto.a218ccfbd46a",
+      "ui.auto.a84a1af0d6f2",
+      "ui.auto.42315fe98655",
+      "ui.auto.d4bc6cefbcf4",
+      "ui.auto.acb5635a4a6a",
+      "ui.auto.d3c82733cc46",
+      "ui.auto.c40c9e2b06b9",
+      "ui.auto.d40ec6bf3b65",
+      "ui.auto.4f4c3fdf20e3",
+      "ui.auto.572d12237e2b",
+      "ui.auto.1c8afd3daa88",
+      "ui.auto.c67ecfce6a6b",
+      "ui.auto.f480889dd3e0",
+      "ui.auto.9e86fc862122",
+      "ui.auto.7a6c13846902",
+      "ui.auto.d8e93cad9909",
+      "ui.auto.077652f33f66",
+      "ui.auto.2ba9dc2ed003",
+      "ui.auto.719a9a2bb3b6",
+      "ui.auto.348e462f46e6",
+      "ui.auto.f8a4e7a2be4c",
+      "ui.auto.f522065bf3a4",
+      "ui.auto.ced7f2de7bd5",
+      "ui.auto.0564ffd17743",
+      "ui.auto.bfcf2e10adc3",
+      "ui.auto.82f4acab7f13",
+      "ui.auto.262fd0c95893",
+      "ui.auto.0d0ce619f28c",
+      "ui.auto.378ca33fa9c7",
+      "ui.auto.fdbf3c6657bf",
+      "ui.auto.5f3172180790",
+      "ui.auto.d1103df4632d",
+      "ui.auto.51eadbd65ade",
+      "ui.auto.aff9bdee1ae8",
+      "ui.auto.43ad64f6c038",
+      "ui.auto.71f64bfd03de",
+      "ui.auto.4423e509db2b",
+      "ui.auto.63424c91d05d",
+      "ui.auto.04f69cbbc6a5",
+      "ui.auto.d920cdd39296",
+      "ui.auto.50c3f10f5b1c",
+      "ui.auto.e4636d467ea5",
+      "ui.auto.b40f85dcc743",
+      "ui.auto.ad0f8c521db9",
+      "ui.auto.7b76c560c43f",
+      "ui.auto.61b993c5dead",
+      "ui.auto.4b13035128f9",
+      "ui.auto.21f7f62682fa",
+      "ui.auto.bfdb8215ae8a",
+      "ui.auto.b7f7e8c345e0",
+      "ui.auto.9e5278ecaadf",
+      "ui.auto.f3316bf3e290",
+      "ui.auto.c62f780de9d9",
+      "ui.auto.4d8b7b3b519a",
+      "ui.auto.178917d797aa",
+      "ui.auto.a114af69d3b5",
+      "ui.auto.823a134253ee",
+      "ui.auto.f80b01ae8eca",
+      "ui.auto.949b04c735b4",
+      "ui.auto.6d67ed09acf4",
+      "ui.auto.7bb6691122c0",
+      "ui.auto.df9b8e13b00f",
+      "ui.auto.17dd6bef051f",
+      "ui.auto.973451e57f66",
+      "ui.auto.b4b4979881a2",
+      "ui.auto.be7807c30a83",
+      "ui.auto.b8d7401ff933",
+      "ui.auto.7df1f705a491",
+      "ui.auto.40678fe7a92c",
+      "ui.auto.8666c91068ae",
+      "ui.auto.1fa9530aedbe",
+      "ui.auto.65e898514916",
+      "ui.auto.347cd9c53ff7",
+      "ui.auto.ff4c04db0fc7",
+      "ui.auto.299910c52358",
+      "ui.auto.ddfc25b52a26",
+      "ui.auto.b151fef87779",
+      "ui.auto.0d1750a881d1",
+      "ui.auto.f53b37ebb548",
+      "ui.auto.1a7edea27800",
+      "ui.auto.bb2753332858",
+      "ui.auto.d40f160e7590",
+      "ui.auto.b76a1ffe2196",
+      "ui.auto.69de7e60e24a",
+      "ui.auto.9e01d34ff0c0",
+      "ui.auto.725c4b6b77eb",
+      "ui.auto.e135eb5ce26d",
+      "ui.auto.5cd16465be49",
+      "ui.auto.40c498805679",
+      "ui.auto.f2ecf2910a61",
+      "ui.auto.27cc86e5674d",
+      "ui.auto.5b7dd677bdc9",
+      "ui.auto.c7f23e3ed00a",
+      "ui.auto.e74eb09c367b",
+      "ui.auto.05bc6d9f6674",
+      "ui.auto.451305b82916",
+      "ui.auto.d77ca28ebda5",
+      "ui.auto.a789967a01f3",
+      "ui.auto.f038ee9f6387",
+      "ui.auto.01b450f37e01",
+      "ui.auto.667e9759bda1",
+      "ui.auto.2191f4108df4",
+      "ui.auto.2d8755a46d39",
+      "ui.auto.21f995bf6eb2",
+      "ui.auto.9450c62c0a0a",
+      "ui.auto.37e3c89eee78",
+      "ui.auto.666ef182f3bc",
+      "ui.auto.8567d1a739d4",
+      "ui.auto.6374f6926ab6",
+      "ui.auto.2d38879e1bc3",
+      "ui.auto.af2560d8a3aa",
+      "ui.auto.eadde6787be6",
+      "ui.auto.6db24976db50",
+      "ui.auto.bedb74ff2ad8",
+      "ui.auto.e7e133bb935c",
+      "ui.auto.c768cf870335",
+      "ui.auto.aa2410c37f6c",
+      "ui.auto.9c4d6e24ad89",
+      "ui.auto.013b5fec5bfb",
+      "ui.auto.4699685c2420",
+      "ui.auto.6bcf6a3c9f4d",
+      "ui.auto.e140c7ecc890",
+      "ui.auto.3e8aaced8f3a",
+      "ui.auto.f69458468c23",
+      "ui.auto.13847f9cf534",
+      "ui.auto.e7d679448a72",
+      "ui.auto.65cd088575e0",
+      "ui.auto.2c0d6862be6c",
+      "ui.auto.5ab1c0463054",
+      "ui.auto.39726f61bef7",
+      "ui.auto.4c0f2b12918f",
+      "ui.auto.fe94243e323b",
+      "ui.auto.ae41f956cc83",
+      "ui.auto.1c4f55b39415",
+      "ui.auto.8aa52a0d4aa8",
+      "ui.auto.7f4b98bf08b1",
+      "ui.auto.263e39e9d6e7",
+      "ui.auto.808d7dca8a74",
+      "ui.auto.c9ba3da9edc3",
+      "ui.auto.f78965c61d19",
+      "ui.auto.99ba0e2decb3",
+      "ui.auto.9a33b0b8599e",
+      "ui.auto.7723d310538c",
+      "ui.auto.006e5b90021a",
+      "ui.auto.039a40b35bd9",
+      "ui.auto.67ae92ca1f41",
+      "ui.auto.ca7718a636f6",
+      "ui.auto.7b1493778c57",
+      "ui.auto.fc1e3db0bdcb",
+      "ui.auto.06c803287211",
+      "ui.auto.711f5a680ff1",
+      "ui.auto.52d42b3c28e0",
+      "ui.auto.1ad7aa58cba6",
+      "ui.auto.e040db2b7f13",
+      "ui.auto.c5098276307d",
+      "ui.auto.d233724b1601",
+      "ui.auto.e7e58278e1f4",
+      "ui.auto.4bad81eacfcb",
+      "ui.auto.f1ae9f6a29f9",
+      "ui.auto.9fcfc0402890",
+      "ui.auto.e5e0b40f9221",
+      "ui.auto.bed833b1f71c",
+      "ui.auto.20adfb0f2273",
+      "ui.auto.dc31a855b745",
+      "ui.auto.ee5c0cbc8645",
+      "ui.auto.0e6175028961",
+      "ui.auto.86cb7648a1ab",
+      "ui.auto.f67d53e6eaad",
+      "ui.auto.c596b3367c28",
+      "ui.auto.3ea2dd7fb2be",
+      "ui.auto.362bcdb709cf",
+      "ui.auto.9f0b3e58a631",
+      "ui.auto.f4cb1a360c98",
+      "ui.auto.022c7941829a",
+      "ui.auto.37306cc865ee",
+      "ui.auto.d369481c7339",
+      "ui.auto.0ae847f8d279",
+      "ui.auto.bc5f7f9ed4db",
+      "ui.auto.6eef6648406c",
+      "ui.auto.d720e36448ce",
+      "ui.auto.f9d8e26f4640",
+      "ui.auto.350da440573b",
+      "ui.auto.e11932193766",
+      "ui.auto.b9b0e321ad63",
+      "ui.auto.81545b914a8f",
+      "ui.auto.c26a4d155d18",
+      "ui.auto.b1d769376482",
+      "ui.auto.2ddd071743f3",
+      "ui.auto.7b293b0ebcbf",
+      "ui.auto.6e673b4a70eb",
+      "ui.auto.8091b32f5fc6",
+      "ui.auto.6e23184d03ec",
+      "ui.auto.abaf687b594a",
+      "ui.auto.5ca1d542f5f6",
+      "ui.auto.f9e12aa34c85",
+      "ui.auto.c194e89f0dab",
+      "ui.auto.595d066d151c",
+      "ui.auto.f68619f79fc4",
+      "ui.auto.7fe1fa654581",
+      "ui.auto.d51b84ac17f6",
+      "ui.auto.9d28ea0c0397",
+      "ui.auto.74d77760db01",
+      "ui.auto.e0125bc7c78a",
+      "ui.auto.ec3f2e5af5d6",
+      "ui.auto.22822d3ede56",
+      "ui.auto.ed63fb7190c0",
+      "ui.auto.d1cbf3fe97cd",
+      "ui.auto.4961ef3ebd23",
+      "ui.auto.d0ce1287208a",
+      "ui.auto.d737f212f76a",
+      "ui.auto.fd0cba37a258",
+      "ui.auto.710eafb47165",
+      "ui.auto.c6bab089fe70",
+      "ui.auto.bf7648e2257b",
+      "ui.auto.65d8301a875f",
+      "ui.auto.4e8d646301a0",
+      "ui.auto.8dfff9c0dfd1",
+      "ui.auto.071edebfc3a2",
+      "ui.auto.59c2add9983b",
+      "ui.auto.3b6d47196702",
+      "ui.auto.afcb6faef5b4",
+      "ui.auto.72bc64f230a3",
+      "ui.auto.5603ab17a539",
+      "ui.auto.02c83d9b002f",
+      "ui.auto.10e7bd27a0a9",
+      "ui.auto.cabdb6c9a9f0",
+      "ui.auto.3b44098cd604",
+      "ui.auto.aff518c94963",
+      "ui.auto.161245c5f7c9",
+      "ui.auto.56b2132786f9",
+      "ui.auto.a16948c3391b",
+      "ui.auto.5ece2c9d253f",
+      "ui.auto.d5cdb020bf2b",
+      "ui.auto.6df0ca30ae42",
+      "ui.auto.3d2f971a492b",
+      "ui.auto.d3b13dc2cc2e",
+      "ui.auto.1d582785c67c",
+      "ui.auto.1c4c43e26f2d",
+      "ui.auto.76f56ac46832",
+      "ui.auto.53c5ce81434f",
+      "ui.auto.fb9160c40a67",
+      "ui.auto.5f16eba6c14f",
+      "ui.auto.524be9cb94a3",
+      "ui.auto.c2a7ff30aca8",
+      "ui.auto.25fb3056f57a",
+      "ui.auto.b1ba65020c6a",
+      "ui.auto.e3dbaaf23465",
+      "ui.auto.24d948e4bdbe",
+      "ui.auto.ce4415854ce3",
+      "ui.auto.95695a4b6134",
+      "ui.auto.d697065b530e",
+      "ui.auto.13c02455f20a",
+      "ui.auto.e3a7ad1e354e",
+      "ui.auto.e6951fc46a51",
+      "ui.auto.56fa7b26816b",
+      "ui.auto.7ea6225dcb9a",
+      "ui.auto.4c5944890266",
+      "ui.auto.9f298520a655",
+      "ui.auto.30d14d12ea67",
+      "ui.auto.89373fce8d3b",
+      "ui.auto.28d010627e48",
+      "ui.auto.0d3c8f1ddb8c",
+      "ui.auto.816318b4543e",
+      "ui.auto.be067117d995",
+      "ui.auto.747894299569",
+      "ui.auto.9d8325e8117c",
+      "ui.auto.13122d73aeb3",
+      "ui.auto.c7497a5b10eb",
+      "ui.auto.f9b791fb0f4c",
+      "ui.auto.8508a2c59446",
+      "ui.auto.eacc9519f91a",
+      "ui.auto.e3801306b5ce",
+      "ui.auto.9d13cf19a251",
+      "ui.auto.4d6558aafb4a",
+      "ui.auto.9111ae2acfd3",
+      "ui.auto.45ddbd828abd",
+      "ui.auto.c58b39582f38",
+      "ui.auto.35dbc5803954",
+      "ui.auto.4dba07b1ea15",
+      "ui.auto.81de85768e5a",
+      "ui.auto.1d8a44803423",
+      "ui.auto.3d7352fdd6af",
+      "ui.auto.144ceb11a22b",
+      "ui.auto.02c8950f3883",
+      "ui.auto.b8bc69738265",
+      "ui.auto.23092392195b",
+      "ui.auto.2cf593eefc3b",
+      "ui.auto.1d9c6bf51309",
+      "ui.auto.4e1dc0b9fe97",
+      "ui.auto.4fcd3843e485",
+      "ui.auto.9c3da77c7ab7",
+      "ui.auto.90f1ebc4c105",
+      "ui.auto.635aa84025f0",
+      "ui.auto.bd26d4e91213",
+      "ui.auto.60ef8590a97c",
+      "ui.auto.8542cf81a5ec",
+      "ui.auto.c06df533399a",
+      "ui.auto.7de90a65241a",
+      "ui.auto.630e0b25835d",
+      "ui.auto.bd604d99e75e",
+      "ui.auto.137a4786848a",
+      "ui.auto.44184b56bc30",
+      "ui.auto.655746f7be5c",
+      "ui.auto.fa8a0bd617b4",
+      "ui.auto.205c4545e845",
+      "ui.auto.07b8c4d71f6a",
+      "ui.auto.26af3c0a347f",
+      "ui.auto.c1f50a75de91",
+      "ui.auto.2dc77b9842aa",
+      "ui.auto.9acb08bb383d",
+      "ui.auto.282583e8f5a3",
+      "ui.auto.7e85df068010",
+      "ui.auto.6ad1526a98f8",
+      "ui.auto.5348f419dc21",
+      "ui.auto.7ac5cef064fb",
+      "ui.auto.a81b3d29bd49",
+      "ui.auto.673c01bb56ce",
+      "ui.auto.e7422c2b0ab4",
+      "ui.auto.db8aa36f073c",
+      "ui.auto.c25238d5594c",
+      "ui.auto.2b1fff874fb0",
+      "ui.auto.63f5d81432fc",
+      "ui.auto.55023d4d792b",
+      "ui.auto.aacb62c790f3",
+      "ui.auto.cc93b678f3aa",
+      "ui.auto.ee0c9c32d89a",
+      "ui.auto.d96f6f2eb6e8",
+      "ui.auto.c1ccb2eed2f0",
+      "ui.auto.859df044c554",
+      "ui.auto.e56a1c9c1623",
+      "ui.auto.7cc8ddb43536",
+      "ui.auto.c89004a7b980",
+      "ui.auto.a3f165d9951e",
+      "ui.auto.b9fcb43051e1",
+      "ui.auto.a2692a20bfe3",
+      "ui.auto.ec20c8376ecb",
+      "ui.auto.4660c593077f",
+      "ui.auto.d0a97ec7ddd5",
+      "ui.auto.e0fb647a9957",
+      "ui.auto.0f8f591ccc13",
+      "ui.auto.1fbfd3f87e08",
+      "ui.auto.3347162fbe13",
+      "ui.auto.5a617864e437",
+      "ui.auto.d06cc6bb6c7c",
+      "ui.auto.af60e2fad244",
+      "ui.auto.3cfc7e4a4be5",
+      "ui.auto.c0f57ed79709",
+      "ui.auto.4f2a9d7018ea",
+      "ui.auto.4f103e2ec786",
+      "ui.auto.190b5dfc58d0",
+      "ui.auto.f7aada4ef92b",
+      "ui.auto.e135eb9de129",
+      "ui.auto.22bc572cfb38",
+      "ui.auto.f4ebdb51765d",
+      "ui.auto.274d30292c70",
+      "ui.auto.89e6a2145ab4",
+      "ui.auto.151315f5843b",
+      "ui.auto.9ec288a78c34",
+      "ui.auto.8f5a570a90f3",
+      "ui.auto.51432975fbc1",
+      "ui.auto.3687f2d02a85",
+      "ui.auto.01dfb4a9136a",
+      "ui.auto.342cc5401ecf",
+      "ui.auto.48fa822d9f13",
+      "ui.auto.1e6b46d6cf2d",
+      "ui.auto.174187f6e2cc",
+      "ui.auto.d09acd0cd5cd",
+      "ui.auto.c4819ce131d6",
+      "ui.auto.702c7955720f",
+      "ui.auto.0cbfdef1b045",
+      "ui.auto.9d8fc6c0b56d",
+      "ui.auto.6b6da2054f9d",
+      "ui.auto.795b823084f5",
+      "ui.auto.ce461ae6cf65",
+      "ui.auto.f32a451804f2",
+      "ui.auto.bb205a9aac99",
+      "ui.auto.e51c9f1565ff",
+      "ui.auto.37fc22fb46a2",
+      "ui.auto.c4fc37ad99a3",
+      "ui.auto.4bba4c93c95a",
+      "ui.auto.d610006c7df9",
+      "ui.auto.05b9ae7597d1",
+      "ui.auto.ab8a055a34b3",
+      "ui.auto.d8b7808064a3",
+      "ui.auto.f671708a5fc2",
+      "ui.auto.3949d4db64d9",
+      "ui.auto.34b1d0edf99c",
+      "ui.auto.8bef0c73de74",
+      "ui.auto.e2d1b29d157f",
+      "ui.auto.c067627d920e",
+      "ui.auto.685c3af31da4",
+      "ui.auto.ff01edd6ffad",
+      "ui.auto.cd4c20f79428",
+      "ui.auto.03fbed296d9c",
+      "ui.auto.4b01cf2066f6",
+      "ui.auto.b3e8fe0e5ca4",
+      "ui.auto.fa1bce5c639d",
+      "ui.auto.25d7c9453148",
+      "ui.auto.d8689887cea4",
+      "ui.auto.3279107a24ea",
+      "ui.auto.1ad6c092f61d",
+      "ui.auto.e7e9ce58d787",
+      "ui.auto.6837e597f45a",
+      "ui.auto.e2297fd7b3ee",
+      "ui.auto.b6d4b021baae",
+      "ui.auto.4f6d0008aeb1",
+      "ui.auto.52a26ab1a7ae",
+      "ui.auto.94eaa27055f0",
+      "ui.auto.093d05889ead",
+      "ui.auto.c716084845f6",
+      "ui.auto.c870da649cf0",
+      "ui.auto.012e8762e3ea",
+      "ui.auto.539af562c060",
+      "ui.auto.794f65e9d206",
+      "ui.auto.b2e6890b0149",
+      "ui.auto.e22fb092b5dc",
+      "ui.auto.bb2d06e28ceb",
+      "ui.auto.081649019706",
+      "ui.auto.46d8b7b16690",
+      "ui.auto.24ea13f1978b",
+      "ui.auto.e2152833e300",
+      "ui.auto.686566aed94b",
+      "ui.auto.39e0b394838c",
+      "ui.auto.c6b5067d4940",
+      "ui.auto.fcb97dc49445",
+      "ui.auto.718ac36affcd",
+      "ui.auto.63ca6d878e19",
+      "ui.auto.815ddefacf4a",
+      "ui.auto.b7152342a267",
+      "ui.auto.3d3e869f85f1",
+      "ui.auto.89d93afaead4",
+      "ui.auto.86ba514122e1",
+      "ui.auto.f2b484dc9703",
+      "ui.auto.e338cd6f9045",
+      "ui.auto.1df28b61b305",
+      "ui.auto.8e7ce025e352",
+      "ui.auto.356d2e833b08",
+      "ui.auto.8f56d81dff02",
+      "ui.auto.7b3fbea75252",
+      "ui.auto.e27e8cee87e7",
+      "ui.auto.c8fef35bb005",
+      "ui.auto.01b05a48e070",
+      "ui.auto.3467602d8281",
+      "ui.auto.d549f83a4475",
+      "ui.auto.b69d4e2bbb4e",
+      "ui.auto.494ce75b0265",
+      "ui.auto.32cb5cc9f04c",
+      "ui.auto.607e5cbb3f97",
+      "ui.auto.5b83bdde59ce",
+      "ui.auto.fc79ce86ce44",
+      "ui.auto.2f38169a712e",
+      "ui.auto.0eb5ed506e49",
+      "ui.auto.e9c45563358e",
+      "ui.auto.7f2f6a15cf8d",
+      "ui.auto.3831d4e3e5ac",
+      "ui.auto.327a1c0b6da0",
+      "ui.auto.54c33e70709f",
+      "ui.auto.071680a7dad5",
+      "ui.auto.900dab46dc70",
+      "ui.auto.63d7897994e0",
+      "ui.auto.d0ee9c60ed1f",
+      "ui.auto.4f57a1ce99e6",
+      "ui.auto.589ad2aaca35",
+      "ui.auto.d0fa5ce893cc",
+      "ui.auto.922e100333b0",
+      "ui.auto.45c0e2551b03",
+      "ui.auto.2807535b4358",
+      "ui.auto.d8fce4dd2fec",
+      "ui.auto.de72ea9e60d3",
+      "ui.auto.c9d88a87a5bb",
+      "ui.auto.37969ad89aa6",
+      "ui.auto.10b28a8c1e44",
+      "ui.auto.90dd9fde896a",
+      "ui.auto.00c8e7a0a0fb",
+      "ui.auto.7e2d14eedf83",
+      "ui.auto.cb1c9169da32",
+      "ui.auto.a29f0256272e",
+      "ui.auto.158d2bc45dcc",
+      "ui.auto.b261879a296f",
+      "ui.auto.c8ec80090439",
+      "ui.auto.8b8c800213f0",
+      "ui.auto.855ca5ff23c9",
+      "ui.auto.287d8d95c53c",
+      "ui.auto.2e00621001af",
+      "ui.auto.def1e3ce4d81",
+      "ui.auto.7bc01ea4234b",
+      "ui.auto.f02e7523ea69",
+      "ui.auto.f7b923a9ca88",
+      "ui.auto.5df29b80b97d",
+      "ui.auto.d1c770415641",
+      "ui.auto.61e86dafb438",
+      "ui.auto.4e8e7d21443e",
+      "ui.auto.523e9b335b47",
+      "ui.auto.3f5aecea03d0",
+      "ui.auto.04b58b46d468",
+      "ui.auto.8df3c16604c5",
+      "ui.auto.e47759588d22",
+      "ui.auto.754b8ab629bc",
+      "ui.auto.d1e9e114c51f",
+      "ui.auto.5cb540516381",
+      "ui.auto.f8a970939c03",
+      "ui.auto.44c57abd888a",
+      "ui.auto.710a04583fea",
+      "ui.auto.ef0e4831e8a4",
+      "ui.auto.44605974562e",
+      "ui.auto.9d6a1191567d",
+      "ui.auto.86e41821732e",
+      "ui.auto.34767982fe9d",
+      "ui.auto.5a835db1222f",
+      "ui.auto.3ccd0ca86262",
+      "ui.auto.7e5d28344ace",
+      "ui.auto.8c130bd9efba",
+      "ui.auto.21b85a72790b",
+      "ui.auto.880934ba6541",
+      "ui.auto.f21783d27d89",
+      "ui.auto.28c4847d4d63",
+      "ui.auto.8718d1e3cbf8",
+      "ui.auto.4a9c840d9f0c",
+      "ui.auto.576423378bca",
+      "ui.auto.d8ceafaa3f17",
+      "ui.auto.b478a7f9f09d",
+      "ui.auto.1a8beceb0bb4",
+      "ui.auto.cc0887be183e",
+      "ui.auto.a063066c3825",
+      "ui.auto.e9ebc0dc2f2b",
+      "ui.auto.248959f780c7",
+      "ui.auto.888ff4c6f29c",
+      "ui.auto.be3374cab25f",
+      "ui.auto.62c2d95ce033",
+      "ui.auto.3448080dc136"
+    ],
     "changed": [],
-    "removed": []
-  }
+    "removed": [
+      "ui.auto.4d064726954a",
+      "ui.auto.0ae1c471e5be",
+      "ui.auto.12741c6ad491",
+      "ui.auto.ccf6758ac014",
+      "ui.auto.9a7d4e0687b1",
+      "ui.auto.b220e0065439",
+      "ui.auto.c76ec1a9f58c",
+      "ui.auto.b08bccb22d5d",
+      "ui.auto.df0a3327c4e3",
+      "ui.auto.be0a7d5ca2f9",
+      "ui.auto.96f1c6a29689",
+      "ui.auto.4bdd68714873",
+      "ui.auto.33dcd3305da5",
+      "ui.auto.b6f70fc37bab",
+      "ui.auto.24f318e95a73",
+      "ui.auto.827c40257218",
+      "ui.auto.a0f3903726b0",
+      "ui.auto.f8f5513e69e7",
+      "ui.auto.1855190085a7",
+      "ui.auto.816c52fd2bdd",
+      "ui.auto.e992b35b7d13",
+      "ui.auto.5f8302e25319",
+      "ui.auto.312413596d39",
+      "ui.auto.bca788763dd4",
+      "ui.auto.1228da274fb4",
+      "ui.auto.3825db9ed4de",
+      "ui.auto.5308de00eeec",
+      "ui.auto.e498b8caa534",
+      "ui.auto.516aae52959d",
+      "ui.auto.8fbf9c7d0bf5",
+      "ui.auto.bc7819b34ff8",
+      "ui.auto.5397e0583f14",
+      "ui.auto.b308632c7a01",
+      "ui.auto.a69b701b1f60",
+      "ui.auto.f9a9ff647d5f",
+      "ui.auto.dddf96192b2b",
+      "ui.auto.3f422e6edf99",
+      "ui.auto.511e2c1bf991",
+      "ui.auto.337d94dd6314",
+      "ui.auto.26e7ca840042",
+      "ui.auto.9c82ff9074a6",
+      "ui.auto.7aeee1096f9b"
+    ]
+  },
+  "missing": [
+    {
+      "key": "ui.auto.fd81e2455ee4",
+      "source": "Trace logging still active",
+      "source_hash": "d4ebd86fcb3b628ea8debe33735fe93941fb751deb3faf4589f2ca56d41f2364"
+    },
+    {
+      "key": "ui.auto.84b1463bf94a",
+      "source": "RTSS + XeFG detected",
+      "source_hash": "b1e5044d23c7c2c38d0d28729fd21ff44d7f784f5222bbc3ba259fe58d79a881"
+    },
+    {
+      "key": "ui.auto.2003add9a84c",
+      "source": "RTSS Reflex Injection is known to cause issues.\nEspecially when using XeFG.\nPlease disable it.",
+      "source_hash": "991ecb787581fd6035d7dbf27584ed6fc117abe270e6a65a4d9326e9d0fa2432"
+    },
+    {
+      "key": "ui.auto.111f6685293b",
+      "source": "Cope smarter, not harder",
+      "source_hash": "193aa29035d14f9b1f8c1d5a3fc42851ecf9a47405a8d1d6359394a83b839453"
+    },
+    {
+      "key": "ui.auto.ada7cc3b282b",
+      "source": "Coping is strong with this one...",
+      "source_hash": "497842afcf864a9b28fce98774923b36efaa5f7d1d98d43804987f9ab4edabeb"
+    },
+    {
+      "key": "ui.auto.181b4a52392c",
+      "source": "This is where the fun begins...",
+      "source_hash": "d5f0003583c88040fdaf55a9240c8d193b0b315d033920879dcf9107ed52ac13"
+    },
+    {
+      "key": "ui.auto.9cb591bb4ec2",
+      "source": "Got any more of them scalers?...",
+      "source_hash": "af10c7160d2a0812a04f970868984de1090f929f327a99eb85a5eddf598476a1"
+    },
+    {
+      "key": "ui.auto.d92afe9f9da2",
+      "source": "Fake pixels and even faker frames...",
+      "source_hash": "cc3a60430b96964196038664325b733dc40d9322357845c5dc82cf0c9a61bbea"
+    },
+    {
+      "key": "ui.auto.045b6438aadc",
+      "source": "Fake frames, get your fake frames...",
+      "source_hash": "118695fe9df2f11cb3eb686caffcac455d5a526231f984bdb7b55f003ffea248"
+    },
+    {
+      "key": "ui.auto.d5fb57e7d123",
+      "source": "I'm here to kick pixels and chew frames...",
+      "source_hash": "d8dee6007050f8fd0a07a865186c7e7eb8dc868140728caa29dc45f3d7689809"
+    },
+    {
+      "key": "ui.auto.11963a26d9b4",
+      "source": "I find your lack of supersampling disturbing...",
+      "source_hash": "ac2281477d96b7b5987a19100bd2ba66d161ccf4212f9545bb67b805228d7c8f"
+    },
+    {
+      "key": "ui.auto.46f4e5afa2c9",
+      "source": "Frame by frame, I scale-up!",
+      "source_hash": "52b914d864f09412938b55396dac9c9e712034f09b9319e083375d4d51556913"
+    },
+    {
+      "key": "ui.auto.ff7b84504823",
+      "source": "Resistance is futile. Your pixels will be upscaled.",
+      "source_hash": "209b2592261b6dd8351adc3680e098b22c06e6e3f124c1d8c70f8f56ac4e9372"
+    },
+    {
+      "key": "ui.auto.f0880d5c59a8",
+      "source": "I've got 99 problems, but low-res ain't one.",
+      "source_hash": "ddda54854c766f5aac93cbe8bef855303d38aa7a045165eed716135bd80f01f8"
+    },
+    {
+      "key": "ui.auto.74fc7d7384f0",
+      "source": "It's over, DLSS, I have the higher ground!",
+      "source_hash": "7162ccb11dd59fba0f5442126720173fa47486732e01eb5f309dbec11e467c62"
+    },
+    {
+      "key": "ui.auto.589bac8a3cc6",
+      "source": "This isn't the resolution you're looking for",
+      "source_hash": "716cf9c4dcd1397c83044ff5fc26048596f6de395b9906aac00cb4f4856c4f7f"
+    },
+    {
+      "key": "ui.auto.4518b625ab0e",
+      "source": "To infinity and beyond... with ray tracing off",
+      "source_hash": "19526955ec110743670e4352cf16e75b7693881a411982c693151fb1aecb28dc"
+    },
+    {
+      "key": "ui.auto.4d0c0e932b03",
+      "source": "I have a bad feeling about this frame pacing",
+      "source_hash": "43414ac7eac02a307b6ea9f12bfe742dbf23516634905baaf7a2b045c1bdafea"
+    },
+    {
+      "key": "ui.auto.162a3f67858c",
+      "source": "It's Dangerous to Go Alone-Take This Upscaler",
+      "source_hash": "1a90bd710668b932693ff401d6f9766219669d38c1221cc449956cd29b668164"
+    },
+    {
+      "key": "ui.auto.4471791dd666",
+      "source": "Upscaled beyond recognition.",
+      "source_hash": "7ca721d5fce7ba522f87e031ac18f944283bb16bf02e3560e10aa32970d1261f"
+    },
+    {
+      "key": "ui.auto.8a8679496220",
+      "source": "Trust the process. Ignore the shimmer.",
+      "source_hash": "6a544bdceb0363a4772381a6a7f60174c1df844f9c9c4ea2c471d5ec1886d695"
+    },
+    {
+      "key": "ui.auto.30dc2b1e70d7",
+      "source": "Real fake frames. Certified.",
+      "source_hash": "51bba4cb325dcd65c61ffbbfd55fa4ea6e0b5247d593f4cd57ec7a153811aacd"
+    },
+    {
+      "key": "ui.auto.4d66d16d0805",
+      "source": "The illusion of performance",
+      "source_hash": "8894f7952be6009e55ec359c40124f6b7bc13eccc91f1bec7e52123f900c248e"
+    },
+    {
+      "key": "ui.auto.2064ba6fee66",
+      "source": "This upscaler belongs in a museum!",
+      "source_hash": "6ed661d522089c94df1d16304b73f6386ea3fbcb7dd1c07cb9ef068469de2ebe"
+    },
+    {
+      "key": "ui.auto.bd2d71e1822c",
+      "source": "Because native rendering is overrated.",
+      "source_hash": "cffe9d4a10fde6b2fb317957d9887278ab51b0d006bcc0df402d77038638e1da"
+    },
+    {
+      "key": "ui.auto.3ac7be3d28bd",
+      "source": "The more you upscaler, the more you save",
+      "source_hash": "fa08f03953b4a588db0c8cbd7c5491bdcc886d79ba5b6dc77f1f9cb3f834e64c"
+    },
+    {
+      "key": "ui.auto.dd0b075893d6",
+      "source": "It's never too late to buy a better GPU",
+      "source_hash": "d2ad22695309495c55149fa90c1541350a1f419dfb2d3b8a5bb45d0daa20baba"
+    },
+    {
+      "key": "ui.auto.540c07c51ec8",
+      "source": "We don't need real pixels where we're going",
+      "source_hash": "a3862568e2131a4de78276e8e9621e16d51506a325835aad5aa556a5fb473a7d"
+    },
+    {
+      "key": "ui.auto.bd7615fc1ca9",
+      "source": "Did you know that Intel released XeFG for everyone?",
+      "source_hash": "f6856805bd3cf56ea5fe028a8a9e537177f15c5d0649bbe631e3ff011a81b25e"
+    },
+    {
+      "key": "ui.auto.3857d25775cd",
+      "source": "MFG totally works with Nukem's 100%% no scam",
+      "source_hash": "571713f37c5a8b295512373152e3c59130642ced3b362b6df454961afe065e87"
+    },
+    {
+      "key": "ui.auto.4b3d4c6ab300",
+      "source": "Some of those pixels might even be real!",
+      "source_hash": "8e1b3a2e762d70fac56c81b7e85560fdfbc777ef58698c1d7ec4534e1c608a9c"
+    },
+    {
+      "key": "ui.auto.935e1dacb0d2",
+      "source": "Just don't look too closely at the image",
+      "source_hash": "5376bcee4d575685329b65823a5191a9cf9f68a42ecee2d957e758bfccfd9c96"
+    },
+    {
+      "key": "ui.auto.31315a8bc9b5",
+      "source": "Even supports \"software\" XeSS!",
+      "source_hash": "eed9c6b94b5e327e2cee24b7dfa3e30744a0a449ecd6f7ffb314dc014b651cd1"
+    },
+    {
+      "key": "ui.auto.5d4a245e203e",
+      "source": "It's too blurry to go alone, take RCAS with you",
+      "source_hash": "1cca09a08143fcdd81a305796a3ee911b23192e881e86f54170df8609c600415"
+    },
+    {
+      "key": "ui.auto.19fa3e7657c3",
+      "source": "Thanks nitec, back to you nitec",
+      "source_hash": "2d1699bed7248c21c134df521b3aeedff00838ad1b0e57b778cebdb67333b331"
+    },
+    {
+      "key": "ui.auto.f5528f6dd72b",
+      "source": "Tested and approved by By-U",
+      "source_hash": "4d30c6e14dff4c6feb4525469fc482ce0fb3969e991409f728cc91468ed694bb"
+    },
+    {
+      "key": "ui.auto.b787dcd8199d",
+      "source": "0.8 was an inside job",
+      "source_hash": "edc21aa3d154c902e2141c2315227eb57442296b35bb4c3ed00b2f74f96801ec"
+    },
+    {
+      "key": "ui.auto.7c4480c50147",
+      "source": "FSR4 DP4a wenETA, AMD plz",
+      "source_hash": "bce5136906d8731af5828d647c951056c79ff3c10a0b1dfd833d24578605654c"
+    },
+    {
+      "key": "ui.auto.2aa6b5d5e86b",
+      "source": "OptiCopers, assemble!",
+      "source_hash": "ad26d10556b25dc4f3b1d68837abc203ccaa8b3d55aec939f452541955480eb5"
+    },
+    {
+      "key": "ui.auto.560e0aed80b8",
+      "source": "The Way It's Meant To Be Upscaled",
+      "source_hash": "9bb2834f89e313eaeed96077c7a2759c86f1c282d1b8c832688a28425a95f591"
+    },
+    {
+      "key": "ui.auto.4a09448d52ed",
+      "source": "Your game may not even crash today",
+      "source_hash": "0916b32913832808ceb9ea830255b4b01c1ba647268198315b8a40d1a44cfb2a"
+    },
+    {
+      "key": "ui.auto.03275d86b515",
+      "source": "Expanded and Enhanced",
+      "source_hash": "17092f890537dcc6ea3b4a496663bea02afb906ebe55736b5bb96db950c96b12"
+    },
+    {
+      "key": "ui.auto.d68d0717b694",
+      "source": "It's only my 5th crash today",
+      "source_hash": "d09a77c27d25daf076f1baa71d73fab566be3ef55a4c73c072f9e72240288daa"
+    },
+    {
+      "key": "ui.auto.9398231fa849",
+      "source": "Latency with FG? But I have good internet",
+      "source_hash": "4dfd4c259598824aa161cd6481245d7bd9654c047cb8f17bad150b92c3038785"
+    },
+    {
+      "key": "ui.auto.f85f5da0b4e9",
+      "source": "Console peasants can't do that",
+      "source_hash": "907cb29e37605e87a098136df10a1190f6ceb620dff378612454368390895f56"
+    },
+    {
+      "key": "ui.auto.a218ccfbd46a",
+      "source": "Hope you don't have a good eyesight",
+      "source_hash": "253b14f1176ae542c6c206678431a9b6edadea3f0d4806cff9cd555e5a67ff27"
+    },
+    {
+      "key": "ui.auto.a84a1af0d6f2",
+      "source": "Such an aggressive upscaling? A bold move",
+      "source_hash": "02c59fab21ba9c8f877d8f0f32c8f31b34792f46076fa6c8bfd20b3085913814"
+    },
+    {
+      "key": "ui.auto.42315fe98655",
+      "source": "I almost don't feel the input lag",
+      "source_hash": "7cae8eec641ab20f0ea380c2b62cb342013a3e9ce4645755f4bbb5d1f12761ef"
+    },
+    {
+      "key": "ui.auto.d4bc6cefbcf4",
+      "source": "And that's how you get to 60 FPS",
+      "source_hash": "e1f0cc4b92093e213064fc0f80d1d1354109e9628d472834b85c2fc4225c70a4"
+    },
+    {
+      "key": "ui.auto.acb5635a4a6a",
+      "source": "Together We Upscale",
+      "source_hash": "e92fb54dc36929d0a5cf9131c385408fa6db38b22cebe672e0a23820b346ce4f"
+    },
+    {
+      "key": "ui.auto.d3c82733cc46",
+      "source": "For upscalers, by upscalers",
+      "source_hash": "e508ad5c053ce4a77a36f461416ec7149d58474247b025a62f6a540a0cc0637d"
+    },
+    {
+      "key": "ui.auto.c40c9e2b06b9",
+      "source": "Opti Sports, it's in the sampling",
+      "source_hash": "f6f9de433f9c4ad1e4eee0dd30addba4c2e2c914f767ff082b6d573b9734f0fa"
+    },
+    {
+      "key": "ui.auto.d40ec6bf3b65",
+      "source": "Render in your world. Upscale in ours",
+      "source_hash": "b1cae86fc4fc244960bf5e5c05c4b5989991c673367de847eb94b8f6b95c481c"
+    },
+    {
+      "key": "ui.auto.4f4c3fdf20e3",
+      "source": "All your pixels are belong to us",
+      "source_hash": "00de4bb2cd5530fe7c6bcdbc80cd4d098b619116871e30ea5c681b2005c3154a"
+    },
+    {
+      "key": "ui.auto.572d12237e2b",
+      "source": "Upscaling for the masses, not the classes",
+      "source_hash": "a36e4aa75ce5728cd818f36ee601538c110bb89ad30659ebd2a2fb4283de0034"
+    },
+    {
+      "key": "ui.auto.1c8afd3daa88",
+      "source": "Generating discord since 2023",
+      "source_hash": "696145d645bed508411019d8d4a99d42af7ae3fff8d54796a5e99cc0ea1a228b"
+    },
+    {
+      "key": "ui.auto.c67ecfce6a6b",
+      "source": "Enabling DLSS since 2023",
+      "source_hash": "1015315d0c781a75e8b02f9a533e61689485eb8b9f0734ef31c4d02da3c2ccf0"
+    },
+    {
+      "key": "ui.auto.f480889dd3e0",
+      "source": "[REDACTED] never looked better",
+      "source_hash": "73df70b7488230a1f99824e299cb1279a4459a1963e744cc06a54fe4b248dd7c"
+    },
+    {
+      "key": "ui.auto.9e86fc862122",
+      "source": "Free and always free",
+      "source_hash": "143a23d8e0371cb3833eee80602de78b4ca290970675668077e1e21890483dd4"
+    },
+    {
+      "key": "ui.auto.7a6c13846902",
+      "source": "Getting unshackled from green chains in progress...",
+      "source_hash": "29310fb8fceecc9256c114c821cedd5e80b6ac6e261a0841e441fcd59fc38132"
+    },
+    {
+      "key": "ui.auto.d8e93cad9909",
+      "source": "Who's Nukem anyway?",
+      "source_hash": "61dd83500bc800f301597c91e90478726bc3cf7b7651c081cb88742e27996b61"
+    },
+    {
+      "key": "ui.auto.077652f33f66",
+      "source": "Compiling shaders... ETA: 05h:49m",
+      "source_hash": "83b83f87938677a11f4254d4a78a9a8197993de923174d3180a2532a9d440105"
+    },
+    {
+      "key": "ui.auto.2ba9dc2ed003",
+      "source": "Did you really just pay 70 EUR for this game?!",
+      "source_hash": "499c1edd7c40f1ecb0f6cbd411b5c2dc894a39795bc29fe9835fcd25eee3ce48"
+    },
+    {
+      "key": "ui.auto.719a9a2bb3b6",
+      "source": "Guess who forgot about a nullptr check again",
+      "source_hash": "c0a8b00493b7fadeee720f8f6663c5c2f533e5ec3ab914f9a0062c05d11557e8"
+    },
+    {
+      "key": "ui.auto.348e462f46e6",
+      "source": "AI can't outslop this",
+      "source_hash": "81927391c2171665be4d8ef9011f138cb8340d241314c2f49c6b97574b584bcb"
+    },
+    {
+      "key": "ui.auto.f8a4e7a2be4c",
+      "source": "Guess we're pre-alpha build demos now",
+      "source_hash": "8ee786c4a04d19f576bf613b550973b41e58cff8f50c776a722d67fdd120e815"
+    },
+    {
+      "key": "ui.auto.f522065bf3a4",
+      "source": "New app on the block - TH",
+      "source_hash": "8a4e5e39787c2ac6180f7576586b0321d324fdad955c9f0047e875bb8ce5631d"
+    },
+    {
+      "key": "ui.auto.ced7f2de7bd5",
+      "source": "One more stutter and I might lose it",
+      "source_hash": "d0479cbc31ad15d9571d8572f614ec6b0d1b698d837c88b9b3b52260a613b5ca"
+    },
+    {
+      "key": "ui.auto.0564ffd17743",
+      "source": "Mostly stable, unlike the driver",
+      "source_hash": "f5cd71423fb736ff786544350403fa173e34344db44631f3b72ec83d0c47ef90"
+    },
+    {
+      "key": "ui.auto.bfcf2e10adc3",
+      "source": "Vul... what? ~AMD",
+      "source_hash": "e2f47b03193b3aee24bdd74de41bf3b1f53590f375a0deb77f21400e40493460"
+    },
+    {
+      "key": "ui.auto.82f4acab7f13",
+      "source": "My 8 points are floating",
+      "source_hash": "293a360dcd0a29b7ea7b5165be5680aede84f32d58c384704ef7f14dc145df40"
+    },
+    {
+      "key": "ui.auto.262fd0c95893",
+      "source": "No floating here - I'm strictly between -128 and 127",
+      "source_hash": "15514bfab2c4835411a14f086e6af9623c1416eedcc245795ab970d2898a4c52"
+    },
+    {
+      "key": "ui.auto.0d0ce619f28c",
+      "source": "Fake it til you bake it",
+      "source_hash": "333ca6d6b5efc6200bb51e8c711b563cd7dfba857291f5e4326247711ae2f88d"
+    },
+    {
+      "key": "ui.auto.378ca33fa9c7",
+      "source": "Worst case just turn it off and on",
+      "source_hash": "27a353d66ccc4793929ff7d22ed1096d7ed8da15057bc64ee60c84fdfcd380e4"
+    },
+    {
+      "key": "ui.auto.fdbf3c6657bf",
+      "source": "*On a generative damage control mode at geometry level*",
+      "source_hash": "0d4e4a370a737fbcfdf17a3d190dc3d4315149f3ec46af6584ae8282de930f75"
+    },
+    {
+      "key": "ui.auto.5f3172180790",
+      "source": "Deep Learning Slop Sampling 5",
+      "source_hash": "f96c4926b2f3bdc7484b41788a1a18348d660f8dbe90bc06e1426a8a8c55f9a1"
+    },
+    {
+      "key": "ui.auto.d1103df4632d",
+      "source": "2D AI filters, now powered by just 2x 5090s",
+      "source_hash": "c13211f25db4ea50c1fb38a251201968795fd49e00855ef7af13e35b75a30a8b"
+    },
+    {
+      "key": "ui.auto.51eadbd65ade",
+      "source": "Neural Slop Sampling with DLSS5",
+      "source_hash": "b2d71327c880443495c4e4b0250c802ffa4fcd8651f876481370a8ec9964f5d1"
+    },
+    {
+      "key": "ui.auto.aff9bdee1ae8",
+      "source": "DLSS 5 - the way it's meant to be slopped",
+      "source_hash": "e8850a71d4d9e402a1c77d4c0d8230f5230bae0899d9c7564b2a1ae8da170b5d"
+    },
+    {
+      "key": "ui.auto.43ad64f6c038",
+      "source": "Just when I think I'm out, they scale me back in",
+      "source_hash": "16cd91ee25d4897da935e9118a1430de05e1ae642fd4709e9148f2d9ec6d8e0e"
+    },
+    {
+      "key": "ui.auto.71f64bfd03de",
+      "source": "Like going in the first gear on the highway",
+      "source_hash": "584dceddbbfd1366bacfff2ff37eb150ffdf2e289ee7353ebf08b0a04fc30dff"
+    },
+    {
+      "key": "ui.auto.4423e509db2b",
+      "source": "Nitec's Bizarre Upscaling",
+      "source_hash": "299b44d25151f715dcd40716621c530db0cba10d7882c955b3f91d14d67ffa85"
+    },
+    {
+      "key": "ui.auto.63424c91d05d",
+      "source": "\"Framegen really attracts some strange clientelle\"",
+      "source_hash": "439737dbf93830e8205829842bc56c5749e87a20ec716448b24330ece1172b16"
+    },
+    {
+      "key": "ui.auto.04f69cbbc6a5",
+      "source": "How to remove those corny messages?!",
+      "source_hash": "e654cad86f2eef6f7a0d32803176243a1a176403d0887d622177585bda5f1265"
+    },
+    {
+      "key": "ui.auto.d920cdd39296",
+      "source": "<Your funny text goes here>",
+      "source_hash": "777b6ba03159f08f30aa1bb1c8aca7becd7c701a54de6526355acd2cf102b9f2"
+    },
+    {
+      "key": "ui.auto.50c3f10f5b1c",
+      "source": "AUTO",
+      "source_hash": "6ea56fae9eacbb0ebed74bbbe731cf1179b7d41146162fe9b8c26cf0615c2367"
+    },
+    {
+      "key": "ui.auto.e4636d467ea5",
+      "source": "COMMON",
+      "source_hash": "aa2e225c4fd9d0f18672fc3592332fc9fd7c35f8289927ddf9f7b53df621e178"
+    },
+    {
+      "key": "ui.auto.b40f85dcc743",
+      "source": "PRESENT",
+      "source_hash": "83aaae26be52087d57a7fdf0b6b7fdc5eadc9d4b92a556cc85188ff45cb5963c"
+    },
+    {
+      "key": "ui.auto.ad0f8c521db9",
+      "source": "PREDICATION",
+      "source_hash": "f0d1452334c36b396fb2e9bf93a114345d96b576c7cc03b6c9eafce92df0411a"
+    },
+    {
+      "key": "ui.auto.7b76c560c43f",
+      "source": "PRESET A",
+      "source_hash": "f83f50c477a235923474e7c7f856b3bdcbc88e2bb7eb20788c0506ac3060dcec"
+    },
+    {
+      "key": "ui.auto.61b993c5dead",
+      "source": "Intended for Performance/Balanced/Quality modes.\nAn older variant best suited to combat ghosting...\nRemoved on recent versions!",
+      "source_hash": "38630411669a338474b20e1af16873d7ebb154d2300892591039d306654a00fe"
+    },
+    {
+      "key": "ui.auto.4b13035128f9",
+      "source": "PRESET B",
+      "source_hash": "35b91d05e59a086a351793663a59fff528dccee1155b8aa0b7332664665eeed8"
+    },
+    {
+      "key": "ui.auto.21f7f62682fa",
+      "source": "Intended for Ultra Performance mode.\nSimilar to Preset A...\nRemoved on recent versions!",
+      "source_hash": "c140292d2bb5791cfba248a5ea08586afcd7fe97a4f20c8a3b4fc0e9e89612a4"
+    },
+    {
+      "key": "ui.auto.bfdb8215ae8a",
+      "source": "PRESET C",
+      "source_hash": "ae76acc48cfcaedddc8ed2650347d5a34a36abb568b594a60ce3bfdaf05a3a79"
+    },
+    {
+      "key": "ui.auto.b7f7e8c345e0",
+      "source": "Intended for Performance/Balanced/Quality modes.\nGenerally favors current frame information...\nRemoved on recent versions!",
+      "source_hash": "1533898004b2b3b41e1762e98ceeb229b3c1cfd46f02ad8b30281196161e93e1"
+    },
+    {
+      "key": "ui.auto.9e5278ecaadf",
+      "source": "PRESET D",
+      "source_hash": "b8d03f5eff5be1cc93cd977c3fdefc96dfce5135783fef4eb4650fbf2810af15"
+    },
+    {
+      "key": "ui.auto.f3316bf3e290",
+      "source": "Default preset for Performance/Balanced/Quality modes;\ngenerally favors image stability.\nRemoved on recent versions!",
+      "source_hash": "197e4d9f41ea1f83a4d1c0070412766d460b84fdc2243daa97fa3cadded316ca"
+    },
+    {
+      "key": "ui.auto.c62f780de9d9",
+      "source": "PRESET E",
+      "source_hash": "f347a4a4fa5a5a72649d25ca89d283f5aff79ad367aecadb2599da0249d11187"
+    },
+    {
+      "key": "ui.auto.4d8b7b3b519a",
+      "source": "DLSS 3.7+, a better D preset\nRemoved on recent versions!",
+      "source_hash": "86c0621d0dac3071ceec8a06204d2a9ad46bdf7fa2a99d5bfee4b603d65dc4a2"
+    },
+    {
+      "key": "ui.auto.178917d797aa",
+      "source": "PRESET F",
+      "source_hash": "0a24b01616d3e5fc3cc8d9717766d8897b640e4bac49f3afe65e1f538e6d015e"
+    },
+    {
+      "key": "ui.auto.a114af69d3b5",
+      "source": "Default preset for Ultra Performance and DLAA modes\nRemoved on recent versions!",
+      "source_hash": "98967833e3f239409c3bb8e5d5d2ff94a258c36ebfce22518828ff08d4fcec4a"
+    },
+    {
+      "key": "ui.auto.823a134253ee",
+      "source": "PRESET G",
+      "source_hash": "bcbe8966a563ce6b69be6b0ce03039252f47fbb264f5217dc3f92d5157f2362e"
+    },
+    {
+      "key": "ui.auto.f80b01ae8eca",
+      "source": "PRESET H",
+      "source_hash": "8b471bbc05d508802bb8645139e4bea4e4b5d29438b406ab3dc75c6aad7a5cce"
+    },
+    {
+      "key": "ui.auto.949b04c735b4",
+      "source": "PRESET I",
+      "source_hash": "82ba9e20cbd5f976ef8b3c0574483958a812ecf66c32e91497a94c211c87ca34"
+    },
+    {
+      "key": "ui.auto.6d67ed09acf4",
+      "source": "PRESET J",
+      "source_hash": "920f5cc965e75dffdf93998b28f6436101370d04f0bfe550abada350abb6cee4"
+    },
+    {
+      "key": "ui.auto.7bb6691122c0",
+      "source": "Similar to preset K. Preset J might exhibit slightly\nless ghosting...\n1st Gen Transformer",
+      "source_hash": "d5a03ddef059318f9d6ada1ceec9d771ae622fd580e008177fbd010f8db493c3"
+    },
+    {
+      "key": "ui.auto.df9b8e13b00f",
+      "source": "PRESET K",
+      "source_hash": "eb9fcc8eeb44d43c7cff73ef81ae13844c5bdb2fa53602cfe1664098b2723ba0"
+    },
+    {
+      "key": "ui.auto.17dd6bef051f",
+      "source": "Default preset for DLAA/Balanced/Quality modes...\n1st Gen Transformer",
+      "source_hash": "88540fa77feca7606dc83d68e84cc9d9c3d3868dae86461d4adb3e12a4d09c37"
+    },
+    {
+      "key": "ui.auto.973451e57f66",
+      "source": "PRESET L",
+      "source_hash": "4d96f2dd865a6ebb408e8f8483ab8c831e150dd8802c127b43c29db6f657c1ea"
+    },
+    {
+      "key": "ui.auto.b4b4979881a2",
+      "source": "Default for Ultra Perf mode\n2nd Gen Transformers",
+      "source_hash": "ad590f7c9c25ee269094c61c056958ff2d8e727c8cf53f9f3075e1f557ec1248"
+    },
+    {
+      "key": "ui.auto.be7807c30a83",
+      "source": "PRESET M",
+      "source_hash": "e42491c5d6c2d930c84de47b85cc9bbf7e16f878daf5a0ded9c020c19cc6ff49"
+    },
+    {
+      "key": "ui.auto.b8d7401ff933",
+      "source": "Default for Perf mode\n2nd Gen Transformer",
+      "source_hash": "f9f88fccfd3e18ef41cc128f77fb2acdcb2cc79ed8a71497d1dafe67a71ce2b1"
+    },
+    {
+      "key": "ui.auto.7df1f705a491",
+      "source": "PRESET N",
+      "source_hash": "ee12ed7e924f9c7239e783aed128efc060ebb74419d4d97fa632ddb0fe7d22c8"
+    },
+    {
+      "key": "ui.auto.40678fe7a92c",
+      "source": "PRESET O",
+      "source_hash": "82d63f5c6cce500c6ce886db958cdc7d3ca8d458266bae36bed5bfed27307405"
+    },
+    {
+      "key": "ui.auto.8666c91068ae",
+      "source": "Preset A\nRemoved on recent versions!",
+      "source_hash": "c2baed662e4b26125a26a0b7821b762a6b4e0cd826e80ec37379cf50b18c4fd9"
+    },
+    {
+      "key": "ui.auto.1fa9530aedbe",
+      "source": "Preset B\nRemoved on recent versions!",
+      "source_hash": "81c245a085afdb7973bf58edd213eac0d8884336dfe229839bd0bf96159f1bc6"
+    },
+    {
+      "key": "ui.auto.65e898514916",
+      "source": "Preset C\nRemoved on recent versions!",
+      "source_hash": "8a033ebab7332e81d72dd7c80655f881eae681c34fd1fff636812a754272e3a0"
+    },
+    {
+      "key": "ui.auto.347cd9c53ff7",
+      "source": "%s",
+      "source_hash": "f684c73cba75b2ba0b6833f62a8fa8af6b8a2d3711b775d52596105f4917e38d"
+    },
+    {
+      "key": "ui.auto.ff4c04db0fc7",
+      "source": "OptiScaler Update available",
+      "source_hash": "7cf6b1fd7c982f9ad728feddc278b0b544812393db727456e84d224fcfae9154"
+    },
+    {
+      "key": "ui.auto.299910c52358",
+      "source": "Press %s for more info",
+      "source_hash": "f82b726160e5caad95ce1f16117aeb144b0a5e20f735f6adaef442c66e0019c0"
+    },
+    {
+      "key": "ui.auto.ddfc25b52a26",
+      "source": "Consider renaming OptiScaler from %s to other supported name.\nYou may experience issues otherwise.",
+      "source_hash": "e8cdab9d93cccf412cf45bd3d04091c4977d7dd11fd65f70a99434af4c94501e"
+    },
+    {
+      "key": "ui.auto.b151fef87779",
+      "source": "Performance Overlay",
+      "source_hash": "7fa0dcee50d0ea225bd3e39b539cdeefa411e6dcc38827c3d746375216189ea4"
+    },
+    {
+      "key": "ui.auto.0d1750a881d1",
+      "source": " | %s -> %s %u.%u.%u%s",
+      "source_hash": "9e43b0d603524d689fdb0bd048ad98e3f9f0e2909634e5ff6926c131e9a2aa03"
+    },
+    {
+      "key": "ui.auto.f53b37ebb548",
+      "source": "%6.1f/%5.1f ",
+      "source_hash": "3c4e46584093914ee20f6c6c9bb191b6a9431b99b4e5e2d9c4efd318f0233f7e"
+    },
+    {
+      "key": "ui.auto.1a7edea27800",
+      "source": "FPS: %6.1f/%5.1f, %7.2f ms",
+      "source_hash": "7fc0e14c029e83ef574bb60bc9c407da9df8be23542e13cee084c35f85a81e3b"
+    },
+    {
+      "key": "ui.auto.bb2753332858",
+      "source": "FPS: %6.1f/%5.1f, Avg: %6.1f",
+      "source_hash": "a57590b640be8c348fbf665064fb5ff91a349a1d0cb848608901e5d12b59323f"
+    },
+    {
+      "key": "ui.auto.d40f160e7590",
+      "source": "%6.1f ",
+      "source_hash": "222b29595dd4ac079a53948c75c90136ce6c4e50c1ed98a00b2ff7ff4dc0ce8c"
+    },
+    {
+      "key": "ui.auto.b76a1ffe2196",
+      "source": "FPS: %6.1f, %7.2f ms",
+      "source_hash": "625ecf49ad7478ccc516972e6937dba013e20067e8d30f147f27def7e527902f"
+    },
+    {
+      "key": "ui.auto.69de7e60e24a",
+      "source": "FPS: %6.1f, Avg: %6.1f",
+      "source_hash": "badec55e960cad003c4a97488bcd2979151c9d17390e055fc7ff9767215b98d1"
+    },
+    {
+      "key": "ui.auto.9e01d34ff0c0",
+      "source": "%s | %s%s%s",
+      "source_hash": "ab2d806a599ec499b754b9d44d65cd9057a73e8ccaec711d4745a8c7024e85d5"
+    },
+    {
+      "key": "ui.auto.725c4b6b77eb",
+      "source": "Frame Time: %7.2f ms, Avg: %7.2f ms",
+      "source_hash": "5395067f5d63362b2c58f290f9bfc67f74afa4d10b4e541295f3166ce153d00f"
+    },
+    {
+      "key": "ui.auto.e135eb5ce26d",
+      "source": "Upscaler Time: %7.2f ms, Avg: %7.2f ms",
+      "source_hash": "f81d0d2f492b2a19f1044a2e7104b17bfb9fbe1ba3879fb51b28bfc6c8141038"
+    },
+    {
+      "key": "ui.auto.5cd16465be49",
+      "source": "FGId: %llu, RfxId: %llu",
+      "source_hash": "65e0ad104da5a43c5f44511cf2fd821fc70e630dc5209df58ce47926857955dc"
+    },
+    {
+      "key": "ui.auto.40c498805679",
+      "source": "Low latency timings, whole frame: %.1fms",
+      "source_hash": "155be94ee3a8f2c01c65ffac97ff877391d80bdb3bd514dd07e1b8359812fa06"
+    },
+    {
+      "key": "ui.auto.f2ecf2910a61",
+      "source": "%-12s %4.1fms",
+      "source_hash": "c46cd9ae3e86e8ae609e88812ba9c8b4d662a93fb7a8c3ccb81bcf6bbaab4da6"
+    },
+    {
+      "key": "ui.auto.27cc86e5674d",
+      "source": "Reflex timings, whole frame: %.1fms",
+      "source_hash": "5ba7e8b87a2c20ca2e4ea5628b58bf75bd3e7fefd6693b20227a717633e3b8b3"
+    },
+    {
+      "key": "ui.auto.5b7dd677bdc9",
+      "source": "nvngx_dlss : %s",
+      "source_hash": "1a7cf7c58ce6dfd64dc41a1e18046746c7a8b68d5c9070495b039c191ec28cde"
+    },
+    {
+      "key": "ui.auto.c7f23e3ed00a",
+      "source": "Exists",
+      "source_hash": "fefd8ba5a024d742b7e585937dbbb053514c15ce2a2b28d55a0212977602022a"
+    },
+    {
+      "key": "ui.auto.e74eb09c367b",
+      "source": "Doesn't Exist",
+      "source_hash": "29480cd687c31aa7894268aea733648fa4e65f7722d89e864ec6da7de122c5d1"
+    },
+    {
+      "key": "ui.auto.05bc6d9f6674",
+      "source": "nvngx_dlssd : %s",
+      "source_hash": "6204dec5cf2c60215a1166f4a3d44f84d4298f34ce9b7ea4bb5d569c365cbf25"
+    },
+    {
+      "key": "ui.auto.451305b82916",
+      "source": "nvngx.dll: %s",
+      "source_hash": "4f87ffb3d74f809682022bfaa29d577b0f166321ad151702a87fc0d201c0c247"
+    },
+    {
+      "key": "ui.auto.d77ca28ebda5",
+      "source": "nvngx replacement: %s",
+      "source_hash": "528a97800af0b3d088ad7f918c1a0ed3997f0ada9cca3a4e65a7de19b5542814"
+    },
+    {
+      "key": "ui.auto.a789967a01f3",
+      "source": "libxess: %s",
+      "source_hash": "7791e731d6b69d0a00070cb0a6867a32037f64ccfd58b7dd138f719289dbc959"
+    },
+    {
+      "key": "ui.auto.f038ee9f6387",
+      "source": "FSR Hooks: %s",
+      "source_hash": "8e6e1f56389795bbc8e68d03402d4fffe45891cc7bab6ac3133260505cc41eab"
+    },
+    {
+      "key": "ui.auto.01b450f37e01",
+      "source": "Exist",
+      "source_hash": "2bf3c8059d9c141aeb3742fc0ab6982e84240b912d5963de2b4da87f92815430"
+    },
+    {
+      "key": "ui.auto.667e9759bda1",
+      "source": "Don't Exist",
+      "source_hash": "633a756b1e8ef99c31b5056bc33c43ceced9535478d3b7fc1f6d29dd95b7c8c3"
+    },
+    {
+      "key": "ui.auto.2191f4108df4",
+      "source": "FSR 3.1: %s",
+      "source_hash": "030b762f68e630f3772afb150ae365a663353e2bc509b08ae851e3a8e9d04cc3"
+    },
+    {
+      "key": "ui.auto.2d8755a46d39",
+      "source": "FSR 3.1 SR: %s",
+      "source_hash": "abad86566480c4b49c3aff614ad1b9f1f0d710b9a2a047cf20810e61d7ec242e"
+    },
+    {
+      "key": "ui.auto.21f995bf6eb2",
+      "source": "FSR 3.1 FG: %s",
+      "source_hash": "b2101c88d49785984d875a1d797c47d3919d44e087fd8668f68e6f62b0c8a400"
+    },
+    {
+      "key": "ui.auto.9450c62c0a0a",
+      "source": "D3D11 %s| %s %d.%d.%d%s",
+      "source_hash": "03ccd61fa967e106f0b89e4e9cbe428fd81e8c03ef97c39f810e7dfe9a12dd73"
+    },
+    {
+      "key": "ui.auto.37e3c89eee78",
+      "source": "(DXVK) ",
+      "source_hash": "8bb5acd165a24fb51ec44298e21069f898c593c99a4c57994201a179ebe22c66"
+    },
+    {
+      "key": "ui.auto.666ef182f3bc",
+      "source": " w/Dx12",
+      "source_hash": "82cede0738f3aaff944612336db0e4573241efdb32edbe76f0d1f36de929062e"
+    },
+    {
+      "key": "ui.auto.8567d1a739d4",
+      "source": "| Input: %s",
+      "source_hash": "9a7b67a8cae2a00a5781877a1444db7e044d9ca0a229de25bb1cee7cb5ac900f"
+    },
+    {
+      "key": "ui.auto.6374f6926ab6",
+      "source": "| Spoof: %s",
+      "source_hash": "9d0113c5e3d8753326550a5d34e09271cbf803524ba07a4ea39b9c397891b9ac"
+    },
+    {
+      "key": "ui.auto.2d38879e1bc3",
+      "source": "D3D12 %s| %s %d.%d.%d",
+      "source_hash": "39d12721f2c53e1f2ce268b2f2b4b45e4ac07409d6462536e4624b177384230b"
+    },
+    {
+      "key": "ui.auto.af2560d8a3aa",
+      "source": "Vulkan %s| %s %d.%d.%d%s",
+      "source_hash": "ae9909498c91bc319cde2216a1715dd8f8946b68248dabac1a35a6962a4bb6fa"
+    },
+    {
+      "key": "ui.auto.eadde6787be6",
+      "source": "Change Upscaler##2",
+      "source_hash": "9e3ebfc684c578a8051a1ed116a0d81a9f0dd976802b7fa8c3e6defbce7090a6"
+    },
+    {
+      "key": "ui.auto.6db24976db50",
+      "source": "Use Reactive Mask as Transparency Mask",
+      "source_hash": "dc7dfd728e99ba2b70f6d89a5ca3069495932334a5504540f6c6968b51e5afe8"
+    },
+    {
+      "key": "ui.auto.bedb74ff2ad8",
+      "source": "nvngx_dlss.dll not found, DLSS disabled!",
+      "source_hash": "10ddd81bc30864440d13a51636101b0135d9b2dea84639f9074370d99f58636a"
+    },
+    {
+      "key": "ui.auto.e7e133bb935c",
+      "source": "Dx11 with Dx12 Settings",
+      "source_hash": "0b34e7a3476503dd28c21f4220f47c2a56cbb28bd25c7278924da3cd14452486"
+    },
+    {
+      "key": "ui.auto.c768cf870335",
+      "source": "Don't Use NTShared",
+      "source_hash": "04caa75f90eb8d003f8a2a8cfac0858d40b986cb07b0c95065bdd89d7a1bda71"
+    },
+    {
+      "key": "ui.auto.aa2410c37f6c",
+      "source": "Vulkan with Dx12 Settings",
+      "source_hash": "ec9dc09cdc35913772f9eedee74d8d6a5ebb1c3f65556da8572a825449759d87"
+    },
+    {
+      "key": "ui.auto.9c4d6e24ad89",
+      "source": "Use CopyResource for Inputs",
+      "source_hash": "12373d8205f0715f042d86364358172bb314e22b495698ece20b42a5c36c6762"
+    },
+    {
+      "key": "ui.auto.013b5fec5bfb",
+      "source": "Use CopyResource for Output",
+      "source_hash": "cc01e2994b93e0adca3b35b73bc3ac2ab3814dded7149adc7b5da22f6aae2413"
+    },
+    {
+      "key": "ui.auto.4699685c2420",
+      "source": "XeSS Settings",
+      "source_hash": "2138596f877ce99cbdab25909f16ff43ad62fab2a2d2ccbb81911fa7fab44ffd"
+    },
+    {
+      "key": "ui.auto.6bcf6a3c9f4d",
+      "source": "KPSS",
+      "source_hash": "7792d8bd7e68958e4f11140d16380f5e748d91366de2da2b11ae0657d466d235"
+    },
+    {
+      "key": "ui.auto.e140c7ecc890",
+      "source": "SPLAT",
+      "source_hash": "a194298b40f3ba3524761af6700f901f836937c3d5b581299d58eea66bc3e7ee"
+    },
+    {
+      "key": "ui.auto.3e8aaced8f3a",
+      "source": "Network Models",
+      "source_hash": "792260c939ee57be81d5fe3c4396c177368c4de250a7906e645d6daaf3f10507"
+    },
+    {
+      "key": "ui.auto.f69458468c23",
+      "source": "Likely doesn't do much",
+      "source_hash": "bf5afbc7f566baff89264a75f92c8434159a5c3d7d2a39e26196443b6ee0f206"
+    },
+    {
+      "key": "ui.auto.13847f9cf534",
+      "source": "Dump (Shift+Del)",
+      "source_hash": "924ae7827f50674364e9beb3d88d8ce2f873fe50c459aa23fb3d6bd81489d534"
+    },
+    {
+      "key": "ui.auto.e7d679448a72",
+      "source": "frames",
+      "source_hash": "594cfd2607d4f09e1ce6241203e418cacfed545063792bc5eab7afaadbf0c4e0"
+    },
+    {
+      "key": "ui.auto.65cd088575e0",
+      "source": "FSR %s",
+      "source_hash": "c49eccd2e89020262a16df3a19deea7a95faa7f1e79c17f248e67ec7662e565b"
+    },
+    {
+      "key": "ui.auto.2c0d6862be6c",
+      "source": "FFX Upscaler",
+      "source_hash": "89b8661603bac94c704541fe79056e38687de3709860145738bad7571b955d8e"
+    },
+    {
+      "key": "ui.auto.5ab1c0463054",
+      "source": "FSR %s##%d",
+      "source_hash": "8f4935bbcb43bd0547ac6f497b54dadd3ea4b984c0338f3bd352e6aa8a335760"
+    },
+    {
+      "key": "ui.auto.39726f61bef7",
+      "source": "List of upscalers reported by FFX SDK",
+      "source_hash": "a82eabbf735443501071950236805a9d3d5571d4530d657f46a800c07895c590"
+    },
+    {
+      "key": "ui.auto.4c0f2b12918f",
+      "source": "Change Upscaler",
+      "source_hash": "4342cd59732001072d81bac7e49eb0d32fb359b371fc0d655ef80d2def5eeb5a"
+    },
+    {
+      "key": "ui.auto.fe94243e323b",
+      "source": "Linear (Default)",
+      "source_hash": "d1ace1c70fa9c24352b4c052776d51e914191ba6ba7422a6de44f5543cf3707a"
+    },
+    {
+      "key": "ui.auto.ae41f956cc83",
+      "source": "Non-Linear",
+      "source_hash": "ee8eec8539d4d7b833a803a598b24f1e3e6910dae6f576f536e65575d5c80eaf"
+    },
+    {
+      "key": "ui.auto.1c4f55b39415",
+      "source": "Non-Linear sRGB",
+      "source_hash": "2c71dfd6ad2c5906955bb4b39b8285a74d4721c2489040ebc6b072ee6d1dde1b"
+    },
+    {
+      "key": "ui.auto.8aa52a0d4aa8",
+      "source": "Non-Linear PQ",
+      "source_hash": "a0ab54e447603d787f2f8f1ab86963ffa28298c7967b013ef9fa0ae073af64d7"
+    },
+    {
+      "key": "ui.auto.7f4b98bf08b1",
+      "source": "Input Color Space",
+      "source_hash": "6f32be5b607dcdd74facb0551f40049d20607171f2b2789fcfff1054ef05524b"
+    },
+    {
+      "key": "ui.auto.263e39e9d6e7",
+      "source": "Select the input color space that the game uses.\nNon-Linear / sRGB: Might improve FSR4 upscaling quality, might increase ghosting.\nPQ: Rarest, might increase ghosting and break lights.",
+      "source_hash": "d122637832c87d07df5e3128953eccaa800604984ac153d365c77a0fe6495904"
+    },
+    {
+      "key": "ui.auto.808d7dca8a74",
+      "source": "Default",
+      "source_hash": "21b111cbfe6e8fca2d181c43f53ad548b22e38aca955b9824706a504b0a07a2d"
+    },
+    {
+      "key": "ui.auto.c9ba3da9edc3",
+      "source": "Preset 0",
+      "source_hash": "ab226fcf34fb7c209f619fc68439840612938052db52f612be0ab623d7407fc5"
+    },
+    {
+      "key": "ui.auto.f78965c61d19",
+      "source": "Preset 1",
+      "source_hash": "d1ced74051985b65c38d56af48a927614027dbfe5b2e95339f5e19e6da8d6f06"
+    },
+    {
+      "key": "ui.auto.99ba0e2decb3",
+      "source": "Preset 2",
+      "source_hash": "c475c17845109276b6e8724a3a56f20a68478cf51f3f896cc57e3a365816aa1a"
+    },
+    {
+      "key": "ui.auto.9a33b0b8599e",
+      "source": "Preset 3",
+      "source_hash": "e7aebbc38aae0f7e09bb9309711a5c552a1daeb76254392540dde1a768dbbf6e"
+    },
+    {
+      "key": "ui.auto.7723d310538c",
+      "source": "Preset 4",
+      "source_hash": "19a6c035a73908e83f74fcd6347f98e20f2150c555a04097b3ee2e4c13082965"
+    },
+    {
+      "key": "ui.auto.006e5b90021a",
+      "source": "Preset 5",
+      "source_hash": "1aa0e96c21b2ad34e736f605fc9a88bdddd0c4b69ba4f12eefdf8670c401c2c8"
+    },
+    {
+      "key": "ui.auto.039a40b35bd9",
+      "source": "FSR4 Preset",
+      "source_hash": "3472f6fe95211b3c34c9d09798d7d946c7ab3cde94676dca224310945bcb2d0b"
+    },
+    {
+      "key": "ui.auto.67ae92ca1f41",
+      "source": "Each internal FSR4 preset is tuned for a specific resolution.\nSelecting an FSR4 preset won't change the in-game\nupscaler preset!!!\n\nPreset 0 is meant for FSR Native AA\nPreset 1 is meant for Quality/Ultra Quality\nPreset 2 is meant for Balanced\nPreset 3 is meant for Performance\nPreset 4 is meant for DRS\nPreset 5 is meant for Ultra Performance",
+      "source_hash": "0d08a1b2f0a9d6abef137f1ba9d4f903d75008f2445916523d3a602aa0c884ff"
+    },
+    {
+      "key": "ui.auto.ca7718a636f6",
+      "source": "(Active: %d)",
+      "source_hash": "f23801ee08db9f5fd677081967e55b41f76c25afc257932bdd825b1e4823b3a2"
+    },
+    {
+      "key": "ui.auto.7b1493778c57",
+      "source": "(Potential FSR3 fallback)",
+      "source_hash": "5d7a073dadb2f3fae79c0f6d9a11a63db21145a87ba75f745022671bed1db2a4"
+    },
+    {
+      "key": "ui.auto.fc1e3db0bdcb",
+      "source": "(Failed to hook)",
+      "source_hash": "4f555d7a233a5ef411dbd0b4ee55bb4fce1a0eac9e44f28134aff6f71aba1035"
+    },
+    {
+      "key": "ui.auto.06c803287211",
+      "source": "Upscaler Debug View",
+      "source_hash": "02435975c0bddd59c6d1339317bc62922edddd1b8351f9108fc528881f5c5a5a"
+    },
+    {
+      "key": "ui.auto.711f5a680ff1",
+      "source": "Top left: Dilated Motion Vectors\nTop right: Predicted Blend Factor",
+      "source_hash": "10a2756195f9cdc427661e6b69e595a7795e4ece87d767efa34e25be56381839"
+    },
+    {
+      "key": "ui.auto.52d42b3c28e0",
+      "source": "Top left: Dilated Motion Vectors\nTop middle: Protected Areas\nTop right: Dilated Depth\nMiddle: Upscaled frame\nBottom left: Disocclusion mask\nBottom middle: Reactiveness\nBottom right: Detail Protection Takedown",
+      "source_hash": "0177439cd7c19b37d20c16c299603cb42c30b7b981a41ccbc3c17c7489893d64"
+    },
+    {
+      "key": "ui.auto.1ad7aa58cba6",
+      "source": "After changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "d5d52e24f7cfbbc32400a1a269484b751fac3263144e1f8342818b61595751ff"
+    },
+    {
+      "key": "ui.auto.e040db2b7f13",
+      "source": "Motion",
+      "source_hash": "8ca344247c18317ebe13c11e1943cc39d955ce937100f53a8129768c9334819d"
+    },
+    {
+      "key": "ui.auto.c5098276307d",
+      "source": "FSR 3 Upscaler Manual Tuning",
+      "source_hash": "52a6e48e6bcebb12a02130df67df68b8fde5ba1e60ddaa4f91a56a689d17e493"
+    },
+    {
+      "key": "ui.auto.d233724b1601",
+      "source": "Velocity Factor",
+      "source_hash": "4c211e2d5bdd9121f18c8d405ffefdb6e257f28a0e26e3c49ccfe9876bf744df"
+    },
+    {
+      "key": "ui.auto.e7e58278e1f4",
+      "source": "Value of 0.0f can improve temporal stability of bright pixels\nLower values are more stable with ghosting\nHigher values are more pixelly, but less ghosting",
+      "source_hash": "d46abcc13dfc85466159e74359c811e49ac0c87c0fdb95ff2e11a9df41657ef8"
+    },
+    {
+      "key": "ui.auto.4bad81eacfcb",
+      "source": "Reactive Scale",
+      "source_hash": "1fb131466be739d6fbabf383773e5c3586e545eb2d7ed97767ff26e89f63f142"
+    },
+    {
+      "key": "ui.auto.f1ae9f6a29f9",
+      "source": "Meant for development purpose to test if\nwriting a larger value to reactive mask, reduces ghosting.",
+      "source_hash": "f11b0f91b98f27bd3566a8e31cd9db858024de990b055eccc3648c62e638791e"
+    },
+    {
+      "key": "ui.auto.9fcfc0402890",
+      "source": "Shading Scale",
+      "source_hash": "1316591e6b5617e4de28fcb4ebf3fecbfac303715a7c5b11e93b3b2dc266d433"
+    },
+    {
+      "key": "ui.auto.e5e0b40f9221",
+      "source": "Increasing this scales FSR3.1 computed shading\nchange value at read to have higher reactiveness.",
+      "source_hash": "11f7207285b1027f8bd4d3e19ce941e6c44401b0cfd30b974329dd798d683d64"
+    },
+    {
+      "key": "ui.auto.bed833b1f71c",
+      "source": "Acc. Added Per Frame",
+      "source_hash": "862469a77b8fc10adcd62002076615eab62d9cdebb62594993012a00349229dc"
+    },
+    {
+      "key": "ui.auto.20adfb0f2273",
+      "source": "Corresponds to amount of accumulation added per frame\nat pixel coordinate where disocclusion occured or when\nreactive mask value is > 0.0f. Decreasing this and \ndrawing the ghosting object (IE no mv) to reactive mask \nwith value close to 1.0f can decrease temporal ghosting.\nDecreasing this could result in more thin feature pixels flickering.",
+      "source_hash": "876908b7471c797b0b3910fed03417ebd69cac022ec9b80bdfaf06eb6e87f136"
+    },
+    {
+      "key": "ui.auto.dc31a855b745",
+      "source": "Min. Disocclusion Acc.",
+      "source_hash": "2225dba237f06b5255a662028cb934d1c7a20b017fa7c627dcd89fe2bb8c0e84"
+    },
+    {
+      "key": "ui.auto.ee5c0cbc8645",
+      "source": "Increasing this value may reduce white pixel temporal\nflickering around swaying thin objects that are disoccluding \none another often. Too high value may increase ghosting.",
+      "source_hash": "3a142a0dcc800032e87538af8b6f831dbf59386657aaafd468c3f881a9f60c0c"
+    },
+    {
+      "key": "ui.auto.0e6175028961",
+      "source": "Presets are overridden externally",
+      "source_hash": "33ad5f125b95ba9376a21eeddb00111b0843314fcf9f627d4c625c37dbe64d88"
+    },
+    {
+      "key": "ui.auto.86cb7648a1ab",
+      "source": "This usually happens due to using tools\nsuch as Nvidia App or Nvidia Inspector",
+      "source_hash": "2a05487ec1abeacca462f99379c1cf731421f276521a88fe2aa76d5ddc8a0ffd"
+    },
+    {
+      "key": "ui.auto.f67d53e6eaad",
+      "source": "Render Presets Override",
+      "source_hash": "08a86f94b27fc3e34710b49ddb9b3723fa91f644bf4c3eaef0090e9666d88cc7"
+    },
+    {
+      "key": "ui.auto.c596b3367c28",
+      "source": "Each render preset has it strengths and weaknesses\nOverride to potentially improve image quality\nPress apply after enable/disable",
+      "source_hash": "87d6d1fcdb6cac65937c36c944c29910f13fcf0a0e4439b50563368f0a2adeba"
+    },
+    {
+      "key": "ui.auto.3ea2dd7fb2be",
+      "source": "Each render preset has it strengths and weaknesses\nOverride to potentially improve image quality\nPress Apply after enable/disable",
+      "source_hash": "ddc012512895382c6834f9896961cf8906b116bc3bdcdcb2a84bfb692b6e39d9"
+    },
+    {
+      "key": "ui.auto.362bcdb709cf",
+      "source": "Apply Changes",
+      "source_hash": "d80d0faa58963b92ed9852bcaab84b26d34ded47f6abe3ac786e9ad48c983aa2"
+    },
+    {
+      "key": "ui.auto.9f0b3e58a631",
+      "source": "Advanced DLSSD Settings",
+      "source_hash": "47b559211027c30dca133a5af31caa87960a2f26c182e49c1971fb90aa981e07"
+    },
+    {
+      "key": "ui.auto.f4cb1a360c98",
+      "source": "Advanced DLSS Settings",
+      "source_hash": "0a6be1874cba17c150c52298355ad75803af6f18c7ef4ee8e1ad899674dda09c"
+    },
+    {
+      "key": "ui.auto.022c7941829a",
+      "source": "Use Generic App Id with DLSS",
+      "source_hash": "aca20349b9f4ef07037d215bd6b35b01b0f20da21324462eb17f5ee10427ec43"
+    },
+    {
+      "key": "ui.auto.37306cc865ee",
+      "source": "Use generic appid with NGX\nFixes OptiScaler preset override not working with certain games\nRequires a game restart",
+      "source_hash": "9323ca6a23175cd7f41867fc774cd61652a855f171694d6fc6812d252036365f"
+    },
+    {
+      "key": "ui.auto.d369481c7339",
+      "source": "Support not implemented, they meant FG Output",
+      "source_hash": "8332bd90ce5bef353e0cdad9504bae2e029bfdc7bcc652c09c58122f91ae773a"
+    },
+    {
+      "key": "ui.auto.0ae847f8d279",
+      "source": "No real DLSSG, unsupported hardware\nOnly Nvngx FG replacements available",
+      "source_hash": "27447d158cee9e483cc9654e38f4b8d738b7f0c212455226eabeecc2a707d435"
+    },
+    {
+      "key": "ui.auto.bc5f7f9ed4db",
+      "source": "Unsupported hardware and no replacements",
+      "source_hash": "5e902c14d582bc21e89d7bb90ae1dcd52e5293fb1dfc89f573ba1fa0f4288857"
+    },
+    {
+      "key": "ui.auto.6eef6648406c",
+      "source": "None",
+      "source_hash": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+    },
+    {
+      "key": "ui.auto.d720e36448ce",
+      "source": "Missing dlssg_to_fsr3_amd_is_better.dll",
+      "source_hash": "3dc616c1e94e54df8793672c9971f9a8d72bc7773bf82a71199483dc6b0db41a"
+    },
+    {
+      "key": "ui.auto.f9d8e26f4640",
+      "source": "Missing dlss-enabler-headless.dll",
+      "source_hash": "8436b62eac26ce6a3ffe6191bd5686c2b31bedbf9d875da4342b86083610e1e0"
+    },
+    {
+      "key": "ui.auto.350da440573b",
+      "source": "Missing amd_fidelityfx_framegeneration_dx12.dll",
+      "source_hash": "2c6a30735b363ab888ae3ee8363606733d4326ba4f0905ee7ea806d033dd3468"
+    },
+    {
+      "key": "ui.auto.e11932193766",
+      "source": "Missing amd_fidelityfx_framegeneration_dx12.dll\nor missing dlss-enabler-headless.dll",
+      "source_hash": "56bded79d9224e0df4d2b794023ddf84bbbad0a024d7f7694859cc27d702f0d9"
+    },
+    {
+      "key": "ui.auto.b9b0e321ad63",
+      "source": "FG Input",
+      "source_hash": "1f8fcbb08e87cc68a36740ac72fc501d70ef52c50313739147a898ed1fb2113d"
+    },
+    {
+      "key": "ui.auto.81545b914a8f",
+      "source": "The data source to be used for FG\nThe native FG which the game supports",
+      "source_hash": "716bb5970572708b27fdab2bf6947e2cbe15f74b822fb5fb0519ad141db5249d"
+    },
+    {
+      "key": "ui.auto.c26a4d155d18",
+      "source": "FG Nvngx",
+      "source_hash": "061c786fedf38e56f33967cbeb4a9e85f934042eae6a7baa6cabadc3ffbad7dc"
+    },
+    {
+      "key": "ui.auto.b1d769376482",
+      "source": "What backend to use instead of the real DLSSG",
+      "source_hash": "c98ac85391afa647528e70ed361e5d3f11413464fedb2e4064dbc8c0047ceffb"
+    },
+    {
+      "key": "ui.auto.2ddd071743f3",
+      "source": "FG Output",
+      "source_hash": "494c238e22074ceca7e5b7905d271a099fa5ef8c0b02e9a76ab0fc8d81fd713e"
+    },
+    {
+      "key": "ui.auto.7b293b0ebcbf",
+      "source": "The FG that you will actually be using",
+      "source_hash": "f0b6b28f24397b0d9e0fab3ce6d48676e31ed20444ae38bd997ca601b0356b54"
+    },
+    {
+      "key": "ui.auto.6e673b4a70eb",
+      "source": "FG Nvngx Replacement",
+      "source_hash": "0893bcec1994c0604251dcdf55ef4a6e507a5edcab675d3608feffafde0d5b79"
+    },
+    {
+      "key": "ui.auto.8091b32f5fc6",
+      "source": "Save Settings and restart to apply the changes",
+      "source_hash": "5edc6ab3f36827a7146a3c720be04a534d65b5bacfe047ed74d129c26bc2b152"
+    },
+    {
+      "key": "ui.auto.6e23184d03ec",
+      "source": "Override DLSSG Ratio",
+      "source_hash": "b247aadd5c25a57b25478e9e9853b239a59368b8989e317911989533b1141f28"
+    },
+    {
+      "key": "ui.auto.abaf687b594a",
+      "source": "Show Detected UI",
+      "source_hash": "a3152f4ce41601ab9682b52e4c3823bd269c4e56414904d2a354e7e994ac0f83"
+    },
+    {
+      "key": "ui.auto.5ca1d542f5f6",
+      "source": "Needs HUDless texture to compare with final image.\nUI elements and ONLY UI elements should have a pink tint!",
+      "source_hash": "8b42b608ea8e6d425a5d8599dfe0ea6b05a3d078bdeb42f8a7675acb421de2d8"
+    },
+    {
+      "key": "ui.auto.f9e12aa34c85",
+      "source": "Draw UI over",
+      "source_hash": "2777fb4c156e9b6518ac12fa5a3121342e54bafc5296e23fb728938499f55a8f"
+    },
+    {
+      "key": "ui.auto.c194e89f0dab",
+      "source": "Draws UI resource over the final image\nIf no UI visible, enable this!",
+      "source_hash": "cc570695efda39052c97658fb957b31c7fe9c113fb6d90f9243a64fcc534a317"
+    },
+    {
+      "key": "ui.auto.595d066d151c",
+      "source": "UI Premult. alpha",
+      "source_hash": "0609728ef04d6665dd42477717ae68fadb9cf4e5c005fbf2943b8f9cc83e8f02"
+    },
+    {
+      "key": "ui.auto.f68619f79fc4",
+      "source": "If UI is too faint, disable this option",
+      "source_hash": "c155261869df846c33d6804cf08038c1690e6939a670c2644f445c8446ca0540"
+    },
+    {
+      "key": "ui.auto.7fe1fa654581",
+      "source": "Advanced FG Settings",
+      "source_hash": "d177cced85d9a8b93c331e2b6b4a22d4fbebcf1fef7e15b101d84ce08ec942ad"
+    },
+    {
+      "key": "ui.auto.d51b84ac17f6",
+      "source": "Disable UI texture",
+      "source_hash": "64038e74943815f8d3bb1785c23aced988782c56fde9888c72b1c280b9fc7f26"
+    },
+    {
+      "key": "ui.auto.9d28ea0c0397",
+      "source": "For when the game sends a UI texture, but you want to disable it",
+      "source_hash": "8b81d13049f1f4fbf43e17641fc6ea1aacddb98e1f8c036b58f970695c197a62"
+    },
+    {
+      "key": "ui.auto.74d77760db01",
+      "source": "Disable HUDless",
+      "source_hash": "2afc5e418bd539d945f331aaa3d0c10fd02b55d605fb3e4a5837a0a517eddc9a"
+    },
+    {
+      "key": "ui.auto.e0125bc7c78a",
+      "source": "For when the game sends HUDless, but you want to disable it",
+      "source_hash": "a1df4e9c3a7fb3f931d446e24c3d3daf4493b8308ce630f9728b141c6d07f63b"
+    },
+    {
+      "key": "ui.auto.ec3f2e5af5d6",
+      "source": "Depth as ValidNow",
+      "source_hash": "c9ad494125a9860e8c8027de04a558c6fe37fd9ac06fc41a002f5c9865ce21dd"
+    },
+    {
+      "key": "ui.auto.22822d3ede56",
+      "source": "HUDless as ValidNow",
+      "source_hash": "ec0d22b7b37144d761d31a2eb5034e1053bc5adc613f05612530dfdce5c8aecc"
+    },
+    {
+      "key": "ui.auto.ed63fb7190c0",
+      "source": "Will use more VRAM, but some games might need this",
+      "source_hash": "6ba83583dee35c6ef55eb5b4b3100ed80cae219859442aec7414b996f7ae4067"
+    },
+    {
+      "key": "ui.auto.d1cbf3fe97cd",
+      "source": "Accept First HUDless",
+      "source_hash": "bf6146dc87e2bc975c26188132e8b73b79ee7033c3a541a03df41bad99e3c2b6"
+    },
+    {
+      "key": "ui.auto.4961ef3ebd23",
+      "source": "If source tags more than one HUDless, only use the first one",
+      "source_hash": "f42b943d4c9509774dfdd6760826418b027be6de7b51ad5069b908664534773f"
+    },
+    {
+      "key": "ui.auto.d0ce1287208a",
+      "source": "Skip Reset",
+      "source_hash": "087a2738a1386ebb794d6dba39acca86588964223de67bd8f89d07fe60513e39"
+    },
+    {
+      "key": "ui.auto.d737f212f76a",
+      "source": "Don't use reset signals from FG Inputs",
+      "source_hash": "4b0480cfda0c0351d7b589655fbd8643b4c4955b1ff221fd29864c4bdb5ea3dc"
+    },
+    {
+      "key": "ui.auto.fd0cba37a258",
+      "source": "Frame Ahead",
+      "source_hash": "924592be1eafff27d55fabb79603ed65d3f7aea44edacc9ab4b831bd058a849e"
+    },
+    {
+      "key": "ui.auto.710eafb47165",
+      "source": "Number of frames the FG is allowed to be ahead of the game\nMight prevent FG on/off switching, but also might cause issues",
+      "source_hash": "33355a45a2b17e411222f9768eb74b3eec491fa1ffff5fc9c092dda9cef6c554"
+    },
+    {
+      "key": "ui.auto.c6bab089fe70",
+      "source": "FT Input",
+      "source_hash": "686b755c69f3e8363225596d8f85e580cbb4d76d0fdcd9c907f2df8a63b0ec29"
+    },
+    {
+      "key": "ui.auto.bf7648e2257b",
+      "source": "Hud Cutoff",
+      "source_hash": "6fb8f609a088e41677d6d18c6a365c969b2aba78645164a7d887da2ae2b8c324"
+    },
+    {
+      "key": "ui.auto.65d8301a875f",
+      "source": "Cutoffs transparency from UI to help with interpolation\nYou can use Show Detected UI to see the difference\n0.0 is auto",
+      "source_hash": "d12f632ffc824189d77bbdac91665f6a1436d84181395fb6d1648802e1ce945c"
+    },
+    {
+      "key": "ui.auto.4e8d646301a0",
+      "source": "FFX FG",
+      "source_hash": "630e3fcd040e3eb37f7b81239b67e5ed95bfb025c544b5e17bdb1d077176ef71"
+    },
+    {
+      "key": "ui.auto.8dfff9c0dfd1",
+      "source": "List of FGs reported by FFX SDK",
+      "source_hash": "71692ab07904e12c20ad59b07b6eae217bb00e1d24c0f62ad6eca1562abf7ff1"
+    },
+    {
+      "key": "ui.auto.071edebfc3a2",
+      "source": "Change FG",
+      "source_hash": "cfdfc928776980d1f67c0ac8c3ed48bd039bf31372bdcdca1865c60649106cf2"
+    },
+    {
+      "key": "ui.auto.59c2add9983b",
+      "source": "Active##2",
+      "source_hash": "764133df932a0d8d8a7f97a928f66e3955845491b7783fad5ec408e56c5e96bb"
+    },
+    {
+      "key": "ui.auto.3b6d47196702",
+      "source": "Allow Async",
+      "source_hash": "58f3f23c77527515a7e10e4435fca634a771d457a5a410e4bfaaae0513ba52f2"
+    },
+    {
+      "key": "ui.auto.afcb6faef5b4",
+      "source": "Enable Async for better FG performance\nMight cause crashes, especially with HUD Fix!",
+      "source_hash": "585c61999635a9d7eb086b6be48286198d5b56d089a5a076a020eea48b4a7280"
+    },
+    {
+      "key": "ui.auto.72bc64f230a3",
+      "source": "Enable FSR3.1-FG Debug view\n\nTop left: Game Motion Vectors\nTop middle: GMV Depth\nTop right: Optical Flow MV\nMiddle: Interpolated frame only\nBottom left: Disocclusion mask\nBottom middle: Interpolation source (w/o UI)\nBottom right: HUDless resource",
+      "source_hash": "69dbe145a3a95033a3c45d78248b2523a9c311576e17fd2974e78bcf8b1ef694"
+    },
+    {
+      "key": "ui.auto.5603ab17a539",
+      "source": "Enable Watermark",
+      "source_hash": "3410ddd91f6a7b137a341cb97ab2c1a2c87c441422fb8b8d5427f5487c5175d0"
+    },
+    {
+      "key": "ui.auto.02c83d9b002f",
+      "source": "Extended FSR FG Settings",
+      "source_hash": "b02908c177d3d693ac18d48c4d01cc11f2c87c3e52762125c0e40f5244afb377"
+    },
+    {
+      "key": "ui.auto.10e7bd27a0a9",
+      "source": "Debug Tear Lines",
+      "source_hash": "92c3ee0fb8a2b286ec68dde6eabeab1560290eac7ea766b976f2b85857985f80"
+    },
+    {
+      "key": "ui.auto.cabdb6c9a9f0",
+      "source": "Enables drawing of Tear and Interpolation skip lines",
+      "source_hash": "a99539ab76219b50958eea7a6e167d68f16a3139c178f1b37f2a9c4ac94817f5"
+    },
+    {
+      "key": "ui.auto.3b44098cd604",
+      "source": "Debug Pacing Lines",
+      "source_hash": "aa78808f14e5a2ab1eca3de98d3d963b64874904dc6f4f8b1d5195d943580cde"
+    },
+    {
+      "key": "ui.auto.aff518c94963",
+      "source": "Enables drawing of Pacing lines",
+      "source_hash": "820fe0921883066735baa19bdc5b85f475f377f5683634a54d39c78460aa341a"
+    },
+    {
+      "key": "ui.auto.161245c5f7c9",
+      "source": "FG Rectangle Settings",
+      "source_hash": "8b7bac390b9873a37ac9c6e551107dac8032c0b271a75630288078e01ceed387"
+    },
+    {
+      "key": "ui.auto.56b2132786f9",
+      "source": "Rect Left",
+      "source_hash": "50d09b0883a6ade221c3bd85b7f93506e98243e2a3506f06b2d5d43cfc2d6dc1"
+    },
+    {
+      "key": "ui.auto.a16948c3391b",
+      "source": "Rect Top",
+      "source_hash": "94d17c372344638a29f33e0345f15204a242cc479459c53cbdee0dd02169b13c"
+    },
+    {
+      "key": "ui.auto.5ece2c9d253f",
+      "source": "Rect Width",
+      "source_hash": "dc239c614206a7419e8928325ee72ca16aefeeb4d24171b7c4db5835a44afb43"
+    },
+    {
+      "key": "ui.auto.d5cdb020bf2b",
+      "source": "Rect Height",
+      "source_hash": "69ca5334d91c8416341dacf970545eb19fea38c1ee0ba248a0d240a7e846fb72"
+    },
+    {
+      "key": "ui.auto.6df0ca30ae42",
+      "source": "Frame generation rectangle, adjust for letterboxed content",
+      "source_hash": "35abd9a796f451130af89a64709f315bd3e712076f027834a6939ee7ca766bf6"
+    },
+    {
+      "key": "ui.auto.3d2f971a492b",
+      "source": "Reset FG Rect",
+      "source_hash": "b1b4a2aa5c32ca7f792bc673fa04114aec360dcfb2d9e28c1ef3f44cc0d70050"
+    },
+    {
+      "key": "ui.auto.d3b13dc2cc2e",
+      "source": "Resets Frame generation rectangle",
+      "source_hash": "0e0100192cea5271aabe11ee60a6376387ad569fb8a879ad5ccbda21634045c5"
+    },
+    {
+      "key": "ui.auto.1d582785c67c",
+      "source": "Safety margins in millisecons\nFSR default value: 0.1ms\nOpti default value: 0.01ms",
+      "source_hash": "f5798a2d2fcfe05502b508d3c97f07858c49e0b272c8c7e8f603cea7f5a62188"
+    },
+    {
+      "key": "ui.auto.1c4c43e26f2d",
+      "source": "Variance factor\nFSR default value: 0.1\nOpti default value: 0.3",
+      "source_hash": "194237a05d158b64ba82568a17a1d0e8fea6d094ab474b7b405389135ff3ebbf"
+    },
+    {
+      "key": "ui.auto.76f56ac46832",
+      "source": "Allows pacing spinlock to sleep, should reduce CPU usage\nMight cause slow ramp up of FPS",
+      "source_hash": "f1ec23b0ce3ffb0526ec9b02dee8683234ca36d6e69c8e32bbc417d0c7ad14d5"
+    },
+    {
+      "key": "ui.auto.53c5ce81434f",
+      "source": "How long to spin if FPTHybridSpin is true. Measured in timer resolution units.\nNot recommended to go below 2. Will result in frequent overshoots",
+      "source_hash": "4b48d82b4cdbdc5150cdbda24f5bbdd7cea55032214f8636e12019943efbeeed"
+    },
+    {
+      "key": "ui.auto.fb9160c40a67",
+      "source": "Disable HUD/UI interpolation\nReverts back to previous XeFG 2 behaviour\n\nFixes artifacting transparent HUD/UI",
+      "source_hash": "5fc436b860d20e12a3382422b6b05818ed32747ded13110668737c34c3bcf5e7"
+    },
+    {
+      "key": "ui.auto.5f16eba6c14f",
+      "source": "Forces Borderless display mode\n\nFor best results, set fullscreen \nresolution to your display resolution\nMight cause some instability issues.\n\nNEEDS GAME RESTART TO BE ACTIVE!",
+      "source_hash": "62bc39039fb7ff69deaded3c881142bc5b492d94e159eb14a72446a3515cddec"
+    },
+    {
+      "key": "ui.auto.524be9cb94a3",
+      "source": "Extended XeFG Settings",
+      "source_hash": "2a0db113fac81cf6f13df3fe15ad024e913620f25ee4d27a23c3ecc1322cc920"
+    },
+    {
+      "key": "ui.auto.c2a7ff30aca8",
+      "source": "Frame generation rectangle, adjust for letterboxed content##2",
+      "source_hash": "60aff6bd22ade44fcc0e8576926ad1097dbd82d497621d0ecf0c4695915fc8eb"
+    },
+    {
+      "key": "ui.auto.25fb3056f57a",
+      "source": "Resets Frame generation rectangle##2",
+      "source_hash": "e4d8e5f16e551d51be1cc97c5fd6eafd13a1b6b46fad20dd01ee4242f54f40a6"
+    },
+    {
+      "key": "ui.auto.b1ba65020c6a",
+      "source": "DLSSG only supports HDR10",
+      "source_hash": "c1131c09048505e4fad145a3eefb2a6f261e4fc62b0f20b0e95dd0cc1f290994"
+    },
+    {
+      "key": "ui.auto.e3dbaaf23465",
+      "source": "Active##4",
+      "source_hash": "3feb79930ebba5a85f2b23b03a4e9485980f554915f79a41381a48e486098b98"
+    },
+    {
+      "key": "ui.auto.24d948e4bdbe",
+      "source": "Limit",
+      "source_hash": "674b0ed54bf7667356c19baaf2ec56d4432d485bf0ebc6d687ad6e50e9611880"
+    },
+    {
+      "key": "ui.auto.ce4415854ce3",
+      "source": "Delay HUDless capture, high values might cause crash!",
+      "source_hash": "3d75a87213c311033697cb144777cbf6a0b03b81b184c6e8f2ba05a85c58a141"
+    },
+    {
+      "key": "ui.auto.95695a4b6134",
+      "source": "Res##2",
+      "source_hash": "aa0551dde79cd6e763140d43019539858fa54aaef9e7702935254e31a017803c"
+    },
+    {
+      "key": "ui.auto.d697065b530e",
+      "source": "Extended format checks for possible HUDless\nMight cause crashes and slowdowns!",
+      "source_hash": "02d0c99fcdb212d68c02f2a1aa03d84cbd156497ffded184be7452d369c8c056"
+    },
+    {
+      "key": "ui.auto.13c02455f20a",
+      "source": "Enables capturing of resources before shader execution.\nIncrease HUDless capture chances, but might cause capturing of unnecessary resources.",
+      "source_hash": "1d379dc21a6d416a49a386697e41e55a34ce99736d8f58a5bca4af4e8a87091d"
+    },
+    {
+      "key": "ui.auto.e3a7ad1e354e",
+      "source": "Block rarely used resources from using as HUDless \nto prevent flickers and other issues\n\nHUDfix enable/disable will reset the block list!",
+      "source_hash": "e1aae7bdf41f139297805a8b8d6ded5dd4ea4979d765b708b5d12a1df9644f27"
+    },
+    {
+      "key": "ui.auto.e6951fc46a51",
+      "source": "Relax resolution checks for HUDless by 32 pixels \nHelps games which use black borders for some \nresolutions and screen ratios (e.g. Witcher 3)",
+      "source_hash": "b8e0b5d1fb63fb56b511aa0fd2db79505123bf41080f3046012d4c830d41f7a8"
+    },
+    {
+      "key": "ui.auto.56fa7b26816b",
+      "source": "(%d)",
+      "source_hash": "6c0150385b6ef054f05c8ddc60c110b985c1de6b4b4b840d6a75716fce8d7324"
+    },
+    {
+      "key": "ui.auto.7ea6225dcb9a",
+      "source": "Reset List",
+      "source_hash": "290fe6848f6ec9867be487c935ff0ebc70ac8884b4941890c0971bfdca0c755a"
+    },
+    {
+      "key": "ui.auto.4c5944890266",
+      "source": "Always track resources, might cause performance issues\n, but also might fix HUDFix related crashes!",
+      "source_hash": "620a8c66523f2b7192531ce426b84a0f1c5408e5f2a55dd46f7cf5dc18ed41b8"
+    },
+    {
+      "key": "ui.auto.9f298520a655",
+      "source": "Disable tracking of CreateRenderTargetView\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "6334151451cf6f30a5fa820b3b48e90593f5371fcf6dcee24673fa530e9c9a48"
+    },
+    {
+      "key": "ui.auto.30d14d12ea67",
+      "source": "Disable tracking of CreateShaderResourceView\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "2195090359c1b3656250b161fd3e73dbfe7430c8ac75571e4b570a76a38a4064"
+    },
+    {
+      "key": "ui.auto.89373fce8d3b",
+      "source": "Disable tracking of CreateUnorderedAccessView\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "d35d84e0910ed0d7a600a0010a967a68b45044d030a38714318d3df2ffc9afc8"
+    },
+    {
+      "key": "ui.auto.28d010627e48",
+      "source": "Disable tracking of OMSetRenderTargets\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "e0c92ab9e04e6c76da0b86e3a33f07a6f3fab124094a592712ef32b213ea150f"
+    },
+    {
+      "key": "ui.auto.0d3c8f1ddb8c",
+      "source": "Disable tracking of SetComputeRootDescriptorTable\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "42ea7b16fce80f04c062d6013d7655412a39ccead940533faeefca2fb3e75737"
+    },
+    {
+      "key": "ui.auto.816318b4543e",
+      "source": "Disable tracking of SetGraphicsRootDescriptorTable\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "a4369ac282b55322846f0312c76212028cfc41ae7c0422c2b9d063c2335c61b4"
+    },
+    {
+      "key": "ui.auto.be067117d995",
+      "source": "Disable tracking of DrawInstanced\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "68ccf38eb306e946a6ba87b2514ced66ce0407da26e07dd9998864ad102a28c4"
+    },
+    {
+      "key": "ui.auto.747894299569",
+      "source": "Disable tracking of DrawIndexedInstanced\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "509cd3d1b1d5f521da2199b1e57a1c11b089ef2d6e147689c000910a90f7b94e"
+    },
+    {
+      "key": "ui.auto.9d8325e8117c",
+      "source": "Disable tracking of Dispatch\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "6fdbb0ca0a463710598568d400783abf9965a6e45b49ce27080f5a2f35668b50"
+    },
+    {
+      "key": "ui.auto.13122d73aeb3",
+      "source": "FG Scale Depth Max",
+      "source_hash": "51565cc574c04c6be2280fab7dcb01016b95de99a13104ac4162c0b5639b03b1"
+    },
+    {
+      "key": "ui.auto.c7497a5b10eb",
+      "source": "Depth values will be divided to this value",
+      "source_hash": "872b36d885135654bc97682918a0b66accb27299c5a8e4a745321f8d8e9843c0"
+    },
+    {
+      "key": "ui.auto.f9b791fb0f4c",
+      "source": "Use mutex to prevent desync of FG and crashes\nDisabling might improve the perf but decrease stability",
+      "source_hash": "821adcae72aa05a235e7c356375103a233082eb224aaab7b832cc00f31545284"
+    },
+    {
+      "key": "ui.auto.8508a2c59446",
+      "source": "Upscaler is not active",
+      "source_hash": "92ada9c589bd96fcdeeac7301cf807220fdacc5ea25f2e7ab3e0ef2940a41c2c"
+    },
+    {
+      "key": "ui.auto.eacc9519f91a",
+      "source": "amd_fidelityfx_dx12.dll is missing!",
+      "source_hash": "8ff46fc263778776827a935a025883e515facf93ed1bc7052bcd2d626a8dfd27"
+    },
+    {
+      "key": "ui.auto.e3801306b5ce",
+      "source": "libxess_fg.dll is missing!",
+      "source_hash": "8a10bd106cd5e7894106f89c43631d0b336a56e0b1a7e3d76f0b3f17273b49cf"
+    },
+    {
+      "key": "ui.auto.9d13cf19a251",
+      "source": "Requires Nukem's dlssg_to_fsr3 dll",
+      "source_hash": "b5ab356a802a6b063ff86f7b601131b1e07e3e87aa7e2b8d91b3f058e91e8f52"
+    },
+    {
+      "key": "ui.auto.4d6558aafb4a",
+      "source": "Please put dlssg_to_fsr3_amd_is_better.dll into OptiScaler folder",
+      "source_hash": "0230a9c6aa4d9cab171adecd985043012838b9d7c2eaac4c4d05482ec359658c"
+    },
+    {
+      "key": "ui.auto.9111ae2acfd3",
+      "source": "DLSS Enabler as dlss-enabler-headless.dll",
+      "source_hash": "1320b239e792cfda3f1aa9a9488f4b556c28b9f7dbb5d8167848f9c628849b0b"
+    },
+    {
+      "key": "ui.auto.45ddbd828abd",
+      "source": "Please put dlss-enabler-headless.dll into OptiScaler folder",
+      "source_hash": "53213993c4839c6f59552f6e14f3239299ef0047885119207f85cd6bd3d1e3d9"
+    },
+    {
+      "key": "ui.auto.c58b39582f38",
+      "source": "Frame Generation (FSRFG via FFX)",
+      "source_hash": "6aa0ef23784ba7a67b02184bfcc87d6ce337360becba0e5397d2050418e2610b"
+    },
+    {
+      "key": "ui.auto.35dbc5803954",
+      "source": "FFX using the DLSSG swapchain",
+      "source_hash": "efcff643047bb0ff79253758e8ae96aab4efc17b502219329163c9519e200817"
+    },
+    {
+      "key": "ui.auto.4dba07b1ea15",
+      "source": "Frame Generation (Enabler + FFX)",
+      "source_hash": "fd854cafe904d5aab58a0490c3f203a5fd226cff69acd4b72ba185b80639662f"
+    },
+    {
+      "key": "ui.auto.81de85768e5a",
+      "source": "FFX for middle fake frames, and Enabler for the rest\n\n2x - FFX\n3x - Enabler\n4x - FFX + Enabler\n5x - Enabler\n6x - FFX + Enabler",
+      "source_hash": "dcc5939cfa33b55f61eaacb81b25c04ff44b4730551387b1056e14b99930e9ff"
+    },
+    {
+      "key": "ui.auto.1d8a44803423",
+      "source": "DLSSG is purposefully disabled when this menu is visible",
+      "source_hash": "5ae466ff8374a2c36e6a2353f63fae952a92ca0c08a4fdda172d12f878a7085f"
+    },
+    {
+      "key": "ui.auto.3d7352fdd6af",
+      "source": "DE Ver: %d.%d.%d.%d   GB Ver: %d.%d",
+      "source_hash": "837a91843344f870f66e7054a06d14e59b4e21edabc670fdd5b30de11f1a5d4f"
+    },
+    {
+      "key": "ui.auto.144ceb11a22b",
+      "source": "Antighosting (GB)",
+      "source_hash": "89ab6b51db0a3952d9dc016f2b3df9e54bc8b8563fd78229b5aeed747255f79e"
+    },
+    {
+      "key": "ui.auto.02c8950f3883",
+      "source": "Temporal HUD pin",
+      "source_hash": "df18eaa4324b1a1ade9f60a2b33e5def315418bf2e7aae90ee6dc07505e68ee3"
+    },
+    {
+      "key": "ui.auto.b8bc69738265",
+      "source": "HUD interpolation",
+      "source_hash": "173e7edba873cbe5cac8f132b4629f5f9fce959bc0651f32864fb1891a720253"
+    },
+    {
+      "key": "ui.auto.23092392195b",
+      "source": "Ignore UI texture",
+      "source_hash": "43f57b6ee8ef5b2f6dc3260ef03ed1f32a20088fa60ed5ba53daff529d71c170"
+    },
+    {
+      "key": "ui.auto.2cf593eefc3b",
+      "source": "Pin backbuffer",
+      "source_hash": "36e15912afcafaf8d976c0be70c9582d8cb60e4fbf5f094f41d719b430a1df78"
+    },
+    {
+      "key": "ui.auto.1d9c6bf51309",
+      "source": "Antighosting red tint",
+      "source_hash": "9621d8eed488dd7daf737d895522fa57e5cdf9d518c5065daded1940a313b4e9"
+    },
+    {
+      "key": "ui.auto.4e1dc0b9fe97",
+      "source": "Antighosting split screen",
+      "source_hash": "f360a3b81da653af04912db7b58c916e744bb118d41fdfeff60b9bc595584157"
+    },
+    {
+      "key": "ui.auto.4fcd3843e485",
+      "source": "Frame index line",
+      "source_hash": "2085acaf4f45bd5d854fcd405b07745d283935e6385cac24421ccb9e2993e55b"
+    },
+    {
+      "key": "ui.auto.9c3da77c7ab7",
+      "source": "HUD detection",
+      "source_hash": "e0e21a1dcdf1379f492635c4f2e0e86ad171d528a25916f0402f8b20f23d2744"
+    },
+    {
+      "key": "ui.auto.90f1ebc4c105",
+      "source": "Disocclusion tint",
+      "source_hash": "796d9e303e6960b969eb94cb08f76ed3007912c1fe7e67e7fc68245a1cb89c48"
+    },
+    {
+      "key": "ui.auto.635aa84025f0",
+      "source": "Artifacts detection",
+      "source_hash": "5adb2c08ebccfaace41eb784dddb6c57c25f2451bd4c6e36de9e9d26cd7fe084"
+    },
+    {
+      "key": "ui.auto.bd26d4e91213",
+      "source": "Camera MV debug",
+      "source_hash": "3318576766be24fba7fda1e1a31561647422773bef0a091e2a90dd72882e556c"
+    },
+    {
+      "key": "ui.auto.60ef8590a97c",
+      "source": "Generic visualization",
+      "source_hash": "c97fe1b003922fd5c87cdc45363bed012f1b26ccf006db823dcada3ba7025e17"
+    },
+    {
+      "key": "ui.auto.8542cf81a5ec",
+      "source": "Show Debug",
+      "source_hash": "aa1c6f5172b84e30bd3fc754f1986e5c1ee3485e262cc8fb201a71e4921fa887"
+    },
+    {
+      "key": "ui.auto.c06df533399a",
+      "source": "Required for Debug flags to work correctly",
+      "source_hash": "9d117b7419c2d4a28b30b50b81219e547c53c5e346269405690b8508b301cb79"
+    },
+    {
+      "key": "ui.auto.7de90a65241a",
+      "source": "Common",
+      "source_hash": "309955e00850b8afeb148450c7208585a85f8b652d5c625c777726f44837f69c"
+    },
+    {
+      "key": "ui.auto.630e0b25835d",
+      "source": "Uncommon",
+      "source_hash": "ce9b9e6a2b753fcc9983ec052783411178629695a448d9b8cb4e0f5e5afef843"
+    },
+    {
+      "key": "ui.auto.bd604d99e75e",
+      "source": "Debug",
+      "source_hash": "1a03bd2fd107c453f3183e30b9716f82200671e8270fbbefbe602f5a48705527"
+    },
+    {
+      "key": "ui.auto.137a4786848a",
+      "source": "Allow Async##2",
+      "source_hash": "3a53eb98ebb4c7ed6cac7f50ffd932164a3b7522b6a6345a598f66c97cc5d004"
+    },
+    {
+      "key": "ui.auto.44184b56bc30",
+      "source": "Debug View##3",
+      "source_hash": "c6f83b2d5057d63f629242f8de1a571d448d4bc8b85206f761ede5c926d3cf33"
+    },
+    {
+      "key": "ui.auto.655746f7be5c",
+      "source": "Might be required for some sets of DispatchFlags",
+      "source_hash": "501bac9d596b22d64df69cc57f741d647d545b35f9be8b59b954d4d577bd3dfe"
+    },
+    {
+      "key": "ui.auto.fa8a0bd617b4",
+      "source": "Frame Generation (FSR-FG Inputs)",
+      "source_hash": "8c95bc97645cb11503ae3d15f74a0c8e86d51ab02715420a14fa0da7b9cd037c"
+    },
+    {
+      "key": "ui.auto.205c4545e845",
+      "source": "Skip Config for HUDless",
+      "source_hash": "59a2c33415920111038629fb19a9d6c3f4ccc3b57c1c95b4005921b7adaf3096"
+    },
+    {
+      "key": "ui.auto.07b8c4d71f6a",
+      "source": "Do not use HUDless set at ffxConfig",
+      "source_hash": "38914eadc9f3a871f23a63dcacb0095daa6691ffca7b674ecf7ab7cbb2b0601b"
+    },
+    {
+      "key": "ui.auto.26af3c0a347f",
+      "source": "Skip Dispatch for HUDless",
+      "source_hash": "0c08512ec6e9c28b9e23284a9214bac1085457eec414bc9090cdc6cce82e541f"
+    },
+    {
+      "key": "ui.auto.c1f50a75de91",
+      "source": "Do not use HUDless set at ffxDispatch",
+      "source_hash": "4aa870b6aeb29b6a637757c7ea4f58625241ef97c772a49ba77a3be13333825e"
+    },
+    {
+      "key": "ui.auto.2dc77b9842aa",
+      "source": "If you are using an AMD/Intel GPU, then make sure you have fakenvapi",
+      "source_hash": "307ad0ad2b166fbaee6c39534103cd09738413221e10adaa2df318669b587361"
+    },
+    {
+      "key": "ui.auto.9acb08bb383d",
+      "source": "Current Streamline FG state:",
+      "source_hash": "e0cd370dd10b56bc699bf5b4b88e24d53a0eb953b1c461c5039b89518dfff701"
+    },
+    {
+      "key": "ui.auto.282583e8f5a3",
+      "source": "Use FSR Input Values",
+      "source_hash": "c0efa8eb372ce453350944177fccf8a79281e82c835d13d9ab31be16ee11bc8c"
+    },
+    {
+      "key": "ui.auto.7e85df068010",
+      "source": "FoV & Camera Values",
+      "source_hash": "43d057fc7f80bb8d4de2d0e9175978221f26abc44be86cea521981f78be3113e"
+    },
+    {
+      "key": "ui.auto.6ad1526a98f8",
+      "source": "Use Vert. Fov",
+      "source_hash": "829d8a17af632c516d850202a4cda8b76644ee768948aa7db6a2d069faaa691b"
+    },
+    {
+      "key": "ui.auto.5348f419dc21",
+      "source": "Use Horz. Fov",
+      "source_hash": "e5a05f25d0ed57941d5049c4dd00edde51a05b46d8e59843883908b5031bcdfd"
+    },
+    {
+      "key": "ui.auto.7ac5cef064fb",
+      "source": "Vert. FOV",
+      "source_hash": "c78ac96bbc73c6bcd55fefbbaf869b85c3decd03a5a7674861b9901d1ce14f41"
+    },
+    {
+      "key": "ui.auto.a81b3d29bd49",
+      "source": "Might help achieve better image quality",
+      "source_hash": "875e75b805d354509f9f5f55d72062ce4ea2a36a4b0bce4a9d9202ccf572fe08"
+    },
+    {
+      "key": "ui.auto.673c01bb56ce",
+      "source": "Horz. FOV",
+      "source_hash": "ab4b7fb2bc685a235b528b5e8ddbffff4562d4a67dcf109d9571f08cb8c4f223"
+    },
+    {
+      "key": "ui.auto.e7422c2b0ab4",
+      "source": "Camera Near",
+      "source_hash": "f7924193e4068522e6a7a14f7fcb5ced6f7d4d9bc8b07a9b82fcb81650ebb375"
+    },
+    {
+      "key": "ui.auto.db8aa36f073c",
+      "source": "Might help achieve better image quality\nAnd potentially less ghosting",
+      "source_hash": "6a9f937fb709c47b7739df721f88c52c54214a20dd7d9ab003a03115c0a13cd0"
+    },
+    {
+      "key": "ui.auto.c25238d5594c",
+      "source": "Camera Far",
+      "source_hash": "bdc7720f8d0919152286e86018475108b99c004083100bde140914d4e190cd6f"
+    },
+    {
+      "key": "ui.auto.2b1fff874fb0",
+      "source": "Reset Camera Values",
+      "source_hash": "4631aa116e2dae02d6e2d259e211f681f3fb0c96ec9a955cb817a4ee60cac5fd"
+    },
+    {
+      "key": "ui.auto.63f5d81432fc",
+      "source": "Near: %.1f Far: %.1f",
+      "source_hash": "bbd592cadcb46315f6a909599bbb7d48be6024deb75939fa4bfe269b332feaae"
+    },
+    {
+      "key": "ui.auto.55023d4d792b",
+      "source": "Framerate",
+      "source_hash": "76c739796a87afe53448db44c204e0fc5d3577fdf2dbf36c76eda731adc39456"
+    },
+    {
+      "key": "ui.auto.aacb62c790f3",
+      "source": "Uses Reflex when possible\nOn AMD/Intel cards, you can use Fakenvapi to substitute Reflex",
+      "source_hash": "64bab0711f07023b8e01fcdf8ea1e87177fc937d5ba51513bdcad5d494c9e1bc"
+    },
+    {
+      "key": "ui.auto.cc93b678f3aa",
+      "source": "Using RTSS Reflex injection with FSR Anti-Lag 2.0 and FSR FG might cause issues",
+      "source_hash": "a086e5edc77fb3a6622638b97c330ab520c293eddc10143c1aecd3a9076a7cbb"
+    },
+    {
+      "key": "ui.auto.ee0c9c32d89a",
+      "source": "Current method: %s",
+      "source_hash": "592658ec8a2d2667b82802326e881d6c1d472ac3a999294a8027ad27a128026f"
+    },
+    {
+      "key": "ui.auto.d96f6f2eb6e8",
+      "source": "FSR Anti-Lag 2.0 is the new name for AntiLag 2\nDon't ask me why",
+      "source_hash": "f8abbda8eb7c8b874641512d72c3efa92cdb3ef11d18c68d9611cea96bbeb329"
+    },
+    {
+      "key": "ui.auto.c1ccb2eed2f0",
+      "source": "Using Reflex's limit with FSR FG has performance overhead",
+      "source_hash": "c2573dabfdcdd98aaa99224f2d62a0b81b81cb49d7d1c886f599e6f097c42a8c"
+    },
+    {
+      "key": "ui.auto.859df044c554",
+      "source": "FPS Limit",
+      "source_hash": "dcc5d5cee014f2349aea134e50c6550edc8ba5893dcac5a0097789d31be13caa"
+    },
+    {
+      "key": "ui.auto.e56a1c9c1623",
+      "source": "Apply Limit",
+      "source_hash": "e05e03a7460eb51792dd78d7b756241c3211ba21c2465bd53eb75aac58303d64"
+    },
+    {
+      "key": "ui.auto.7cc8ddb43536",
+      "source": "Reset Limit",
+      "source_hash": "94d4e4f49e4ed16c4ae20f52c73b923a9716c74e0345b80b0d92abb8c107e0fe"
+    },
+    {
+      "key": "ui.auto.c89004a7b980",
+      "source": "VRR Frame Cap Calculator",
+      "source_hash": "cf16bf9f1ca6480db884157604b286128c2920460cd9f2bc1c05c4e9b77f885f"
+    },
+    {
+      "key": "ui.auto.a3f165d9951e",
+      "source": "Refresh Rate",
+      "source_hash": "9be2cdd888b26cdde74992ebff5ed6bc0d6549930d2a1b3b0ac42dd045f1f0d3"
+    },
+    {
+      "key": "ui.auto.b9fcb43051e1",
+      "source": "Calculated Cap: %.1f",
+      "source_hash": "4e2b6177b70d53a1b36f70d2ffadc7264f71d07bf5f79ef6bc88d03e167ff36f"
+    },
+    {
+      "key": "ui.auto.a2692a20bfe3",
+      "source": "Set as FPS Limit",
+      "source_hash": "28e680dc9d982cee10c89c25937a058a29f40ff2cebe6db9df33a03a2dfa7009"
+    },
+    {
+      "key": "ui.auto.ec20c8376ecb",
+      "source": "fakenvapi",
+      "source_hash": "c0e50ce15434d21058dbc22677e83dc1e06e45a6a957fbf1c06f0a19fb028988"
+    },
+    {
+      "key": "ui.auto.4660c593077f",
+      "source": "Force LatencyFlex",
+      "source_hash": "86a20f90329801e07ba57878b8e7b3853751d4c7935593a57ca493c68b9ca6a0"
+    },
+    {
+      "key": "ui.auto.d0a97ec7ddd5",
+      "source": "By default, FSR Anti-Lag 2.0/XeLL is used when available.\nThis setting lets you force LatencyFlex instead",
+      "source_hash": "c115b9946c9f72666cb0b7af4d24a09a1dc7375341b15e564fc6decedf19b9d2"
+    },
+    {
+      "key": "ui.auto.e0fb647a9957",
+      "source": "Force XeLL",
+      "source_hash": "ea568d98bf096c415ad9aa40c10681f76ddd72bc2198df93782f78c1445af9cb"
+    },
+    {
+      "key": "ui.auto.0f8f591ccc13",
+      "source": "Allows XeLL to work without FG on non-Intel cards.\n\nDisables FG options\n\nRequires a restart",
+      "source_hash": "008424fdd2105cc2a9ebe1f967bbaa475e59f9046579da33870c68303554c982"
+    },
+    {
+      "key": "ui.auto.1fbfd3f87e08",
+      "source": "Save INI and restart to apply the changes",
+      "source_hash": "f3ff0aca7388dec399b060ffb35afed763917d48e77d0b86d1b20e03339c5425"
+    },
+    {
+      "key": "ui.auto.3347162fbe13",
+      "source": "The safest, but might not reduce latency well",
+      "source_hash": "0a4e5dba83f20b0bd9a5d308f9bcda329b82624553416d9e46e8e7db25472a8e"
+    },
+    {
+      "key": "ui.auto.5a617864e437",
+      "source": "Improves latency, but in some cases will lower FPS more than expected",
+      "source_hash": "6a7ff855baaa4325de2ff9dc121d9a2a99abf190fb84a751d5baed409eb371c2"
+    },
+    {
+      "key": "ui.auto.d06cc6bb6c7c",
+      "source": "Reflex ID",
+      "source_hash": "1c668f754d1b1c4c99b15823605ab2abba2235ff28ba6722112c03699b7aecca"
+    },
+    {
+      "key": "ui.auto.af60e2fad244",
+      "source": "Best when can be used, some games are not compatible (e.g. Cyberpunk)\n",
+      "source_hash": "b411dd450cc73b57edd7e1087ee6fc87cfe2dddfb62f7ea7b3d90e1f178f5fb6"
+    },
+    {
+      "key": "ui.auto.3cfc7e4a4be5",
+      "source": "and will fallback to Aggressive",
+      "source_hash": "a562e5d3532f3d08a4ad7cf5f3e437624ee9e1974613f2b91f24e94b3a959f5b"
+    },
+    {
+      "key": "ui.auto.c0f57ed79709",
+      "source": "AntiLag 2",
+      "source_hash": "38fb1e0454f28e379351617c44e5fa83a910f00ad8423f6749fb517c8fbf7bc9"
+    },
+    {
+      "key": "ui.auto.4f2a9d7018ea",
+      "source": "Reflex",
+      "source_hash": "0eb2ddee6f02a0cfb9493eb4d3e418dddaaccc5dc52df39ef9db81cbfcf1b708"
+    },
+    {
+      "key": "ui.auto.4f103e2ec786",
+      "source": "XeLL",
+      "source_hash": "c0e4cab4d8747c4bb909f6e035d6fa57e9f7968885e2e36299f8e42f0eec9ea7"
+    },
+    {
+      "key": "ui.auto.190b5dfc58d0",
+      "source": "UeLowLatency",
+      "source_hash": "2f40f08f06a789c2a6fe49944925981260dee401be341cb2db560f77c52f3bf7"
+    },
+    {
+      "key": "ui.auto.f7aada4ef92b",
+      "source": "LatencyFlex",
+      "source_hash": "ef58db2c5501e29d53c08687f09f44beeb10e064ae9787b3df5389703b7944ea"
+    },
+    {
+      "key": "ui.auto.e135eb9de129",
+      "source": "AntiLag Vk",
+      "source_hash": "cf83086339a7883f34fe345a0bf3291bebf62a1f6e9ccf740c7b093e91557056"
+    },
+    {
+      "key": "ui.auto.22bc572cfb38",
+      "source": "Force State",
+      "source_hash": "5be9699486b102c65358dcb18e355a14cd5921b44f6c93858608a40e9a4d7354"
+    },
+    {
+      "key": "ui.auto.f4ebdb51765d",
+      "source": "Ignores the value sent by the game\nand uses the value set below",
+      "source_hash": "e25e562e7940aecc0bac848fa86f3919434b1d721a7df02c636cd04704157c2f"
+    },
+    {
+      "key": "ui.auto.274d30292c70",
+      "source": "(Current sharpness: %.3f)",
+      "source_hash": "d5112a0483266511fee86bbca48e72ea747e3a40bc5d209a6f35ca6b711e019c"
+    },
+    {
+      "key": "ui.auto.89e6a2145ab4",
+      "source": "(Current sharpness: disabled)",
+      "source_hash": "c07ecc8a9ba561946eca5a44e71983f6765dd301faab824201480fde1b632990"
+    },
+    {
+      "key": "ui.auto.151315f5843b",
+      "source": "Enable RCAS/DA",
+      "source_hash": "47851426182e6b0bc9543822880180c12fd2d2c0c8a3abcb49bee680e0eb5731"
+    },
+    {
+      "key": "ui.auto.9ec288a78c34",
+      "source": "Enable OptiScaler's sharpening filter\nBy default uses a sharpening value provided by the game\nSelect 'Override' under 'Sharpness' and adjust the slider\nto change it\n\nSome upscalers have their own sharpness filter, so this\noption is not always needed",
+      "source_hash": "f89a663abee8a153604bfc02593ffd3de44d38ab667a617a5fc80bc112d3e688"
+    },
+    {
+      "key": "ui.auto.8f5a570a90f3",
+      "source": "RCAS",
+      "source_hash": "51e8d09edc1223610b26cf8aea2330d66fe5b7d0f13942180db584275adcd2ea"
+    },
+    {
+      "key": "ui.auto.51432975fbc1",
+      "source": "Use AMD's RCAS\nModified to add Contrast parameter\nand MAS support",
+      "source_hash": "3a36cd5a1c432af575c73d3c68dbc2fc7a1a879642b53e2ca554449487872fce"
+    },
+    {
+      "key": "ui.auto.3687f2d02a85",
+      "source": "Depth Aware (RCAS)",
+      "source_hash": "56871c197c498511cdd6f45deae46ee88d5b3aa26442930038dec1e8dd80a999"
+    },
+    {
+      "key": "ui.auto.01dfb4a9136a",
+      "source": "Use Depth Aware Sharpening (RCAS)\nSmarter sharpening with less artifacts,\nbut also heavier\n\nThe farther away is the object, the more\nsharpening is applied",
+      "source_hash": "6d23beeec74cb5c3bbe114b664d585f9e8d36fbc137fcaf4777e48a57a9499b2"
+    },
+    {
+      "key": "ui.auto.342cc5401ecf",
+      "source": "Depth Aware (DAS)",
+      "source_hash": "96ef2860862ac69853517f1334715b3db3d505cff72ca4f6eb2c7b8f57eac892"
+    },
+    {
+      "key": "ui.auto.48fa822d9f13",
+      "source": "Use Depth Aware Sharpening (DAS)\nDepth-aware directional adaptive luma sharpener\nSmarter sharpening with less artifacts,\nbut also heavier\n\nThe farther away is the object, the more\nsharpening is applied",
+      "source_hash": "4a91db35e68d2ea7901ec3142352fcd508a3f72eed0c5aaaabc645b7dcc4c120"
+    },
+    {
+      "key": "ui.auto.1e6b46d6cf2d",
+      "source": "Enable Motion Adaptive Sharpness",
+      "source_hash": "f86fa0c670daf8df622eba26806527447bba315670feb0bb5653563b42928542"
+    },
+    {
+      "key": "ui.auto.174187f6e2cc",
+      "source": "Enables sharpness adjustments according to the motion",
+      "source_hash": "a688be9896b0ac527abd609347499819a0d850781b6e65f37d04b06bdf2bb7b4"
+    },
+    {
+      "key": "ui.auto.d09acd0cd5cd",
+      "source": "DA + MAS Debug",
+      "source_hash": "e94252e5a49d3ee5f76db9ee52a8fcc7cbe71dc0331fe73991d6614ee36f4838"
+    },
+    {
+      "key": "ui.auto.c4819ce131d6",
+      "source": "Enable DA + MAS debug views\nBlue tint for DA detected edges\n\nMore red areas will have more sharpness applied\nGreen areas will get reduced sharpness",
+      "source_hash": "5a5af5c4871271208a47bfdcb0a7892e3a0d27e43b55f31afa7f0dee769b6c0e"
+    },
+    {
+      "key": "ui.auto.702c7955720f",
+      "source": "Advanced DA Parameters",
+      "source_hash": "f72ce4e68313252631e034f8fab1f54a56f248a0597bbabaeb8e398ba21e28c3"
+    },
+    {
+      "key": "ui.auto.0cbfdef1b045",
+      "source": "Clamp Output",
+      "source_hash": "79dc22e6ed3847c8ad58d2465a5b2897aa5d9033fdf3f4b131d51621133273f7"
+    },
+    {
+      "key": "ui.auto.9d8fc6c0b56d",
+      "source": "Clamps the final image to the [0, 1] range.\n\nPrevents overshoot artifacts such as bright halos or negative colors.\nRecommended for LDR pipelines; optional for HDR depending on tone-mapping.\n\nWhen not set OptiScaler controls it via upscalers HDR flag",
+      "source_hash": "34d3a69e6b2ccf073927ecfb39ce696ec2bdbeeb84eaf60b3d8bfcc11cb7e599"
+    },
+    {
+      "key": "ui.auto.6b6da2054f9d",
+      "source": "Depth Bias",
+      "source_hash": "99ee4dbed889ef8195e757802090fc3e8fddfa894d420aae5a6c1c19ec6f1c7e"
+    },
+    {
+      "key": "ui.auto.795b823084f5",
+      "source": "Ignores small depth differences before edge detection.\n\nHigher values reduce flickering and noise from minor depth changes, but may soften real geometry edges.\nLower values preserve fine detail but can cause unstable or noisy edge detection.",
+      "source_hash": "f9fac710ccd893b5061e89f170c35f57d874d51884ad35850f02cc58ea501c17"
+    },
+    {
+      "key": "ui.auto.ce461ae6cf65",
+      "source": "Depth Scale",
+      "source_hash": "1965544382fd1ed3fef8f404732cd0a37e5a1ba0dd9a3b0321b8c7a221fcf0b9"
+    },
+    {
+      "key": "ui.auto.f32a451804f2",
+      "source": "Controls how strongly sharpening is reduced across depth edges.\n\nHigher values more aggressively prevent sharpening across object boundaries (reduces halos).\nLower values allow more sharpening to pass across edges (sharper but riskier).",
+      "source_hash": "234b15801d82f57001d620a9f2061ae75c678d948963089a88c12b78f631a2cd"
+    },
+    {
+      "key": "ui.auto.bb205a9aac99",
+      "source": "Reset Depth Values",
+      "source_hash": "d1f23d6632ca89f88f9a76ff153410daf1a9a520a60eccd0eadb97070890d39d"
+    },
+    {
+      "key": "ui.auto.e51c9f1565ff",
+      "source": "Contrast Enabled",
+      "source_hash": "b45c2e9cbdd08a6a2a4988bfa7bfa0020f0c0037d2085db2970157b2f827815c"
+    },
+    {
+      "key": "ui.auto.37fc22fb46a2",
+      "source": "Controls sharpness at high contrast areas.",
+      "source_hash": "3545300860749d61126a1294db3066b2717079d924db7884c47849fd4d30e23c"
+    },
+    {
+      "key": "ui.auto.c4fc37ad99a3",
+      "source": "Contrast",
+      "source_hash": "08795ba031bcd121e4e1ce47c1c2828a796ffbf6bb4e93daeee3937017bc7a04"
+    },
+    {
+      "key": "ui.auto.4bba4c93c95a",
+      "source": "Positive values decrease sharpness at high contrast areas.\nNegative values increase sharpness at high contrast areas.",
+      "source_hash": "8af595007cb4b89bcd9148d811b1e44f7ff1bced2f48dc96e9d8788e3c972be9"
+    },
+    {
+      "key": "ui.auto.d610006c7df9",
+      "source": "Motion Adaptive Sharpness##2",
+      "source_hash": "dc7956841be84aac3a5eeae99b3fa3d07464b7cc9b7dea77e10f1d2d77e221ee"
+    },
+    {
+      "key": "ui.auto.05b9ae7597d1",
+      "source": "MAS Debug",
+      "source_hash": "b2f08b681acd04b20e27a088e752800b6138b9cb6a81a1a0527b82154f982a2f"
+    },
+    {
+      "key": "ui.auto.ab8a055a34b3",
+      "source": "Areas that are more red will have more sharpness applied\nGreen areas will get reduced sharpness",
+      "source_hash": "fe97b13aa4de54f233e1a92fe5832ba955e827fc7e214ef3546cd81c46e50e39"
+    },
+    {
+      "key": "ui.auto.d8b7808064a3",
+      "source": "MotionSharpness",
+      "source_hash": "8b59e4ee488b6ddbaf7dcb9c4167ee42e25671f2e2f208178131268be5b3602b"
+    },
+    {
+      "key": "ui.auto.f671708a5fc2",
+      "source": "Maximum amount of sharpness that motion can add or remove.\n\nNegative values reduce sharpening in motion (recommended).\nPositive values increase sharpening in motion.\n\nThe final adjustment scales with motion and is capped at this value.",
+      "source_hash": "95e8efe426cbb0f02b30cfa5236116661d3cc6db8fb8c0729dfd007c009434e6"
+    },
+    {
+      "key": "ui.auto.3949d4db64d9",
+      "source": "MotionThreshod",
+      "source_hash": "1ed6d623018a0f6a5985e44b757365c7cb44091fae2fa6465fb9afd48951a68f"
+    },
+    {
+      "key": "ui.auto.34b1d0edf99c",
+      "source": "Minimum motion required before motion-based sharpening adjustment begins.\n\nHigher values ignore small movements (more stable).\nLower values react to subtle motion (more sensitive).",
+      "source_hash": "56db8897f9e68b28ab0b3ffaee2c1837670cd999978b25c07d674b0db1bb0dba"
+    },
+    {
+      "key": "ui.auto.8bef0c73de74",
+      "source": "MotionRange",
+      "source_hash": "1c9c614e6d4b46215e44ebdf633144a780c8251f010371f8b16eebb6f5c07128"
+    },
+    {
+      "key": "ui.auto.e2d1b29d157f",
+      "source": "Defines the motion range over which the effect ramps from zero to full strength.\n\nValues above the threshold are mapped into this range.\nLarger values make the response smoother and more gradual.\nSmaller values make the effect react more quickly and aggressively.",
+      "source_hash": "3950c536d9e699e06ba878c6c0b7e5bed52ba0b6caed91ace793f7cba9cff70f"
+    },
+    {
+      "key": "ui.auto.c067627d920e",
+      "source": "Override all",
+      "source_hash": "7309d57d7ab075ee6b9a79199ad75cc5c2b7f77e93389374e1209cd57bc8ae91"
+    },
+    {
+      "key": "ui.auto.685c3af31da4",
+      "source": "Overrides every upscaler preset with the set value\n\n1.5x on a 1080p screen means an internal res of 720p\n1080 / 1.5 = 720",
+      "source_hash": "55a47258a3715cd73f0db2a539c389179cb69c14655ede28e6a5de343ebb2d62"
+    },
+    {
+      "key": "ui.auto.ff01edd6ffad",
+      "source": "Override per quality preset",
+      "source_hash": "373cf447ee9ae3028af38d34c6e98defcf7d291a1d26ecba06ea24f81b982d0e"
+    },
+    {
+      "key": "ui.auto.cd4c20f79428",
+      "source": "Lets you override each preset's ratio individually\nNote that not every game supports every quality preset\n\n1.5x on a 1080p screen means internal resolution of 720p\n1080 / 1.5 = 720",
+      "source_hash": "58d72bc5176a970e774e79dfa0a06651713f5eaeebf5b440bc098bb44191b710"
+    },
+    {
+      "key": "ui.auto.03fbed296d9c",
+      "source": "All Ratios",
+      "source_hash": "246e56714e2855670a87207c0b42a1a34fe03f0d00b0cf068281766f1d9fe958"
+    },
+    {
+      "key": "ui.auto.4b01cf2066f6",
+      "source": "Upscales the image internally to a higher output resolution\nthen downscales it back to your display resolution\n\nValues <1.0 make the upscaler cheaper\nValues >1.0 make image sharper at the cost of performance\n\nIf greyed out, please check Git Wiki - Unreal Engine tweaks\n\nTarget res and total ratio at the bottom (max. total 3.0!)",
+      "source_hash": "144b7fd27ea7c0a73eb50423435ae3ed34a4aac9ecddd6cc818e057bba3ebe6a"
+    },
+    {
+      "key": "ui.auto.b3e8fe0e5ca4",
+      "source": "FSR1",
+      "source_hash": "b3290cbc23e03f4af8bf9212d3c6652e81400bbd7161a6936da77fb41ffd2d7a"
+    },
+    {
+      "key": "ui.auto.fa1bce5c639d",
+      "source": "Default option.\nGood enough image quality and very fast.",
+      "source_hash": "34f16fe07bd413a72d96b5ca609e658f53c8a86ef69a38ce8e44e630ea4a9606"
+    },
+    {
+      "key": "ui.auto.25d7c9453148",
+      "source": "Bicubic",
+      "source_hash": "d64f696cc3e423a3ca30562e3360b2c0ef98fe15b2fede9ccbda73ae46eb219e"
+    },
+    {
+      "key": "ui.auto.d8689887cea4",
+      "source": "Fastest traditional option.\nProduces a very soft/blurry image, but might be okay for downscaling.",
+      "source_hash": "4c5d0b521984faefc8be0d1c712bb731a6a5759aeca614b1bd42251015d34e65"
+    },
+    {
+      "key": "ui.auto.3279107a24ea",
+      "source": "Catmull-Rom",
+      "source_hash": "e817551fdce462530f3a943bbce204200a5032ad126f4c5acab904c269a13cc4"
+    },
+    {
+      "key": "ui.auto.1ad6c092f61d",
+      "source": "Designed primarily for downscaling.\nRetains good contrast with minimal artefacts, but softer than Lanczos.",
+      "source_hash": "28cb4281c606f4ffe3a1d5e034d4231b4848ad5d1ef0168d6aeecb81a279a81d"
+    },
+    {
+      "key": "ui.auto.e7e9ce58d787",
+      "source": "Lanczos2",
+      "source_hash": "4143056699ee8b7e5bcf938cc2825421098160dca2426485f072c2514e7f3752"
+    },
+    {
+      "key": "ui.auto.6837e597f45a",
+      "source": "Lighter and faster than Lanczos3.\nLess prone to ringing artefacts, but slightly blurrier.",
+      "source_hash": "c971b241d0a21bdc2a7151a0766ad14002598333104f6b1b71835b73e80c3270"
+    },
+    {
+      "key": "ui.auto.e2297fd7b3ee",
+      "source": "Lanczos3",
+      "source_hash": "9feb40edb86bc9d0ce4c0c54f783d6879560aa4ee2c9832a1686cf3d4830144b"
+    },
+    {
+      "key": "ui.auto.b6d4b021baae",
+      "source": "Heavier version of Lanczos2.\nOffers the sharpest image, but is the most prone to ringing.\nConsidered the best along with Kaiser3.",
+      "source_hash": "1859e1a0b8a2431da10bd54deaf69267417663c83c123bfd289c6ffc20a2c848"
+    },
+    {
+      "key": "ui.auto.4f6d0008aeb1",
+      "source": "Kaiser2",
+      "source_hash": "6de2fa3781854eb3b9dd03c011ce30a2113aba42efdf44b0a42c073a4ba22ca1"
+    },
+    {
+      "key": "ui.auto.52a26ab1a7ae",
+      "source": "Similar to Lanczos2.\nSmoother and less prone to artefacts than Lanczos, but slightly blurrier.",
+      "source_hash": "18e20825c0cca6170182c76bb5026e700d8ea80e36ed8e0a7022a02df81e25bf"
+    },
+    {
+      "key": "ui.auto.94eaa27055f0",
+      "source": "Kaiser3",
+      "source_hash": "592782aa7dcbfa25aebd0bb6a25197235471bb860e8761118132aa0b892a0a28"
+    },
+    {
+      "key": "ui.auto.093d05889ead",
+      "source": "Similar to Lanczos3.\nFar less prone to artefacting than Lanczos3, but much heavier on the GPU.\nConsidered the best along with Lanczos3.",
+      "source_hash": "67f7a1c6f892d387d6dce99d8193b1200fc2153dcb558d177ede56d2c6a7648f"
+    },
+    {
+      "key": "ui.auto.c716084845f6",
+      "source": "MAGIC",
+      "source_hash": "e7b0c01604266fd889ba808bb54be0932fabdbae6c8347ed940b81c0a6a89e66"
+    },
+    {
+      "key": "ui.auto.c870da649cf0",
+      "source": "Specialised to prevent artifacts.\nEliminates harsh halos for a natural look, but can appear slightly soft.",
+      "source_hash": "6a004b09d5e21ce08afd47070c329c245ffad9089e893be75c78abb6db4c339d"
+    },
+    {
+      "key": "ui.auto.012e8762e3ea",
+      "source": "Downscaler",
+      "source_hash": "0278a689a4f98160f38203c362448e33202044980859fa044ba6b99cb7aed9da"
+    },
+    {
+      "key": "ui.auto.539af562c060",
+      "source": "Apply Change",
+      "source_hash": "56292f8087f8c4d58beaee131859ec503a4023bcfcd68dae4c7b8a3714203afe"
+    },
+    {
+      "key": "ui.auto.794f65e9d206",
+      "source": "Ratio",
+      "source_hash": "1348beb03ed9067bd42223ca28adf22a5786b55c0537eb5fbe0ed37a4bc6802d"
+    },
+    {
+      "key": "ui.auto.b2e6890b0149",
+      "source": "Output Scaling is %s, Target Res: %dx%d (%.2f)\nJitter Count: %d",
+      "source_hash": "d44bc4c008548e9a3bd897c8c3f5a4f12b6654f3f8e89c0658216787249a8c84"
+    },
+    {
+      "key": "ui.auto.e22fb092b5dc",
+      "source": "ENABLED",
+      "source_hash": "616f73fbace961415d3c6dc317722ef52dcb67de02b77c12608c59ed1b2d44bf"
+    },
+    {
+      "key": "ui.auto.bb2d06e28ceb",
+      "source": "DISABLED",
+      "source_hash": "0c7ef33e451eadb5c230e83d5155fe481df0dccf42529851a31110a88a776d12"
+    },
+    {
+      "key": "ui.auto.081649019706",
+      "source": "Some Unreal Engine games need this\n\nTry using if colours flickering or\nobjects have ghosting trails",
+      "source_hash": "5cab3c6c527f58193a06797324ec731a2c1091d76a0cbda5e289a2598f7061be"
+    },
+    {
+      "key": "ui.auto.46d8b7b16690",
+      "source": "Might help with purple hue in some games",
+      "source_hash": "4b033a891654de8b7165f8d093698710bfce91879956f6d38aa6fd3086ae8603"
+    },
+    {
+      "key": "ui.auto.24ea13f1978b",
+      "source": "Display Res. MV",
+      "source_hash": "f501a28295e85f7ecd0a9df69de6b241b4f50a48931db1e2e20704bb59a8d22a"
+    },
+    {
+      "key": "ui.auto.e2152833e300",
+      "source": "Mostly a fix for Unreal Engine games\nTop left part of the screen will be blurry",
+      "source_hash": "455bffc507c6c4efd3175c29fbe3fe3e5fceaf1c04dd70c4891ec19badb5552d"
+    },
+    {
+      "key": "ui.auto.686566aed94b",
+      "source": "Jitter Cancellation",
+      "source_hash": "65a8c1c24aa862f7f9602471bebfecb24816d86d71629fd0beebcd0ca26c05a1"
+    },
+    {
+      "key": "ui.auto.39e0b394838c",
+      "source": "Fix for games that send motion data with preapplied jitter",
+      "source_hash": "39bb9bd793cec8356932ff2fa9788bb0eeb868c81aafe7d0f28f69cc46a11e5a"
+    },
+    {
+      "key": "ui.auto.c6b5067d4940",
+      "source": "React. Mask Bias",
+      "source_hash": "9c47aabb22a5c7e6a9e3c78cc0cff05a5789fce507edc1a835277e9538e023ff"
+    },
+    {
+      "key": "ui.auto.fcb97dc49445",
+      "source": "Values above 0 activate usage of Reactive mask",
+      "source_hash": "fb737469997e8315c8451123d5769218c24b8c7080b6acc377836a8f304dc955"
+    },
+    {
+      "key": "ui.auto.718ac36affcd",
+      "source": "Use Binary Reactive Mask",
+      "source_hash": "7193118a3d9b64673696cec09e4b81baf252d7268d74b9b5b00229c893006cc0"
+    },
+    {
+      "key": "ui.auto.63ca6d878e19",
+      "source": "Magnifier",
+      "source_hash": "b3a4c2cd1daea7f8ee7b0924c30154618e8541289bfee8c4867b221e48ac8ecb"
+    },
+    {
+      "key": "ui.auto.815ddefacf4a",
+      "source": "Enable Magnifier",
+      "source_hash": "788ec4ffe5324a15e86d1ac238acf24d9a5e92d8598a4fa1b35dddcb548f8531"
+    },
+    {
+      "key": "ui.auto.b7152342a267",
+      "source": "Size",
+      "source_hash": "1af851907331c0ed99e7c63b4e55df808bc5fc4c990a1cf80ca8c0f76daf1f3b"
+    },
+    {
+      "key": "ui.auto.3d3e869f85f1",
+      "source": "Zoom Factor",
+      "source_hash": "231c3415396bc3d7f04af0fff108d851b18b910b874b0af2fb9d16487c6f94d4"
+    },
+    {
+      "key": "ui.auto.89d93afaead4",
+      "source": "Border Size",
+      "source_hash": "92475ff5711d7783c4e782471d91ef0d8b9537a160d989ec9838c48b877f293a"
+    },
+    {
+      "key": "ui.auto.86ba514122e1",
+      "source": "Positioning",
+      "source_hash": "72d7dc1a93b5dd24aa44cded51c3eae602a1346f8bdb94c49828fc962f3f42f4"
+    },
+    {
+      "key": "ui.auto.f2b484dc9703",
+      "source": "Static Pos X",
+      "source_hash": "b23902afa8d76bcf5991a1f046db82b7beb677a4a763aca255a856a6ebbb20ab"
+    },
+    {
+      "key": "ui.auto.e338cd6f9045",
+      "source": "Static Pos Y",
+      "source_hash": "bbbe13c6c732a6426e439bc5ec58a15c39e01d182debf5161eeef23f37700b71"
+    },
+    {
+      "key": "ui.auto.1df28b61b305",
+      "source": "Reset Static Position (Follow Cursor)",
+      "source_hash": "ac6e6a13c6c19c6732a15c0b2cc700474a6eb0280f89c73a2f92f43932057694"
+    },
+    {
+      "key": "ui.auto.8e7ce025e352",
+      "source": "Set Static Position",
+      "source_hash": "b82d342458dba9eee0c072b82514f559d961d308386f26c3fb4c137cffff6aea"
+    },
+    {
+      "key": "ui.auto.356d2e833b08",
+      "source": "(Currently following cursor)",
+      "source_hash": "4eaccd0deca0613ed4e968db5ba5d36b7190ae57f727122c6dd1d776dbc8ceeb"
+    },
+    {
+      "key": "ui.auto.8f56d81dff02",
+      "source": "Cursor Offset X",
+      "source_hash": "dd2252231e2c7247cf7ba55546d4df62115f7e638c1da0bcaf32fae26005e20e"
+    },
+    {
+      "key": "ui.auto.7b3fbea75252",
+      "source": "Cursor Offset Y",
+      "source_hash": "7c8f0c08577bcd382c6bf197f7ba4b9ea51f5e3d898085e79d20d975ec275da8"
+    },
+    {
+      "key": "ui.auto.e27e8cee87e7",
+      "source": "Active Quirks",
+      "source_hash": "21ce4562360ca1c06bc4d9dc4ad469d7f31ec2d860e4eae1ffa0e06965d7308a"
+    },
+    {
+      "key": "ui.auto.c8fef35bb005",
+      "source": "Advanced Settings",
+      "source_hash": "22d4f6088b718aa471d4b671e7497315ff13df122c585460169d106c713a20c2"
+    },
+    {
+      "key": "ui.auto.01b05a48e070",
+      "source": "Enable Extended Limits",
+      "source_hash": "cdcf6357ddbfc31249f59af503dd6428846eeb747f3116775a99d0dca46a944f"
+    },
+    {
+      "key": "ui.auto.3467602d8281",
+      "source": "Extended sliders limit for quality presets\n\nUsing this option changes resolution detection logic\nand might cause issues and crashes!",
+      "source_hash": "6b87f69dfae361209d64059e80fc664f62ff0ee0c1658a161f47cec86ae96fbe"
+    },
+    {
+      "key": "ui.auto.d549f83a4475",
+      "source": "Use Precompiled Shaders",
+      "source_hash": "c6589a372165f3ca507f80982b45d8a4473f66e5f4e7d4901da9be71e3d1e57c"
+    },
+    {
+      "key": "ui.auto.b69d4e2bbb4e",
+      "source": "Override Maximum",
+      "source_hash": "124d525ced48d6cf2440a289c547516329802b7af04a26211c09a872c3b899f8"
+    },
+    {
+      "key": "ui.auto.494ce75b0265",
+      "source": "Resource Barriers",
+      "source_hash": "8ce6b93cfc3866e07aa20c730d6214f909b43bc68b05588741f4f7c4251c9ea7"
+    },
+    {
+      "key": "ui.auto.32cb5cc9f04c",
+      "source": "Restore Compute Root Signature",
+      "source_hash": "12a664026e0a82fb698d1020a0c71aca545acad4396773f9caf8715e1606fcb2"
+    },
+    {
+      "key": "ui.auto.607e5cbb3f97",
+      "source": "Restore Graphic Root Signature",
+      "source_hash": "542e48de03b81b0e655e86f556d150d3eddf2711e578675cb5812d2f3f855506"
+    },
+    {
+      "key": "ui.auto.5b83bdde59ce",
+      "source": "To File",
+      "source_hash": "fa00b9970f873b4ed6e92610b290252e69c423e0a48a00f647832262510ba397"
+    },
+    {
+      "key": "ui.auto.fc79ce86ce44",
+      "source": "To Console",
+      "source_hash": "dcbd7a5e9c643d9b492277caf716fe707a522b97b38c9d6e5fc90d6341c7c6a5"
+    },
+    {
+      "key": "ui.auto.2f38169a712e",
+      "source": "Trace",
+      "source_hash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a"
+    },
+    {
+      "key": "ui.auto.0eb5ed506e49",
+      "source": "Information",
+      "source_hash": "1cb0ba125f84c982b00ba3639cdfb2cee6b70f94b5e0115c045fef607af4f216"
+    },
+    {
+      "key": "ui.auto.e9c45563358e",
+      "source": "Warning",
+      "source_hash": "e981ddae45d8f4ca53f1ccbe613ad254a041dacf65a06026099a6302d332113b"
+    },
+    {
+      "key": "ui.auto.7f2f6a15cf8d",
+      "source": "Error",
+      "source_hash": "54a0e8c17ebb21a11f8a25b8042786ef7efe52441e6cc87e92c67e0c4c0c6e78"
+    },
+    {
+      "key": "ui.auto.3831d4e3e5ac",
+      "source": "Log Level",
+      "source_hash": "12fe4737438f3bdbace59e11209e0479d8b7a2fc6022df30d3d54c09988f9667"
+    },
+    {
+      "key": "ui.auto.327a1c0b6da0",
+      "source": "Menu Theme and Color",
+      "source_hash": "a590aa6ad9a26d9e3b5229c004b2896fd13498c3dc911441221e135a8f91c6c5"
+    },
+    {
+      "key": "ui.auto.54c33e70709f",
+      "source": "Light Theme",
+      "source_hash": "ceab50a6f7f453f7e142d161f1dfbf5a8211913882c38a08950e433ee3462919"
+    },
+    {
+      "key": "ui.auto.071680a7dad5",
+      "source": "Custom BG Colour",
+      "source_hash": "80807d56913e7c45096e4b950d3a2cb4576615d749fc2525abe4d65d265a0b8b"
+    },
+    {
+      "key": "ui.auto.900dab46dc70",
+      "source": "Background Alpha",
+      "source_hash": "f4c06e661055997e206abe727ec11dca6727c70e64476ecc0d9b606f5c0fd1ed"
+    },
+    {
+      "key": "ui.auto.63d7897994e0",
+      "source": "Reset BG Colour",
+      "source_hash": "4bd3608559361afd88cbe6b11aeddf1f1b1931e6c2c176ef2054e4724ff4eac3"
+    },
+    {
+      "key": "ui.auto.d0ee9c60ed1f",
+      "source": "FPS Overlay",
+      "source_hash": "a37126633c214fae51fa5063f280b2989385f22dcea102f40e7f761a412156d9"
+    },
+    {
+      "key": "ui.auto.4f57a1ce99e6",
+      "source": "Horizontal",
+      "source_hash": "0abba441f16eff90782e7a820fd5abb05a1749cca37bff515e4cc968238a2d26"
+    },
+    {
+      "key": "ui.auto.589ad2aaca35",
+      "source": "Top Left",
+      "source_hash": "1cb2052adbcb1a225b59cf861286debde33b7b439c60389332846346d1334dac"
+    },
+    {
+      "key": "ui.auto.d0fa5ce893cc",
+      "source": "Top Right",
+      "source_hash": "dccff16fa2132bff8a87ecce919f19d40b0a4d106cb29bfa695fddb06baeef17"
+    },
+    {
+      "key": "ui.auto.922e100333b0",
+      "source": "Bottom Left",
+      "source_hash": "7499760f871251ece7ac8b9b6e6237fa08cdeafe77d6baedcc563a136b82b043"
+    },
+    {
+      "key": "ui.auto.45c0e2551b03",
+      "source": "Bottom Right",
+      "source_hash": "09b28cd781eda0b536f33eef8f4cf718e40a2d7deee0f64f945154c9efb414b8"
+    },
+    {
+      "key": "ui.auto.2807535b4358",
+      "source": "Overlay Position",
+      "source_hash": "c249e27ebfd466c95cc11e513d55c02a1334fe3cea65fdfe2da548e4aff2504b"
+    },
+    {
+      "key": "ui.auto.d8fce4dd2fec",
+      "source": "Just FPS",
+      "source_hash": "fe7536e63cfd0b876c859415118f53193930e58722da72d487323672a6d14b8d"
+    },
+    {
+      "key": "ui.auto.de72ea9e60d3",
+      "source": "Simple",
+      "source_hash": "3fee95da5ab69ebfdc16ec892b754105a11c20203054a6c6bcc0a60176891043"
+    },
+    {
+      "key": "ui.auto.c9d88a87a5bb",
+      "source": "Detailed",
+      "source_hash": "6d46fcd50a63e430bb6f0b42f8e94e975a37c412b105ee235d465660d7f5e3a5"
+    },
+    {
+      "key": "ui.auto.37969ad89aa6",
+      "source": "Detailed + Graph",
+      "source_hash": "9a6351f48d68af410603c14299e061bbd16702c92cf72ee95d598665c2729f53"
+    },
+    {
+      "key": "ui.auto.10b28a8c1e44",
+      "source": "Full",
+      "source_hash": "008dacb6d1e85bd8c0ae9661c4472810ef75537f690dd75d77fc74ca62f78fec"
+    },
+    {
+      "key": "ui.auto.90dd9fde896a",
+      "source": "Full + Graph",
+      "source_hash": "e7fac553f9cec5bf0a402552fe20ea3a62fd63e46eae8a334c16ea22370182fe"
+    },
+    {
+      "key": "ui.auto.00c8e7a0a0fb",
+      "source": "Reflex timings",
+      "source_hash": "3a141b17068234f17c92136f1d5bbd137a15e872c225a091bf6a389309fd79bd"
+    },
+    {
+      "key": "ui.auto.7e2d14eedf83",
+      "source": "Overlay Type",
+      "source_hash": "03b2cbf5c2e9e75878b5a4bb97e205093b4594bcf5205d9dab23078a15bde187"
+    },
+    {
+      "key": "ui.auto.cb1c9169da32",
+      "source": "Same as menu",
+      "source_hash": "5ccca3c9abf9cee79c2da035f87d5e25a0984fa32ffe93a4f1b9425d087880c1"
+    },
+    {
+      "key": "ui.auto.a29f0256272e",
+      "source": "Scale",
+      "source_hash": "f102986b39effb31080ae442f61febe7ed58df1515c0711ccfadfe0311ccec81"
+    },
+    {
+      "key": "ui.auto.158d2bc45dcc",
+      "source": "Use Theme Colors",
+      "source_hash": "797a04db221ed7d38cc6f3e9cec094d72a6325a58c1aa88b13b087925b1af13d"
+    },
+    {
+      "key": "ui.auto.b261879a296f",
+      "source": "Upscaler Inputs",
+      "source_hash": "6019d6e93ef4aafc1b2c39b8194b0826a06d869e339bab7cb2c89bad1bc01ca4"
+    },
+    {
+      "key": "ui.auto.c8ec80090439",
+      "source": "Use Fsr2 Inputs",
+      "source_hash": "23f6bdcfce813ce25f7c52a812b2ed8c3c269146e132bebf948ac73bbb5e9c25"
+    },
+    {
+      "key": "ui.auto.8b8c800213f0",
+      "source": "Use Fsr2 Pattern Matching",
+      "source_hash": "d54052dcc29a4a380c4cd10e1b1caa1f36743aca48e4ebd69fd6c85b37648423"
+    },
+    {
+      "key": "ui.auto.855ca5ff23c9",
+      "source": "This setting will become active on next boot!",
+      "source_hash": "6aae443aadf1104c6e23ce70f7bb967ced54e4e3f5edada1a3eeeb8e7f6cc708"
+    },
+    {
+      "key": "ui.auto.287d8d95c53c",
+      "source": "Use Fsr3 Inputs",
+      "source_hash": "3166598e45acd1dadf40025f6eb5490c1753ddf696423bc4e6d4e4b287827281"
+    },
+    {
+      "key": "ui.auto.2e00621001af",
+      "source": "Use Fsr3 Pattern Matching",
+      "source_hash": "e8ba335f775e02397c7efc2e4a4653fba9d95c3cb7bc7d2e8c1ae5685e744eef"
+    },
+    {
+      "key": "ui.auto.def1e3ce4d81",
+      "source": "Use Ffx Inputs",
+      "source_hash": "c7dcf7c64c979fdd92e3de98beb399404426b259b0d1b5efc235935916b513ef"
+    },
+    {
+      "key": "ui.auto.7bc01ea4234b",
+      "source": "V-Sync Settings",
+      "source_hash": "a40dba68d32d0a8a4684c431771dc112a5ecd3bed1e4535acf221b062027d3c1"
+    },
+    {
+      "key": "ui.auto.f02e7523ea69",
+      "source": "V-Sync On",
+      "source_hash": "c78b5144d0c9dfa963731bf44709cdb9b34049ea1ced41f79667e929ac4131cb"
+    },
+    {
+      "key": "ui.auto.f7b923a9ca88",
+      "source": "V-Sync Off",
+      "source_hash": "d1eeedfd8e73ddd3cbca0bc38d3a40b752c768320f117e2873145f05cb483cf9"
+    },
+    {
+      "key": "ui.auto.5df29b80b97d",
+      "source": "%d",
+      "source_hash": "25222ca8affacc375eda65ddd8760a24afa0941a1ddd53b8ad1acfbbc6f24a4c"
+    },
+    {
+      "key": "ui.auto.d1c770415641",
+      "source": "Sync Int.",
+      "source_hash": "dd522ba6e396af252b4a7ee379cb3adefe9196b13019c5e4e5bf9d77569682ea"
+    },
+    {
+      "key": "ui.auto.61e86dafb438",
+      "source": "Controls the DXGI Present sync interval, which determines how\nthe swap chain waits for vertical refresh.\n\n0  = Present immediately, no VSync wait.\n1  = Sync to every refresh, normal VSync.\n2+ = Present every N refreshes, reducing effective frame rate.\n\nHigher values can reduce tearing but may increase latency and cap FPS.\nFor most games, use 0 for lowest latency or 1 for normal VSync.",
+      "source_hash": "bb94e02f024ad945408a4111d17604f05ec4ad517fbc452d846ad1bd3b360578"
+    },
+    {
+      "key": "ui.auto.4e8e7d21443e",
+      "source": "Reset##10",
+      "source_hash": "7bfbfc3064fe8788796ba308fbe6ea9e15a50a384b7b10ca75e3e433558d5ce8"
+    },
+    {
+      "key": "ui.auto.523e9b335b47",
+      "source": "Force V-Sync On/Off & Sync Interval options",
+      "source_hash": "5336c11ee999b51d7c5db2e9ae3fa710c42cdac18676a22701d551857a81ac8f"
+    },
+    {
+      "key": "ui.auto.3f5aecea03d0",
+      "source": "Mipmap Bias##2",
+      "source_hash": "348908eccfb863a0343a24ea8827d18ada72a1b49c0abf43418c7a42e025884c"
+    },
+    {
+      "key": "ui.auto.04b58b46d468",
+      "source": "Can help with blurry textures in broken games\nNegative values will make textures sharper\nPositive values will make textures more blurry\n\nHas a small performance impact",
+      "source_hash": "91fa578ba2e6059b710eec4a79b46fde1a7466031acba690099ebee1c4b03d10"
+    },
+    {
+      "key": "ui.auto.8df3c16604c5",
+      "source": "MB Fixed Override",
+      "source_hash": "46c4f3b35aec2234b6f70b600411e62ce3def7045d15b835ab92e94d12b41796"
+    },
+    {
+      "key": "ui.auto.e47759588d22",
+      "source": "Apply same override value to all textures",
+      "source_hash": "fad6a536f64b42b276cc0fd5fa7a8d8c2add1fc3a6fdce9a552381743bbf1ce3"
+    },
+    {
+      "key": "ui.auto.754b8ab629bc",
+      "source": "MB Scale Override",
+      "source_hash": "6c96465e4e7d971dc7baab1681b5b00f199a7373f8ee024fc359d40fb5ede8b5"
+    },
+    {
+      "key": "ui.auto.d1e9e114c51f",
+      "source": "Apply override value as scale multiplier\nWhen using scale mode, please use positive\noverride values to increase sharpness!",
+      "source_hash": "ff336603f91d0c9b89fda3b9dec0d409d3af20ef381715f7dfc2ac2b6a048718"
+    },
+    {
+      "key": "ui.auto.5cb540516381",
+      "source": "MB Override All Textures",
+      "source_hash": "71cd757814f3dbaca28c5fe9f2f3186603a417585443b62d3230c6bf260d0867"
+    },
+    {
+      "key": "ui.auto.f8a970939c03",
+      "source": "Override all textures mipmap values\nNormally OptiScaler only overrides\nbelow zero mipmap values!",
+      "source_hash": "0650203591b24b6df92c6f3d0ee59fb2411cc1c0ab7c6a6eb145a0121d32000d"
+    },
+    {
+      "key": "ui.auto.44c57abd888a",
+      "source": "Reset",
+      "source_hash": "daee7606b339f3c339076fe2c9f372a3ff40c8ee896005d829c7481b64ca5303"
+    },
+    {
+      "key": "ui.auto.710a04583fea",
+      "source": "Current : %.3f / %.3f",
+      "source_hash": "278983e3b1899b80596bb11d0ebc32dd58bdf41c6ab9baee21272a059be2b215"
+    },
+    {
+      "key": "ui.auto.ef0e4831e8a4",
+      "source": "Will be applied after RESOLUTION/PRESET change !!!",
+      "source_hash": "b29b2a316b18a81be5c522f05899524b9dd2e22c525da7601b03187e12b56e53"
+    },
+    {
+      "key": "ui.auto.44605974562e",
+      "source": "Anisotropic Filtering",
+      "source_hash": "d59896744f6176e4e481b467ef9fb513fc8c7759c8c85b8b605ac4b6820d511c"
+    },
+    {
+      "key": "ui.auto.9d6a1191567d",
+      "source": "Force Anisotropic Filtering",
+      "source_hash": "fe49c2fbb6fb6a1b3d39dd5462428a09c4bbb0b87a36d4edfb8a2e8a584f439b"
+    },
+    {
+      "key": "ui.auto.86e41821732e",
+      "source": "Modify Compare",
+      "source_hash": "6f955e8d1cc02feff66789c9c615b37d366cbb8efa2c2cfc0cf8d1be6a419c0b"
+    },
+    {
+      "key": "ui.auto.34767982fe9d",
+      "source": "Update comparison filters",
+      "source_hash": "8d6ab8b5b5d93024b0d6a7cb2c1bb3638f99f8e2bce912160fdeccacbae8296a"
+    },
+    {
+      "key": "ui.auto.5a835db1222f",
+      "source": "Modify Min/Max",
+      "source_hash": "ce69ef2cd77f346676441eee9bc52d33ef65f4a29754617fac9db2720858bb04"
+    },
+    {
+      "key": "ui.auto.3ccd0ca86262",
+      "source": "Update min/max filters",
+      "source_hash": "d527437bf527f49bab8c35a3709c49f9b410be2236685c51cb881aa188f1b6ba"
+    },
+    {
+      "key": "ui.auto.7e5d28344ace",
+      "source": "Skip Point Filters",
+      "source_hash": "08a074aa00a2217fae4acf3bba29f270fe4a5d1ddc1de15de072bc2f4b78da10"
+    },
+    {
+      "key": "ui.auto.8c130bd9efba",
+      "source": "Skip updating of point filters",
+      "source_hash": "dfcc76057056fef113bc10202498051aa4f8653c0f483b603256f16a3aade957"
+    },
+    {
+      "key": "ui.auto.21b85a72790b",
+      "source": "Will might be applied after RESOLUTION/PRESET change !!!",
+      "source_hash": "41489cd694adb6ad7605f106f1e2c6d3337504cd0035f09dca253469072bfe5a"
+    },
+    {
+      "key": "ui.auto.880934ba6541",
+      "source": "Keybinds",
+      "source_hash": "7c73a36693f829ea149941a36308682584c53d13af4871ff61cd2ce5b1d06fd5"
+    },
+    {
+      "key": "ui.auto.f21783d27d89",
+      "source": "Key combinations are currently NOT supported!",
+      "source_hash": "d198d8ce325166da77aa05f3be676a46ded6c5550f5adcd073780f7d7ab169f4"
+    },
+    {
+      "key": "ui.auto.28c4847d4d63",
+      "source": "Escape to cancel, Backspace to unbind",
+      "source_hash": "1616e7090558b55f6352a67f6faf441ba41b7d8a2c735bba2fad7e1d090a2d17"
+    },
+    {
+      "key": "ui.auto.8718d1e3cbf8",
+      "source": "FrameTime",
+      "source_hash": "bc4630f85805216cf7c0cfe6507a2c8efc3a5920394aac718ef7846e098777f5"
+    },
+    {
+      "key": "ui.auto.4a9c840d9f0c",
+      "source": "%7.2f ms / %6.1f fps",
+      "source_hash": "1cd6bebe6cd14b055553ad903d0912dea21b79a5d4c383ee4b9f688c1de485b7"
+    },
+    {
+      "key": "ui.auto.576423378bca",
+      "source": "Upscaler",
+      "source_hash": "8b750cb13d3043ca59ad30e7bbf7ce69bb9c11fd23fba1ac4d5a49db8061d9ac"
+    },
+    {
+      "key": "ui.auto.d8ceafaa3f17",
+      "source": "Per shader breakdown:",
+      "source_hash": "b73fbbc92914299c73794a1bb7f2cf8096dd29a3f22199b08adc610c432c2147"
+    },
+    {
+      "key": "ui.auto.b478a7f9f09d",
+      "source": "%7.2f ms",
+      "source_hash": "9a6f4f9fc8e7459aa22c4997323f25d83dd4f4cc5fe688d6ccad1f3551ea26be"
+    },
+    {
+      "key": "ui.auto.1a8beceb0bb4",
+      "source": "Extra shaders:",
+      "source_hash": "780ee72a7750bcde18680ea63cf46088b1a2c485c02e40079535e55ae249dffb"
+    },
+    {
+      "key": "ui.auto.cc0887be183e",
+      "source": "%dx%d -> %dx%d (%.1f) [%dx%d (%.1f)]",
+      "source_hash": "b4518630c93374a887920b96db83b6bbb830f71e6a2b7e4e014a0a910458dd79"
+    },
+    {
+      "key": "ui.auto.a063066c3825",
+      "source": "Auto (%3.1f)",
+      "source_hash": "397214ef555876f74d3f27fc377c838bbe69a353b03a04fc7b711393d31ead4a"
+    },
+    {
+      "key": "ui.auto.e9ebc0dc2f2b",
+      "source": "Menu Scale",
+      "source_hash": "035a6e0d664498ff5d52b4ae11eb20d523eb813d2bc0c4ecd5b431874a0f926a"
+    },
+    {
+      "key": "ui.auto.248959f780c7",
+      "source": "nvngx.ini detected, please move over to using OptiScaler.ini and delete the old config",
+      "source_hash": "71aa2d25d5406fe203eaa9d434c37827546b69e69dc62c15627c2b2754b73b14"
+    },
+    {
+      "key": "ui.auto.888ff4c6f29c",
+      "source": "HUDless Resources",
+      "source_hash": "c13ec26572d7c88b14b8db8a5b5e4212a3a8938970c5633c07df3ae33890f1fe"
+    },
+    {
+      "key": "ui.auto.be3374cab25f",
+      "source": "%08x, %s->%s, Count: %llu, %s",
+      "source_hash": "fdaebff90637296791c6f95cfc854ababda58bcdc9cb68ca68e03fb61b5eb55d"
+    },
+    {
+      "key": "ui.auto.62c2d95ce033",
+      "source": "%s - %s %s %s %s",
+      "source_hash": "e0e079e8df640c4e29450d647e5a0903742cef39926483fb0225d0504bc75714"
+    },
+    {
+      "key": "ui.auto.3448080dc136",
+      "source": "- %s",
+      "source_hash": "7d88975ce8be98a3a8bf9ad205d08fcc540a4138a61a56d9822898ba6f18392d"
+    }
+  ],
+  "changed": []
 }
