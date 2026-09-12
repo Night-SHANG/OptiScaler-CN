@@ -1,5 +1,6 @@
 {
   "locale": "en-US",
+  "channel": "master",
   "entries": {
     "ui.auto.d01f6c691e27": {
       "text": "%s is active, but not currently used by the game\nPlease enter the game",
@@ -3229,6 +3230,5 @@
       "text": "- %s",
       "source_hash": "7d88975ce8be98a3a8bf9ad205d08fcc540a4138a61a56d9822898ba6f18392d"
     }
-  },
-  "channel": "master"
+  }
 }

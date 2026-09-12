@@ -1,5 +1,6 @@
 {
   "schema": 1,
+  "channel": "master",
   "upstream_commit": "5c5e424dd137d69ef36c4231fd45b760b4c65cc8",
   "entries": {
     "ui.auto.d01f6c691e27": {
@@ -12606,6 +12607,5 @@
       "obsolete": false,
       "previous_sources": []
     }
-  },
-  "channel": "master"
+  }
 }
