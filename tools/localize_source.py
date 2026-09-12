@@ -7,6 +7,18 @@ from loclib import *
 INCLUDE_LINE = '#include "localization/Localization.h"\n'
 
 
+def patch_precompiled_header(path: Path):
+    text, source_encoding = read_source_text(path)
+    if INCLUDE_LINE.strip() in text:
+        return
+    if '#pragma once' not in text:
+        raise RuntimeError('integration conflict: OptiScaler/pch.h missing #pragma once')
+    if not text.endswith('\n'):
+        text += '\n'
+    text += '\n' + INCLUDE_LINE
+    write_source_text(path, text, source_encoding)
+
+
 def patch_font_and_init(path: Path):
     text, source_encoding = read_source_text(path)
     if INCLUDE_LINE.strip() not in text:
@@ -151,6 +163,10 @@ def main():
     dst=args.source/'OptiScaler'/'localization'; dst.mkdir(parents=True,exist_ok=True)
     shutil.copy2(ROOT/'overlay'/'OptiScaler'/'localization'/'Localization.h',dst/'Localization.h')
     subprocess.run([sys.executable,str(ROOT/'tools'/'generate_cpp.py'),'--out',str(generated)],check=True)
+
+    pch=args.source/'OptiScaler'/'pch.h'
+    if not pch.exists(): raise RuntimeError('integration conflict: OptiScaler/pch.h missing')
+    patch_precompiled_header(pch)
 
     total=0
     for p in iter_source_files(args.source,rules):

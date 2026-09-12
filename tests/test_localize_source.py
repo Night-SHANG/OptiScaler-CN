@@ -89,6 +89,20 @@ ImGui::SetTooltip("%s", flag.description.c_str());
             self.assertIn('TL(flag.description)',out)
         finally: td.cleanup()
 
+
+    def test_localization_header_is_added_to_precompiled_header(self):
+        td=tempfile.TemporaryDirectory(); p=Path(td.name)/'pch.h'
+        try:
+            p.write_text('#pragma once\n#include <Windows.h>\ninline int marker = 1;\n',encoding='utf-8')
+            localize_source.patch_precompiled_header(p)
+            out=p.read_text(encoding='utf-8')
+            self.assertIn('#include "localization/Localization.h"',out)
+            self.assertGreater(out.index('#include "localization/Localization.h"'), out.index('inline int marker = 1;'))
+            localize_source.patch_precompiled_header(p)
+            self.assertEqual(p.read_text(encoding='utf-8').count('#include "localization/Localization.h"'),1)
+        finally:
+            td.cleanup()
+
     def test_cp1252_source_file_is_instrumented_without_reencoding_failure(self):
         td=tempfile.TemporaryDirectory(); p=Path(td.name)/'legacy.cpp'
         try:
