@@ -3,7 +3,9 @@
   "scan": {
     "added": [],
     "changed": [],
-    "removed": []
+    "removed": [
+      "ui.auto.4c5944890266"
+    ]
   },
   "missing": [],
   "changed": []

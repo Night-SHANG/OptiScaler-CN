@@ -2134,10 +2134,6 @@
       "text": "Reset List",
       "source_hash": "290fe6848f6ec9867be487c935ff0ebc70ac8884b4941890c0971bfdca0c755a"
     },
-    "ui.auto.4c5944890266": {
-      "text": "Always track resources, might cause performance issues\n, but also might fix HUDFix related crashes!",
-      "source_hash": "620a8c66523f2b7192531ce426b84a0f1c5408e5f2a55dd46f7cf5dc18ed41b8"
-    },
     "ui.auto.9f298520a655": {
       "text": "Disable tracking of CreateRenderTargetView\nThis might help filtering of wrong HUDless resources",
       "source_hash": "6334151451cf6f30a5fa820b3b48e90593f5371fcf6dcee24673fa530e9c9a48"

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "channel": "master",
-  "upstream_commit": "5c5e424dd137d69ef36c4231fd45b760b4c65cc8",
+  "upstream_commit": "d817d5b4c8804ebde643f24ff9256f5bb3a4739b",
   "entries": {
     "ui.auto.d01f6c691e27": {
       "source": "%s is active, but not currently used by the game\nPlease enter the game",
@@ -9,7 +9,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2418,
+          "line": 2422,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -24,7 +24,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6208,
+          "line": 6221,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -39,7 +39,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7537,
+          "line": 7550,
           "callee": "ImGui::Text:vararg",
           "arg": 5
         }
@@ -54,7 +54,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5272,
+          "line": 5285,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -69,7 +69,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5276,
+          "line": 5289,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -84,7 +84,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4011,
+          "line": 4015,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -107,7 +107,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5845,
+          "line": 5858,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -122,7 +122,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4357,
+          "line": 4365,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -145,7 +145,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4942,
+          "line": 4955,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -160,13 +160,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3791,
+          "line": 3795,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4842,
+          "line": 4855,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -181,13 +181,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5204,
+          "line": 5217,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5317,
+          "line": 5330,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -202,7 +202,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5836,
+          "line": 5849,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -217,7 +217,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3927,
+          "line": 3931,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -232,7 +232,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4430,
+          "line": 4439,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -247,13 +247,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3466,
+          "line": 3470,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4236,
+          "line": 4240,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -268,13 +268,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3468,
+          "line": 3472,
           "callee": "ImGui::Button",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4238,
+          "line": 4242,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -289,7 +289,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3929,
+          "line": 3933,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -304,19 +304,19 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5248,
+          "line": 5261,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5255,
+          "line": 5268,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6994,
+          "line": 7007,
           "callee": "ImGui::Selectable",
           "arg": 0
         }
@@ -331,7 +331,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5800,
+          "line": 5813,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -346,7 +346,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6414,
+          "line": 6427,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -361,13 +361,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5657,
+          "line": 5670,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7392,
+          "line": 7405,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -390,7 +390,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6229,
+          "line": 6242,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -405,7 +405,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6424,
+          "line": 6437,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -420,7 +420,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3984,
+          "line": 3988,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -435,7 +435,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6950,
+          "line": 6963,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -450,7 +450,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2400,
+          "line": 2404,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -465,7 +465,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7560,
+          "line": 7573,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -480,13 +480,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7261,
+          "line": 7274,
           "callee": "ImGui::Button",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7488,
+          "line": 7501,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -501,7 +501,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7568,
+          "line": 7581,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -516,13 +516,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5202,
+          "line": 5215,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5316,
+          "line": 5329,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -537,7 +537,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6958,
+          "line": 6971,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -552,7 +552,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6963,
+          "line": 6976,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -567,7 +567,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6968,
+          "line": 6981,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -582,13 +582,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4163,
+          "line": 4167,
           "callee": "ImGui::Text",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4620,
+          "line": 4633,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -603,7 +603,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6394,
+          "line": 6407,
           "callee": "ImGui::ColorEdit3",
           "arg": 0
         }
@@ -618,7 +618,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3807,
+          "line": 3811,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -641,13 +641,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3761,
+          "line": 3765,
           "callee": "ImGui::Checkbox",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4068,
+          "line": 4072,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -698,7 +698,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5853,
+          "line": 5866,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -721,7 +721,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4483,
+          "line": 4496,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -736,7 +736,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4491,
+          "line": 4504,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -751,7 +751,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4497,
+          "line": 4510,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -766,7 +766,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4461,
+          "line": 4474,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -781,7 +781,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5822,
+          "line": 5835,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -796,7 +796,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4439,
+          "line": 4452,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -811,7 +811,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4467,
+          "line": 4480,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -826,7 +826,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4475,
+          "line": 4488,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -841,7 +841,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4447,
+          "line": 4460,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -928,7 +928,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4453,
+          "line": 4466,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -943,7 +943,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7545,
+          "line": 7558,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -966,7 +966,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3803,
+          "line": 3807,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -981,7 +981,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7373,
+          "line": 7386,
           "callee": "ImGui::InputScalar",
           "arg": 0
         }
@@ -1004,7 +1004,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2970,
+          "line": 2974,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1019,7 +1019,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2968,
+          "line": 2972,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1034,13 +1034,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3464,
+          "line": 3468,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4234,
+          "line": 4238,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -1055,7 +1055,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6065,
+          "line": 6078,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1070,7 +1070,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5691,
+          "line": 5704,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1085,19 +1085,19 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3742,
+          "line": 3746,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4020,
+          "line": 4024,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4184,
+          "line": 4188,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1112,7 +1112,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4288,
+          "line": 4296,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1127,7 +1127,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3923,
+          "line": 3927,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1142,7 +1142,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4078,
+          "line": 4082,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1157,7 +1157,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7547,
+          "line": 7560,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -1180,7 +1180,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3812,
+          "line": 3816,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1195,7 +1195,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4314,
+          "line": 4322,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1210,7 +1210,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2662,
+          "line": 2666,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1225,7 +1225,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4390,
+          "line": 4397,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1240,7 +1240,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4516,
+          "line": 4529,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1255,7 +1255,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4510,
+          "line": 4523,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1270,7 +1270,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3802,
+          "line": 3806,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1285,7 +1285,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4399,
+          "line": 4406,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1300,7 +1300,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4341,
+          "line": 4349,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1315,13 +1315,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6072,
+          "line": 6085,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6078,
+          "line": 6091,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1336,7 +1336,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4344,
+          "line": 4352,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1351,7 +1351,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4351,
+          "line": 4359,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1366,7 +1366,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4346,
+          "line": 4354,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1381,13 +1381,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5217,
+          "line": 5230,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5327,
+          "line": 5340,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -1402,7 +1402,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4084,
+          "line": 4088,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1417,13 +1417,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5218,
+          "line": 5231,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5328,
+          "line": 5341,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -1438,13 +1438,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3456,
+          "line": 3460,
           "callee": "ImGui::Checkbox",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4227,
+          "line": 4231,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1459,13 +1459,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5219,
+          "line": 5232,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5329,
+          "line": 5342,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -1480,7 +1480,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5221,
+          "line": 5234,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -1495,7 +1495,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3322,
+          "line": 3326,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1510,7 +1510,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4152,
+          "line": 4156,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1525,7 +1525,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3698,
+          "line": 3702,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1540,7 +1540,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4568,
+          "line": 4581,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -1555,7 +1555,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4579,
+          "line": 4592,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -1570,7 +1570,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4268,
+          "line": 4272,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -1585,7 +1585,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4900,
+          "line": 4913,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -1600,7 +1600,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3948,
+          "line": 3952,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1615,7 +1615,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2837,
+          "line": 2841,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -1630,7 +1630,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1578,
+          "line": 1582,
           "callee": ".setContent",
           "arg": 0
         }
@@ -1645,7 +1645,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4942,
+          "line": 4955,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -1660,7 +1660,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6271,
+          "line": 6284,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -1675,7 +1675,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6466,
+          "line": 6479,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -1690,7 +1690,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6313,
+          "line": 6326,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -1705,7 +1705,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6508,
+          "line": 6521,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -1720,7 +1720,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5862,
+          "line": 5875,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1735,7 +1735,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4280,
+          "line": 4288,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1758,7 +1758,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4610,
+          "line": 4623,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -1773,7 +1773,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4000,
+          "line": 4004,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1788,7 +1788,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4003,
+          "line": 4007,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -1803,7 +1803,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4325,
+          "line": 4333,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -1818,7 +1818,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5791,
+          "line": 5804,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1833,13 +1833,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3630,
+          "line": 3634,
           "callee": "c-string-array",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5297,
+          "line": 5310,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -1862,7 +1862,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1567,
+          "line": 1571,
           "callee": ".setTitle",
           "arg": 0
         }
@@ -1877,13 +1877,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5214,
+          "line": 5227,
           "callee": "PopulateCombo",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5324,
+          "line": 5337,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -1961,7 +1961,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6129,
+          "line": 6142,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -1976,7 +1976,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5245,
+          "line": 5258,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -1991,7 +1991,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4518,
+          "line": 4531,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -2006,7 +2006,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4512,
+          "line": 4525,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -2021,19 +2021,19 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6860,
+          "line": 6873,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7368,
+          "line": 7381,
           "callee": "ImGui::Begin",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7462,
+          "line": 7475,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -2056,13 +2056,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5301,
+          "line": 5314,
           "callee": ".set_disabled",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5302,
+          "line": 5315,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -2077,13 +2077,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5248,
+          "line": 5261,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5254,
+          "line": 5267,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -2098,7 +2098,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2311,
+          "line": 2315,
           "callee": "ImGui::TextLinkOpenURL",
           "arg": 0
         }
@@ -2113,7 +2113,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5840,
+          "line": 5853,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -2128,7 +2128,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1678,
+          "line": 1682,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -2143,7 +2143,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6355,
+          "line": 6368,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2158,7 +2158,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6550,
+          "line": 6563,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2173,7 +2173,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5308,
+          "line": 5321,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -2196,7 +2196,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5678,
+          "line": 5691,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -2211,7 +2211,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5350,
+          "line": 5363,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -2234,7 +2234,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6070,
+          "line": 6083,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -2249,7 +2249,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7537,
+          "line": 7550,
           "callee": "ImGui::Text:vararg",
           "arg": 5
         }
@@ -2264,13 +2264,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5661,
+          "line": 5674,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7392,
+          "line": 7405,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -2293,7 +2293,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2360,
+          "line": 2364,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -2308,13 +2308,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4614,
+          "line": 4627,
           "callee": "ImGui::Text",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4923,
+          "line": 4936,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -2337,13 +2337,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6210,
+          "line": 6223,
           "callee": "ImGui::Text",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6416,
+          "line": 6429,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -2373,7 +2373,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6376,
+          "line": 6389,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2388,7 +2388,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6571,
+          "line": 6584,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2403,13 +2403,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5653,
+          "line": 5666,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7392,
+          "line": 7405,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -2424,7 +2424,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4120,
+          "line": 4124,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -2439,7 +2439,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4106,
+          "line": 4110,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -2454,7 +2454,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4111,
+          "line": 4115,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -2469,7 +2469,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4115,
+          "line": 4119,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -2484,7 +2484,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4102,
+          "line": 4106,
           "callee": "ImGui::TreeNode",
           "arg": 0
         }
@@ -2499,7 +2499,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6334,
+          "line": 6347,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2514,7 +2514,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6529,
+          "line": 6542,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2529,13 +2529,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4609,
+          "line": 4622,
           "callee": "ImGui::TextColored",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4906,
+          "line": 4919,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -2558,7 +2558,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4379,
+          "line": 4386,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -2581,7 +2581,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7459,
+          "line": 7472,
           "callee": "ImGui::InputScalar",
           "arg": 0
         }
@@ -2596,7 +2596,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3979,
+          "line": 3983,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -2619,7 +2619,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6404,
+          "line": 6417,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2634,7 +2634,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4129,
+          "line": 4133,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2657,13 +2657,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3476,
+          "line": 3480,
           "callee": "ImGui::Button",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4245,
+          "line": 4249,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2686,7 +2686,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4367,
+          "line": 4374,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -2701,7 +2701,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4507,
+          "line": 4520,
           "callee": "ImGui::TreeNode",
           "arg": 0
         }
@@ -2716,7 +2716,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3973,
+          "line": 3977,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -2731,7 +2731,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6105,
+          "line": 6118,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -2746,7 +2746,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7256,
+          "line": 7269,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2761,7 +2761,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4339,
+          "line": 4347,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -2776,7 +2776,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4900,
+          "line": 4913,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -2791,7 +2791,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6923,
+          "line": 6936,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2806,7 +2806,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4218,
+          "line": 4222,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -2821,7 +2821,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4053,
+          "line": 4057,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -2836,13 +2836,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5347,
+          "line": 5360,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5375,
+          "line": 5388,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -2857,7 +2857,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1577,
+          "line": 1581,
           "callee": ".setTitle",
           "arg": 0
         }
@@ -2872,7 +2872,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1662,
+          "line": 1666,
           "callee": "ImGui::Begin",
           "arg": 0
         }
@@ -2887,7 +2887,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2842,
+          "line": 2846,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2902,7 +2902,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6250,
+          "line": 6263,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2917,7 +2917,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6445,
+          "line": 6458,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -2932,7 +2932,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4427,
+          "line": 4434,
           "callee": "ImGui::TreeNode",
           "arg": 0
         }
@@ -2947,7 +2947,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4059,
+          "line": 4063,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -2962,13 +2962,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5665,
+          "line": 5678,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7392,
+          "line": 7405,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -2983,13 +2983,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5649,
+          "line": 5662,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7392,
+          "line": 7405,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -3059,7 +3059,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2305,
+          "line": 2309,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -3074,7 +3074,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5607,
+          "line": 5620,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -3089,7 +3089,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7400,
+          "line": 7413,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -3104,7 +3104,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7453,
+          "line": 7466,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -3119,7 +3119,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2439,
+          "line": 2443,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -3134,7 +3134,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4257,
+          "line": 4261,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -3149,7 +3149,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4353,
+          "line": 4361,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -3164,7 +3164,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7480,
+          "line": 7493,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -3179,7 +3179,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4589,
+          "line": 4602,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -3194,7 +3194,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4268,
+          "line": 4272,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -3209,7 +3209,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3585,
+          "line": 3589,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -3224,7 +3224,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2819,
+          "line": 2823,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -3260,7 +3260,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2440,
+          "line": 2444,
           "callee": "ShowTooltip",
           "arg": 0
         }
@@ -3275,13 +3275,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3579,
+          "line": 3583,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3588,
+          "line": 3592,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -3296,7 +3296,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3993,
+          "line": 3997,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -3311,7 +3311,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6292,
+          "line": 6305,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -3326,7 +3326,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6487,
+          "line": 6500,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -3349,7 +3349,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5859,
+          "line": 5872,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -3364,13 +3364,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4870,
+          "line": 4883,
           "callee": "ImGui::TextColored",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4916,
+          "line": 4929,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -3385,25 +3385,25 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4171,
+          "line": 4175,
           "callee": "ImGui::TextColored",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4629,
+          "line": 4642,
           "callee": "ImGui::TextColored",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4876,
+          "line": 4889,
           "callee": "ImGui::TextColored",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4922,
+          "line": 4935,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -3418,13 +3418,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4167,
+          "line": 4171,
           "callee": "nested:std::format",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4625,
+          "line": 4638,
           "callee": "nested:std::format",
           "arg": 0
         }
@@ -3439,13 +3439,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4872,
+          "line": 4885,
           "callee": "ImGui::TextColored",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4918,
+          "line": 4931,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -3468,13 +3468,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3150,
-          "callee": ".set_disabled",
-          "arg": 1
-        },
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3170,
+          "line": 3154,
           "callee": ".set_disabled",
           "arg": 1
         },
@@ -3492,13 +3486,13 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3211,
+          "line": 3182,
           "callee": ".set_disabled",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3220,
+          "line": 3215,
           "callee": ".set_disabled",
           "arg": 1
         },
@@ -3513,6 +3507,12 @@
           "line": 3228,
           "callee": ".set_disabled",
           "arg": 1
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3232,
+          "callee": ".set_disabled",
+          "arg": 1
         }
       ],
       "obsolete": false,
@@ -3525,7 +3525,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3157,
+          "line": 3161,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -3540,7 +3540,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3164,
+          "line": 3168,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -3555,7 +3555,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3291,
+          "line": 3295,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -3586,7 +3586,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4674,
+          "line": 4687,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3601,7 +3601,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4687,
+          "line": 4700,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3616,7 +3616,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4688,
+          "line": 4701,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3631,7 +3631,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4693,
+          "line": 4706,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3646,7 +3646,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4694,
+          "line": 4707,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3669,7 +3669,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4675,
+          "line": 4688,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3684,7 +3684,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4680,
+          "line": 4693,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3699,7 +3699,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4681,
+          "line": 4694,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3722,7 +3722,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4683,
+          "line": 4696,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -3737,7 +3737,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4700,
+          "line": 4713,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -3752,7 +3752,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4714,
+          "line": 4727,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -3767,7 +3767,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4754,
+          "line": 4767,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -3782,7 +3782,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4758,
+          "line": 4771,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -3797,7 +3797,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4860,
+          "line": 4873,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -3812,7 +3812,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4865,
+          "line": 4878,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -3827,7 +3827,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4877,
+          "line": 4890,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -3874,7 +3874,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4642,
+          "line": 4655,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -3889,7 +3889,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4646,
+          "line": 4659,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -3912,7 +3912,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3630,
+          "line": 3634,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -3927,7 +3927,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3630,
+          "line": 3634,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -3942,7 +3942,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3631,
+          "line": 3635,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -3957,7 +3957,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3632,
+          "line": 3636,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -3972,7 +3972,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3633,
+          "line": 3637,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -3987,7 +3987,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3660,
+          "line": 3664,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -4002,7 +4002,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3879,
+          "line": 3883,
           "callee": "ImGui::TreeNode",
           "arg": 0
         }
@@ -4017,7 +4017,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3882,
+          "line": 3886,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -4032,7 +4032,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3892,
+          "line": 3896,
           "callee": "ImGui::InputFloat",
           "arg": 0
         }
@@ -4047,7 +4047,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3899,
+          "line": 3903,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -4062,7 +4062,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3907,
+          "line": 3911,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -4077,7 +4077,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3914,
+          "line": 3918,
           "callee": "ImGui::SliderInt",
           "arg": 0
         }
@@ -4092,7 +4092,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4532,
+          "line": 4545,
           "callee": "ImGui::TreeNode",
           "arg": 0
         }
@@ -4107,7 +4107,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4535,
+          "line": 4548,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -4122,7 +4122,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6632,
+          "line": 6645,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -4137,7 +4137,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7289,
+          "line": 7302,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -4152,7 +4152,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7295,
+          "line": 7308,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -5847,19 +5847,19 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1998,
+          "line": 2002,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4726,
+          "line": 4739,
           "callee": "ImGui::SetTooltip",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6026,
+          "line": 6039,
           "callee": "ImGui::TextWrapped",
           "arg": 0
         }
@@ -5873,7 +5873,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1547,
+          "line": 1551,
           "callee": ".setTitle",
           "arg": 0
         }
@@ -5887,7 +5887,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1549,
+          "line": 1553,
           "callee": ".setContent",
           "arg": 0
         }
@@ -5901,7 +5901,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1569,
+          "line": 1573,
           "callee": ".setContent",
           "arg": 0
         }
@@ -5915,7 +5915,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1835,
+          "line": 1839,
           "callee": "ImGui::Begin",
           "arg": 0
         }
@@ -5929,7 +5929,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1954,
+          "line": 1958,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -5943,7 +5943,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1967,
+          "line": 1971,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -5957,7 +5957,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1971,
+          "line": 1975,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -5971,7 +5971,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1975,
+          "line": 1979,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -5985,7 +5985,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1984,
+          "line": 1988,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -5999,7 +5999,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1988,
+          "line": 1992,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -6013,7 +6013,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 1992,
+          "line": 1996,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -6027,7 +6027,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2000,
+          "line": 2004,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -6041,7 +6041,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2016,
+          "line": 2020,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -6055,7 +6055,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2023,
+          "line": 2027,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -6069,13 +6069,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2136,
+          "line": 2140,
           "callee": "ImGui::Text",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2196,
+          "line": 2200,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6089,7 +6089,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2137,
+          "line": 2141,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6103,13 +6103,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2152,
+          "line": 2156,
           "callee": "ImGui::TextColored",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2211,
+          "line": 2215,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -6123,7 +6123,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2197,
+          "line": 2201,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6137,7 +6137,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2373,
+          "line": 2377,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6151,13 +6151,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2373,
-          "callee": "ImGui::Text:vararg",
-          "arg": 1
-        },
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2375,
+          "line": 2377,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
@@ -6169,7 +6163,7 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2381,
+          "line": 2383,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
@@ -6187,13 +6181,19 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2391,
+          "line": 2393,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2393,
+          "line": 2395,
+          "callee": "ImGui::Text:vararg",
+          "arg": 1
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2397,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         }
@@ -6207,13 +6207,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2373,
-          "callee": "ImGui::Text:vararg",
-          "arg": 1
-        },
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2375,
+          "line": 2377,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
@@ -6225,7 +6219,7 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2381,
+          "line": 2383,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
@@ -6243,13 +6237,19 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2391,
+          "line": 2393,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2393,
+          "line": 2395,
+          "callee": "ImGui::Text:vararg",
+          "arg": 1
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2397,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         }
@@ -6263,7 +6263,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2375,
+          "line": 2379,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6277,7 +6277,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2379,
+          "line": 2383,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6291,7 +6291,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2381,
+          "line": 2385,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6305,7 +6305,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2384,
+          "line": 2388,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6319,7 +6319,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2387,
+          "line": 2391,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6333,7 +6333,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2387,
+          "line": 2391,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         }
@@ -6347,7 +6347,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2387,
+          "line": 2391,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         }
@@ -6361,7 +6361,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2389,
+          "line": 2393,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6375,7 +6375,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2391,
+          "line": 2395,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6389,7 +6389,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2393,
+          "line": 2397,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6403,7 +6403,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2456,
+          "line": 2460,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6417,19 +6417,19 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2456,
+          "line": 2460,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2475,
+          "line": 2479,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2493,
+          "line": 2497,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         }
@@ -6443,13 +6443,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2459,
+          "line": 2463,
           "callee": "ImGui::Text:vararg",
           "arg": 6
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2496,
+          "line": 2500,
           "callee": "ImGui::Text:vararg",
           "arg": 6
         }
@@ -6460,32 +6460,6 @@
     "ui.auto.8567d1a739d4": {
       "source": "| Input: %s",
       "source_hash": "9a7b67a8cae2a00a5781877a1444db7e044d9ca0a229de25bb1cee7cb5ac900f",
-      "occurrences": [
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2461,
-          "callee": "ImGui::Text",
-          "arg": 0
-        },
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2479,
-          "callee": "ImGui::Text",
-          "arg": 0
-        },
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2498,
-          "callee": "ImGui::Text",
-          "arg": 0
-        }
-      ],
-      "obsolete": false,
-      "previous_sources": []
-    },
-    "ui.auto.6374f6926ab6": {
-      "source": "| Spoof: %s",
-      "source_hash": "9d0113c5e3d8753326550a5d34e09271cbf803524ba07a4ea39b9c397891b9ac",
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
@@ -6501,7 +6475,33 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2513,
+          "line": 2502,
+          "callee": "ImGui::Text",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.6374f6926ab6": {
+      "source": "| Spoof: %s",
+      "source_hash": "9d0113c5e3d8753326550a5d34e09271cbf803524ba07a4ea39b9c397891b9ac",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2469,
+          "callee": "ImGui::Text",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2487,
+          "callee": "ImGui::Text",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2517,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6515,7 +6515,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2475,
+          "line": 2479,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6529,7 +6529,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2493,
+          "line": 2497,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -6543,7 +6543,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2525,
+          "line": 2529,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -6557,7 +6557,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2544,
+          "line": 2548,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -6571,7 +6571,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2553,
+          "line": 2557,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -6585,7 +6585,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2565,
+          "line": 2569,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -6599,7 +6599,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2571,
+          "line": 2575,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -6613,7 +6613,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2582,
+          "line": 2586,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -6627,7 +6627,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2588,
+          "line": 2592,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -6641,7 +6641,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2592,
+          "line": 2596,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -6655,7 +6655,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2606,
+          "line": 2610,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -6669,7 +6669,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2611,
+          "line": 2615,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6683,7 +6683,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2611,
+          "line": 2615,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6697,7 +6697,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2619,
+          "line": 2623,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -6711,7 +6711,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2633,
+          "line": 2637,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -6725,7 +6725,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2635,
+          "line": 2639,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -6739,7 +6739,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2642,
+          "line": 2646,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -6753,31 +6753,31 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2672,
+          "line": 2676,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3707,
+          "line": 3711,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3712,
+          "line": 3716,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4773,
+          "line": 4786,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4778,
+          "line": 4791,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -6791,7 +6791,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2673,
+          "line": 2677,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -6805,7 +6805,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2677,
+          "line": 2681,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -6819,7 +6819,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2686,
+          "line": 2690,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -6833,7 +6833,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2690,
+          "line": 2694,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -6847,7 +6847,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2705,
+          "line": 2709,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6861,7 +6861,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2705,
+          "line": 2709,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6875,7 +6875,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2705,
+          "line": 2709,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6889,7 +6889,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2706,
+          "line": 2710,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6903,7 +6903,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2716,
+          "line": 2720,
           "callee": "ImGui::Combo",
           "arg": 0
         }
@@ -6917,7 +6917,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2740,
+          "line": 2744,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -6931,13 +6931,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2745,
+          "line": 2749,
           "callee": "c-string-array",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2884,
+          "line": 2888,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -6951,7 +6951,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2745,
+          "line": 2749,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6965,7 +6965,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2745,
+          "line": 2749,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6979,7 +6979,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2745,
+          "line": 2749,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -6993,7 +6993,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2746,
+          "line": 2750,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -7007,7 +7007,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2746,
+          "line": 2750,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -7021,7 +7021,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2746,
+          "line": 2750,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -7035,7 +7035,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2753,
+          "line": 2757,
           "callee": "ImGui::Combo",
           "arg": 0
         }
@@ -7049,7 +7049,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2763,
+          "line": 2767,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7063,7 +7063,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2775,
+          "line": 2779,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -7077,7 +7077,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2777,
+          "line": 2781,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -7091,7 +7091,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2779,
+          "line": 2783,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -7105,7 +7105,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2787,
+          "line": 2791,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7119,7 +7119,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2801,
+          "line": 2805,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7133,7 +7133,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2806,
+          "line": 2810,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7147,7 +7147,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2825,
+          "line": 2829,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7161,7 +7161,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2863,
+          "line": 2867,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -7175,7 +7175,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2896,
+          "line": 2900,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -7189,7 +7189,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2905,
+          "line": 2909,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -7203,7 +7203,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2908,
+          "line": 2912,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7217,7 +7217,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2916,
+          "line": 2920,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -7231,7 +7231,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2919,
+          "line": 2923,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7245,7 +7245,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2924,
+          "line": 2928,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -7259,7 +7259,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2927,
+          "line": 2931,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7273,7 +7273,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2932,
+          "line": 2936,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -7287,7 +7287,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2935,
+          "line": 2939,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7301,7 +7301,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2944,
+          "line": 2948,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -7315,7 +7315,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2947,
+          "line": 2951,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7329,7 +7329,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2977,
+          "line": 2981,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -7343,7 +7343,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2978,
+          "line": 2982,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7357,13 +7357,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2989,
+          "line": 2993,
           "callee": "ImGui::Checkbox",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3016,
+          "line": 3020,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7377,7 +7377,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2992,
+          "line": 2996,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7391,7 +7391,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3019,
+          "line": 3023,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7405,7 +7405,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3044,
+          "line": 3048,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -7419,7 +7419,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3065,
+          "line": 3069,
           "callee": "ScopedCollapsingHeader:conditional",
           "arg": 0
         }
@@ -7433,7 +7433,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3065,
+          "line": 3069,
           "callee": "ScopedCollapsingHeader:conditional",
           "arg": 0
         }
@@ -7447,7 +7447,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3072,
+          "line": 3076,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7461,7 +7461,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3075,
+          "line": 3079,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7475,7 +7475,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3146,
+          "line": 3150,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -7489,7 +7489,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3208,
+          "line": 3212,
           "callee": "assignment:.tooltip",
           "arg": 0
         }
@@ -7503,7 +7503,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3213,
+          "line": 3217,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -7517,7 +7517,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3295,
+          "line": 3299,
           "callee": "assignment:.label",
           "arg": 0
         }
@@ -7531,7 +7531,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3301,
+          "line": 3305,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -7545,7 +7545,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3304,
+          "line": 3308,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -7559,7 +7559,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3308,
+          "line": 3312,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -7573,7 +7573,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3313,
+          "line": 3317,
           "callee": ".set_disabled",
           "arg": 1
         }
@@ -7587,7 +7587,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3328,
+          "line": 3332,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -7601,7 +7601,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3329,
+          "line": 3333,
           "callee": "ShowTooltip",
           "arg": 0
         }
@@ -7615,7 +7615,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3337,
+          "line": 3341,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -7629,13 +7629,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3338,
+          "line": 3342,
           "callee": "ShowTooltip",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3353,
+          "line": 3357,
           "callee": "ShowTooltip",
           "arg": 0
         }
@@ -7649,7 +7649,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3342,
+          "line": 3346,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -7663,7 +7663,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3343,
+          "line": 3347,
           "callee": "ShowTooltip",
           "arg": 0
         }
@@ -7677,7 +7677,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3352,
+          "line": 3356,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -7691,7 +7691,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3379,
+          "line": 3383,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -7705,7 +7705,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3410,
+          "line": 3414,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -7719,7 +7719,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3491,
+          "line": 3495,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7733,7 +7733,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3492,
+          "line": 3496,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7747,7 +7747,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3500,
+          "line": 3504,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7761,7 +7761,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3504,
+          "line": 3508,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7775,7 +7775,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3514,
+          "line": 3518,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7789,7 +7789,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3518,
+          "line": 3522,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7803,7 +7803,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3533,
+          "line": 3537,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -7817,7 +7817,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3551,
+          "line": 3555,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7831,7 +7831,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3557,
+          "line": 3561,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7845,13 +7845,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3566,
+          "line": 3570,
           "callee": "ImGui::Checkbox",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4848,
+          "line": 4861,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7865,7 +7865,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3571,
+          "line": 3575,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7879,7 +7879,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3576,
+          "line": 3580,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7893,7 +7893,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3592,
+          "line": 3596,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7907,7 +7907,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3595,
+          "line": 3599,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7921,7 +7921,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3600,
+          "line": 3604,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7935,7 +7935,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3603,
+          "line": 3607,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7949,7 +7949,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3606,
+          "line": 3610,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -7963,7 +7963,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3611,
+          "line": 3615,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -7977,7 +7977,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3618,
+          "line": 3622,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -7991,7 +7991,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3623,
+          "line": 3627,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8005,7 +8005,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3640,
+          "line": 3644,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -8019,7 +8019,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3668,
+          "line": 3672,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -8033,7 +8033,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3671,
+          "line": 3675,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8047,13 +8047,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3708,
+          "line": 3712,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4774,
+          "line": 4787,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -8067,13 +8067,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3721,
+          "line": 3725,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4787,
+          "line": 4800,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8087,13 +8087,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3725,
+          "line": 3729,
           "callee": "ImGui::Button",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4791,
+          "line": 4804,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -8107,7 +8107,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3734,
+          "line": 3738,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -8121,7 +8121,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3745,
+          "line": 3749,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -8135,13 +8135,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3756,
+          "line": 3760,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4809,
+          "line": 4822,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8155,13 +8155,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3771,
+          "line": 3775,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4823,
+          "line": 4836,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8175,13 +8175,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3785,
+          "line": 3789,
           "callee": "ImGui::Checkbox",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4836,
+          "line": 4849,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -8195,7 +8195,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3797,
+          "line": 3801,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -8209,7 +8209,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3815,
+          "line": 3819,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -8223,7 +8223,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3820,
+          "line": 3824,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8237,7 +8237,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3824,
+          "line": 3828,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -8251,7 +8251,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3829,
+          "line": 3833,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8265,7 +8265,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3832,
+          "line": 3836,
           "callee": "ImGui::TreeNode",
           "arg": 0
         }
@@ -8279,7 +8279,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3836,
+          "line": 3840,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -8293,7 +8293,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3841,
+          "line": 3845,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -8307,7 +8307,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3845,
+          "line": 3849,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -8321,7 +8321,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3850,
+          "line": 3854,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -8335,7 +8335,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3854,
+          "line": 3858,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8349,7 +8349,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3859,
+          "line": 3863,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -8363,7 +8363,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3867,
+          "line": 3871,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8377,7 +8377,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3894,
+          "line": 3898,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8391,7 +8391,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3901,
+          "line": 3905,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8405,7 +8405,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3909,
+          "line": 3913,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8419,7 +8419,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 3916,
+          "line": 3920,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8433,7 +8433,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4062,
+          "line": 4066,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8447,7 +8447,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4087,
+          "line": 4091,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8461,7 +8461,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4099,
+          "line": 4103,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -8475,7 +8475,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4124,
+          "line": 4128,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8489,7 +8489,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4137,
+          "line": 4141,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8503,7 +8503,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4159,
+          "line": 4163,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -8517,7 +8517,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4175,
+          "line": 4179,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -8531,7 +8531,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4295,
+          "line": 4303,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -8545,7 +8545,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4305,
+          "line": 4313,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8559,7 +8559,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4308,
+          "line": 4316,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -8573,7 +8573,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4319,
+          "line": 4327,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8587,7 +8587,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4330,
+          "line": 4338,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8601,7 +8601,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4372,
+          "line": 4379,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8615,7 +8615,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4384,
+          "line": 4391,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8629,7 +8629,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4409,
+          "line": 4416,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -8643,7 +8643,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4415,
+          "line": 4422,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -8654,15 +8654,8 @@
     "ui.auto.4c5944890266": {
       "source": "Always track resources, might cause performance issues\n, but also might fix HUDFix related crashes!",
       "source_hash": "620a8c66523f2b7192531ce426b84a0f1c5408e5f2a55dd46f7cf5dc18ed41b8",
-      "occurrences": [
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4435,
-          "callee": "ShowHelpMarker",
-          "arg": 0
-        }
-      ],
-      "obsolete": false,
+      "occurrences": [],
+      "obsolete": true,
       "previous_sources": []
     },
     "ui.auto.9f298520a655": {
@@ -8671,7 +8664,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4441,
+          "line": 4454,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8685,7 +8678,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4449,
+          "line": 4462,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8699,7 +8692,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4455,
+          "line": 4468,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8713,7 +8706,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4463,
+          "line": 4476,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8727,7 +8720,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4469,
+          "line": 4482,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8741,7 +8734,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4477,
+          "line": 4490,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8755,7 +8748,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4485,
+          "line": 4498,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8769,7 +8762,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4493,
+          "line": 4506,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8783,7 +8776,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4499,
+          "line": 4512,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8797,7 +8790,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4523,
+          "line": 4536,
           "callee": "ImGui::InputFloat",
           "arg": 0
         }
@@ -8811,7 +8804,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4525,
+          "line": 4538,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8825,7 +8818,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4537,
+          "line": 4550,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -8839,7 +8832,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4549,
+          "line": 4562,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -8853,7 +8846,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4554,
+          "line": 4567,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -8867,7 +8860,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4559,
+          "line": 4572,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -8881,7 +8874,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4569,
+          "line": 4582,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -8895,7 +8888,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4574,
+          "line": 4587,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -8909,7 +8902,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4580,
+          "line": 4593,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -8923,7 +8916,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4585,
+          "line": 4598,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -8937,7 +8930,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4593,
+          "line": 4606,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -8951,7 +8944,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4593,
+          "line": 4606,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -8965,7 +8958,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4597,
+          "line": 4610,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -8979,7 +8972,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4598,
+          "line": 4611,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -8993,7 +8986,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4653,
+          "line": 4666,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -9007,7 +9000,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4670,
+          "line": 4683,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -9021,7 +9014,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4674,
+          "line": 4687,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9035,7 +9028,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4675,
+          "line": 4688,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9049,7 +9042,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4680,
+          "line": 4693,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9063,7 +9056,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4681,
+          "line": 4694,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9077,7 +9070,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4683,
+          "line": 4696,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9091,7 +9084,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4687,
+          "line": 4700,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9105,7 +9098,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4688,
+          "line": 4701,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9119,7 +9112,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4689,
+          "line": 4702,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9133,7 +9126,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4690,
+          "line": 4703,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9147,7 +9140,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4691,
+          "line": 4704,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9161,7 +9154,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4692,
+          "line": 4705,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9175,7 +9168,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4693,
+          "line": 4706,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9189,7 +9182,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4694,
+          "line": 4707,
           "callee": "container:std::vector<FlagDefinition>",
           "arg": 0
         }
@@ -9203,7 +9196,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4706,
+          "line": 4719,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9217,7 +9210,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4710,
+          "line": 4723,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9231,7 +9224,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4731,
+          "line": 4744,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -9245,7 +9238,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4735,
+          "line": 4748,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -9259,13 +9252,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4741,
+          "line": 4754,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6153,
+          "line": 6166,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -9279,7 +9272,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4799,
+          "line": 4812,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9293,7 +9286,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4813,
+          "line": 4826,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9307,7 +9300,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4852,
+          "line": 4865,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9321,7 +9314,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4860,
+          "line": 4873,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -9335,7 +9328,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4883,
+          "line": 4896,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9349,7 +9342,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4886,
+          "line": 4899,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9363,7 +9356,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4891,
+          "line": 4904,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9377,7 +9370,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4894,
+          "line": 4907,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9391,7 +9384,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4907,
+          "line": 4920,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -9405,7 +9398,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4911,
+          "line": 4924,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -9419,7 +9412,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4945,
+          "line": 4958,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9433,7 +9426,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4949,
+          "line": 4962,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -9447,7 +9440,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4964,
+          "line": 4977,
           "callee": "ImGui::RadioButton",
           "arg": 0
         }
@@ -9461,7 +9454,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4973,
+          "line": 4986,
           "callee": "ImGui::RadioButton",
           "arg": 0
         }
@@ -9475,7 +9468,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4982,
+          "line": 4995,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -9489,13 +9482,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4985,
+          "line": 4998,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4992,
+          "line": 5005,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9509,7 +9502,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 4989,
+          "line": 5002,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -9523,7 +9516,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5001,
+          "line": 5014,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -9537,13 +9530,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5003,
+          "line": 5016,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5008,
+          "line": 5021,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9557,7 +9550,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5006,
+          "line": 5019,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -9571,7 +9564,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5011,
+          "line": 5024,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -9585,7 +9578,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5020,
+          "line": 5033,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -9599,7 +9592,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5041,
+          "line": 5054,
           "callee": "SeparatorWithHelpMarker",
           "arg": 0
         }
@@ -9613,7 +9606,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5041,
+          "line": 5054,
           "callee": "SeparatorWithHelpMarker",
           "arg": 1
         }
@@ -9627,7 +9620,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5068,
+          "line": 5081,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -9641,7 +9634,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5088,
+          "line": 5101,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -9655,7 +9648,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5091,
+          "line": 5104,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9669,7 +9662,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5096,
+          "line": 5109,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -9683,7 +9676,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5105,
+          "line": 5118,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -9697,7 +9690,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5107,
+          "line": 5120,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -9711,7 +9704,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5114,
+          "line": 5127,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -9725,7 +9718,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5121,
+          "line": 5134,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -9739,7 +9732,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5127,
+          "line": 5140,
           "callee": "ImGui::InputInt",
           "arg": 0
         }
@@ -9753,7 +9746,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5139,
+          "line": 5152,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -9767,7 +9760,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5143,
+          "line": 5156,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -9781,7 +9774,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5158,
+          "line": 5171,
           "callee": "ImGui::SeparatorText",
           "arg": 0
         }
@@ -9795,7 +9788,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5168,
+          "line": 5181,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9809,7 +9802,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5172,
+          "line": 5185,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9823,7 +9816,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5184,
+          "line": 5197,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -9837,7 +9830,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5188,
+          "line": 5201,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -9851,7 +9844,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5194,
+          "line": 5207,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -9865,13 +9858,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5203,
+          "line": 5216,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5316,
+          "line": 5329,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -9885,13 +9878,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5205,
+          "line": 5218,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5318,
+          "line": 5331,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -9905,13 +9898,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5206,
+          "line": 5219,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5319,
+          "line": 5332,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -9925,13 +9918,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5207,
+          "line": 5220,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5320,
+          "line": 5333,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -9945,13 +9938,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5208,
+          "line": 5221,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5321,
+          "line": 5334,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -9965,13 +9958,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5249,
+          "line": 5262,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5257,
+          "line": 5270,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -9985,13 +9978,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5249,
+          "line": 5262,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5260,
+          "line": 5273,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10005,13 +9998,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5250,
+          "line": 5263,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5258,
+          "line": 5271,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10025,7 +10018,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5250,
+          "line": 5263,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10039,7 +10032,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5256,
+          "line": 5269,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10053,7 +10046,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5259,
+          "line": 5272,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10067,7 +10060,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5332,
+          "line": 5345,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -10081,7 +10074,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5360,
+          "line": 5373,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10095,7 +10088,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5367,
+          "line": 5380,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -10109,7 +10102,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5369,
+          "line": 5382,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -10123,7 +10116,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5391,
+          "line": 5404,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10137,7 +10130,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5394,
+          "line": 5407,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10151,7 +10144,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5405,
+          "line": 5418,
           "callee": "ImGui::RadioButton",
           "arg": 0
         }
@@ -10165,7 +10158,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5410,
+          "line": 5423,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10179,7 +10172,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5416,
+          "line": 5429,
           "callee": "ImGui::RadioButton",
           "arg": 0
         }
@@ -10193,7 +10186,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5421,
+          "line": 5434,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10207,7 +10200,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5429,
+          "line": 5442,
           "callee": "ImGui::RadioButton",
           "arg": 0
         }
@@ -10221,7 +10214,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5435,
+          "line": 5448,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10235,7 +10228,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5445,
+          "line": 5458,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10249,7 +10242,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5447,
+          "line": 5460,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10263,7 +10256,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5452,
+          "line": 5465,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10277,7 +10270,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5455,
+          "line": 5468,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10291,7 +10284,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5460,
+          "line": 5473,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -10305,7 +10298,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5465,
+          "line": 5478,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10319,7 +10312,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5473,
+          "line": 5486,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10333,13 +10326,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5481,
+          "line": 5494,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5503,
+          "line": 5516,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10353,13 +10346,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5484,
+          "line": 5497,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5506,
+          "line": 5519,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10373,13 +10366,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5491,
+          "line": 5504,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5513,
+          "line": 5526,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10393,13 +10386,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5494,
+          "line": 5507,
           "callee": "ShowHelpMarker",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5516,
+          "line": 5529,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10413,7 +10406,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5523,
+          "line": 5536,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -10427,7 +10420,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5533,
+          "line": 5546,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10441,7 +10434,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5536,
+          "line": 5549,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10455,7 +10448,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5541,
+          "line": 5554,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10469,7 +10462,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5544,
+          "line": 5557,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10483,7 +10476,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5551,
+          "line": 5564,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -10497,7 +10490,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5561,
+          "line": 5574,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10511,7 +10504,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5563,
+          "line": 5576,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10525,7 +10518,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5568,
+          "line": 5581,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10539,7 +10532,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5571,
+          "line": 5584,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10553,7 +10546,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5577,
+          "line": 5590,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10567,7 +10560,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5580,
+          "line": 5593,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10581,7 +10574,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5585,
+          "line": 5598,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10595,7 +10588,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5588,
+          "line": 5601,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10609,7 +10602,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5610,
+          "line": 5623,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10623,7 +10616,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5617,
+          "line": 5630,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10637,7 +10630,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5622,
+          "line": 5635,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -10651,7 +10644,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5630,
+          "line": 5643,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10665,7 +10658,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5638,
+          "line": 5651,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10679,7 +10672,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5694,
+          "line": 5707,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -10693,7 +10686,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5709,
+          "line": 5722,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10707,7 +10700,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5710,
+          "line": 5723,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10721,7 +10714,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5711,
+          "line": 5724,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10735,7 +10728,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5712,
+          "line": 5725,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10749,7 +10742,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5713,
+          "line": 5726,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10763,7 +10756,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5714,
+          "line": 5727,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10777,7 +10770,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5715,
+          "line": 5728,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10791,7 +10784,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5716,
+          "line": 5729,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10805,7 +10798,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5717,
+          "line": 5730,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10819,7 +10812,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5718,
+          "line": 5731,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10833,7 +10826,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5719,
+          "line": 5732,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10847,7 +10840,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5720,
+          "line": 5733,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10861,7 +10854,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5721,
+          "line": 5734,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10875,7 +10868,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5722,
+          "line": 5735,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10889,7 +10882,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5723,
+          "line": 5736,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10903,7 +10896,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5724,
+          "line": 5737,
           "callee": "container:std::vector<MenuOption",
           "arg": 0
         }
@@ -10917,7 +10910,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5740,
+          "line": 5753,
           "callee": "PopulateCombo",
           "arg": 0
         }
@@ -10931,7 +10924,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5751,
+          "line": 5764,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -10945,7 +10938,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5772,
+          "line": 5785,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -10959,7 +10952,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5777,
+          "line": 5790,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -10973,7 +10966,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5778,
+          "line": 5791,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         }
@@ -10987,7 +10980,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5778,
+          "line": 5791,
           "callee": "ImGui::Text:vararg",
           "arg": 1
         }
@@ -11001,7 +10994,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5806,
+          "line": 5819,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -11015,7 +11008,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5868,
+          "line": 5881,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -11029,7 +11022,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5871,
+          "line": 5884,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11043,7 +11036,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5886,
+          "line": 5899,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -11057,7 +11050,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5891,
+          "line": 5904,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11071,7 +11064,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5897,
+          "line": 5910,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -11085,7 +11078,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5913,
+          "line": 5926,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11099,7 +11092,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5916,
+          "line": 5929,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -11113,7 +11106,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5921,
+          "line": 5934,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11127,7 +11120,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5944,
+          "line": 5957,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11141,7 +11134,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5950,
+          "line": 5963,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11155,7 +11148,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5956,
+          "line": 5969,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11169,7 +11162,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5960,
+          "line": 5973,
           "callee": "ImGui::SliderInt",
           "arg": 0
         }
@@ -11183,7 +11176,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5964,
+          "line": 5977,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11197,7 +11190,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5968,
+          "line": 5981,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -11211,7 +11204,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5974,
+          "line": 5987,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11225,7 +11218,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5978,
+          "line": 5991,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11239,7 +11232,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5981,
+          "line": 5994,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -11253,7 +11246,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5990,
+          "line": 6003,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -11267,7 +11260,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5996,
+          "line": 6009,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -11281,7 +11274,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5999,
+          "line": 6012,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11295,7 +11288,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6003,
+          "line": 6016,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11309,7 +11302,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6019,
+          "line": 6032,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11323,7 +11316,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6040,
+          "line": 6053,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11337,7 +11330,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6048,
+          "line": 6061,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11351,7 +11344,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6051,
+          "line": 6064,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -11365,7 +11358,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6057,
+          "line": 6070,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11379,7 +11372,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6076,
+          "line": 6089,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11393,7 +11386,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6088,
+          "line": 6101,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11407,7 +11400,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6111,
+          "line": 6124,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11421,7 +11414,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6115,
+          "line": 6128,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11435,7 +11428,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6140,
+          "line": 6153,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11449,7 +11442,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6147,
+          "line": 6160,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11463,7 +11456,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6153,
+          "line": 6166,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11477,7 +11470,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6153,
+          "line": 6166,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11491,7 +11484,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6153,
+          "line": 6166,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11505,7 +11498,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6153,
+          "line": 6166,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11519,7 +11512,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6156,
+          "line": 6169,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -11533,7 +11526,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6179,
+          "line": 6192,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11547,7 +11540,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6202,
+          "line": 6215,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11561,7 +11554,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6588,
+          "line": 6601,
           "callee": "ImGui::ColorEdit3",
           "arg": 0
         }
@@ -11575,13 +11568,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6599,
+          "line": 6612,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6671,
+          "line": 6684,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -11595,7 +11588,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6607,
+          "line": 6620,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -11609,7 +11602,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6626,
+          "line": 6639,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11623,7 +11616,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6638,
+          "line": 6651,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11637,7 +11630,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6641,
+          "line": 6654,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11651,7 +11644,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6641,
+          "line": 6654,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11665,7 +11658,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6641,
+          "line": 6654,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11679,7 +11672,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6641,
+          "line": 6654,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11693,7 +11686,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6644,
+          "line": 6657,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -11707,7 +11700,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6655,
+          "line": 6668,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11721,7 +11714,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6655,
+          "line": 6668,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11735,7 +11728,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6655,
+          "line": 6668,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11749,7 +11742,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6655,
+          "line": 6668,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11763,7 +11756,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6656,
+          "line": 6669,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11777,7 +11770,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6656,
+          "line": 6669,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11791,7 +11784,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6656,
+          "line": 6669,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11805,7 +11798,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6659,
+          "line": 6672,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -11819,7 +11812,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6674,
+          "line": 6687,
           "callee": "c-string-array",
           "arg": 0
         }
@@ -11833,7 +11826,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6680,
+          "line": 6693,
           "callee": "ImGui::SliderInt",
           "arg": 0
         }
@@ -11847,7 +11840,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6690,
+          "line": 6703,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11861,7 +11854,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6703,
+          "line": 6716,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11875,7 +11868,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6714,
+          "line": 6727,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11889,7 +11882,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6717,
+          "line": 6730,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11903,13 +11896,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6719,
+          "line": 6732,
           "callee": "ShowTooltip",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6732,
+          "line": 6745,
           "callee": "ShowTooltip",
           "arg": 0
         }
@@ -11923,7 +11916,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6727,
+          "line": 6740,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11937,7 +11930,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6730,
+          "line": 6743,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11951,7 +11944,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6739,
+          "line": 6752,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11965,7 +11958,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6757,
+          "line": 6770,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -11979,7 +11972,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6766,
+          "line": 6779,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -11993,7 +11986,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6781,
+          "line": 6794,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -12007,13 +12000,13 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6800,
+          "line": 6813,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7219,
+          "line": 7232,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12027,7 +12020,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6801,
+          "line": 6814,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -12041,7 +12034,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6831,
+          "line": 6844,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12055,7 +12048,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6842,
+          "line": 6855,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -12069,7 +12062,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6848,
+          "line": 6861,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12083,7 +12076,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6870,
+          "line": 6883,
           "callee": "ImGui::SliderFloat",
           "arg": 0
         }
@@ -12097,7 +12090,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6871,
+          "line": 6884,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12111,7 +12104,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6882,
+          "line": 6895,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -12125,7 +12118,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6888,
+          "line": 6901,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12139,7 +12132,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6898,
+          "line": 6911,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -12153,7 +12146,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6904,
+          "line": 6917,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12167,7 +12160,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6911,
+          "line": 6924,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -12181,7 +12174,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6914,
+          "line": 6927,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12195,7 +12188,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6936,
+          "line": 6949,
           "callee": "ImGui::Button",
           "arg": 0
         }
@@ -12209,7 +12202,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6974,
+          "line": 6987,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12223,7 +12216,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6977,
+          "line": 6990,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12237,7 +12230,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6982,
+          "line": 6995,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -12251,7 +12244,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 6992,
+          "line": 7005,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -12265,7 +12258,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7018,
+          "line": 7031,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -12279,7 +12272,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7021,
+          "line": 7034,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12293,7 +12286,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7026,
+          "line": 7039,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -12307,7 +12300,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7029,
+          "line": 7042,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12321,7 +12314,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7032,
+          "line": 7045,
           "callee": "ImGui::Checkbox",
           "arg": 0
         }
@@ -12335,7 +12328,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7035,
+          "line": 7048,
           "callee": "ShowHelpMarker",
           "arg": 0
         }
@@ -12349,7 +12342,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7037,
+          "line": 7050,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12363,7 +12356,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7047,
+          "line": 7060,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
         }
@@ -12377,7 +12370,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7052,
+          "line": 7065,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12391,7 +12384,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7053,
+          "line": 7066,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12405,7 +12398,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7118,
+          "line": 7131,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12419,7 +12412,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7119,
+          "line": 7132,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -12433,7 +12426,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7127,
+          "line": 7140,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12447,7 +12440,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7135,
+          "line": 7148,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -12461,19 +12454,19 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7148,
+          "line": 7161,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7170,
+          "line": 7183,
           "callee": "StrFmt",
           "arg": 0
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7186,
+          "line": 7199,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -12487,7 +12480,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7162,
+          "line": 7175,
           "callee": "ImGui::TextDisabled",
           "arg": 0
         }
@@ -12501,7 +12494,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7211,
+          "line": 7224,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12515,7 +12508,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7226,
+          "line": 7239,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -12529,7 +12522,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7234,
+          "line": 7247,
           "callee": "ImGui::BeginCombo",
           "arg": 0
         }
@@ -12543,7 +12536,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7306,
+          "line": 7319,
           "callee": "ImGui::TextColored",
           "arg": 1
         }
@@ -12557,7 +12550,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7514,
+          "line": 7527,
           "callee": "ImGui::Begin",
           "arg": 0
         }
@@ -12571,7 +12564,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7534,
+          "line": 7547,
           "callee": "ImGui::Text",
           "arg": 0
         }
@@ -12585,7 +12578,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7644,
+          "line": 7657,
           "callee": "StrFmt",
           "arg": 0
         }
@@ -12599,7 +12592,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 7645,
+          "line": 7658,
           "callee": "StrFmt",
           "arg": 0
         }
