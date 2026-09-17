@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "channel": "master",
-  "upstream_commit": "a4890db5b3c7c6918f4b35d0fd3318b42e2ccc66",
+  "upstream_commit": "8e2e944117048d6aab6acf70585bf0ef7f9ceec3",
   "entries": {
     "ui.auto.d01f6c691e27": {
       "source": "%s is active, but not currently used by the game\nPlease enter the game",
