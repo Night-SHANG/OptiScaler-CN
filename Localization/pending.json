@@ -1,10 +1,96 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.7d0968308192",
+      "ui.auto.db4035ca872f",
+      "ui.auto.2ddda9a50921",
+      "ui.auto.b356256367a6",
+      "ui.auto.8c888bbba498",
+      "ui.auto.d7a9b9f8079f",
+      "ui.auto.41706e24b849",
+      "ui.auto.67c0f24f18fb",
+      "ui.auto.15b378e93aa0",
+      "ui.auto.655830bfb7f1",
+      "ui.auto.18e6aa935d31",
+      "ui.auto.09f98e373168",
+      "ui.auto.6f8b277addc5",
+      "ui.auto.a62c1c117048"
+    ],
     "changed": [],
     "removed": []
   },
-  "missing": [],
+  "missing": [
+    {
+      "key": "ui.auto.7d0968308192",
+      "source": "Reprojection",
+      "source_hash": "38f97351f82e3eec966e6be4732de44c81c5278debcdf01a8e5a21fca516f5f8"
+    },
+    {
+      "key": "ui.auto.db4035ca872f",
+      "source": "Updated camera position by: %.1fms",
+      "source_hash": "6ab4fc5a950ae6080fb3d42300ddeabeea9b5031be5218b978e124e680558f73"
+    },
+    {
+      "key": "ui.auto.2ddda9a50921",
+      "source": "Not updating camera position",
+      "source_hash": "9aa34d22d1fef128cc58793312b6cd91539e1f99cb0b80b45c72181e614b891e"
+    },
+    {
+      "key": "ui.auto.b356256367a6",
+      "source": "Enable reprojection",
+      "source_hash": "a4da8d7d83b341373d0d604841ed19ecdd6362a2ad3370b130cdfe63441b9da8"
+    },
+    {
+      "key": "ui.auto.8c888bbba498",
+      "source": "Show static elements",
+      "source_hash": "f2b02450d58bb06aff50c456dfc4160e1692393a7036cfb8410623f624734f2a"
+    },
+    {
+      "key": "ui.auto.d7a9b9f8079f",
+      "source": "For fine tuning the depth cutoff\nShows UI and depth cutoff areas\nAdjust depth cutoff so that only stuff like your gun and hands are marked",
+      "source_hash": "68a6e022893a903e1d487e2365b0559a7ad9941a2e496765fc12dd92edb14114"
+    },
+    {
+      "key": "ui.auto.41706e24b849",
+      "source": "Strech edge",
+      "source_hash": "ddd5818c4b8fd8674ecc178f954c4ef67ee6b70e3a0fc4547b25f81ff7f874e4"
+    },
+    {
+      "key": "ui.auto.67c0f24f18fb",
+      "source": "Dithering",
+      "source_hash": "d83fddbfdf881d0f2825328f422d9e8c2c76cbacf6e878c91c8a8e2b1d3dc92c"
+    },
+    {
+      "key": "ui.auto.15b378e93aa0",
+      "source": "Noise",
+      "source_hash": "9ada8e83c1186cd632fb2ac8195abc11596b4a6cea30900c55d23a44c2724770"
+    },
+    {
+      "key": "ui.auto.655830bfb7f1",
+      "source": "Edge fill mode",
+      "source_hash": "f3ef34cecbd1bed27765286b00cf67ceb060f80cd5abfb085d543ad4be922304"
+    },
+    {
+      "key": "ui.auto.18e6aa935d31",
+      "source": "You want either dither or noise\nThose two use the unprojected image as fill\nand then some blending on the edges to fool the eye",
+      "source_hash": "c8d81073810fb0c11cd54e9107694b1c89325509bad61604ac5696fb7501a6ad"
+    },
+    {
+      "key": "ui.auto.09f98e373168",
+      "source": "Depth cutoff",
+      "source_hash": "1efae0d3541adaddee0feec028fc7a4ed35f73dccf4541a6bf5ab2326e1b9eb7"
+    },
+    {
+      "key": "ui.auto.6f8b277addc5",
+      "source": "Selects how many elements close to the camera\nshould be shown over the reprojected image.\nThis prevents your gun from being moved in weird ways.\n\nUse \"Show static elements\" to help you adjust it\nUnreal Engine games are usually around 0.10\nCyberpunk is around 0.02",
+      "source_hash": "837c2c20b4c6523e7da662007b2c4141f912b1e5e6803362c802288b61a7968b"
+    },
+    {
+      "key": "ui.auto.a62c1c117048",
+      "source": "A toddler implemented this so it's super slow\nUse only when you see an outline left by the cutoff process",
+      "source_hash": "0126eeaaa9fde7f12a5aec285b40f8c1a35b168127bdb30e1614b69416ec16d3"
+    }
+  ],
   "changed": []
 }
