@@ -2,39 +2,24 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.7d0968308192",
-      "ui.auto.db4035ca872f",
-      "ui.auto.2ddda9a50921",
-      "ui.auto.b356256367a6",
-      "ui.auto.8c888bbba498",
-      "ui.auto.d7a9b9f8079f",
-      "ui.auto.41706e24b849",
-      "ui.auto.67c0f24f18fb",
-      "ui.auto.15b378e93aa0",
-      "ui.auto.655830bfb7f1",
-      "ui.auto.18e6aa935d31",
-      "ui.auto.09f98e373168",
-      "ui.auto.6f8b277addc5",
-      "ui.auto.a62c1c117048"
+      "ui.auto.650bdad8f79e",
+      "ui.auto.fb9419e9d7b3",
+      "ui.auto.3559b5b3cf18"
     ],
-    "changed": [],
-    "removed": []
+    "changed": [
+      "ui.auto.650bdad8f79e",
+      "ui.auto.fb9419e9d7b3"
+    ],
+    "removed": [
+      "ui.auto.db4035ca872f",
+      "ui.auto.2ddda9a50921"
+    ]
   },
   "missing": [
     {
       "key": "ui.auto.7d0968308192",
       "source": "Reprojection",
       "source_hash": "38f97351f82e3eec966e6be4732de44c81c5278debcdf01a8e5a21fca516f5f8"
-    },
-    {
-      "key": "ui.auto.db4035ca872f",
-      "source": "Updated camera position by: %.1fms",
-      "source_hash": "6ab4fc5a950ae6080fb3d42300ddeabeea9b5031be5218b978e124e680558f73"
-    },
-    {
-      "key": "ui.auto.2ddda9a50921",
-      "source": "Not updating camera position",
-      "source_hash": "9aa34d22d1fef128cc58793312b6cd91539e1f99cb0b80b45c72181e614b891e"
     },
     {
       "key": "ui.auto.b356256367a6",
@@ -90,6 +75,21 @@
       "key": "ui.auto.a62c1c117048",
       "source": "A toddler implemented this so it's super slow\nUse only when you see an outline left by the cutoff process",
       "source_hash": "0126eeaaa9fde7f12a5aec285b40f8c1a35b168127bdb30e1614b69416ec16d3"
+    },
+    {
+      "key": "ui.auto.650bdad8f79e",
+      "source": "Updated camera rotation by: %.1fms",
+      "source_hash": "6e34658e5275cc6baab1e0b1af615da634f2d3c3a22e65eb228c71bfb15bf1f7"
+    },
+    {
+      "key": "ui.auto.fb9419e9d7b3",
+      "source": "Not updating camera rotation",
+      "source_hash": "36cd95bc231e3986f2c6c799c5e1eccb3c201b93c2ebf3203708ddded5a5c352"
+    },
+    {
+      "key": "ui.auto.3559b5b3cf18",
+      "source": "Active##5",
+      "source_hash": "b55e5aa5f7578fcecdb1f8b00c8c219371e980f2443e2d22ab2dadd6fe67e2ed"
     }
   ],
   "changed": []
