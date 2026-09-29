@@ -1,9 +1,19 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
-    "changed": [],
-    "removed": []
+    "added": [
+      "ui.auto.8cb9a247d694",
+      "ui.auto.9bee7d2804bb",
+      "ui.auto.f000f7ae3916"
+    ],
+    "changed": [
+      "ui.auto.8cb9a247d694"
+    ],
+    "removed": [
+      "ui.auto.d01f6c691e27",
+      "ui.auto.274d30292c70",
+      "ui.auto.89e6a2145ab4"
+    ]
   },
   "missing": [
     {
@@ -80,6 +90,21 @@
       "key": "ui.auto.3559b5b3cf18",
       "source": "Active##5",
       "source_hash": "b55e5aa5f7578fcecdb1f8b00c8c219371e980f2443e2d22ab2dadd6fe67e2ed"
+    },
+    {
+      "key": "ui.auto.8cb9a247d694",
+      "source": "%s active, but currently not used by the game\nPlease load into the game",
+      "source_hash": "57924143d84c54316bdd1dee2715076843d5b7efaf12193908a5b3e07ac77296"
+    },
+    {
+      "key": "ui.auto.9bee7d2804bb",
+      "source": "(Current: %.3f)",
+      "source_hash": "d96f96197e8aabb110fbd8e51ccd10e72ad046252c74e72e715bf05ad165229d"
+    },
+    {
+      "key": "ui.auto.f000f7ae3916",
+      "source": "(Current: disabled)",
+      "source_hash": "5d052425fb84d9fe455e686b6e53480f195cd506ce8ec29d48805acefde98e0c"
     }
   ],
   "changed": []

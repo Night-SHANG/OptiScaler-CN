@@ -1,20 +1,13 @@
 {
   "schema": 1,
   "channel": "master",
-  "upstream_commit": "e307baf31648713bc3fe0048a97eae9e7e7b1913",
+  "upstream_commit": "92337ebfbf07d533eabe3731fd8de1bb19437aea",
   "entries": {
     "ui.auto.d01f6c691e27": {
       "source": "%s is active, but not currently used by the game\nPlease enter the game",
       "source_hash": "9f9915b3569bbba260ea0da96b1221f66798d3bec209cef418e9a393474dfb5b",
-      "occurrences": [
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 2434,
-          "callee": "ImGui::Text",
-          "arg": 0
-        }
-      ],
-      "obsolete": false,
+      "occurrences": [],
+      "obsolete": true,
       "previous_sources": [],
       "bootstrap": true
     },
@@ -10097,29 +10090,15 @@
     "ui.auto.274d30292c70": {
       "source": "(Current sharpness: %.3f)",
       "source_hash": "d5112a0483266511fee86bbca48e72ea747e3a40bc5d209a6f35ca6b711e019c",
-      "occurrences": [
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5474,
-          "callee": "ImGui::TextDisabled",
-          "arg": 0
-        }
-      ],
-      "obsolete": false,
+      "occurrences": [],
+      "obsolete": true,
       "previous_sources": []
     },
     "ui.auto.89e6a2145ab4": {
       "source": "(Current sharpness: disabled)",
       "source_hash": "c07ecc8a9ba561946eca5a44e71983f6765dd301faab824201480fde1b632990",
-      "occurrences": [
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5476,
-          "callee": "ImGui::TextDisabled",
-          "arg": 0
-        }
-      ],
-      "obsolete": false,
+      "occurrences": [],
+      "obsolete": true,
       "previous_sources": []
     },
     "ui.auto.151315f5843b": {
@@ -12834,6 +12813,50 @@
           "file": "OptiScaler/menu/menu_common.cpp",
           "line": 4310,
           "callee": "ImGui::Checkbox",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.8cb9a247d694": {
+      "source": "%s active, but currently not used by the game\nPlease load into the game",
+      "source_hash": "57924143d84c54316bdd1dee2715076843d5b7efaf12193908a5b3e07ac77296",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2434,
+          "callee": "ImGui::Text",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": [
+        "%s is active, but not currently used by the game\nPlease enter the game"
+      ]
+    },
+    "ui.auto.9bee7d2804bb": {
+      "source": "(Current: %.3f)",
+      "source_hash": "d96f96197e8aabb110fbd8e51ccd10e72ad046252c74e72e715bf05ad165229d",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5474,
+          "callee": "ImGui::TextDisabled",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.f000f7ae3916": {
+      "source": "(Current: disabled)",
+      "source_hash": "5d052425fb84d9fe455e686b6e53480f195cd506ce8ec29d48805acefde98e0c",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5476,
+          "callee": "ImGui::TextDisabled",
           "arg": 0
         }
       ],

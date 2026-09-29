@@ -2,10 +2,6 @@
   "locale": "en-US",
   "channel": "master",
   "entries": {
-    "ui.auto.d01f6c691e27": {
-      "text": "%s is active, but not currently used by the game\nPlease enter the game",
-      "source_hash": "9f9915b3569bbba260ea0da96b1221f66798d3bec209cef418e9a393474dfb5b"
-    },
     "ui.auto.c9fa7e7fb5c7": {
       "text": "Accent Colour",
       "source_hash": "593db4a6ca8ec798a5fdef6ccb62492f29dd97f23d9150343d0576d3524401bd"
@@ -2522,14 +2518,6 @@
       "text": "Ignores the value sent by the game\nand uses the value set below",
       "source_hash": "e25e562e7940aecc0bac848fa86f3919434b1d721a7df02c636cd04704157c2f"
     },
-    "ui.auto.274d30292c70": {
-      "text": "(Current sharpness: %.3f)",
-      "source_hash": "d5112a0483266511fee86bbca48e72ea747e3a40bc5d209a6f35ca6b711e019c"
-    },
-    "ui.auto.89e6a2145ab4": {
-      "text": "(Current sharpness: disabled)",
-      "source_hash": "c07ecc8a9ba561946eca5a44e71983f6765dd301faab824201480fde1b632990"
-    },
     "ui.auto.151315f5843b": {
       "text": "Enable RCAS/DA",
       "source_hash": "47851426182e6b0bc9543822880180c12fd2d2c0c8a3abcb49bee680e0eb5731"
@@ -3285,6 +3273,18 @@
     "ui.auto.3559b5b3cf18": {
       "text": "Active##5",
       "source_hash": "b55e5aa5f7578fcecdb1f8b00c8c219371e980f2443e2d22ab2dadd6fe67e2ed"
+    },
+    "ui.auto.8cb9a247d694": {
+      "text": "%s active, but currently not used by the game\nPlease load into the game",
+      "source_hash": "57924143d84c54316bdd1dee2715076843d5b7efaf12193908a5b3e07ac77296"
+    },
+    "ui.auto.9bee7d2804bb": {
+      "text": "(Current: %.3f)",
+      "source_hash": "d96f96197e8aabb110fbd8e51ccd10e72ad046252c74e72e715bf05ad165229d"
+    },
+    "ui.auto.f000f7ae3916": {
+      "text": "(Current: disabled)",
+      "source_hash": "5d052425fb84d9fe455e686b6e53480f195cd506ce8ec29d48805acefde98e0c"
     }
   }
 }
