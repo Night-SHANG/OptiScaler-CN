@@ -2,18 +2,32 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.8cb9a247d694",
-      "ui.auto.9bee7d2804bb",
-      "ui.auto.f000f7ae3916"
+      "ui.auto.0b924488fd02",
+      "ui.auto.bdf9ce054dc4",
+      "ui.auto.b23382b26c57",
+      "ui.auto.dbdc3de69463",
+      "ui.auto.39ecc157b001",
+      "ui.auto.9f04e490700d",
+      "ui.auto.924544c28fcb",
+      "ui.auto.efc5bcb21079",
+      "ui.auto.8184e65f6bcf",
+      "ui.auto.bdf5e616ffda",
+      "ui.auto.eeaa410f068b",
+      "ui.auto.2fb022255482",
+      "ui.auto.f4d25beaf448",
+      "ui.auto.5bdf349c2b93",
+      "ui.auto.53f76ddca2b9",
+      "ui.auto.bda057a69401",
+      "ui.auto.545147a7b674",
+      "ui.auto.56b60085260d",
+      "ui.auto.2e515a5eca29",
+      "ui.auto.9a4731d04eca",
+      "ui.auto.a8cb5f990770",
+      "ui.auto.6bcca82f3c61",
+      "ui.auto.dbebc11cf8ed"
     ],
-    "changed": [
-      "ui.auto.8cb9a247d694"
-    ],
-    "removed": [
-      "ui.auto.d01f6c691e27",
-      "ui.auto.274d30292c70",
-      "ui.auto.89e6a2145ab4"
-    ]
+    "changed": [],
+    "removed": []
   },
   "missing": [
     {
@@ -105,6 +119,121 @@
       "key": "ui.auto.f000f7ae3916",
       "source": "(Current: disabled)",
       "source_hash": "5d052425fb84d9fe455e686b6e53480f195cd506ce8ec29d48805acefde98e0c"
+    },
+    {
+      "key": "ui.auto.0b924488fd02",
+      "source": "Disable HUDFix Resource Tracking",
+      "source_hash": "4172e23e451681917aeaf76f56022c5f6d9fc05364574996c4836c4d7b26d8e9"
+    },
+    {
+      "key": "ui.auto.bdf9ce054dc4",
+      "source": "Disables HUDFix resource tracking and\nreduces CPU overhead.\nUseful for MLFG which deals well with the HUD.\n\nAfter changing, please Save Settings and restart.",
+      "source_hash": "b56e23b2925e36793dddd9e0ffe5951d97001aa30d517c8b139639a3151324d7"
+    },
+    {
+      "key": "ui.auto.b23382b26c57",
+      "source": "Spoofing/Hooking",
+      "source_hash": "9dece93c3cd85969c32a897ea2b6888b2e936e9948d35618633d9598018bb908"
+    },
+    {
+      "key": "ui.auto.dbdc3de69463",
+      "source": "DXGI Spoofing",
+      "source_hash": "69597931765b07096bbc33c12a161b74472803ac7760356833bfd66f0aa32dbb"
+    },
+    {
+      "key": "ui.auto.39ecc157b001",
+      "source": "Enable Nvidia GPU spoofing for DXGI adapter\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "c089cb23a78af730ed260e58998c047546ea9a1c11f53415a5273f5b356c688c"
+    },
+    {
+      "key": "ui.auto.9f04e490700d",
+      "source": "VLK Spoofing",
+      "source_hash": "499d8caef8687b986d15564289aa56ca16eebe7dac4fe2ebff4a9a9528bcc886"
+    },
+    {
+      "key": "ui.auto.924544c28fcb",
+      "source": "Enable Nvidia GPU spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "dd2f06e7fe06f9046335585b24bb47451faf90a81f640e549ab04629dc5a298c"
+    },
+    {
+      "key": "ui.auto.efc5bcb21079",
+      "source": "VLK Extension Spoofing",
+      "source_hash": "0ca0f7f5ba47b874aa03135accee14c00275a8ca5876cb76b577b1742bb21f99"
+    },
+    {
+      "key": "ui.auto.8184e65f6bcf",
+      "source": "Enable Nvidia Extension spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "951bf9eb6ea58c6b523f9c8b24554ea93fe3e6153c7199df32fb663feb8e16de"
+    },
+    {
+      "key": "ui.auto.bdf5e616ffda",
+      "source": "Ntdll Hooks",
+      "source_hash": "2f0aa9dc3c7cd655b0ba228c11e43cea0d88318f343fbdde33bec9570bfb2012"
+    },
+    {
+      "key": "ui.auto.eeaa410f068b",
+      "source": "Only hook ntdll.dll methods\nDisable for switching back to kernel hooks\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "5130b694ac252c8da5b5b5b3b24091fa614a3d9c52dd5b0ecd99a37e3614f97b"
+    },
+    {
+      "key": "ui.auto.2fb022255482",
+      "source": "Disable Overlays",
+      "source_hash": "61a1010e4ed22c70a54d1e9a7d2c7911f3282876bbd50e5e5bf65fbc152ec1ff"
+    },
+    {
+      "key": "ui.auto.f4d25beaf448",
+      "source": "Disable supported overlays (autoenabled with OptiFG)\nIncluding Steam Input (controller issues)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "6d17f87c6ba82194d828e86fe89de7eafd68a6e29cf996b265a0607759297866"
+    },
+    {
+      "key": "ui.auto.5bdf349c2b93",
+      "source": "Plugins/Misc",
+      "source_hash": "64f1951f01ef8230768a29c1b75104da0331704142a15d4214f0e0181eaf90f3"
+    },
+    {
+      "key": "ui.auto.53f76ddca2b9",
+      "source": "Load ASI plugins",
+      "source_hash": "28350782de7447fb3e9f4e74ee585ed7da52316c22319a9a6cfa250dd7609892"
+    },
+    {
+      "key": "ui.auto.bda057a69401",
+      "source": "Let OptiScaler load *.asi files from plugins folder\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "7e0a4cdfaeb0390ff7866f959c701e9c930c0ab4931dacb434f99c9091dada5a"
+    },
+    {
+      "key": "ui.auto.545147a7b674",
+      "source": "Disable Splash message",
+      "source_hash": "ea4c5ad635852d37a1652e84b487601534c6a3d55b31a8b12552900de3e4cad7"
+    },
+    {
+      "key": "ui.auto.56b60085260d",
+      "source": "Disables Startup Splash message (bottom left corner)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "d2f6d980cc562287716845fd54797cfb566a73de403d054a2774fcf4e73398ee"
+    },
+    {
+      "key": "ui.auto.2e515a5eca29",
+      "source": "Check for Update",
+      "source_hash": "6f25f68393efbdeee731beafd8de5f3c719f66d838e52f1f75f9d58453831bd7"
+    },
+    {
+      "key": "ui.auto.9a4731d04eca",
+      "source": "Enable checking Github for latest version\nOnly works on stable/final releases\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "57303b76fcee867dd3f8bed49b7eb903bc1b71876b9c417656a16d4437cee665"
+    },
+    {
+      "key": "ui.auto.a8cb5f990770",
+      "source": "Single File",
+      "source_hash": "6a87f68f89982773b71b61759300fdd6b2392d697d118bc5377b361a0baea762"
+    },
+    {
+      "key": "ui.auto.6bcca82f3c61",
+      "source": "Override Vsync",
+      "source_hash": "04ec197f0a0f235dbfca79a25b4c642edcb473f753525b0ca3f38845638f31d4"
+    },
+    {
+      "key": "ui.auto.dbebc11cf8ed",
+      "source": "Force override the game's V-Sync settings.\n\nUseful for example when XeFG is locked to V-sync\nframe cap despite toggling Vsync off (e.g. Nioh 3)\n\nAfter changing, please Save Settings and restart.",
+      "source_hash": "dbda2d3eed9fe8b8ecb2c75a0a1c79aa9ed31867a275e5592122ef7a7b8b97fc"
     }
   ],
   "changed": []
