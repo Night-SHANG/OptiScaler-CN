@@ -1,31 +1,7 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [
-      "ui.auto.0b924488fd02",
-      "ui.auto.bdf9ce054dc4",
-      "ui.auto.b23382b26c57",
-      "ui.auto.dbdc3de69463",
-      "ui.auto.39ecc157b001",
-      "ui.auto.9f04e490700d",
-      "ui.auto.924544c28fcb",
-      "ui.auto.efc5bcb21079",
-      "ui.auto.8184e65f6bcf",
-      "ui.auto.bdf5e616ffda",
-      "ui.auto.eeaa410f068b",
-      "ui.auto.2fb022255482",
-      "ui.auto.f4d25beaf448",
-      "ui.auto.5bdf349c2b93",
-      "ui.auto.53f76ddca2b9",
-      "ui.auto.bda057a69401",
-      "ui.auto.545147a7b674",
-      "ui.auto.56b60085260d",
-      "ui.auto.2e515a5eca29",
-      "ui.auto.9a4731d04eca",
-      "ui.auto.a8cb5f990770",
-      "ui.auto.6bcca82f3c61",
-      "ui.auto.dbebc11cf8ed"
-    ],
+    "added": [],
     "changed": [],
     "removed": []
   },

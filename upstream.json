@@ -3,6 +3,6 @@
   "branch": "master",
   "commit": "auto",
   "stable_release": "v0.9.4",
-  "last_scanned_commit": "45a2001303ddff632e279f77aef85ceede5832cb",
+  "last_scanned_commit": "5dc144e29a1ba6fd63549dcabf20bce814d01e6a",
   "last_released_upstream_tag": "v0.9.4"
 }
