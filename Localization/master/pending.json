@@ -1,16 +1,139 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.47aac1714c83",
+      "ui.auto.24d3e4fdd9a8",
+      "ui.auto.3804033e328b",
+      "ui.auto.88306943fea7",
+      "ui.auto.4d2bc7a76976",
+      "ui.auto.1d4d43cc6f3a",
+      "ui.auto.1fff6a31661b",
+      "ui.auto.6506faba00a0",
+      "ui.auto.5fa0a6881013",
+      "ui.auto.971e672a3f71",
+      "ui.auto.98294884aebc",
+      "ui.auto.34892dc90695",
+      "ui.auto.7926798a5871",
+      "ui.auto.9bda272dbc2b",
+      "ui.auto.b962d9e61588",
+      "ui.auto.558f578a3d87",
+      "ui.auto.aa0593277eae",
+      "ui.auto.339567ab11a3",
+      "ui.auto.81dcf82f9938",
+      "ui.auto.fdf122cd1ef3",
+      "ui.auto.f36e7d809238",
+      "ui.auto.77e4cd941826",
+      "ui.auto.cd7216b44ce3",
+      "ui.auto.cc1ebdd04e76",
+      "ui.auto.9913cdf871cb",
+      "ui.auto.e3de5ab0ca4c",
+      "ui.auto.1dddac55a031",
+      "ui.auto.c5785b218f64",
+      "ui.auto.68b985d700fd",
+      "ui.auto.68ef84d8dc14"
+    ],
     "changed": [],
-    "removed": []
+    "removed": [
+      "ui.auto.c9fa7e7fb5c7",
+      "ui.auto.4a0faee226ec",
+      "ui.auto.7e08c82156b9",
+      "ui.auto.27e11ac935c4",
+      "ui.auto.7c0f705f8251",
+      "ui.auto.42b615a9f3b9",
+      "ui.auto.0cf5825ed98f",
+      "ui.auto.ad57c0a36ab7",
+      "ui.auto.c1f887653368",
+      "ui.auto.5efc857e08b3",
+      "ui.auto.f0ff85310c01",
+      "ui.auto.4626ac3b99a0",
+      "ui.auto.8ae78cb11ee3",
+      "ui.auto.7f8d20979798",
+      "ui.auto.57003616863f",
+      "ui.auto.473547e79563",
+      "ui.auto.bd8ac732701e",
+      "ui.auto.c077ffe3940c",
+      "ui.auto.21663ab36761",
+      "ui.auto.74ff2464781f",
+      "ui.auto.77d28b470e50",
+      "ui.auto.a56aaaf2c8ef",
+      "ui.auto.d6f06272145b",
+      "ui.auto.5b7dd677bdc9",
+      "ui.auto.c7f23e3ed00a",
+      "ui.auto.e74eb09c367b",
+      "ui.auto.05bc6d9f6674",
+      "ui.auto.451305b82916",
+      "ui.auto.d77ca28ebda5",
+      "ui.auto.a789967a01f3",
+      "ui.auto.f038ee9f6387",
+      "ui.auto.01b450f37e01",
+      "ui.auto.667e9759bda1",
+      "ui.auto.2191f4108df4",
+      "ui.auto.2d8755a46d39",
+      "ui.auto.21f995bf6eb2",
+      "ui.auto.9450c62c0a0a",
+      "ui.auto.37e3c89eee78",
+      "ui.auto.666ef182f3bc",
+      "ui.auto.8567d1a739d4",
+      "ui.auto.6374f6926ab6",
+      "ui.auto.2d38879e1bc3",
+      "ui.auto.af2560d8a3aa",
+      "ui.auto.eadde6787be6",
+      "ui.auto.4c0f2b12918f",
+      "ui.auto.ec20c8376ecb",
+      "ui.auto.151315f5843b",
+      "ui.auto.9ec288a78c34",
+      "ui.auto.51432975fbc1",
+      "ui.auto.01dfb4a9136a",
+      "ui.auto.48fa822d9f13",
+      "ui.auto.e27e8cee87e7",
+      "ui.auto.c8fef35bb005",
+      "ui.auto.01b05a48e070",
+      "ui.auto.3467602d8281",
+      "ui.auto.d549f83a4475",
+      "ui.auto.b69d4e2bbb4e",
+      "ui.auto.494ce75b0265",
+      "ui.auto.32cb5cc9f04c",
+      "ui.auto.607e5cbb3f97",
+      "ui.auto.d0ee9c60ed1f",
+      "ui.auto.b261879a296f",
+      "ui.auto.c8ec80090439",
+      "ui.auto.8b8c800213f0",
+      "ui.auto.855ca5ff23c9",
+      "ui.auto.287d8d95c53c",
+      "ui.auto.2e00621001af",
+      "ui.auto.def1e3ce4d81",
+      "ui.auto.7bc01ea4234b",
+      "ui.auto.44605974562e",
+      "ui.auto.880934ba6541",
+      "ui.auto.8718d1e3cbf8",
+      "ui.auto.4a9c840d9f0c",
+      "ui.auto.576423378bca",
+      "ui.auto.d8ceafaa3f17",
+      "ui.auto.cc0887be183e",
+      "ui.auto.62c2d95ce033",
+      "ui.auto.7d0968308192",
+      "ui.auto.b23382b26c57",
+      "ui.auto.dbdc3de69463",
+      "ui.auto.39ecc157b001",
+      "ui.auto.9f04e490700d",
+      "ui.auto.924544c28fcb",
+      "ui.auto.efc5bcb21079",
+      "ui.auto.8184e65f6bcf",
+      "ui.auto.bdf5e616ffda",
+      "ui.auto.eeaa410f068b",
+      "ui.auto.2fb022255482",
+      "ui.auto.f4d25beaf448",
+      "ui.auto.5bdf349c2b93",
+      "ui.auto.53f76ddca2b9",
+      "ui.auto.bda057a69401",
+      "ui.auto.545147a7b674",
+      "ui.auto.56b60085260d",
+      "ui.auto.2e515a5eca29",
+      "ui.auto.9a4731d04eca"
+    ]
   },
   "missing": [
-    {
-      "key": "ui.auto.7d0968308192",
-      "source": "Reprojection",
-      "source_hash": "38f97351f82e3eec966e6be4732de44c81c5278debcdf01a8e5a21fca516f5f8"
-    },
     {
       "key": "ui.auto.b356256367a6",
       "source": "Enable reprojection",
@@ -107,96 +230,6 @@
       "source_hash": "b56e23b2925e36793dddd9e0ffe5951d97001aa30d517c8b139639a3151324d7"
     },
     {
-      "key": "ui.auto.b23382b26c57",
-      "source": "Spoofing/Hooking",
-      "source_hash": "9dece93c3cd85969c32a897ea2b6888b2e936e9948d35618633d9598018bb908"
-    },
-    {
-      "key": "ui.auto.dbdc3de69463",
-      "source": "DXGI Spoofing",
-      "source_hash": "69597931765b07096bbc33c12a161b74472803ac7760356833bfd66f0aa32dbb"
-    },
-    {
-      "key": "ui.auto.39ecc157b001",
-      "source": "Enable Nvidia GPU spoofing for DXGI adapter\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "c089cb23a78af730ed260e58998c047546ea9a1c11f53415a5273f5b356c688c"
-    },
-    {
-      "key": "ui.auto.9f04e490700d",
-      "source": "VLK Spoofing",
-      "source_hash": "499d8caef8687b986d15564289aa56ca16eebe7dac4fe2ebff4a9a9528bcc886"
-    },
-    {
-      "key": "ui.auto.924544c28fcb",
-      "source": "Enable Nvidia GPU spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "dd2f06e7fe06f9046335585b24bb47451faf90a81f640e549ab04629dc5a298c"
-    },
-    {
-      "key": "ui.auto.efc5bcb21079",
-      "source": "VLK Extension Spoofing",
-      "source_hash": "0ca0f7f5ba47b874aa03135accee14c00275a8ca5876cb76b577b1742bb21f99"
-    },
-    {
-      "key": "ui.auto.8184e65f6bcf",
-      "source": "Enable Nvidia Extension spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "951bf9eb6ea58c6b523f9c8b24554ea93fe3e6153c7199df32fb663feb8e16de"
-    },
-    {
-      "key": "ui.auto.bdf5e616ffda",
-      "source": "Ntdll Hooks",
-      "source_hash": "2f0aa9dc3c7cd655b0ba228c11e43cea0d88318f343fbdde33bec9570bfb2012"
-    },
-    {
-      "key": "ui.auto.eeaa410f068b",
-      "source": "Only hook ntdll.dll methods\nDisable for switching back to kernel hooks\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "5130b694ac252c8da5b5b5b3b24091fa614a3d9c52dd5b0ecd99a37e3614f97b"
-    },
-    {
-      "key": "ui.auto.2fb022255482",
-      "source": "Disable Overlays",
-      "source_hash": "61a1010e4ed22c70a54d1e9a7d2c7911f3282876bbd50e5e5bf65fbc152ec1ff"
-    },
-    {
-      "key": "ui.auto.f4d25beaf448",
-      "source": "Disable supported overlays (autoenabled with OptiFG)\nIncluding Steam Input (controller issues)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "6d17f87c6ba82194d828e86fe89de7eafd68a6e29cf996b265a0607759297866"
-    },
-    {
-      "key": "ui.auto.5bdf349c2b93",
-      "source": "Plugins/Misc",
-      "source_hash": "64f1951f01ef8230768a29c1b75104da0331704142a15d4214f0e0181eaf90f3"
-    },
-    {
-      "key": "ui.auto.53f76ddca2b9",
-      "source": "Load ASI plugins",
-      "source_hash": "28350782de7447fb3e9f4e74ee585ed7da52316c22319a9a6cfa250dd7609892"
-    },
-    {
-      "key": "ui.auto.bda057a69401",
-      "source": "Let OptiScaler load *.asi files from plugins folder\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "7e0a4cdfaeb0390ff7866f959c701e9c930c0ab4931dacb434f99c9091dada5a"
-    },
-    {
-      "key": "ui.auto.545147a7b674",
-      "source": "Disable Splash message",
-      "source_hash": "ea4c5ad635852d37a1652e84b487601534c6a3d55b31a8b12552900de3e4cad7"
-    },
-    {
-      "key": "ui.auto.56b60085260d",
-      "source": "Disables Startup Splash message (bottom left corner)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "d2f6d980cc562287716845fd54797cfb566a73de403d054a2774fcf4e73398ee"
-    },
-    {
-      "key": "ui.auto.2e515a5eca29",
-      "source": "Check for Update",
-      "source_hash": "6f25f68393efbdeee731beafd8de5f3c719f66d838e52f1f75f9d58453831bd7"
-    },
-    {
-      "key": "ui.auto.9a4731d04eca",
-      "source": "Enable checking Github for latest version\nOnly works on stable/final releases\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "57303b76fcee867dd3f8bed49b7eb903bc1b71876b9c417656a16d4437cee665"
-    },
-    {
       "key": "ui.auto.a8cb5f990770",
       "source": "Single File",
       "source_hash": "6a87f68f89982773b71b61759300fdd6b2392d697d118bc5377b361a0baea762"
@@ -210,6 +243,156 @@
       "key": "ui.auto.dbebc11cf8ed",
       "source": "Force override the game's V-Sync settings.\n\nUseful for example when XeFG is locked to V-sync\nframe cap despite toggling Vsync off (e.g. Nioh 3)\n\nAfter changing, please Save Settings and restart.",
       "source_hash": "dbda2d3eed9fe8b8ecb2c75a0a1c79aa9ed31867a275e5592122ef7a7b8b97fc"
+    },
+    {
+      "key": "ui.auto.47aac1714c83",
+      "source": "%dx%d -> %dx%d (%.2fx)",
+      "source_hash": "6977bd59c4fb6a921a9433d3788adb0102cb6b124467b8b698b4fc90654de238"
+    },
+    {
+      "key": "ui.auto.24d3e4fdd9a8",
+      "source": "Strength",
+      "source_hash": "63ee3a1b965a7bd2581227dff2147a504c3b0926f2120180630fdfe2fc1a5b77"
+    },
+    {
+      "key": "ui.auto.3804033e328b",
+      "source": "Upscaler's default",
+      "source_hash": "4c923fbabb531e838fc8fabafff4578226537bc2b2983e77737489dae1cfe448"
+    },
+    {
+      "key": "ui.auto.88306943fea7",
+      "source": "Method",
+      "source_hash": "52a0f9b65b278850b53aad23136b5d574299e8fb92311304346d19736b7e9cce"
+    },
+    {
+      "key": "ui.auto.4d2bc7a76976",
+      "source": "Select the sharpening filter to apply.\n\nUpscaler's default: Uses the sharpening provided by the upscaler.\nRCAS: AMD's RCAS, modified for Contrast and MAS.\nDepth Aware: Smarter sharpening with fewer artifacts (heavier).\n\nBy default uses a sharpening value provided by the game.\nSelect 'Override' under 'Sharpness' and adjust the slider to change it.",
+      "source_hash": "a92f211d771432c3a05e41f8c7d1d4eb4edcb2b791c8a12f7af00e49fd23c91f"
+    },
+    {
+      "key": "ui.auto.1d4d43cc6f3a",
+      "source": "Use",
+      "source_hash": "c36d819e7bc6d2b7da51394411c733db89c395987885ca6770167a3b9bc45c3c"
+    },
+    {
+      "key": "ui.auto.1fff6a31661b",
+      "source": "Pattern",
+      "source_hash": "4288ade73ff9d32824e931c858f11acab4e0a323e6b1da9bfbe124473a13ac5a"
+    },
+    {
+      "key": "ui.auto.6506faba00a0",
+      "source": "Hook the inputs of this API, needed before they can be used",
+      "source_hash": "5919faddd543cf1bfd037fb313ca91071e74b52e732566a4e6ec1aa95a3cea55"
+    },
+    {
+      "key": "ui.auto.5fa0a6881013",
+      "source": "Take the upscaler inputs from this API",
+      "source_hash": "914a086bb65a238447db640f20c2cac3413b5bdb44c72c176b492c56dd44147f"
+    },
+    {
+      "key": "ui.auto.971e672a3f71",
+      "source": "Find the inputs by pattern matching",
+      "source_hash": "99ad8e7359b10acdc2fb14c0f92530482e8f748bcf8f7b4e993eb25558e74933"
+    },
+    {
+      "key": "ui.auto.98294884aebc",
+      "source": "Save Settings and restart the game for Enable and Pattern changes to apply",
+      "source_hash": "0cf16105b88eebd4c0f5fd5e2ae65b82bddc2a80f109ac78020a24c8fddba914"
+    },
+    {
+      "key": "ui.auto.34892dc90695",
+      "source": "Quirks",
+      "source_hash": "12d0b77aba947d1c47867cde1ebe140847d84828da2b419a511ba23be226e604"
+    },
+    {
+      "key": "ui.auto.7926798a5871",
+      "source": "All %.2f",
+      "source_hash": "85c28a1a6ccc50f4527039e0be3656f019279f231a8beb74690f57174293657b"
+    },
+    {
+      "key": "ui.auto.9bda272dbc2b",
+      "source": "%s%s",
+      "source_hash": "dbeaee05407accd04dababbd3607029981f29ae9795773dc3ff92466bf7e6648"
+    },
+    {
+      "key": "ui.auto.b962d9e61588",
+      "source": "%s %d.%d.%d%s",
+      "source_hash": "30408a066133095f6054a4b6041f6685006c9c371e9e47e23f5499c011d88fd5"
+    },
+    {
+      "key": "ui.auto.558f578a3d87",
+      "source": "%dx%d",
+      "source_hash": "fc30954278e97cefadfdacba81c44fe9cabb3371ce1597d0de8a5b096edd4106"
+    },
+    {
+      "key": "ui.auto.aa0593277eae",
+      "source": "%dx%d (%.2fx)",
+      "source_hash": "775c9b3fd22b99d60ebbd7b1ecc42d226d2dbe1d17599a5ac36da5fc531acefb"
+    },
+    {
+      "key": "ui.auto.339567ab11a3",
+      "source": "%.3f",
+      "source_hash": "0e29a872795a929957702ca02a02eb31ad56eea9cc691ffb18cef6e6db71b294"
+    },
+    {
+      "key": "ui.auto.81dcf82f9938",
+      "source": "Barriers overridden",
+      "source_hash": "75416e1c4a59c0d176939859806115beedd130229a2dab68d5ca9ead7f9d28c3"
+    },
+    {
+      "key": "ui.auto.fdf122cd1ef3",
+      "source": "Nothing picked yet, choose the boxes in Menu > Custom Tab",
+      "source_hash": "6d690e92c692aa2ae278b82439116895b2e3362fbf23d1869c21aaf17d6fc65d"
+    },
+    {
+      "key": "ui.auto.f36e7d809238",
+      "source": "None of the picked boxes are available right now",
+      "source_hash": "fa0ec3b33e827c2eb2f2739e16eb300697bd1db1c77452c9765e8ce34d88f78d"
+    },
+    {
+      "key": "ui.auto.77e4cd941826",
+      "source": "Boxes to show",
+      "source_hash": "bbc6898a8cabec2eb8997f435d8fdac9ba28cbad22ce040349798ba8c3909fdb"
+    },
+    {
+      "key": "ui.auto.cd7216b44ce3",
+      "source": "SR",
+      "source_hash": "4418ba61334db484dbac70718aa91d59d8e47334fbcd739a260f0fb51b9a0f57"
+    },
+    {
+      "key": "ui.auto.cc1ebdd04e76",
+      "source": "Idle",
+      "source_hash": "ab0171ca0494d441cb6fe96e2efbe1c2a129f1d87cd6c17f03613cfd111149dd"
+    },
+    {
+      "key": "ui.auto.9913cdf871cb",
+      "source": "FG",
+      "source_hash": "2097d9edbebf7ccc834ac87b2bf4f2b871908a7f8ef80b35a8608cbb08e0ce07"
+    },
+    {
+      "key": "ui.auto.e3de5ab0ca4c",
+      "source": "Off",
+      "source_hash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1"
+    },
+    {
+      "key": "ui.auto.1dddac55a031",
+      "source": "Frame time: %.2f ms / %.1f fps",
+      "source_hash": "3d224263674ab97bc364432c53b675f6bc5f1dfa918f7c9089f8ae92ffc275b1"
+    },
+    {
+      "key": "ui.auto.c5785b218f64",
+      "source": "%.2f - %.2f ms",
+      "source_hash": "4bf681a236e82421b63d3d695053b9e85af7e524734ed267edbb096de230e70e"
+    },
+    {
+      "key": "ui.auto.68b985d700fd",
+      "source": "Upscaler GPU time: %.2f ms",
+      "source_hash": "4e1982651f73a46e9dde882804fc4919b0f1c95076c308dda03f5ce92f619e5f"
+    },
+    {
+      "key": "ui.auto.68ef84d8dc14",
+      "source": "%s - %s %s",
+      "source_hash": "76e4e110d2bb770b0ac351968e191b77a4e86b1313e503af3b51b3eb6950c362"
     }
   ],
   "changed": []

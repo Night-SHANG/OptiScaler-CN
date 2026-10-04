@@ -2,10 +2,6 @@
   "locale": "en-US",
   "channel": "master",
   "entries": {
-    "ui.auto.c9fa7e7fb5c7": {
-      "text": "Accent Colour",
-      "source_hash": "593db4a6ca8ec798a5fdef6ccb62492f29dd97f23d9150343d0576d3524401bd"
-    },
     "ui.auto.a733b809d2f1": {
       "text": "Active",
       "source_hash": "92340695899bd2d86223e4a007620e0d6502fc0e08809773634c7e0743764a9c"
@@ -21,10 +17,6 @@
     "ui.auto.e71963fc298f": {
       "text": "Active##3",
       "source_hash": "38cbcd60b64f67b1837a09a92cda4c7c52482c47834dcb95ef679e69c78ad962"
-    },
-    "ui.auto.4a0faee226ec": {
-      "text": "Advanced Init Flags",
-      "source_hash": "8a64ea46c6980d82f7b47c9e45fde62e449bd29c01030726b0105fafbfd0e26e"
     },
     "ui.auto.4880ddab6a4a": {
       "text": "Advanced OptiFG Settings",
@@ -73,10 +65,6 @@
     "ui.auto.4e6b92e877d9": {
       "text": "Auto Exposure",
       "source_hash": "9a570a82ccb11578b79bba06d0a83f48747185107f8ab3d4903bad9f0ab57f6f"
-    },
-    "ui.auto.7e08c82156b9": {
-      "text": "Background Colour",
-      "source_hash": "c85d561c67493b0a401165542231e3aaaff1c18f4ceaa5e07cb550ef977d9cbc"
     },
     "ui.auto.03342dbb856b": {
       "text": "Balanced",
@@ -210,21 +198,9 @@
       "text": "Display Width",
       "source_hash": "ccd63130c1c108d7f34feede249c9b745af226b6f609c8ebf2ce85869c03897e"
     },
-    "ui.auto.27e11ac935c4": {
-      "text": "DLSS Settings",
-      "source_hash": "a94488894381686c8fed846edde595ff3c5bf4c1c9f0ceed5bbf29e6b7665b24"
-    },
-    "ui.auto.7c0f705f8251": {
-      "text": "DLSSD Settings",
-      "source_hash": "b5db4a43c104aaee14a2fb2daba0bef38c5cd960269c77f09e0ad38a3001014d"
-    },
     "ui.auto.d30c821162de": {
       "text": "DMFG FPS Target",
       "source_hash": "e207c25908916d38bdd48e1af00298a552d34195186fa1140ce9a9f9b423b770"
-    },
-    "ui.auto.42b615a9f3b9": {
-      "text": "DRS (Dynamic Resolution Scaling)",
-      "source_hash": "7a754eab7f4267b6fa8240cf63739b23e97ec0ecc3a1e14c1de47a0a26a3d2ee"
     },
     "ui.auto.20063ad90532": {
       "text": "Enable",
@@ -258,10 +234,6 @@
       "text": "Extended",
       "source_hash": "97b165f2f4e4ca544bb7aaa49d8ab5cd38566aa11aff9dfb7ae0609376148cd7"
     },
-    "ui.auto.0cf5825ed98f": {
-      "text": "FFX Settings",
-      "source_hash": "c0b926c81224964fe04bae9a49409ad2431db535562d0c6848cf1316cf527efd"
-    },
     "ui.auto.4696b997176d": {
       "text": "FG Create List",
       "source_hash": "4ed954b95de561f6dfeb65fbb337eaaf0c4740468353e711fdc8873544d9cca7"
@@ -285,10 +257,6 @@
     "ui.auto.35b02cb7c3d7": {
       "text": "Fix for DLSS-D wrong depth inputs",
       "source_hash": "41f557aa0a60d6115c87b9277060174ca001c788a0004fd945a58a2cc05f93ff"
-    },
-    "ui.auto.ad57c0a36ab7": {
-      "text": "Fix for games ignoring official DRS limits",
-      "source_hash": "3a21e7d47d1fa469b238af62e5c3ace2cdc0940e64c1fd89e653a4851b2f592a"
     },
     "ui.auto.5c4b194a637c": {
       "text": "Flip (Unity)",
@@ -326,18 +294,6 @@
       "text": "Force Reflex",
       "source_hash": "637c6c9e5c2753682e4f356e64b3b51ddca6197cc93df2bfd0a9d8ee0c31d5c9"
     },
-    "ui.auto.c1f887653368": {
-      "text": "Frame Generation",
-      "source_hash": "4a5d7f645dab89a8057382beaad9428da61f36623471c048b7bcd94cd8b70e36"
-    },
-    "ui.auto.5efc857e08b3": {
-      "text": "Frame Generation (DLSSG)",
-      "source_hash": "c382ee6b4a370c54b84175b66aba1f347bebea49873178c23b91970c6c9828a2"
-    },
-    "ui.auto.f0ff85310c01": {
-      "text": "Frame Generation (FSR FG)",
-      "source_hash": "b5bdb698ea6e943e61ddd795fbf6f2ff0bf556cebe2928be0b69348a0283e397"
-    },
     "ui.auto.7a7fa975a393": {
       "text": "Frame Generation (FSR3-FG via Nukem's DLSSG)",
       "source_hash": "de8c95a65e76dadbf3652641edf93122641eccb8fcc9d999a5f75f2ac2d6cf09"
@@ -346,17 +302,9 @@
       "text": "Frame Generation (FSR3-MFG via DLSS Enabler)",
       "source_hash": "83615e03304b2ddd76b3662f682687be431ea891987e406c966d9591c1906c59"
     },
-    "ui.auto.4626ac3b99a0": {
-      "text": "Frame Generation (OptiFG)",
-      "source_hash": "336f5cadb53f86d9fd9fb74e34060fd8928b903e632c73495653904cb05508b4"
-    },
     "ui.auto.b7fbbb308e96": {
       "text": "Frame Generation (Streamline FG Inputs)",
       "source_hash": "4bd67b86e9295949a66a60ed1d616ae9665b008fc60ca2e36d1e22c3361d64aa"
-    },
-    "ui.auto.8ae78cb11ee3": {
-      "text": "Frame Generation (XeFG)",
-      "source_hash": "158725d185fb1fc86875142cbb09879286cbbe6e16874f462e1b29dd07cecb07"
     },
     "ui.auto.634e5abf9cc7": {
       "text": "FSR 3.1 Presets:",
@@ -410,10 +358,6 @@
       "text": "Immediate Capture",
       "source_hash": "9bea62c5d93332400e79116c32f51b67f4ca98a34813bae977e700b85fd5450e"
     },
-    "ui.auto.7f8d20979798": {
-      "text": "Init Flags",
-      "source_hash": "bab3f9fc11bda200b0ac9f1a491948f6a0dea282d1c5d741c45092499eeecc86"
-    },
     "ui.auto.b568d47f2e24": {
       "text": "Input",
       "source_hash": "36ecb4f8669133ce744c21982ba4abe2ecd7086e1dc2226ccd6f266f3a5005f8"
@@ -437,14 +381,6 @@
     "ui.auto.83b41287824c": {
       "text": "Latest Transformer model\nMust use if DoF guide is needed",
       "source_hash": "2c816fbd0d792379ce58cc1604bfe0ba09a88b39bb7ab115dc861f3107d66de0"
-    },
-    "ui.auto.57003616863f": {
-      "text": "Logging",
-      "source_hash": "d3ef01b4a9c9910364c9b26b2499c8787a0461d2d24ab80376fff736a288b34c"
-    },
-    "ui.auto.473547e79563": {
-      "text": "Low Latency",
-      "source_hash": "4dc2284414d2545354bf4ad2ee1b1be50c1d7ca35c081979beab095ea5da16a8"
     },
     "ui.auto.04c5628a4639": {
       "text": "Make a copy of depth to use with OptiFG\nFor preventing corruptions that might happen",
@@ -490,17 +426,9 @@
       "text": "Output",
       "source_hash": "b2439bcb8dee14b685f137f294b0e0cb62f5aadf45143ce01d79777d435a93b4"
     },
-    "ui.auto.bd8ac732701e": {
-      "text": "Output Scaling",
-      "source_hash": "bb1305e066a0630694d37fd2588b539c2023e196730860cc6b760f16c5600d36"
-    },
     "ui.auto.84219262228f": {
       "text": "Override",
       "source_hash": "43bc0f5fc035108f88cb7436ade1a103b0c710ba82c733cb5835a2b89dc4568f"
-    },
-    "ui.auto.c077ffe3940c": {
-      "text": "Override Minimum",
-      "source_hash": "5ce400b9857ebfcd2fd56ca3368479ae2174a76b955f2b1f8a986d777875dd94"
     },
     "ui.auto.84944f198d40": {
       "text": "Passive",
@@ -606,10 +534,6 @@
       "text": "Restart the game to apply correct XeFG settings!",
       "source_hash": "cba0bf2dbf11904681c0232098cdf518882513bc9a7c913269568acd44f7bc7c"
     },
-    "ui.auto.21663ab36761": {
-      "text": "Root Signatures",
-      "source_hash": "b15a5fbc5029da01c98b1a0df46da4d49ae8766542fc008d0f0c5128b93f502b"
-    },
     "ui.auto.0022a3e10caa": {
       "text": "Save Settings",
       "source_hash": "ec92e1dc9bb3bf7b98ee86042dc3380f3068e1163bd8a2bc707b189df617629f"
@@ -633,10 +557,6 @@
     "ui.auto.f0572004732c": {
       "text": "Set XeFG interpolation count",
       "source_hash": "cc3e0bbfff10771a4ee6e2b6585828a21a93b15dea19b04c65fd1e8a60695ef4"
-    },
-    "ui.auto.74ff2464781f": {
-      "text": "Sharpness",
-      "source_hash": "6a4c00af2dbfd09ac502838157e6c7525f61c8bc7ede9e9769f05168b433fa72"
     },
     "ui.auto.9476e178decb": {
       "text": "Silly goose detected",
@@ -682,10 +602,6 @@
       "text": "Update available: %s (current %s)",
       "source_hash": "60d4aedb828e87f0c1813121b57295dc0ee90cc7c6835c3514ea6796c84a5d92"
     },
-    "ui.auto.77d28b470e50": {
-      "text": "Upscale Ratio Override",
-      "source_hash": "8839ec291a7f6ae367d4064b4495bacc959437a2a467280e02315ec5d2ec6bee"
-    },
     "ui.auto.3c4590fa6c78": {
       "text": "Upscaler Quality",
       "source_hash": "090b8fc4ac9fc8468fda3f645152e75a3516f61ac58d57cce5e7a3ded97f3678"
@@ -693,10 +609,6 @@
     "ui.auto.abffb30e1105": {
       "text": "Upscaler Ratio",
       "source_hash": "6ee5f4161647557604b245c6f49b9de2a95c1b0b5c62e08058b7b2ecb0aa2bfa"
-    },
-    "ui.auto.a56aaaf2c8ef": {
-      "text": "Upscalers",
-      "source_hash": "9996f6b4bdfab6a9f56205c6cc74080b304207121c3591c469331f29eddf9025"
     },
     "ui.auto.957effa9aae3": {
       "text": "Use Game's Reflex Markers",
@@ -713,10 +625,6 @@
     "ui.auto.eb6a91c77c28": {
       "text": "Using a subset of features from DLSS Enabler",
       "source_hash": "61779c98be24bddb49e74a96b4ac59c18a61a50847cb174299f41a5222dbea7a"
-    },
-    "ui.auto.d6f06272145b": {
-      "text": "Using upscaler data for FG",
-      "source_hash": "42e68f1b02d2a386cbd1eb419e39d31cb0ebbd95a2d3fce6859dd2508671a21a"
     },
     "ui.auto.07d4a263749f": {
       "text": "Velocity as ValidNow",
@@ -1470,90 +1378,6 @@
       "text": "Reflex timings, whole frame: %.1fms",
       "source_hash": "5ba7e8b87a2c20ca2e4ea5628b58bf75bd3e7fefd6693b20227a717633e3b8b3"
     },
-    "ui.auto.5b7dd677bdc9": {
-      "text": "nvngx_dlss : %s",
-      "source_hash": "1a7cf7c58ce6dfd64dc41a1e18046746c7a8b68d5c9070495b039c191ec28cde"
-    },
-    "ui.auto.c7f23e3ed00a": {
-      "text": "Exists",
-      "source_hash": "fefd8ba5a024d742b7e585937dbbb053514c15ce2a2b28d55a0212977602022a"
-    },
-    "ui.auto.e74eb09c367b": {
-      "text": "Doesn't Exist",
-      "source_hash": "29480cd687c31aa7894268aea733648fa4e65f7722d89e864ec6da7de122c5d1"
-    },
-    "ui.auto.05bc6d9f6674": {
-      "text": "nvngx_dlssd : %s",
-      "source_hash": "6204dec5cf2c60215a1166f4a3d44f84d4298f34ce9b7ea4bb5d569c365cbf25"
-    },
-    "ui.auto.451305b82916": {
-      "text": "nvngx.dll: %s",
-      "source_hash": "4f87ffb3d74f809682022bfaa29d577b0f166321ad151702a87fc0d201c0c247"
-    },
-    "ui.auto.d77ca28ebda5": {
-      "text": "nvngx replacement: %s",
-      "source_hash": "528a97800af0b3d088ad7f918c1a0ed3997f0ada9cca3a4e65a7de19b5542814"
-    },
-    "ui.auto.a789967a01f3": {
-      "text": "libxess: %s",
-      "source_hash": "7791e731d6b69d0a00070cb0a6867a32037f64ccfd58b7dd138f719289dbc959"
-    },
-    "ui.auto.f038ee9f6387": {
-      "text": "FSR Hooks: %s",
-      "source_hash": "8e6e1f56389795bbc8e68d03402d4fffe45891cc7bab6ac3133260505cc41eab"
-    },
-    "ui.auto.01b450f37e01": {
-      "text": "Exist",
-      "source_hash": "2bf3c8059d9c141aeb3742fc0ab6982e84240b912d5963de2b4da87f92815430"
-    },
-    "ui.auto.667e9759bda1": {
-      "text": "Don't Exist",
-      "source_hash": "633a756b1e8ef99c31b5056bc33c43ceced9535478d3b7fc1f6d29dd95b7c8c3"
-    },
-    "ui.auto.2191f4108df4": {
-      "text": "FSR 3.1: %s",
-      "source_hash": "030b762f68e630f3772afb150ae365a663353e2bc509b08ae851e3a8e9d04cc3"
-    },
-    "ui.auto.2d8755a46d39": {
-      "text": "FSR 3.1 SR: %s",
-      "source_hash": "abad86566480c4b49c3aff614ad1b9f1f0d710b9a2a047cf20810e61d7ec242e"
-    },
-    "ui.auto.21f995bf6eb2": {
-      "text": "FSR 3.1 FG: %s",
-      "source_hash": "b2101c88d49785984d875a1d797c47d3919d44e087fd8668f68e6f62b0c8a400"
-    },
-    "ui.auto.9450c62c0a0a": {
-      "text": "D3D11 %s| %s %d.%d.%d%s",
-      "source_hash": "03ccd61fa967e106f0b89e4e9cbe428fd81e8c03ef97c39f810e7dfe9a12dd73"
-    },
-    "ui.auto.37e3c89eee78": {
-      "text": "(DXVK) ",
-      "source_hash": "8bb5acd165a24fb51ec44298e21069f898c593c99a4c57994201a179ebe22c66"
-    },
-    "ui.auto.666ef182f3bc": {
-      "text": " w/Dx12",
-      "source_hash": "82cede0738f3aaff944612336db0e4573241efdb32edbe76f0d1f36de929062e"
-    },
-    "ui.auto.8567d1a739d4": {
-      "text": "| Input: %s",
-      "source_hash": "9a7b67a8cae2a00a5781877a1444db7e044d9ca0a229de25bb1cee7cb5ac900f"
-    },
-    "ui.auto.6374f6926ab6": {
-      "text": "| Spoof: %s",
-      "source_hash": "9d0113c5e3d8753326550a5d34e09271cbf803524ba07a4ea39b9c397891b9ac"
-    },
-    "ui.auto.2d38879e1bc3": {
-      "text": "D3D12 %s| %s %d.%d.%d",
-      "source_hash": "39d12721f2c53e1f2ce268b2f2b4b45e4ac07409d6462536e4624b177384230b"
-    },
-    "ui.auto.af2560d8a3aa": {
-      "text": "Vulkan %s| %s %d.%d.%d%s",
-      "source_hash": "ae9909498c91bc319cde2216a1715dd8f8946b68248dabac1a35a6962a4bb6fa"
-    },
-    "ui.auto.eadde6787be6": {
-      "text": "Change Upscaler##2",
-      "source_hash": "9e3ebfc684c578a8051a1ed116a0d81a9f0dd976802b7fa8c3e6defbce7090a6"
-    },
     "ui.auto.6db24976db50": {
       "text": "Use Reactive Mask as Transparency Mask",
       "source_hash": "dc7dfd728e99ba2b70f6d89a5ca3069495932334a5504540f6c6968b51e5afe8"
@@ -1625,10 +1449,6 @@
     "ui.auto.39726f61bef7": {
       "text": "List of upscalers reported by FFX SDK",
       "source_hash": "a82eabbf735443501071950236805a9d3d5571d4530d657f46a800c07895c590"
-    },
-    "ui.auto.4c0f2b12918f": {
-      "text": "Change Upscaler",
-      "source_hash": "4342cd59732001072d81bac7e49eb0d32fb359b371fc0d655ef80d2def5eeb5a"
     },
     "ui.auto.fe94243e323b": {
       "text": "Linear (Default)",
@@ -2442,10 +2262,6 @@
       "text": "Set as FPS Limit",
       "source_hash": "28e680dc9d982cee10c89c25937a058a29f40ff2cebe6db9df33a03a2dfa7009"
     },
-    "ui.auto.ec20c8376ecb": {
-      "text": "fakenvapi",
-      "source_hash": "c0e50ce15434d21058dbc22677e83dc1e06e45a6a957fbf1c06f0a19fb028988"
-    },
     "ui.auto.4660c593077f": {
       "text": "Force LatencyFlex",
       "source_hash": "86a20f90329801e07ba57878b8e7b3853751d4c7935593a57ca493c68b9ca6a0"
@@ -2518,37 +2334,17 @@
       "text": "Ignores the value sent by the game\nand uses the value set below",
       "source_hash": "e25e562e7940aecc0bac848fa86f3919434b1d721a7df02c636cd04704157c2f"
     },
-    "ui.auto.151315f5843b": {
-      "text": "Enable RCAS/DA",
-      "source_hash": "47851426182e6b0bc9543822880180c12fd2d2c0c8a3abcb49bee680e0eb5731"
-    },
-    "ui.auto.9ec288a78c34": {
-      "text": "Enable OptiScaler's sharpening filter\nBy default uses a sharpening value provided by the game\nSelect 'Override' under 'Sharpness' and adjust the slider\nto change it\n\nSome upscalers have their own sharpness filter, so this\noption is not always needed",
-      "source_hash": "f89a663abee8a153604bfc02593ffd3de44d38ab667a617a5fc80bc112d3e688"
-    },
     "ui.auto.8f5a570a90f3": {
       "text": "RCAS",
       "source_hash": "51e8d09edc1223610b26cf8aea2330d66fe5b7d0f13942180db584275adcd2ea"
-    },
-    "ui.auto.51432975fbc1": {
-      "text": "Use AMD's RCAS\nModified to add Contrast parameter\nand MAS support",
-      "source_hash": "3a36cd5a1c432af575c73d3c68dbc2fc7a1a879642b53e2ca554449487872fce"
     },
     "ui.auto.3687f2d02a85": {
       "text": "Depth Aware (RCAS)",
       "source_hash": "56871c197c498511cdd6f45deae46ee88d5b3aa26442930038dec1e8dd80a999"
     },
-    "ui.auto.01dfb4a9136a": {
-      "text": "Use Depth Aware Sharpening (RCAS)\nSmarter sharpening with less artifacts,\nbut also heavier\n\nThe farther away is the object, the more\nsharpening is applied",
-      "source_hash": "6d23beeec74cb5c3bbe114b664d585f9e8d36fbc137fcaf4777e48a57a9499b2"
-    },
     "ui.auto.342cc5401ecf": {
       "text": "Depth Aware (DAS)",
       "source_hash": "96ef2860862ac69853517f1334715b3db3d505cff72ca4f6eb2c7b8f57eac892"
-    },
-    "ui.auto.48fa822d9f13": {
-      "text": "Use Depth Aware Sharpening (DAS)\nDepth-aware directional adaptive luma sharpener\nSmarter sharpening with less artifacts,\nbut also heavier\n\nThe farther away is the object, the more\nsharpening is applied",
-      "source_hash": "4a91db35e68d2ea7901ec3142352fcd508a3f72eed0c5aaaabc645b7dcc4c120"
     },
     "ui.auto.1e6b46d6cf2d": {
       "text": "Enable Motion Adaptive Sharpness",
@@ -2850,42 +2646,6 @@
       "text": "Cursor Offset Y",
       "source_hash": "7c8f0c08577bcd382c6bf197f7ba4b9ea51f5e3d898085e79d20d975ec275da8"
     },
-    "ui.auto.e27e8cee87e7": {
-      "text": "Active Quirks",
-      "source_hash": "21ce4562360ca1c06bc4d9dc4ad469d7f31ec2d860e4eae1ffa0e06965d7308a"
-    },
-    "ui.auto.c8fef35bb005": {
-      "text": "Advanced Settings",
-      "source_hash": "22d4f6088b718aa471d4b671e7497315ff13df122c585460169d106c713a20c2"
-    },
-    "ui.auto.01b05a48e070": {
-      "text": "Enable Extended Limits",
-      "source_hash": "cdcf6357ddbfc31249f59af503dd6428846eeb747f3116775a99d0dca46a944f"
-    },
-    "ui.auto.3467602d8281": {
-      "text": "Extended sliders limit for quality presets\n\nUsing this option changes resolution detection logic\nand might cause issues and crashes!",
-      "source_hash": "6b87f69dfae361209d64059e80fc664f62ff0ee0c1658a161f47cec86ae96fbe"
-    },
-    "ui.auto.d549f83a4475": {
-      "text": "Use Precompiled Shaders",
-      "source_hash": "c6589a372165f3ca507f80982b45d8a4473f66e5f4e7d4901da9be71e3d1e57c"
-    },
-    "ui.auto.b69d4e2bbb4e": {
-      "text": "Override Maximum",
-      "source_hash": "124d525ced48d6cf2440a289c547516329802b7af04a26211c09a872c3b899f8"
-    },
-    "ui.auto.494ce75b0265": {
-      "text": "Resource Barriers",
-      "source_hash": "8ce6b93cfc3866e07aa20c730d6214f909b43bc68b05588741f4f7c4251c9ea7"
-    },
-    "ui.auto.32cb5cc9f04c": {
-      "text": "Restore Compute Root Signature",
-      "source_hash": "12a664026e0a82fb698d1020a0c71aca545acad4396773f9caf8715e1606fcb2"
-    },
-    "ui.auto.607e5cbb3f97": {
-      "text": "Restore Graphic Root Signature",
-      "source_hash": "542e48de03b81b0e655e86f556d150d3eddf2711e578675cb5812d2f3f855506"
-    },
     "ui.auto.5b83bdde59ce": {
       "text": "To File",
       "source_hash": "fa00b9970f873b4ed6e92610b290252e69c423e0a48a00f647832262510ba397"
@@ -2933,10 +2693,6 @@
     "ui.auto.63d7897994e0": {
       "text": "Reset BG Colour",
       "source_hash": "4bd3608559361afd88cbe6b11aeddf1f1b1931e6c2c176ef2054e4724ff4eac3"
-    },
-    "ui.auto.d0ee9c60ed1f": {
-      "text": "FPS Overlay",
-      "source_hash": "a37126633c214fae51fa5063f280b2989385f22dcea102f40e7f761a412156d9"
     },
     "ui.auto.4f57a1ce99e6": {
       "text": "Horizontal",
@@ -3005,38 +2761,6 @@
     "ui.auto.158d2bc45dcc": {
       "text": "Use Theme Colors",
       "source_hash": "797a04db221ed7d38cc6f3e9cec094d72a6325a58c1aa88b13b087925b1af13d"
-    },
-    "ui.auto.b261879a296f": {
-      "text": "Upscaler Inputs",
-      "source_hash": "6019d6e93ef4aafc1b2c39b8194b0826a06d869e339bab7cb2c89bad1bc01ca4"
-    },
-    "ui.auto.c8ec80090439": {
-      "text": "Use Fsr2 Inputs",
-      "source_hash": "23f6bdcfce813ce25f7c52a812b2ed8c3c269146e132bebf948ac73bbb5e9c25"
-    },
-    "ui.auto.8b8c800213f0": {
-      "text": "Use Fsr2 Pattern Matching",
-      "source_hash": "d54052dcc29a4a380c4cd10e1b1caa1f36743aca48e4ebd69fd6c85b37648423"
-    },
-    "ui.auto.855ca5ff23c9": {
-      "text": "This setting will become active on next boot!",
-      "source_hash": "6aae443aadf1104c6e23ce70f7bb967ced54e4e3f5edada1a3eeeb8e7f6cc708"
-    },
-    "ui.auto.287d8d95c53c": {
-      "text": "Use Fsr3 Inputs",
-      "source_hash": "3166598e45acd1dadf40025f6eb5490c1753ddf696423bc4e6d4e4b287827281"
-    },
-    "ui.auto.2e00621001af": {
-      "text": "Use Fsr3 Pattern Matching",
-      "source_hash": "e8ba335f775e02397c7efc2e4a4653fba9d95c3cb7bc7d2e8c1ae5685e744eef"
-    },
-    "ui.auto.def1e3ce4d81": {
-      "text": "Use Ffx Inputs",
-      "source_hash": "c7dcf7c64c979fdd92e3de98beb399404426b259b0d1b5efc235935916b513ef"
-    },
-    "ui.auto.7bc01ea4234b": {
-      "text": "V-Sync Settings",
-      "source_hash": "a40dba68d32d0a8a4684c431771dc112a5ecd3bed1e4535acf221b062027d3c1"
     },
     "ui.auto.f02e7523ea69": {
       "text": "V-Sync On",
@@ -3110,10 +2834,6 @@
       "text": "Will be applied after RESOLUTION/PRESET change !!!",
       "source_hash": "b29b2a316b18a81be5c522f05899524b9dd2e22c525da7601b03187e12b56e53"
     },
-    "ui.auto.44605974562e": {
-      "text": "Anisotropic Filtering",
-      "source_hash": "d59896744f6176e4e481b467ef9fb513fc8c7759c8c85b8b605ac4b6820d511c"
-    },
     "ui.auto.9d6a1191567d": {
       "text": "Force Anisotropic Filtering",
       "source_hash": "fe49c2fbb6fb6a1b3d39dd5462428a09c4bbb0b87a36d4edfb8a2e8a584f439b"
@@ -3146,10 +2866,6 @@
       "text": "Will might be applied after RESOLUTION/PRESET change !!!",
       "source_hash": "41489cd694adb6ad7605f106f1e2c6d3337504cd0035f09dca253469072bfe5a"
     },
-    "ui.auto.880934ba6541": {
-      "text": "Keybinds",
-      "source_hash": "7c73a36693f829ea149941a36308682584c53d13af4871ff61cd2ce5b1d06fd5"
-    },
     "ui.auto.f21783d27d89": {
       "text": "Key combinations are currently NOT supported!",
       "source_hash": "d198d8ce325166da77aa05f3be676a46ded6c5550f5adcd073780f7d7ab169f4"
@@ -3158,22 +2874,6 @@
       "text": "Escape to cancel, Backspace to unbind",
       "source_hash": "1616e7090558b55f6352a67f6faf441ba41b7d8a2c735bba2fad7e1d090a2d17"
     },
-    "ui.auto.8718d1e3cbf8": {
-      "text": "FrameTime",
-      "source_hash": "bc4630f85805216cf7c0cfe6507a2c8efc3a5920394aac718ef7846e098777f5"
-    },
-    "ui.auto.4a9c840d9f0c": {
-      "text": "%7.2f ms / %6.1f fps",
-      "source_hash": "1cd6bebe6cd14b055553ad903d0912dea21b79a5d4c383ee4b9f688c1de485b7"
-    },
-    "ui.auto.576423378bca": {
-      "text": "Upscaler",
-      "source_hash": "8b750cb13d3043ca59ad30e7bbf7ce69bb9c11fd23fba1ac4d5a49db8061d9ac"
-    },
-    "ui.auto.d8ceafaa3f17": {
-      "text": "Per shader breakdown:",
-      "source_hash": "b73fbbc92914299c73794a1bb7f2cf8096dd29a3f22199b08adc610c432c2147"
-    },
     "ui.auto.b478a7f9f09d": {
       "text": "%7.2f ms",
       "source_hash": "9a6f4f9fc8e7459aa22c4997323f25d83dd4f4cc5fe688d6ccad1f3551ea26be"
@@ -3181,10 +2881,6 @@
     "ui.auto.1a8beceb0bb4": {
       "text": "Extra shaders:",
       "source_hash": "780ee72a7750bcde18680ea63cf46088b1a2c485c02e40079535e55ae249dffb"
-    },
-    "ui.auto.cc0887be183e": {
-      "text": "%dx%d -> %dx%d (%.1f) [%dx%d (%.1f)]",
-      "source_hash": "b4518630c93374a887920b96db83b6bbb830f71e6a2b7e4e014a0a910458dd79"
     },
     "ui.auto.a063066c3825": {
       "text": "Auto (%3.1f)",
@@ -3206,17 +2902,9 @@
       "text": "%08x, %s->%s, Count: %llu, %s",
       "source_hash": "fdaebff90637296791c6f95cfc854ababda58bcdc9cb68ca68e03fb61b5eb55d"
     },
-    "ui.auto.62c2d95ce033": {
-      "text": "%s - %s %s %s %s",
-      "source_hash": "e0e079e8df640c4e29450d647e5a0903742cef39926483fb0225d0504bc75714"
-    },
     "ui.auto.3448080dc136": {
       "text": "- %s",
       "source_hash": "7d88975ce8be98a3a8bf9ad205d08fcc540a4138a61a56d9822898ba6f18392d"
-    },
-    "ui.auto.7d0968308192": {
-      "text": "Reprojection",
-      "source_hash": "38f97351f82e3eec966e6be4732de44c81c5278debcdf01a8e5a21fca516f5f8"
     },
     "ui.auto.b356256367a6": {
       "text": "Enable reprojection",
@@ -3294,78 +2982,6 @@
       "text": "Disables HUDFix resource tracking and\nreduces CPU overhead.\nUseful for MLFG which deals well with the HUD.\n\nAfter changing, please Save Settings and restart.",
       "source_hash": "b56e23b2925e36793dddd9e0ffe5951d97001aa30d517c8b139639a3151324d7"
     },
-    "ui.auto.b23382b26c57": {
-      "text": "Spoofing/Hooking",
-      "source_hash": "9dece93c3cd85969c32a897ea2b6888b2e936e9948d35618633d9598018bb908"
-    },
-    "ui.auto.dbdc3de69463": {
-      "text": "DXGI Spoofing",
-      "source_hash": "69597931765b07096bbc33c12a161b74472803ac7760356833bfd66f0aa32dbb"
-    },
-    "ui.auto.39ecc157b001": {
-      "text": "Enable Nvidia GPU spoofing for DXGI adapter\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "c089cb23a78af730ed260e58998c047546ea9a1c11f53415a5273f5b356c688c"
-    },
-    "ui.auto.9f04e490700d": {
-      "text": "VLK Spoofing",
-      "source_hash": "499d8caef8687b986d15564289aa56ca16eebe7dac4fe2ebff4a9a9528bcc886"
-    },
-    "ui.auto.924544c28fcb": {
-      "text": "Enable Nvidia GPU spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "dd2f06e7fe06f9046335585b24bb47451faf90a81f640e549ab04629dc5a298c"
-    },
-    "ui.auto.efc5bcb21079": {
-      "text": "VLK Extension Spoofing",
-      "source_hash": "0ca0f7f5ba47b874aa03135accee14c00275a8ca5876cb76b577b1742bb21f99"
-    },
-    "ui.auto.8184e65f6bcf": {
-      "text": "Enable Nvidia Extension spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "951bf9eb6ea58c6b523f9c8b24554ea93fe3e6153c7199df32fb663feb8e16de"
-    },
-    "ui.auto.bdf5e616ffda": {
-      "text": "Ntdll Hooks",
-      "source_hash": "2f0aa9dc3c7cd655b0ba228c11e43cea0d88318f343fbdde33bec9570bfb2012"
-    },
-    "ui.auto.eeaa410f068b": {
-      "text": "Only hook ntdll.dll methods\nDisable for switching back to kernel hooks\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "5130b694ac252c8da5b5b5b3b24091fa614a3d9c52dd5b0ecd99a37e3614f97b"
-    },
-    "ui.auto.2fb022255482": {
-      "text": "Disable Overlays",
-      "source_hash": "61a1010e4ed22c70a54d1e9a7d2c7911f3282876bbd50e5e5bf65fbc152ec1ff"
-    },
-    "ui.auto.f4d25beaf448": {
-      "text": "Disable supported overlays (autoenabled with OptiFG)\nIncluding Steam Input (controller issues)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "6d17f87c6ba82194d828e86fe89de7eafd68a6e29cf996b265a0607759297866"
-    },
-    "ui.auto.5bdf349c2b93": {
-      "text": "Plugins/Misc",
-      "source_hash": "64f1951f01ef8230768a29c1b75104da0331704142a15d4214f0e0181eaf90f3"
-    },
-    "ui.auto.53f76ddca2b9": {
-      "text": "Load ASI plugins",
-      "source_hash": "28350782de7447fb3e9f4e74ee585ed7da52316c22319a9a6cfa250dd7609892"
-    },
-    "ui.auto.bda057a69401": {
-      "text": "Let OptiScaler load *.asi files from plugins folder\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "7e0a4cdfaeb0390ff7866f959c701e9c930c0ab4931dacb434f99c9091dada5a"
-    },
-    "ui.auto.545147a7b674": {
-      "text": "Disable Splash message",
-      "source_hash": "ea4c5ad635852d37a1652e84b487601534c6a3d55b31a8b12552900de3e4cad7"
-    },
-    "ui.auto.56b60085260d": {
-      "text": "Disables Startup Splash message (bottom left corner)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "d2f6d980cc562287716845fd54797cfb566a73de403d054a2774fcf4e73398ee"
-    },
-    "ui.auto.2e515a5eca29": {
-      "text": "Check for Update",
-      "source_hash": "6f25f68393efbdeee731beafd8de5f3c719f66d838e52f1f75f9d58453831bd7"
-    },
-    "ui.auto.9a4731d04eca": {
-      "text": "Enable checking Github for latest version\nOnly works on stable/final releases\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "57303b76fcee867dd3f8bed49b7eb903bc1b71876b9c417656a16d4437cee665"
-    },
     "ui.auto.a8cb5f990770": {
       "text": "Single File",
       "source_hash": "6a87f68f89982773b71b61759300fdd6b2392d697d118bc5377b361a0baea762"
@@ -3377,6 +2993,126 @@
     "ui.auto.dbebc11cf8ed": {
       "text": "Force override the game's V-Sync settings.\n\nUseful for example when XeFG is locked to V-sync\nframe cap despite toggling Vsync off (e.g. Nioh 3)\n\nAfter changing, please Save Settings and restart.",
       "source_hash": "dbda2d3eed9fe8b8ecb2c75a0a1c79aa9ed31867a275e5592122ef7a7b8b97fc"
+    },
+    "ui.auto.47aac1714c83": {
+      "text": "%dx%d -> %dx%d (%.2fx)",
+      "source_hash": "6977bd59c4fb6a921a9433d3788adb0102cb6b124467b8b698b4fc90654de238"
+    },
+    "ui.auto.24d3e4fdd9a8": {
+      "text": "Strength",
+      "source_hash": "63ee3a1b965a7bd2581227dff2147a504c3b0926f2120180630fdfe2fc1a5b77"
+    },
+    "ui.auto.3804033e328b": {
+      "text": "Upscaler's default",
+      "source_hash": "4c923fbabb531e838fc8fabafff4578226537bc2b2983e77737489dae1cfe448"
+    },
+    "ui.auto.88306943fea7": {
+      "text": "Method",
+      "source_hash": "52a0f9b65b278850b53aad23136b5d574299e8fb92311304346d19736b7e9cce"
+    },
+    "ui.auto.4d2bc7a76976": {
+      "text": "Select the sharpening filter to apply.\n\nUpscaler's default: Uses the sharpening provided by the upscaler.\nRCAS: AMD's RCAS, modified for Contrast and MAS.\nDepth Aware: Smarter sharpening with fewer artifacts (heavier).\n\nBy default uses a sharpening value provided by the game.\nSelect 'Override' under 'Sharpness' and adjust the slider to change it.",
+      "source_hash": "a92f211d771432c3a05e41f8c7d1d4eb4edcb2b791c8a12f7af00e49fd23c91f"
+    },
+    "ui.auto.1d4d43cc6f3a": {
+      "text": "Use",
+      "source_hash": "c36d819e7bc6d2b7da51394411c733db89c395987885ca6770167a3b9bc45c3c"
+    },
+    "ui.auto.1fff6a31661b": {
+      "text": "Pattern",
+      "source_hash": "4288ade73ff9d32824e931c858f11acab4e0a323e6b1da9bfbe124473a13ac5a"
+    },
+    "ui.auto.6506faba00a0": {
+      "text": "Hook the inputs of this API, needed before they can be used",
+      "source_hash": "5919faddd543cf1bfd037fb313ca91071e74b52e732566a4e6ec1aa95a3cea55"
+    },
+    "ui.auto.5fa0a6881013": {
+      "text": "Take the upscaler inputs from this API",
+      "source_hash": "914a086bb65a238447db640f20c2cac3413b5bdb44c72c176b492c56dd44147f"
+    },
+    "ui.auto.971e672a3f71": {
+      "text": "Find the inputs by pattern matching",
+      "source_hash": "99ad8e7359b10acdc2fb14c0f92530482e8f748bcf8f7b4e993eb25558e74933"
+    },
+    "ui.auto.98294884aebc": {
+      "text": "Save Settings and restart the game for Enable and Pattern changes to apply",
+      "source_hash": "0cf16105b88eebd4c0f5fd5e2ae65b82bddc2a80f109ac78020a24c8fddba914"
+    },
+    "ui.auto.34892dc90695": {
+      "text": "Quirks",
+      "source_hash": "12d0b77aba947d1c47867cde1ebe140847d84828da2b419a511ba23be226e604"
+    },
+    "ui.auto.7926798a5871": {
+      "text": "All %.2f",
+      "source_hash": "85c28a1a6ccc50f4527039e0be3656f019279f231a8beb74690f57174293657b"
+    },
+    "ui.auto.9bda272dbc2b": {
+      "text": "%s%s",
+      "source_hash": "dbeaee05407accd04dababbd3607029981f29ae9795773dc3ff92466bf7e6648"
+    },
+    "ui.auto.b962d9e61588": {
+      "text": "%s %d.%d.%d%s",
+      "source_hash": "30408a066133095f6054a4b6041f6685006c9c371e9e47e23f5499c011d88fd5"
+    },
+    "ui.auto.558f578a3d87": {
+      "text": "%dx%d",
+      "source_hash": "fc30954278e97cefadfdacba81c44fe9cabb3371ce1597d0de8a5b096edd4106"
+    },
+    "ui.auto.aa0593277eae": {
+      "text": "%dx%d (%.2fx)",
+      "source_hash": "775c9b3fd22b99d60ebbd7b1ecc42d226d2dbe1d17599a5ac36da5fc531acefb"
+    },
+    "ui.auto.339567ab11a3": {
+      "text": "%.3f",
+      "source_hash": "0e29a872795a929957702ca02a02eb31ad56eea9cc691ffb18cef6e6db71b294"
+    },
+    "ui.auto.81dcf82f9938": {
+      "text": "Barriers overridden",
+      "source_hash": "75416e1c4a59c0d176939859806115beedd130229a2dab68d5ca9ead7f9d28c3"
+    },
+    "ui.auto.fdf122cd1ef3": {
+      "text": "Nothing picked yet, choose the boxes in Menu > Custom Tab",
+      "source_hash": "6d690e92c692aa2ae278b82439116895b2e3362fbf23d1869c21aaf17d6fc65d"
+    },
+    "ui.auto.f36e7d809238": {
+      "text": "None of the picked boxes are available right now",
+      "source_hash": "fa0ec3b33e827c2eb2f2739e16eb300697bd1db1c77452c9765e8ce34d88f78d"
+    },
+    "ui.auto.77e4cd941826": {
+      "text": "Boxes to show",
+      "source_hash": "bbc6898a8cabec2eb8997f435d8fdac9ba28cbad22ce040349798ba8c3909fdb"
+    },
+    "ui.auto.cd7216b44ce3": {
+      "text": "SR",
+      "source_hash": "4418ba61334db484dbac70718aa91d59d8e47334fbcd739a260f0fb51b9a0f57"
+    },
+    "ui.auto.cc1ebdd04e76": {
+      "text": "Idle",
+      "source_hash": "ab0171ca0494d441cb6fe96e2efbe1c2a129f1d87cd6c17f03613cfd111149dd"
+    },
+    "ui.auto.9913cdf871cb": {
+      "text": "FG",
+      "source_hash": "2097d9edbebf7ccc834ac87b2bf4f2b871908a7f8ef80b35a8608cbb08e0ce07"
+    },
+    "ui.auto.e3de5ab0ca4c": {
+      "text": "Off",
+      "source_hash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1"
+    },
+    "ui.auto.1dddac55a031": {
+      "text": "Frame time: %.2f ms / %.1f fps",
+      "source_hash": "3d224263674ab97bc364432c53b675f6bc5f1dfa918f7c9089f8ae92ffc275b1"
+    },
+    "ui.auto.c5785b218f64": {
+      "text": "%.2f - %.2f ms",
+      "source_hash": "4bf681a236e82421b63d3d695053b9e85af7e524734ed267edbb096de230e70e"
+    },
+    "ui.auto.68b985d700fd": {
+      "text": "Upscaler GPU time: %.2f ms",
+      "source_hash": "4e1982651f73a46e9dde882804fc4919b0f1c95076c308dda03f5ce92f619e5f"
+    },
+    "ui.auto.68ef84d8dc14": {
+      "text": "%s - %s %s",
+      "source_hash": "76e4e110d2bb770b0ac351968e191b77a4e86b1313e503af3b51b3eb6950c362"
     }
   }
 }
