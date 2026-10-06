@@ -1,9 +1,13 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.0bb5ad9ece59"
+    ],
     "changed": [],
-    "removed": []
+    "removed": [
+      "ui.auto.a62c1c117048"
+    ]
   },
   "missing": [
     {
@@ -55,11 +59,6 @@
       "key": "ui.auto.6f8b277addc5",
       "source": "Selects how many elements close to the camera\nshould be shown over the reprojected image.\nThis prevents your gun from being moved in weird ways.\n\nUse \"Show static elements\" to help you adjust it\nUnreal Engine games are usually around 0.10\nCyberpunk is around 0.02",
       "source_hash": "837c2c20b4c6523e7da662007b2c4141f912b1e5e6803362c802288b61a7968b"
-    },
-    {
-      "key": "ui.auto.a62c1c117048",
-      "source": "A toddler implemented this so it's super slow\nUse only when you see an outline left by the cutoff process",
-      "source_hash": "0126eeaaa9fde7f12a5aec285b40f8c1a35b168127bdb30e1614b69416ec16d3"
     },
     {
       "key": "ui.auto.650bdad8f79e",
@@ -265,6 +264,11 @@
       "key": "ui.auto.68ef84d8dc14",
       "source": "%s - %s %s",
       "source_hash": "76e4e110d2bb770b0ac351968e191b77a4e86b1313e503af3b51b3eb6950c362"
+    },
+    {
+      "key": "ui.auto.0bb5ad9ece59",
+      "source": "Expands the cutoff area by this many depth pixels\nUse only when you see an outline left by the cutoff process",
+      "source_hash": "28f33783f6e06955ca28f7916e9237e4739b391ab19527c208c79f39223908a3"
     }
   ],
   "changed": []
