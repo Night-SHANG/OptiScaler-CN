@@ -2,11 +2,23 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.0bb5ad9ece59"
+      "ui.auto.919a5892be29",
+      "ui.auto.1b288c63d84d",
+      "ui.auto.b0d5bab1138c",
+      "ui.auto.e28dd2248b84",
+      "ui.auto.b88c2542d844",
+      "ui.auto.c5ab64d1dee4",
+      "ui.auto.5d4f86629135",
+      "ui.auto.f59051ff105d"
     ],
-    "changed": [],
+    "changed": [
+      "ui.auto.919a5892be29"
+    ],
     "removed": [
-      "ui.auto.a62c1c117048"
+      "ui.auto.77acdfa26abb",
+      "ui.auto.1dddac55a031",
+      "ui.auto.c5785b218f64",
+      "ui.auto.68b985d700fd"
     ]
   },
   "missing": [
@@ -246,21 +258,6 @@
       "source_hash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1"
     },
     {
-      "key": "ui.auto.1dddac55a031",
-      "source": "Frame time: %.2f ms / %.1f fps",
-      "source_hash": "3d224263674ab97bc364432c53b675f6bc5f1dfa918f7c9089f8ae92ffc275b1"
-    },
-    {
-      "key": "ui.auto.c5785b218f64",
-      "source": "%.2f - %.2f ms",
-      "source_hash": "4bf681a236e82421b63d3d695053b9e85af7e524734ed267edbb096de230e70e"
-    },
-    {
-      "key": "ui.auto.68b985d700fd",
-      "source": "Upscaler GPU time: %.2f ms",
-      "source_hash": "4e1982651f73a46e9dde882804fc4919b0f1c95076c308dda03f5ce92f619e5f"
-    },
-    {
       "key": "ui.auto.68ef84d8dc14",
       "source": "%s - %s %s",
       "source_hash": "76e4e110d2bb770b0ac351968e191b77a4e86b1313e503af3b51b3eb6950c362"
@@ -269,6 +266,46 @@
       "key": "ui.auto.0bb5ad9ece59",
       "source": "Expands the cutoff area by this many depth pixels\nUse only when you see an outline left by the cutoff process",
       "source_hash": "28f33783f6e06955ca28f7916e9237e4739b391ab19527c208c79f39223908a3"
+    },
+    {
+      "key": "ui.auto.919a5892be29",
+      "source": "Please select %s as upscaler from game options and load a save game to enable Opti settings.\nUpscalers don't always work in menus.",
+      "source_hash": "06c9e5ad62215a2c12b21eae02c6d6dff2805bc969472fc234ba099f21f4ad8d"
+    },
+    {
+      "key": "ui.auto.1b288c63d84d",
+      "source": "Late latch mouse",
+      "source_hash": "580f42b69b45f64f8c0349eaee35bd337485def852c2c25ec711557dfe24add4"
+    },
+    {
+      "key": "ui.auto.b0d5bab1138c",
+      "source": "Reads the mouse right when the GPU starts the reprojection\ninstead of when the frame is presented on the CPU.\nLowers latency, especially when GPU bound",
+      "source_hash": "4f9697b8d313b9dae42ce84365f5d0f5bd7f167c0b237150a4da487bfd21cb8d"
+    },
+    {
+      "key": "ui.auto.e28dd2248b84",
+      "source": "Blur Strength",
+      "source_hash": "d963ad2adcbfe409323e0e298beb059cd5431b72d8b38609112f3b4def749604"
+    },
+    {
+      "key": "ui.auto.b88c2542d844",
+      "source": "Customise this tab",
+      "source_hash": "fd7a51206fb48440412b43e13f616c0332d1d50166c0f59b54c8dd68c0ffb84f"
+    },
+    {
+      "key": "ui.auto.c5ab64d1dee4",
+      "source": "Range: %.2f ms - %.2f ms",
+      "source_hash": "9838a6dd84fdd9d35a3147d9cf185c0fab8074c855f11514e769969f40e4e17a"
+    },
+    {
+      "key": "ui.auto.5d4f86629135",
+      "source": "Frametime: %.2fms / %.1ffps (avg: %.1ffps)",
+      "source_hash": "22bf11797c5a1484b04bcc3ffc03d9db04dffa2549e26a8ef7aa40cf45c2b2ca"
+    },
+    {
+      "key": "ui.auto.f59051ff105d",
+      "source": "Upscaler GPU time: %.2fms (avg: %.2fms)",
+      "source_hash": "44e795db700dd4ab99111e99e3ae1db8f6ccdc120ff414ccc5482cdbb1c38774"
     }
   ],
   "changed": []
