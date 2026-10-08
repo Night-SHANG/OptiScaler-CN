@@ -14,10 +14,6 @@
       "text": "Active output: %s",
       "source_hash": "ddd5dce8aa95f8036ce922fcaa1e257c7d8744b24a747bf99a68432e281adb0f"
     },
-    "ui.auto.e71963fc298f": {
-      "text": "Active##3",
-      "source_hash": "38cbcd60b64f67b1837a09a92cda4c7c52482c47834dcb95ef679e69c78ad962"
-    },
     "ui.auto.4880ddab6a4a": {
       "text": "Advanced OptiFG Settings",
       "source_hash": "f3b9fc71c6018501ce2524f0b7299150efdd549be6bd32afc425264c8cf97ca4"
@@ -205,10 +201,6 @@
     "ui.auto.20063ad90532": {
       "text": "Enable",
       "source_hash": "5342e09f2729fbc6514528e727aeb9857afb31719d43568e6b18661ace7d1014"
-    },
-    "ui.auto.b6e42115d464": {
-      "text": "Enable Frame Generation",
-      "source_hash": "bc8f3c7d88a5f764a313bff55b0fde44b36a5db27f4dfa22d080aba6352b07a9"
     },
     "ui.auto.2aecc68a3a6f": {
       "text": "Enable HUD stability fix, might cause crashes!",
@@ -545,14 +537,6 @@
     "ui.auto.448ab73ba1c2": {
       "text": "Set",
       "source_hash": "b6f6f3ad07b3c05fa0bbbbf2e3d257ff1e3e31a83efbe2c9369cd008594f94e0"
-    },
-    "ui.auto.2256b073054f": {
-      "text": "Set DLSSG interpolation count",
-      "source_hash": "d4448dcd2f56fa1471b9f8e7363758341d9a93afb3658aa25a2f29a03d4865a7"
-    },
-    "ui.auto.f0572004732c": {
-      "text": "Set XeFG interpolation count",
-      "source_hash": "cc3e0bbfff10771a4ee6e2b6585828a21a93b15dea19b04c65fd1e8a60695ef4"
     },
     "ui.auto.9476e178decb": {
       "text": "Silly goose detected",
@@ -1794,10 +1778,6 @@
       "text": "Change FG",
       "source_hash": "cfdfc928776980d1f67c0ac8c3ed48bd039bf31372bdcdca1865c60649106cf2"
     },
-    "ui.auto.59c2add9983b": {
-      "text": "Active##2",
-      "source_hash": "764133df932a0d8d8a7f97a928f66e3955845491b7783fad5ec408e56c5e96bb"
-    },
     "ui.auto.3b6d47196702": {
       "text": "Allow Async",
       "source_hash": "58f3f23c77527515a7e10e4435fca634a771d457a5a410e4bfaaae0513ba52f2"
@@ -1905,10 +1885,6 @@
     "ui.auto.b1ba65020c6a": {
       "text": "DLSSG only supports HDR10",
       "source_hash": "c1131c09048505e4fad145a3eefb2a6f261e4fc62b0f20b0e95dd0cc1f290994"
-    },
-    "ui.auto.e3dbaaf23465": {
-      "text": "Active##4",
-      "source_hash": "3feb79930ebba5a85f2b23b03a4e9485980f554915f79a41381a48e486098b98"
     },
     "ui.auto.24d948e4bdbe": {
       "text": "Limit",
@@ -3129,6 +3105,22 @@
     "ui.auto.f59051ff105d": {
       "text": "Upscaler GPU time: %.2fms (avg: %.2fms)",
       "source_hash": "44e795db700dd4ab99111e99e3ae1db8f6ccdc120ff414ccc5482cdbb1c38774"
+    },
+    "ui.auto.ed0e8aca78f9": {
+      "text": "%s##%d",
+      "source_hash": "e8c07c8929f8b09881ddb749122d098348b680dc02e7e31db2065546e6759626"
+    },
+    "ui.auto.763f65738a5a": {
+      "text": "Frame Generation mode\nDefault follows the game's DLSS FG setting",
+      "source_hash": "f18dd7a6e361f8524ba969b8c54e6755c6919e7e21105b84f58fc311917a521b"
+    },
+    "ui.auto.24da7bc6ada8": {
+      "text": "Frame Generation mode",
+      "source_hash": "edaf649aa49390175b7b1ccb3ad8e2ad43d0301f7b80ffc4b07acc3311a7f0b4"
+    },
+    "ui.auto.6af40ae2fe5f": {
+      "text": "FFX FG Version",
+      "source_hash": "1ff542e9c0769f0a0833dcb051d06320a5d0ef1b2efc1c4af83c794a9206775d"
     }
   }
 }

@@ -2,23 +2,19 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.919a5892be29",
-      "ui.auto.1b288c63d84d",
-      "ui.auto.b0d5bab1138c",
-      "ui.auto.e28dd2248b84",
-      "ui.auto.b88c2542d844",
-      "ui.auto.c5ab64d1dee4",
-      "ui.auto.5d4f86629135",
-      "ui.auto.f59051ff105d"
+      "ui.auto.ed0e8aca78f9",
+      "ui.auto.763f65738a5a",
+      "ui.auto.24da7bc6ada8",
+      "ui.auto.6af40ae2fe5f"
     ],
-    "changed": [
-      "ui.auto.919a5892be29"
-    ],
+    "changed": [],
     "removed": [
-      "ui.auto.77acdfa26abb",
-      "ui.auto.1dddac55a031",
-      "ui.auto.c5785b218f64",
-      "ui.auto.68b985d700fd"
+      "ui.auto.e71963fc298f",
+      "ui.auto.b6e42115d464",
+      "ui.auto.2256b073054f",
+      "ui.auto.f0572004732c",
+      "ui.auto.59c2add9983b",
+      "ui.auto.e3dbaaf23465"
     ]
   },
   "missing": [
@@ -306,6 +302,26 @@
       "key": "ui.auto.f59051ff105d",
       "source": "Upscaler GPU time: %.2fms (avg: %.2fms)",
       "source_hash": "44e795db700dd4ab99111e99e3ae1db8f6ccdc120ff414ccc5482cdbb1c38774"
+    },
+    {
+      "key": "ui.auto.ed0e8aca78f9",
+      "source": "%s##%d",
+      "source_hash": "e8c07c8929f8b09881ddb749122d098348b680dc02e7e31db2065546e6759626"
+    },
+    {
+      "key": "ui.auto.763f65738a5a",
+      "source": "Frame Generation mode\nDefault follows the game's DLSS FG setting",
+      "source_hash": "f18dd7a6e361f8524ba969b8c54e6755c6919e7e21105b84f58fc311917a521b"
+    },
+    {
+      "key": "ui.auto.24da7bc6ada8",
+      "source": "Frame Generation mode",
+      "source_hash": "edaf649aa49390175b7b1ccb3ad8e2ad43d0301f7b80ffc4b07acc3311a7f0b4"
+    },
+    {
+      "key": "ui.auto.6af40ae2fe5f",
+      "source": "FFX FG Version",
+      "source_hash": "1ff542e9c0769f0a0833dcb051d06320a5d0ef1b2efc1c4af83c794a9206775d"
     }
   ],
   "changed": []
