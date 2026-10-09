@@ -2,20 +2,17 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.ed0e8aca78f9",
-      "ui.auto.763f65738a5a",
-      "ui.auto.24da7bc6ada8",
-      "ui.auto.6af40ae2fe5f"
+      "ui.auto.b0ab9dc01f7f",
+      "ui.auto.9e8c0f3615af",
+      "ui.auto.2a8ef6de0ade",
+      "ui.auto.61ae81e67bcb",
+      "ui.auto.a0c076965fe8",
+      "ui.auto.10064ee6dc19",
+      "ui.auto.ac6aaf62c596",
+      "ui.auto.f9aca9fb84ce"
     ],
     "changed": [],
-    "removed": [
-      "ui.auto.e71963fc298f",
-      "ui.auto.b6e42115d464",
-      "ui.auto.2256b073054f",
-      "ui.auto.f0572004732c",
-      "ui.auto.59c2add9983b",
-      "ui.auto.e3dbaaf23465"
-    ]
+    "removed": []
   },
   "missing": [
     {
@@ -322,6 +319,46 @@
       "key": "ui.auto.6af40ae2fe5f",
       "source": "FFX FG Version",
       "source_hash": "1ff542e9c0769f0a0833dcb051d06320a5d0ef1b2efc1c4af83c794a9206775d"
+    },
+    {
+      "key": "ui.auto.b0ab9dc01f7f",
+      "source": "%s%s | %s | Input: %s",
+      "source_hash": "16b1291e3828912de7b342721e76e48c7e80f2d83aaf5dca1fe09f9ca9445d0a"
+    },
+    {
+      "key": "ui.auto.9e8c0f3615af",
+      "source": " (DXVK)",
+      "source_hash": "2975c4f93847692a940240b31bfd09dbbc33a73cad830814066ce667002521ff"
+    },
+    {
+      "key": "ui.auto.2a8ef6de0ade",
+      "source": " (VKD3D)",
+      "source_hash": "235024dbc74a8114a01bdf76778093b703dabebdcbc971eec91f9aaccc484aa7"
+    },
+    {
+      "key": "ui.auto.61ae81e67bcb",
+      "source": "%s (%.2f)",
+      "source_hash": "df2d705420554fcb068404668fc1b83c3121e4fdbac99ffc8bc8b93176deda28"
+    },
+    {
+      "key": "ui.auto.a0c076965fe8",
+      "source": " %ux",
+      "source_hash": "3671341499b9e1461534d4f0c598583e9b78a2fc004f84dcbde5824a0cf8a52d"
+    },
+    {
+      "key": "ui.auto.10064ee6dc19",
+      "source": "%s %ux",
+      "source_hash": "4133dbc700c0710524401fe0c855c16d455e6e7d033c3e4d13b1aefb4ca80aee"
+    },
+    {
+      "key": "ui.auto.ac6aaf62c596",
+      "source": "Spoof",
+      "source_hash": "1f2c2a78aea4cb3fe62495d433633ae42c0e0ab726321a82e77e6c802bc52a69"
+    },
+    {
+      "key": "ui.auto.f9aca9fb84ce",
+      "source": "OP",
+      "source_hash": "9a526bb7420e1c78eab1106a3238449735c3510cbf1d60bd1de8a3ee5358dd06"
     }
   ],
   "changed": []

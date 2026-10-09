@@ -386,6 +386,10 @@
       "text": "Mipmap Bias",
       "source_hash": "8b043590cd4bf35df9d07dc7087d872dd258bbca2011c07a9a49bb1a5321ee07"
     },
+    "ui.auto.816c52fd2bdd": {
+      "text": "No",
+      "source_hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d"
+    },
     "ui.auto.6c704f55810a": {
       "text": "No support",
       "source_hash": "e2312dc086efef5524c48bb4c1221e1537f678fabc8333a599ae1dfd2ea00d79"
@@ -637,6 +641,10 @@
     "ui.auto.9d447dcc932f": {
       "text": "Yellow##2",
       "source_hash": "3a9fe156905817b067b44b30ff514509b660941d87613458244fde48dee69093"
+    },
+    "ui.auto.5397e0583f14": {
+      "text": "Yes",
+      "source_hash": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e"
     },
     "ui.auto.a7aa54650b1c": {
       "text": "You shouldn't need to change it",
@@ -3121,6 +3129,38 @@
     "ui.auto.6af40ae2fe5f": {
       "text": "FFX FG Version",
       "source_hash": "1ff542e9c0769f0a0833dcb051d06320a5d0ef1b2efc1c4af83c794a9206775d"
+    },
+    "ui.auto.b0ab9dc01f7f": {
+      "text": "%s%s | %s | Input: %s",
+      "source_hash": "16b1291e3828912de7b342721e76e48c7e80f2d83aaf5dca1fe09f9ca9445d0a"
+    },
+    "ui.auto.9e8c0f3615af": {
+      "text": " (DXVK)",
+      "source_hash": "2975c4f93847692a940240b31bfd09dbbc33a73cad830814066ce667002521ff"
+    },
+    "ui.auto.2a8ef6de0ade": {
+      "text": " (VKD3D)",
+      "source_hash": "235024dbc74a8114a01bdf76778093b703dabebdcbc971eec91f9aaccc484aa7"
+    },
+    "ui.auto.61ae81e67bcb": {
+      "text": "%s (%.2f)",
+      "source_hash": "df2d705420554fcb068404668fc1b83c3121e4fdbac99ffc8bc8b93176deda28"
+    },
+    "ui.auto.a0c076965fe8": {
+      "text": " %ux",
+      "source_hash": "3671341499b9e1461534d4f0c598583e9b78a2fc004f84dcbde5824a0cf8a52d"
+    },
+    "ui.auto.10064ee6dc19": {
+      "text": "%s %ux",
+      "source_hash": "4133dbc700c0710524401fe0c855c16d455e6e7d033c3e4d13b1aefb4ca80aee"
+    },
+    "ui.auto.ac6aaf62c596": {
+      "text": "Spoof",
+      "source_hash": "1f2c2a78aea4cb3fe62495d433633ae42c0e0ab726321a82e77e6c802bc52a69"
+    },
+    "ui.auto.f9aca9fb84ce": {
+      "text": "OP",
+      "source_hash": "9a526bb7420e1c78eab1106a3238449735c3510cbf1d60bd1de8a3ee5358dd06"
     }
   }
 }
