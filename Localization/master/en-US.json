@@ -390,14 +390,6 @@
       "text": "No",
       "source_hash": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d"
     },
-    "ui.auto.6c704f55810a": {
-      "text": "No support",
-      "source_hash": "e2312dc086efef5524c48bb4c1221e1537f678fabc8333a599ae1dfd2ea00d79"
-    },
-    "ui.auto.47b374d5a6a1": {
-      "text": "None (Off)",
-      "source_hash": "46c9f52734dc2a821ea68f5e4f692d3ce3052e82ae5dd26e38f1af801ed004c0"
-    },
     "ui.auto.f45461efe4d4": {
       "text": "Open release page",
       "source_hash": "cd6c9851e91ad7b624b689182b8c8059166c1f9e49eada45a45f5c077233ade0"
@@ -1614,10 +1606,6 @@
       "text": "Use generic appid with NGX\nFixes OptiScaler preset override not working with certain games\nRequires a game restart",
       "source_hash": "9323ca6a23175cd7f41867fc774cd61652a855f171694d6fc6812d252036365f"
     },
-    "ui.auto.d369481c7339": {
-      "text": "Support not implemented, they meant FG Output",
-      "source_hash": "8332bd90ce5bef353e0cdad9504bae2e029bfdc7bcc652c09c58122f91ae773a"
-    },
     "ui.auto.0ae847f8d279": {
       "text": "No real DLSSG, unsupported hardware\nOnly Nvngx FG replacements available",
       "source_hash": "27447d158cee9e483cc9654e38f4b8d738b7f0c212455226eabeecc2a707d435"
@@ -2281,10 +2269,6 @@
     "ui.auto.3cfc7e4a4be5": {
       "text": "and will fallback to Aggressive",
       "source_hash": "a562e5d3532f3d08a4ad7cf5f3e437624ee9e1974613f2b91f24e94b3a959f5b"
-    },
-    "ui.auto.c0f57ed79709": {
-      "text": "AntiLag 2",
-      "source_hash": "38fb1e0454f28e379351617c44e5fa83a910f00ad8423f6749fb517c8fbf7bc9"
     },
     "ui.auto.4f2a9d7018ea": {
       "text": "Reflex",
@@ -3161,6 +3145,34 @@
     "ui.auto.f9aca9fb84ce": {
       "text": "OP",
       "source_hash": "9a526bb7420e1c78eab1106a3238449735c3510cbf1d60bd1de8a3ee5358dd06"
+    },
+    "ui.auto.5c196f375030": {
+      "text": "Override XeFG Ratio",
+      "source_hash": "8541f9f9b8883f7981de8f15129b46b6429db878d428c8d4de5c44e6d31524f9"
+    },
+    "ui.auto.c3f7e9501822": {
+      "text": "FSR Anti-Lag 2.0",
+      "source_hash": "c5128f27f4c397e414b1624488521c43cec62e9fe25124a9db824067d25bd106"
+    },
+    "ui.auto.dedd2c92c055": {
+      "text": "OptiScaler",
+      "source_hash": "f1a59411e0090ae0608b2e78d73533a7f6ba41442589345f46631822f2dbae02"
+    },
+    "ui.auto.8fa9218ab684": {
+      "text": "The best input the game sends: Reflex, XeLL when enabled in the game, AntiLag 2, UE, XeLL.\nAntiLag 2 first while the game's FSR-FG reports its frames through it.\nWithout any, OptiScaler's own with the DLSSG output.",
+      "source_hash": "586479b21fad99ce28e935d7b7dcff3150eca26b175d33712933bd1603808b98"
+    },
+    "ui.auto.6522c72186b2": {
+      "text": "Set by XeFG: the game's own keeps its XeLL",
+      "source_hash": "631302c447c4a2772f8ddcd215bcd903fbb7bc6bb1aa863bfa4ddedf8de72f16"
+    },
+    "ui.auto.53e90d4dbcd2": {
+      "text": "Set by XeFG: the game's own keeps its XeLL (only the FPS limit is OptiScaler's),\nOptiScaler's needs XeLL",
+      "source_hash": "a3b61ef5787277a46d5bff231a451cf80ce7009b5cb74d4c97c184a26a31d4b0"
+    },
+    "ui.auto.72b69e87efd6": {
+      "text": "Incompatible: %s",
+      "source_hash": "c94ee35494e27432a0dd4e9e3976685d48185a9f988798aa0068c14db7360f9d"
     }
   }
 }

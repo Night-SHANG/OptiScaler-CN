@@ -2,17 +2,21 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.b0ab9dc01f7f",
-      "ui.auto.9e8c0f3615af",
-      "ui.auto.2a8ef6de0ade",
-      "ui.auto.61ae81e67bcb",
-      "ui.auto.a0c076965fe8",
-      "ui.auto.10064ee6dc19",
-      "ui.auto.ac6aaf62c596",
-      "ui.auto.f9aca9fb84ce"
+      "ui.auto.5c196f375030",
+      "ui.auto.c3f7e9501822",
+      "ui.auto.dedd2c92c055",
+      "ui.auto.8fa9218ab684",
+      "ui.auto.6522c72186b2",
+      "ui.auto.53e90d4dbcd2",
+      "ui.auto.72b69e87efd6"
     ],
     "changed": [],
-    "removed": []
+    "removed": [
+      "ui.auto.6c704f55810a",
+      "ui.auto.47b374d5a6a1",
+      "ui.auto.d369481c7339",
+      "ui.auto.c0f57ed79709"
+    ]
   },
   "missing": [
     {
@@ -359,6 +363,41 @@
       "key": "ui.auto.f9aca9fb84ce",
       "source": "OP",
       "source_hash": "9a526bb7420e1c78eab1106a3238449735c3510cbf1d60bd1de8a3ee5358dd06"
+    },
+    {
+      "key": "ui.auto.5c196f375030",
+      "source": "Override XeFG Ratio",
+      "source_hash": "8541f9f9b8883f7981de8f15129b46b6429db878d428c8d4de5c44e6d31524f9"
+    },
+    {
+      "key": "ui.auto.c3f7e9501822",
+      "source": "FSR Anti-Lag 2.0",
+      "source_hash": "c5128f27f4c397e414b1624488521c43cec62e9fe25124a9db824067d25bd106"
+    },
+    {
+      "key": "ui.auto.dedd2c92c055",
+      "source": "OptiScaler",
+      "source_hash": "f1a59411e0090ae0608b2e78d73533a7f6ba41442589345f46631822f2dbae02"
+    },
+    {
+      "key": "ui.auto.8fa9218ab684",
+      "source": "The best input the game sends: Reflex, XeLL when enabled in the game, AntiLag 2, UE, XeLL.\nAntiLag 2 first while the game's FSR-FG reports its frames through it.\nWithout any, OptiScaler's own with the DLSSG output.",
+      "source_hash": "586479b21fad99ce28e935d7b7dcff3150eca26b175d33712933bd1603808b98"
+    },
+    {
+      "key": "ui.auto.6522c72186b2",
+      "source": "Set by XeFG: the game's own keeps its XeLL",
+      "source_hash": "631302c447c4a2772f8ddcd215bcd903fbb7bc6bb1aa863bfa4ddedf8de72f16"
+    },
+    {
+      "key": "ui.auto.53e90d4dbcd2",
+      "source": "Set by XeFG: the game's own keeps its XeLL (only the FPS limit is OptiScaler's),\nOptiScaler's needs XeLL",
+      "source_hash": "a3b61ef5787277a46d5bff231a451cf80ce7009b5cb74d4c97c184a26a31d4b0"
+    },
+    {
+      "key": "ui.auto.72b69e87efd6",
+      "source": "Incompatible: %s",
+      "source_hash": "c94ee35494e27432a0dd4e9e3976685d48185a9f988798aa0068c14db7360f9d"
     }
   ],
   "changed": []
