@@ -1666,10 +1666,6 @@
       "text": "Save Settings and restart to apply the changes",
       "source_hash": "5edc6ab3f36827a7146a3c720be04a534d65b5bacfe047ed74d129c26bc2b152"
     },
-    "ui.auto.6e23184d03ec": {
-      "text": "Override DLSSG Ratio",
-      "source_hash": "b247aadd5c25a57b25478e9e9853b239a59368b8989e317911989533b1141f28"
-    },
     "ui.auto.abaf687b594a": {
       "text": "Show Detected UI",
       "source_hash": "a3152f4ce41601ab9682b52e4c3823bd269c4e56414904d2a354e7e994ac0f83"
@@ -3146,10 +3142,6 @@
       "text": "OP",
       "source_hash": "9a526bb7420e1c78eab1106a3238449735c3510cbf1d60bd1de8a3ee5358dd06"
     },
-    "ui.auto.5c196f375030": {
-      "text": "Override XeFG Ratio",
-      "source_hash": "8541f9f9b8883f7981de8f15129b46b6429db878d428c8d4de5c44e6d31524f9"
-    },
     "ui.auto.c3f7e9501822": {
       "text": "FSR Anti-Lag 2.0",
       "source_hash": "c5128f27f4c397e414b1624488521c43cec62e9fe25124a9db824067d25bd106"
@@ -3166,13 +3158,29 @@
       "text": "Set by XeFG: the game's own keeps its XeLL",
       "source_hash": "631302c447c4a2772f8ddcd215bcd903fbb7bc6bb1aa863bfa4ddedf8de72f16"
     },
-    "ui.auto.53e90d4dbcd2": {
-      "text": "Set by XeFG: the game's own keeps its XeLL (only the FPS limit is OptiScaler's),\nOptiScaler's needs XeLL",
-      "source_hash": "a3b61ef5787277a46d5bff231a451cf80ce7009b5cb74d4c97c184a26a31d4b0"
-    },
     "ui.auto.72b69e87efd6": {
       "text": "Incompatible: %s",
       "source_hash": "c94ee35494e27432a0dd4e9e3976685d48185a9f988798aa0068c14db7360f9d"
+    },
+    "ui.auto.94f65d59fc0c": {
+      "text": "FPS Limiter",
+      "source_hash": "f89e13532a1376690ede4cc5549d5e11fb03724555e54aa323a64d6a3f9fd3d8"
+    },
+    "ui.auto.10997f413426": {
+      "text": "Only limits the FPS",
+      "source_hash": "0e7a74d5a6d3553063ec8c639ab3ed5f53ec386cd33ed8a024b0f6988c233fa7"
+    },
+    "ui.auto.4db988729e05": {
+      "text": "Set by XeFG: the game's own keeps its XeLL (only the FPS limit is OptiScaler's)",
+      "source_hash": "0ff0fef742b954f3e634310a4905773f0480c63bc3c9c233b8eb54b8cd447c0b"
+    },
+    "ui.auto.3672f57d858f": {
+      "text": "Save Settings and restart the game: XeFG keeps the low latency output it started with",
+      "source_hash": "6849a62229c7b4f28f85f8a64aa59e226dedba281f2c5e687c6e90af711fe348"
+    },
+    "ui.auto.509ea3189ef0": {
+      "text": "%s %dx",
+      "source_hash": "9d05e389f10fbc435f11ca2cf91982bd977e667fc866fee6af1393cab9321325"
     }
   }
 }

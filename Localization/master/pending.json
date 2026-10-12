@@ -2,20 +2,19 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.5c196f375030",
-      "ui.auto.c3f7e9501822",
-      "ui.auto.dedd2c92c055",
-      "ui.auto.8fa9218ab684",
-      "ui.auto.6522c72186b2",
-      "ui.auto.53e90d4dbcd2",
-      "ui.auto.72b69e87efd6"
+      "ui.auto.94f65d59fc0c",
+      "ui.auto.10997f413426",
+      "ui.auto.4db988729e05",
+      "ui.auto.3672f57d858f",
+      "ui.auto.509ea3189ef0"
     ],
-    "changed": [],
+    "changed": [
+      "ui.auto.4db988729e05"
+    ],
     "removed": [
-      "ui.auto.6c704f55810a",
-      "ui.auto.47b374d5a6a1",
-      "ui.auto.d369481c7339",
-      "ui.auto.c0f57ed79709"
+      "ui.auto.6e23184d03ec",
+      "ui.auto.5c196f375030",
+      "ui.auto.53e90d4dbcd2"
     ]
   },
   "missing": [
@@ -365,11 +364,6 @@
       "source_hash": "9a526bb7420e1c78eab1106a3238449735c3510cbf1d60bd1de8a3ee5358dd06"
     },
     {
-      "key": "ui.auto.5c196f375030",
-      "source": "Override XeFG Ratio",
-      "source_hash": "8541f9f9b8883f7981de8f15129b46b6429db878d428c8d4de5c44e6d31524f9"
-    },
-    {
       "key": "ui.auto.c3f7e9501822",
       "source": "FSR Anti-Lag 2.0",
       "source_hash": "c5128f27f4c397e414b1624488521c43cec62e9fe25124a9db824067d25bd106"
@@ -390,14 +384,34 @@
       "source_hash": "631302c447c4a2772f8ddcd215bcd903fbb7bc6bb1aa863bfa4ddedf8de72f16"
     },
     {
-      "key": "ui.auto.53e90d4dbcd2",
-      "source": "Set by XeFG: the game's own keeps its XeLL (only the FPS limit is OptiScaler's),\nOptiScaler's needs XeLL",
-      "source_hash": "a3b61ef5787277a46d5bff231a451cf80ce7009b5cb74d4c97c184a26a31d4b0"
-    },
-    {
       "key": "ui.auto.72b69e87efd6",
       "source": "Incompatible: %s",
       "source_hash": "c94ee35494e27432a0dd4e9e3976685d48185a9f988798aa0068c14db7360f9d"
+    },
+    {
+      "key": "ui.auto.94f65d59fc0c",
+      "source": "FPS Limiter",
+      "source_hash": "f89e13532a1376690ede4cc5549d5e11fb03724555e54aa323a64d6a3f9fd3d8"
+    },
+    {
+      "key": "ui.auto.10997f413426",
+      "source": "Only limits the FPS",
+      "source_hash": "0e7a74d5a6d3553063ec8c639ab3ed5f53ec386cd33ed8a024b0f6988c233fa7"
+    },
+    {
+      "key": "ui.auto.4db988729e05",
+      "source": "Set by XeFG: the game's own keeps its XeLL (only the FPS limit is OptiScaler's)",
+      "source_hash": "0ff0fef742b954f3e634310a4905773f0480c63bc3c9c233b8eb54b8cd447c0b"
+    },
+    {
+      "key": "ui.auto.3672f57d858f",
+      "source": "Save Settings and restart the game: XeFG keeps the low latency output it started with",
+      "source_hash": "6849a62229c7b4f28f85f8a64aa59e226dedba281f2c5e687c6e90af711fe348"
+    },
+    {
+      "key": "ui.auto.509ea3189ef0",
+      "source": "%s %dx",
+      "source_hash": "9d05e389f10fbc435f11ca2cf91982bd977e667fc866fee6af1393cab9321325"
     }
   ],
   "changed": []
