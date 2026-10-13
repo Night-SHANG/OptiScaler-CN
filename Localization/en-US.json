@@ -2006,10 +2006,6 @@
       "text": "FFX for middle fake frames, and Enabler for the rest\n\n2x - FFX\n3x - Enabler\n4x - FFX + Enabler\n5x - Enabler\n6x - FFX + Enabler",
       "source_hash": "dcc5939cfa33b55f61eaacb81b25c04ff44b4730551387b1056e14b99930e9ff"
     },
-    "ui.auto.1d8a44803423": {
-      "text": "DLSSG is purposefully disabled when this menu is visible",
-      "source_hash": "5ae466ff8374a2c36e6a2353f63fae952a92ca0c08a4fdda172d12f878a7085f"
-    },
     "ui.auto.3d7352fdd6af": {
       "text": "DE Ver: %d.%d.%d.%d   GB Ver: %d.%d",
       "source_hash": "837a91843344f870f66e7054a06d14e59b4e21edabc670fdd5b30de11f1a5d4f"
