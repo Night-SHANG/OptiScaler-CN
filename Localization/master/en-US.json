@@ -3177,6 +3177,58 @@
     "ui.auto.509ea3189ef0": {
       "text": "%s %dx",
       "source_hash": "9d05e389f10fbc435f11ca2cf91982bd977e667fc866fee6af1393cab9321325"
+    },
+    "ui.auto.732675d25b68": {
+      "text": "I don't even know what I'm doing here",
+      "source_hash": "0af45cae3caf41ddafea803c3626e61aa3d62c3c2b6233b09c23ebf212ac2e1f"
+    },
+    "ui.auto.bc41d5a2ec8d": {
+      "text": "Stop tweaking settings and play already",
+      "source_hash": "60e2ef11893d692edf96ccd302068bbc0a3ade8d6278079c83d986e05db5852f"
+    },
+    "ui.auto.a6b7d50ddaa1": {
+      "text": "Oh great, another potato PC",
+      "source_hash": "8652aad921a94bea42a60e623956f411e3ec2c69833efdb7587c209cdb9892d7"
+    },
+    "ui.auto.42d6cc408a12": {
+      "text": "XeFG is King but who's the Queen?",
+      "source_hash": "86f86a901dc5f8c436f91f4b4fca4e8e1aaaaa73d1cd0dfbdc99a56efbc5ba8b"
+    },
+    "ui.auto.8ef54101bfb6": {
+      "text": "Native resolution? You must be joking",
+      "source_hash": "de80a743eff8de7c38e477b21e90b8e907866c5c2598140801918360dd51e849"
+    },
+    "ui.auto.5ea1efcfa498": {
+      "text": "Enjoy your fake frames",
+      "source_hash": "1165a7aed3213dead7118897dac32dc8dfeb53715b206dd2c20f0504863cc8d8"
+    },
+    "ui.auto.07d14ce8f320": {
+      "text": "Don't read this",
+      "source_hash": "be421241f42e19c8b5f8ca17763fb312080ab497aa0011080adfb681b51b9cde"
+    },
+    "ui.auto.f9b07c290207": {
+      "text": "You know I can see your GPU?",
+      "source_hash": "cd00249d0d7d94d01adef3629a25212a0d6b5bc5da3725e39c9ca85dffbb9fc8"
+    },
+    "ui.auto.523c585ff061": {
+      "text": "Frame gen will be working overtime in this one",
+      "source_hash": "d66e6965fe69faac1cabdc0c03e144a533ba1888ef13fcddf41e3cf95bbeaaf4"
+    },
+    "ui.auto.94dd9e08c129": {
+      "text": "Hi",
+      "source_hash": "3639efcd08abb273b1619e82e78c29a7df02c1051b1820e99fc395dcaa3326b8"
+    },
+    "ui.auto.f6223772272a": {
+      "text": "Good to see you",
+      "source_hash": "b53e4ca217e5c6daec649203fec300355cbb149f689532c216751bda211c9ae8"
+    },
+    "ui.auto.8efe1e34bcf3": {
+      "text": "How are you doing?",
+      "source_hash": "ec3db42c7f1e7ed8b05e55506e18a5cd06216b097b029da89105e3983ddd2689"
+    },
+    "ui.auto.2a4f49a8f8dd": {
+      "text": "If the game crashes then it's NOT our fault",
+      "source_hash": "900fe934cb9ca4c14125ced3f758cdd4f990910b4acc01c7790f6a3781991256"
     }
   }
 }
