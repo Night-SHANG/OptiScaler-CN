@@ -2,19 +2,7 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.732675d25b68",
-      "ui.auto.bc41d5a2ec8d",
-      "ui.auto.a6b7d50ddaa1",
-      "ui.auto.42d6cc408a12",
-      "ui.auto.8ef54101bfb6",
-      "ui.auto.5ea1efcfa498",
-      "ui.auto.07d14ce8f320",
-      "ui.auto.f9b07c290207",
-      "ui.auto.523c585ff061",
-      "ui.auto.94dd9e08c129",
-      "ui.auto.f6223772272a",
-      "ui.auto.8efe1e34bcf3",
-      "ui.auto.2a4f49a8f8dd"
+      "ui.auto.6e50469e8eba"
     ],
     "changed": [],
     "removed": []
@@ -479,6 +467,11 @@
       "key": "ui.auto.2a4f49a8f8dd",
       "source": "If the game crashes then it's NOT our fault",
       "source_hash": "900fe934cb9ca4c14125ced3f758cdd4f990910b4acc01c7790f6a3781991256"
+    },
+    {
+      "key": "ui.auto.6e50469e8eba",
+      "source": "ASI",
+      "source_hash": "fc676c4f82a534e903723dc8f10b4e5e3a35ef76928f4a5535e8be52de0f9aa4"
     }
   ],
   "changed": []

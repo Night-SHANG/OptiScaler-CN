@@ -3229,6 +3229,10 @@
     "ui.auto.2a4f49a8f8dd": {
       "text": "If the game crashes then it's NOT our fault",
       "source_hash": "900fe934cb9ca4c14125ced3f758cdd4f990910b4acc01c7790f6a3781991256"
+    },
+    "ui.auto.6e50469e8eba": {
+      "text": "ASI",
+      "source_hash": "fc676c4f82a534e903723dc8f10b4e5e3a35ef76928f4a5535e8be52de0f9aa4"
     }
   }
 }
