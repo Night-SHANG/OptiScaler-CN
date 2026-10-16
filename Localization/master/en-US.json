@@ -3233,6 +3233,26 @@
     "ui.auto.6e50469e8eba": {
       "text": "ASI",
       "source_hash": "fc676c4f82a534e903723dc8f10b4e5e3a35ef76928f4a5535e8be52de0f9aa4"
+    },
+    "ui.auto.d0d9d3df6272": {
+      "text": "Accept HUDless candidates of any format",
+      "source_hash": "26f979a6297398591a0e661248612b356d648caa91ef16ed9b001fd1d0eb6604"
+    },
+    "ui.auto.7760b3dd8f95": {
+      "text": "UI Texture",
+      "source_hash": "82b314026a1778e7b8292016c209b64c02c3dd47d1b5e8e2344b2edee4722f24"
+    },
+    "ui.auto.2a7323dc12de": {
+      "text": "Use the UI texture the game blends on the frame in its last compute pass",
+      "source_hash": "8b3cdb8c1a31406cb0af2ef5d3629b1251eacedb3b328fb6d70c6d389aeb1c00"
+    },
+    "ui.auto.69e55aa462ae": {
+      "text": "Unblend UI",
+      "source_hash": "91cecd39833d79e338c0cd3fe8e68b9df06231a75020ab7bf9f68706ecc1d342"
+    },
+    "ui.auto.70b4aa1752ad": {
+      "text": "Rebuild the HUDless by removing the UI texture from the frame\nFSR-FG gets the UI only this way, DLSSG also takes the UI texture directly",
+      "source_hash": "b67d35f740877ccf2595cd51ad9b909f616975db02d1bbb8862b152cb2cf5c17"
     }
   }
 }
