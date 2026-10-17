@@ -2,14 +2,30 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.d0d9d3df6272",
-      "ui.auto.7760b3dd8f95",
-      "ui.auto.2a7323dc12de",
-      "ui.auto.69e55aa462ae",
-      "ui.auto.70b4aa1752ad"
+      "ui.auto.a62203943568",
+      "ui.auto.9ccf62c1fa2f",
+      "ui.auto.dcf8c811cd7f",
+      "ui.auto.38aaa7c4bcde",
+      "ui.auto.d2e88823b44f",
+      "ui.auto.db6ab358c74e",
+      "ui.auto.42f0911be9c8",
+      "ui.auto.7e964178426c",
+      "ui.auto.a32145da88fa",
+      "ui.auto.751d7ce2959a",
+      "ui.auto.e77144aa7f96",
+      "ui.auto.68614e8d542b",
+      "ui.auto.47fb9d6c7ae9",
+      "ui.auto.32eba959ed1c",
+      "ui.auto.357a5610b3cf",
+      "ui.auto.799ddbd16915",
+      "ui.auto.22e3838c920d"
     ],
     "changed": [],
-    "removed": []
+    "removed": [
+      "ui.auto.0d1750a881d1",
+      "ui.auto.18e6aa935d31",
+      "ui.auto.b962d9e61588"
+    ]
   },
   "missing": [
     {
@@ -46,11 +62,6 @@
       "key": "ui.auto.655830bfb7f1",
       "source": "Edge fill mode",
       "source_hash": "f3ef34cecbd1bed27765286b00cf67ceb060f80cd5abfb085d543ad4be922304"
-    },
-    {
-      "key": "ui.auto.18e6aa935d31",
-      "source": "You want either dither or noise\nThose two use the unprojected image as fill\nand then some blending on the edges to fool the eye",
-      "source_hash": "c8d81073810fb0c11cd54e9107694b1c89325509bad61604ac5696fb7501a6ad"
     },
     {
       "key": "ui.auto.09f98e373168",
@@ -186,11 +197,6 @@
       "key": "ui.auto.9bda272dbc2b",
       "source": "%s%s",
       "source_hash": "dbeaee05407accd04dababbd3607029981f29ae9795773dc3ff92466bf7e6648"
-    },
-    {
-      "key": "ui.auto.b962d9e61588",
-      "source": "%s %d.%d.%d%s",
-      "source_hash": "30408a066133095f6054a4b6041f6685006c9c371e9e47e23f5499c011d88fd5"
     },
     {
       "key": "ui.auto.558f578a3d87",
@@ -501,6 +507,91 @@
       "key": "ui.auto.70b4aa1752ad",
       "source": "Rebuild the HUDless by removing the UI texture from the frame\nFSR-FG gets the UI only this way, DLSSG also takes the UI texture directly",
       "source_hash": "b67d35f740877ccf2595cd51ad9b909f616975db02d1bbb8862b152cb2cf5c17"
+    },
+    {
+      "key": "ui.auto.a62203943568",
+      "source": "%s %u.%u.%u",
+      "source_hash": "1366b872f2c416283b353faf80438490431d604ff12e756851f9199b55bc5912"
+    },
+    {
+      "key": "ui.auto.9ccf62c1fa2f",
+      "source": " | %s -> %s%s",
+      "source_hash": "be4de39901ba3d0514f2492fc262bbe473a5d71776c6a493b720612071f55372"
+    },
+    {
+      "key": "ui.auto.dcf8c811cd7f",
+      "source": "Paused, 3rd person detected",
+      "source_hash": "ac0a1a9da03300dcaeb313298cb3d570c12b10ca78aecf5ec2b00b16a3f8eb80"
+    },
+    {
+      "key": "ui.auto.38aaa7c4bcde",
+      "source": "Soft edge",
+      "source_hash": "1ed6ba2a4d1f2c11f37814b4553d507cf415d5bf4853b366ac6f1cf52869583c"
+    },
+    {
+      "key": "ui.auto.d2e88823b44f",
+      "source": "Soft edge and strech fill the screen edges with the edge pixels,\nsoft edge blurs them more the further out it goes\nDither and noise use the unprojected image as fill\nand then some blending on the edges to fool the eye",
+      "source_hash": "f311704be05847151ed480658238f8dfc4fccad945b4bfac7d94b5a7119be95e"
+    },
+    {
+      "key": "ui.auto.db6ab358c74e",
+      "source": "Direction cache",
+      "source_hash": "407757c2da9558118a28a8b699eab12ae7bd9589a9bf6c9a49fcba07216d358d"
+    },
+    {
+      "key": "ui.auto.42f0911be9c8",
+      "source": "Remembers what was around the camera in previous frames\nand uses it to fill the screen edges and the area under your hands.\nEdge fill mode is only used where the cache has nothing.\nShown with a blue tint in debug mode",
+      "source_hash": "6d3b1bb6fd8cd155348e948ca7b27cf109b789c151b68f80cfa4d82f0214b5a6"
+    },
+    {
+      "key": "ui.auto.7e964178426c",
+      "source": "Auto##parallax",
+      "source_hash": "df276a4b5bd06a5c39684f8b08c475ea10877739708e47ec7c5369eb4d884fd7"
+    },
+    {
+      "key": "ui.auto.a32145da88fa",
+      "source": "Estimates the parallax scale from the game's motion vectors\nNeeds some walking around, until then the cache only follows rotation",
+      "source_hash": "c1741020faf5b376d7a59c9bfb3f1c94d8c564b9d216acc28b82caa22c77c432"
+    },
+    {
+      "key": "ui.auto.751d7ce2959a",
+      "source": "Cache parallax scale",
+      "source_hash": "530b837bced3b74eba35b39d0c8668209e1963d7e95f19cbf32cdd1a45f8c13b"
+    },
+    {
+      "key": "ui.auto.e77144aa7f96",
+      "source": "Converts depth distances into the units of the camera position\nso the cache can follow the camera when you walk.\n0 = only follow rotation\nWrong values make the cache fill wobble while walking\nAlso used by the 3rd person detection\nUnreal Engine is usually around 1000",
+      "source_hash": "e8e2e0e53ee971cd649076f5f395cdb60c9755c802adee8580a00b4771b3927b"
+    },
+    {
+      "key": "ui.auto.68614e8d542b",
+      "source": "Pause in 3rd person",
+      "source_hash": "91767f1d3c6ce879094dc3f2b788bddf39b237e491736342d9e2e15a9ed194c9"
+    },
+    {
+      "key": "ui.auto.47fb9d6c7ae9",
+      "source": "Reprojection would swing the character around with the camera,\nso it gets paused while something in the middle of the screen follows the camera.\nUses the game's motion vectors and the cache parallax scale.\nVehicle cockpits can count as 3rd person too.\nDisable to keep reprojection always active",
+      "source_hash": "a8f4b4cd7933ac17881a30a05c79228e4d034dd9d9ec4888300d659e6d95be1e"
+    },
+    {
+      "key": "ui.auto.32eba959ed1c",
+      "source": "(no usable motion vectors)",
+      "source_hash": "75943bb10f00b39f68ee7a58f0cad81bb2d477fc0812926b138bf2bea6546e77"
+    },
+    {
+      "key": "ui.auto.357a5610b3cf",
+      "source": "(needs the parallax scale)",
+      "source_hash": "931bba3e1b8333324bf186ed1b8f65f30d06ca72a01b5e5690dd8edcf0566cf6"
+    },
+    {
+      "key": "ui.auto.799ddbd16915",
+      "source": "3rd person detected (%.2f, orbit %.2f)",
+      "source_hash": "e1d0883bb079c0d1ab0be088e3794dceac1ed6f4ae0f71de964f0dff5a20fe8a"
+    },
+    {
+      "key": "ui.auto.22e3838c920d",
+      "source": "1st person (%.2f, orbit %.2f)",
+      "source_hash": "450bc9ddcb4f654e0ba47c8fbd11167f918fadd410284bac5558c195d3554278"
     }
   ],
   "changed": []
