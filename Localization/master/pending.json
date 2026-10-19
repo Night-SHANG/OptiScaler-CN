@@ -1,7 +1,11 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.683116b1a49c",
+      "ui.auto.d5f6ea63c574",
+      "ui.auto.d67d2d5e6cdf"
+    ],
     "changed": [],
     "removed": []
   },
@@ -570,6 +574,21 @@
       "key": "ui.auto.22e3838c920d",
       "source": "1st person (%.2f, orbit %.2f)",
       "source_hash": "450bc9ddcb4f654e0ba47c8fbd11167f918fadd410284bac5558c195d3554278"
+    },
+    {
+      "key": "ui.auto.683116b1a49c",
+      "source": "FSR4 Model",
+      "source_hash": "f9bd5fd52d04ae7037ac995440a13a0b01b87efea75a86eea410f704d89f9471"
+    },
+    {
+      "key": "ui.auto.d5f6ea63c574",
+      "source": "FSR 4 network to run.\nAuto lets FFX pick the best one the GPU supports.",
+      "source_hash": "7db3e933809a82503805e78cc89139bbf1d082745ce8c24c13b14c53bd1ef226"
+    },
+    {
+      "key": "ui.auto.d67d2d5e6cdf",
+      "source": "(Active: %s)",
+      "source_hash": "db7a860f6649603ea3c2a1ddfde66fe413194360c0c3c3848271516fb697cb4b"
     }
   ],
   "changed": []
