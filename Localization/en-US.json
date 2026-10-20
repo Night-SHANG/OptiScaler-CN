@@ -3321,6 +3321,62 @@
     "ui.auto.d67d2d5e6cdf": {
       "text": "(Active: %s)",
       "source_hash": "db7a860f6649603ea3c2a1ddfde66fe413194360c0c3c3848271516fb697cb4b"
+    },
+    "ui.auto.bae71199ba5e": {
+      "text": "Current XeFG state:",
+      "source_hash": "a08ec5de39bd9640ae0d8587e3ed653f2bef6f801e46e634aaedce1666f43f47"
+    },
+    "ui.auto.6411da306665": {
+      "text": "(Dynamic)",
+      "source_hash": "17c866a1db417ae4c18cd5802eeb2ae8156caff1ffe341f8dcb6e2e11fc25767"
+    },
+    "ui.auto.b2a5670f4958": {
+      "text": "Dynamic MFG##xefg",
+      "source_hash": "742fc9b286f968b43e27fff5a0b328b113e717ac31f6df73173a62d43f0177c5"
+    },
+    "ui.auto.db871f4b47b5": {
+      "text": "Changes the multiplier on the fly to hit the target FPS,\nup to the Frame Gen setting (at 2X: FG on or off).",
+      "source_hash": "ce597fa089120fe41c781adda252c3b3d10c6d07e8b7d9da2b0292f4cf795ad5"
+    },
+    "ui.auto.daa6570f5f41": {
+      "text": "Target FPS##xefg",
+      "source_hash": "5ac25d3d897097300b836372c26f2bc9beba6a595465604e967bdcfc45a5efd7"
+    },
+    "ui.auto.af72a74e7613": {
+      "text": "Presented FPS to aim for, never above the FPS limit.\nAuto: the FPS limit, or just under the refresh rate.",
+      "source_hash": "5c97348074445b1153002053920db015d993e1f8d45e4f53d6078b8c6cdac44f"
+    },
+    "ui.auto.d6ee2aa4d012": {
+      "text": "Use as FPS limit##xefg",
+      "source_hash": "6535bef007518da6f67ceb7fcea93ce44f964dec5ff9bd0c77e64a98c92c5cdd"
+    },
+    "ui.auto.9d0247a27c57": {
+      "text": "Also limits FPS to the target and uses the lowest\nmultiplier that reaches it.",
+      "source_hash": "e29904d26cb13196dea3083467d72ab42e752697eb73cebdba51d0e12ae0142a"
+    },
+    "ui.auto.786ceffec393": {
+      "text": "At most target",
+      "source_hash": "433c37f51d58c5db5945aa54e78ba7a22fed6da6af83611af1e1d355088fbcd9"
+    },
+    "ui.auto.14650dccc231": {
+      "text": "Around target",
+      "source_hash": "c4829698c47389a4ec471a7ea83ae664d07be8046c0ce9bda988a803c09e6b0f"
+    },
+    "ui.auto.6605f0fc0d78": {
+      "text": "At least target",
+      "source_hash": "81bec90dc6389371197ad19fe06eb2234c5ab2ebdbb8aab1777aae8290b066c7"
+    },
+    "ui.auto.ba56e3c8b7bd": {
+      "text": "Where FPS may land, as multipliers only come in steps:\nat most, around or at least the target FPS.",
+      "source_hash": "20c8fc04defa727e4fda2360424dbb1d91f23979e504096443c03323c2738eaa"
+    },
+    "ui.auto.82cf8d555900": {
+      "text": "Allow 1X##xefg",
+      "source_hash": "3fc59a24dd17ad62ac52775fac577a271aa3c324d9c17f309ccf0eb15f4f214c"
+    },
+    "ui.auto.7200f0338304": {
+      "text": "Turns frame generation off when the game\nalone gets close enough to the target.",
+      "source_hash": "2eebe85b72c9d865612b93175cd4e7263f9f7f8b41520e785b9d925e0a4259f1"
     }
   }
 }
