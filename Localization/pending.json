@@ -2,24 +2,11 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.bae71199ba5e",
-      "ui.auto.6411da306665",
-      "ui.auto.b2a5670f4958",
-      "ui.auto.db871f4b47b5",
-      "ui.auto.daa6570f5f41",
-      "ui.auto.af72a74e7613",
-      "ui.auto.d6ee2aa4d012",
-      "ui.auto.9d0247a27c57",
-      "ui.auto.786ceffec393",
-      "ui.auto.14650dccc231",
-      "ui.auto.6605f0fc0d78",
-      "ui.auto.ba56e3c8b7bd",
-      "ui.auto.82cf8d555900",
-      "ui.auto.7200f0338304"
+      "ui.auto.c2c70054210f",
+      "ui.auto.5373b1a29039",
+      "ui.auto.3d7002960675"
     ],
-    "changed": [
-      "ui.auto.bae71199ba5e"
-    ],
+    "changed": [],
     "removed": []
   },
   "missing": [
@@ -672,6 +659,21 @@
       "key": "ui.auto.7200f0338304",
       "source": "Turns frame generation off when the game\nalone gets close enough to the target.",
       "source_hash": "2eebe85b72c9d865612b93175cd4e7263f9f7f8b41520e785b9d925e0a4259f1"
+    },
+    {
+      "key": "ui.auto.c2c70054210f",
+      "source": "(DRS)",
+      "source_hash": "c8b636f30947602ac122525f4c8079c6771b8f972d12a7dcef73e2958aa164d4"
+    },
+    {
+      "key": "ui.auto.5373b1a29039",
+      "source": "Dynamic Res. (DRS)",
+      "source_hash": "65115ab8105de4fc9c3f871f31c6922224970e9aa51a25766b96a1a83993019f"
+    },
+    {
+      "key": "ui.auto.3d7002960675",
+      "source": "Enable if the game uses dynamic resolution\nPrevents FSR 4 from switching models when the render size changes",
+      "source_hash": "36064aa401ca4511997d803192f15cd63b42a5caa95e7401b268cdd867e14fd0"
     }
   ],
   "changed": []
