@@ -22,10 +22,6 @@
       "text": "Affects both FSR-FG & Upscalers",
       "source_hash": "df8ad7621e1b05866c2fbb36e8374f213563a9263fd287188945b4c1e6b8429f"
     },
-    "ui.auto.24efee53e078": {
-      "text": "After changing this option, please Save Settings\nIt will be applied on next launch.",
-      "source_hash": "650f659419e009fbf0d8759bf432f28e012cbcd74f2182297330cf72481b8db5"
-    },
     "ui.auto.b46eb2e49d59": {
       "text": "Aggressive",
       "source_hash": "4ad0cc8ec0084946ade150954a43f214c3647a20fd4fa57aa8e1b6b2c35fc23c"
@@ -122,10 +118,6 @@
       "text": "Custom Accent Color",
       "source_hash": "e5f233b47f5b40c508b561be08f1a0c17bb07487ec8e79a027feb91f1f78df54"
     },
-    "ui.auto.2ba0b98744db": {
-      "text": "Debug Reset Lines",
-      "source_hash": "8cb31d7e7639b3b35496dc6c01560d12f46f4d42359070d7f79181da7e25a071"
-    },
     "ui.auto.3027c2dd7216": {
       "text": "Debug View##2",
       "source_hash": "fd746ea2febd3e3cd11b3c3905c500b08eff9ea126a3c0a16a50dffa9aa9fda7"
@@ -217,10 +209,6 @@
     "ui.auto.8b1831b27ee0": {
       "text": "Enable##%d",
       "source_hash": "70149c5d9663f31b74b8d9aca3d235a2b8aa0f0cd59df7f505f0f396b0f2897f"
-    },
-    "ui.auto.0335b19d7bf2": {
-      "text": "Enables drawing of Interpolation skip lines",
-      "source_hash": "5abb7d235537074d817e312f3574916dabb8d33185fe851540634562e9600637"
     },
     "ui.auto.e4b32be299fa": {
       "text": "Extended",
@@ -1510,10 +1498,6 @@
       "text": "Top left: Dilated Motion Vectors\nTop middle: Protected Areas\nTop right: Dilated Depth\nMiddle: Upscaled frame\nBottom left: Disocclusion mask\nBottom middle: Reactiveness\nBottom right: Detail Protection Takedown",
       "source_hash": "0177439cd7c19b37d20c16c299603cb42c30b7b981a41ccbc3c17c7489893d64"
     },
-    "ui.auto.1ad7aa58cba6": {
-      "text": "After changing this option, please Save Settings.\nIt will be applied on next launch.",
-      "source_hash": "d5d52e24f7cfbbc32400a1a269484b751fac3263144e1f8342818b61595751ff"
-    },
     "ui.auto.e040db2b7f13": {
       "text": "Motion",
       "source_hash": "8ca344247c18317ebe13c11e1943cc39d955ce937100f53a8129768c9334819d"
@@ -1781,26 +1765,6 @@
     "ui.auto.5603ab17a539": {
       "text": "Enable Watermark",
       "source_hash": "3410ddd91f6a7b137a341cb97ab2c1a2c87c441422fb8b8d5427f5487c5175d0"
-    },
-    "ui.auto.02c83d9b002f": {
-      "text": "Extended FSR FG Settings",
-      "source_hash": "b02908c177d3d693ac18d48c4d01cc11f2c87c3e52762125c0e40f5244afb377"
-    },
-    "ui.auto.10e7bd27a0a9": {
-      "text": "Debug Tear Lines",
-      "source_hash": "92c3ee0fb8a2b286ec68dde6eabeab1560290eac7ea766b976f2b85857985f80"
-    },
-    "ui.auto.cabdb6c9a9f0": {
-      "text": "Enables drawing of Tear and Interpolation skip lines",
-      "source_hash": "a99539ab76219b50958eea7a6e167d68f16a3139c178f1b37f2a9c4ac94817f5"
-    },
-    "ui.auto.3b44098cd604": {
-      "text": "Debug Pacing Lines",
-      "source_hash": "aa78808f14e5a2ab1eca3de98d3d963b64874904dc6f4f8b1d5195d943580cde"
-    },
-    "ui.auto.aff518c94963": {
-      "text": "Enables drawing of Pacing lines",
-      "source_hash": "820fe0921883066735baa19bdc5b85f475f377f5683634a54d39c78460aa341a"
     },
     "ui.auto.161245c5f7c9": {
       "text": "FG Rectangle Settings",
@@ -3389,6 +3353,42 @@
     "ui.auto.3d7002960675": {
       "text": "Enable if the game uses dynamic resolution\nPrevents FSR 4 from switching models when the render size changes",
       "source_hash": "36064aa401ca4511997d803192f15cd63b42a5caa95e7401b268cdd867e14fd0"
+    },
+    "ui.auto.fd76b7e08334": {
+      "text": "Upscale: %ux%u -> %ux%u (%.2fx)",
+      "source_hash": "dfebdd3c22af2ed1cd1ab04bc1f4b29bcd36b43c2c51d2e0e7cf03bf236c1d87"
+    },
+    "ui.auto.d4ae270ac49c": {
+      "text": "Disable HW Flip Metering",
+      "source_hash": "0b961a50a8c5273bb03a189db3fa143dbe7efa3a339d3e15197328f96d57f920"
+    },
+    "ui.auto.92e4628d28ff": {
+      "text": "Overrides the AMD hardware flip metering requested by FSR",
+      "source_hash": "1c1193543ff9705afb4fc5337c145153aa09037a0b595cb9d290473dac75937d"
+    },
+    "ui.auto.2fd42203c942": {
+      "text": "(Mode %u)",
+      "source_hash": "0c6f2040ba9b13b134fb8e780224895a88a3837df1bf590e927ddb7a35063a0d"
+    },
+    "ui.auto.f5c11a5b1e56": {
+      "text": "(Off)",
+      "source_hash": "559ecddd2696c27547ab813d48c3612168e4e6d829143fb570a6f0b64fd9ff85"
+    },
+    "ui.auto.2c5ebe2d444f": {
+      "text": "Flip metering mode applied in the driver\nFSR only requests it in exclusive or borderless fullscreen",
+      "source_hash": "d173d16f16125572118a1d18fea7943976c09ce018282a72cfb13dfa246690d8"
+    },
+    "ui.auto.06c4acd5292a": {
+      "text": "Advanced FSR FG Settings",
+      "source_hash": "cdda53b13bc2480a538be840b245e93cfaf674dd86140242bd7a8da5a50b046e"
+    },
+    "ui.auto.d3073e6bd240": {
+      "text": "Upscale Ratio",
+      "source_hash": "d3d7393049512d9ffcb6a0a4b203ebd18e33a6995117fa36ad950bac11dcb939"
+    },
+    "ui.auto.0db9b0bd6aed": {
+      "text": "Shows the current render -> output resolution and upscale ratio in the overlay",
+      "source_hash": "6d72f0c38615d031fac823064387887bc6319096d92d4eebdf6b8e2034f44bdf"
     }
   }
 }

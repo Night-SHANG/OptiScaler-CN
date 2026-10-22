@@ -2,12 +2,28 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.c2c70054210f",
-      "ui.auto.5373b1a29039",
-      "ui.auto.3d7002960675"
+      "ui.auto.fd76b7e08334",
+      "ui.auto.d4ae270ac49c",
+      "ui.auto.92e4628d28ff",
+      "ui.auto.2fd42203c942",
+      "ui.auto.f5c11a5b1e56",
+      "ui.auto.2c5ebe2d444f",
+      "ui.auto.06c4acd5292a",
+      "ui.auto.d3073e6bd240",
+      "ui.auto.0db9b0bd6aed"
     ],
     "changed": [],
-    "removed": []
+    "removed": [
+      "ui.auto.24efee53e078",
+      "ui.auto.2ba0b98744db",
+      "ui.auto.0335b19d7bf2",
+      "ui.auto.1ad7aa58cba6",
+      "ui.auto.02c83d9b002f",
+      "ui.auto.10e7bd27a0a9",
+      "ui.auto.cabdb6c9a9f0",
+      "ui.auto.3b44098cd604",
+      "ui.auto.aff518c94963"
+    ]
   },
   "missing": [
     {
@@ -674,6 +690,46 @@
       "key": "ui.auto.3d7002960675",
       "source": "Enable if the game uses dynamic resolution\nPrevents FSR 4 from switching models when the render size changes",
       "source_hash": "36064aa401ca4511997d803192f15cd63b42a5caa95e7401b268cdd867e14fd0"
+    },
+    {
+      "key": "ui.auto.fd76b7e08334",
+      "source": "Upscale: %ux%u -> %ux%u (%.2fx)",
+      "source_hash": "dfebdd3c22af2ed1cd1ab04bc1f4b29bcd36b43c2c51d2e0e7cf03bf236c1d87"
+    },
+    {
+      "key": "ui.auto.d4ae270ac49c",
+      "source": "Disable HW Flip Metering",
+      "source_hash": "0b961a50a8c5273bb03a189db3fa143dbe7efa3a339d3e15197328f96d57f920"
+    },
+    {
+      "key": "ui.auto.92e4628d28ff",
+      "source": "Overrides the AMD hardware flip metering requested by FSR",
+      "source_hash": "1c1193543ff9705afb4fc5337c145153aa09037a0b595cb9d290473dac75937d"
+    },
+    {
+      "key": "ui.auto.2fd42203c942",
+      "source": "(Mode %u)",
+      "source_hash": "0c6f2040ba9b13b134fb8e780224895a88a3837df1bf590e927ddb7a35063a0d"
+    },
+    {
+      "key": "ui.auto.f5c11a5b1e56",
+      "source": "(Off)",
+      "source_hash": "559ecddd2696c27547ab813d48c3612168e4e6d829143fb570a6f0b64fd9ff85"
+    },
+    {
+      "key": "ui.auto.2c5ebe2d444f",
+      "source": "Flip metering mode applied in the driver\nFSR only requests it in exclusive or borderless fullscreen",
+      "source_hash": "d173d16f16125572118a1d18fea7943976c09ce018282a72cfb13dfa246690d8"
+    },
+    {
+      "key": "ui.auto.d3073e6bd240",
+      "source": "Upscale Ratio",
+      "source_hash": "d3d7393049512d9ffcb6a0a4b203ebd18e33a6995117fa36ad950bac11dcb939"
+    },
+    {
+      "key": "ui.auto.0db9b0bd6aed",
+      "source": "Shows the current render -> output resolution and upscale ratio in the overlay",
+      "source_hash": "6d72f0c38615d031fac823064387887bc6319096d92d4eebdf6b8e2034f44bdf"
     }
   ],
   "changed": []
