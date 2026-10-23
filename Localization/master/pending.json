@@ -2,27 +2,25 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.fd76b7e08334",
-      "ui.auto.d4ae270ac49c",
-      "ui.auto.92e4628d28ff",
-      "ui.auto.2fd42203c942",
-      "ui.auto.f5c11a5b1e56",
-      "ui.auto.2c5ebe2d444f",
-      "ui.auto.06c4acd5292a",
-      "ui.auto.d3073e6bd240",
-      "ui.auto.0db9b0bd6aed"
+      "ui.auto.281942eeebdc",
+      "ui.auto.6c35aa9c4b90",
+      "ui.auto.6aafa80cab6f",
+      "ui.auto.e3007085f4dc"
     ],
     "changed": [],
     "removed": [
-      "ui.auto.24efee53e078",
-      "ui.auto.2ba0b98744db",
-      "ui.auto.0335b19d7bf2",
-      "ui.auto.1ad7aa58cba6",
-      "ui.auto.02c83d9b002f",
-      "ui.auto.10e7bd27a0a9",
-      "ui.auto.cabdb6c9a9f0",
-      "ui.auto.3b44098cd604",
-      "ui.auto.aff518c94963"
+      "ui.auto.96d75b7a9775",
+      "ui.auto.27cc86e5674d",
+      "ui.auto.cc93b678f3aa",
+      "ui.auto.4660c593077f",
+      "ui.auto.d0a97ec7ddd5",
+      "ui.auto.e0fb647a9957",
+      "ui.auto.0f8f591ccc13",
+      "ui.auto.1fbfd3f87e08",
+      "ui.auto.3448080dc136",
+      "ui.auto.68ef84d8dc14",
+      "ui.auto.9e8c0f3615af",
+      "ui.auto.2a8ef6de0ade"
     ]
   },
   "missing": [
@@ -252,11 +250,6 @@
       "source_hash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1"
     },
     {
-      "key": "ui.auto.68ef84d8dc14",
-      "source": "%s - %s %s",
-      "source_hash": "76e4e110d2bb770b0ac351968e191b77a4e86b1313e503af3b51b3eb6950c362"
-    },
-    {
       "key": "ui.auto.0bb5ad9ece59",
       "source": "Expands the cutoff area by this many depth pixels\nUse only when you see an outline left by the cutoff process",
       "source_hash": "28f33783f6e06955ca28f7916e9237e4739b391ab19527c208c79f39223908a3"
@@ -325,16 +318,6 @@
       "key": "ui.auto.b0ab9dc01f7f",
       "source": "%s%s | %s | Input: %s",
       "source_hash": "16b1291e3828912de7b342721e76e48c7e80f2d83aaf5dca1fe09f9ca9445d0a"
-    },
-    {
-      "key": "ui.auto.9e8c0f3615af",
-      "source": " (DXVK)",
-      "source_hash": "2975c4f93847692a940240b31bfd09dbbc33a73cad830814066ce667002521ff"
-    },
-    {
-      "key": "ui.auto.2a8ef6de0ade",
-      "source": " (VKD3D)",
-      "source_hash": "235024dbc74a8114a01bdf76778093b703dabebdcbc971eec91f9aaccc484aa7"
     },
     {
       "key": "ui.auto.61ae81e67bcb",
@@ -730,6 +713,26 @@
       "key": "ui.auto.0db9b0bd6aed",
       "source": "Shows the current render -> output resolution and upscale ratio in the overlay",
       "source_hash": "6d72f0c38615d031fac823064387887bc6319096d92d4eebdf6b8e2034f44bdf"
+    },
+    {
+      "key": "ui.auto.281942eeebdc",
+      "source": "%02lld:%02lld:%02lld",
+      "source_hash": "fae34a40329c5d70418626065a38d68641d321f3aa32a11d7463cb895633e5dd"
+    },
+    {
+      "key": "ui.auto.6c35aa9c4b90",
+      "source": "%02lld:%02lld",
+      "source_hash": "c423b3393ce1cea66a8793d7d4df850ecb6ba56d2554ecb86c049eeded03d27a"
+    },
+    {
+      "key": "ui.auto.6aafa80cab6f",
+      "source": "Uptime",
+      "source_hash": "d63ab4711473b0398feb4b56622605d5d2ec7ecd3b1bb5070a7dd56de96aaf88"
+    },
+    {
+      "key": "ui.auto.e3007085f4dc",
+      "source": "%s - %s",
+      "source_hash": "85ca951878c2123897a5d44c0f9a0ba9bc88c9b16fb1a6c5f3abd0ea1f6441c8"
     }
   ],
   "changed": []

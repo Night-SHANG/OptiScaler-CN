@@ -270,10 +270,6 @@
       "text": "Force Enable",
       "source_hash": "4214eb1a86325879b7b3eeb7a2753ce4bfb9b94dbc781ae37ed882a640325575"
     },
-    "ui.auto.96d75b7a9775": {
-      "text": "Force Reflex",
-      "source_hash": "637c6c9e5c2753682e4f356e64b3b51ddca6197cc93df2bfd0a9d8ee0c31d5c9"
-    },
     "ui.auto.7a7fa975a393": {
       "text": "Frame Generation (FSR3-FG via Nukem's DLSSG)",
       "source_hash": "de8c95a65e76dadbf3652641edf93122641eccb8fcc9d999a5f75f2ac2d6cf09"
@@ -1338,10 +1334,6 @@
       "text": "%-12s %4.1fms",
       "source_hash": "c46cd9ae3e86e8ae609e88812ba9c8b4d662a93fb7a8c3ccb81bcf6bbaab4da6"
     },
-    "ui.auto.27cc86e5674d": {
-      "text": "Reflex timings, whole frame: %.1fms",
-      "source_hash": "5ba7e8b87a2c20ca2e4ea5628b58bf75bd3e7fefd6693b20227a717633e3b8b3"
-    },
     "ui.auto.6db24976db50": {
       "text": "Use Reactive Mask as Transparency Mask",
       "source_hash": "dc7dfd728e99ba2b70f6d89a5ca3069495932334a5504540f6c6968b51e5afe8"
@@ -2138,10 +2130,6 @@
       "text": "Uses Reflex when possible\nOn AMD/Intel cards, you can use Fakenvapi to substitute Reflex",
       "source_hash": "64bab0711f07023b8e01fcdf8ea1e87177fc937d5ba51513bdcad5d494c9e1bc"
     },
-    "ui.auto.cc93b678f3aa": {
-      "text": "Using RTSS Reflex injection with FSR Anti-Lag 2.0 and FSR FG might cause issues",
-      "source_hash": "a086e5edc77fb3a6622638b97c330ab520c293eddc10143c1aecd3a9076a7cbb"
-    },
     "ui.auto.ee0c9c32d89a": {
       "text": "Current method: %s",
       "source_hash": "592658ec8a2d2667b82802326e881d6c1d472ac3a999294a8027ad27a128026f"
@@ -2181,26 +2169,6 @@
     "ui.auto.a2692a20bfe3": {
       "text": "Set as FPS Limit",
       "source_hash": "28e680dc9d982cee10c89c25937a058a29f40ff2cebe6db9df33a03a2dfa7009"
-    },
-    "ui.auto.4660c593077f": {
-      "text": "Force LatencyFlex",
-      "source_hash": "86a20f90329801e07ba57878b8e7b3853751d4c7935593a57ca493c68b9ca6a0"
-    },
-    "ui.auto.d0a97ec7ddd5": {
-      "text": "By default, FSR Anti-Lag 2.0/XeLL is used when available.\nThis setting lets you force LatencyFlex instead",
-      "source_hash": "c115b9946c9f72666cb0b7af4d24a09a1dc7375341b15e564fc6decedf19b9d2"
-    },
-    "ui.auto.e0fb647a9957": {
-      "text": "Force XeLL",
-      "source_hash": "ea568d98bf096c415ad9aa40c10681f76ddd72bc2198df93782f78c1445af9cb"
-    },
-    "ui.auto.0f8f591ccc13": {
-      "text": "Allows XeLL to work without FG on non-Intel cards.\n\nDisables FG options\n\nRequires a restart",
-      "source_hash": "008424fdd2105cc2a9ebe1f967bbaa475e59f9046579da33870c68303554c982"
-    },
-    "ui.auto.1fbfd3f87e08": {
-      "text": "Save INI and restart to apply the changes",
-      "source_hash": "f3ff0aca7388dec399b060ffb35afed763917d48e77d0b86d1b20e03339c5425"
     },
     "ui.auto.3347162fbe13": {
       "text": "The safest, but might not reduce latency well",
@@ -2818,10 +2786,6 @@
       "text": "%08x, %s->%s, Count: %llu, %s",
       "source_hash": "fdaebff90637296791c6f95cfc854ababda58bcdc9cb68ca68e03fb61b5eb55d"
     },
-    "ui.auto.3448080dc136": {
-      "text": "- %s",
-      "source_hash": "7d88975ce8be98a3a8bf9ad205d08fcc540a4138a61a56d9822898ba6f18392d"
-    },
     "ui.auto.b356256367a6": {
       "text": "Enable reprojection",
       "source_hash": "a4da8d7d83b341373d0d604841ed19ecdd6362a2ad3370b130cdfe63441b9da8"
@@ -3002,10 +2966,6 @@
       "text": "Off",
       "source_hash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1"
     },
-    "ui.auto.68ef84d8dc14": {
-      "text": "%s - %s %s",
-      "source_hash": "76e4e110d2bb770b0ac351968e191b77a4e86b1313e503af3b51b3eb6950c362"
-    },
     "ui.auto.0bb5ad9ece59": {
       "text": "Expands the cutoff area by this many depth pixels\nUse only when you see an outline left by the cutoff process",
       "source_hash": "28f33783f6e06955ca28f7916e9237e4739b391ab19527c208c79f39223908a3"
@@ -3061,14 +3021,6 @@
     "ui.auto.b0ab9dc01f7f": {
       "text": "%s%s | %s | Input: %s",
       "source_hash": "16b1291e3828912de7b342721e76e48c7e80f2d83aaf5dca1fe09f9ca9445d0a"
-    },
-    "ui.auto.9e8c0f3615af": {
-      "text": " (DXVK)",
-      "source_hash": "2975c4f93847692a940240b31bfd09dbbc33a73cad830814066ce667002521ff"
-    },
-    "ui.auto.2a8ef6de0ade": {
-      "text": " (VKD3D)",
-      "source_hash": "235024dbc74a8114a01bdf76778093b703dabebdcbc971eec91f9aaccc484aa7"
     },
     "ui.auto.61ae81e67bcb": {
       "text": "%s (%.2f)",
@@ -3389,6 +3341,22 @@
     "ui.auto.0db9b0bd6aed": {
       "text": "Shows the current render -> output resolution and upscale ratio in the overlay",
       "source_hash": "6d72f0c38615d031fac823064387887bc6319096d92d4eebdf6b8e2034f44bdf"
+    },
+    "ui.auto.281942eeebdc": {
+      "text": "%02lld:%02lld:%02lld",
+      "source_hash": "fae34a40329c5d70418626065a38d68641d321f3aa32a11d7463cb895633e5dd"
+    },
+    "ui.auto.6c35aa9c4b90": {
+      "text": "%02lld:%02lld",
+      "source_hash": "c423b3393ce1cea66a8793d7d4df850ecb6ba56d2554ecb86c049eeded03d27a"
+    },
+    "ui.auto.6aafa80cab6f": {
+      "text": "Uptime",
+      "source_hash": "d63ab4711473b0398feb4b56622605d5d2ec7ecd3b1bb5070a7dd56de96aaf88"
+    },
+    "ui.auto.e3007085f4dc": {
+      "text": "%s - %s",
+      "source_hash": "85ca951878c2123897a5d44c0f9a0ba9bc88c9b16fb1a6c5f3abd0ea1f6441c8"
     }
   }
 }
