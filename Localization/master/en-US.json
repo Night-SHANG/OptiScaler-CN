@@ -62,14 +62,6 @@
       "text": "Balanced",
       "source_hash": "5386ea5db81c8579a363438895a447d9580cbca1bdecdad43f2839af6d6fbf5c"
     },
-    "ui.auto.7d44bc449c2a": {
-      "text": "Blue",
-      "source_hash": "ec7d56a01607001e6401366417c5e2eb00ffa0df17ca1a9a831e0b32c8f11bf7"
-    },
-    "ui.auto.9c69a2779766": {
-      "text": "Blue##2",
-      "source_hash": "b0d3a5edf07c7a1a9592f0badd11a56da489b853acfe5fe2441c00b3850a683d"
-    },
     "ui.auto.e1e4f213c70f": {
       "text": "Borderless display mode required!",
       "source_hash": "b0babd21e294ae3915b99ba22551303e7f45847e3ff19e11d7533f36503daf67"
@@ -294,22 +286,6 @@
       "text": "FSR Common Settings",
       "source_hash": "cfa127439a77beccecf468b13935a3bb243fc5254908eaf4b656c5367026adf1"
     },
-    "ui.auto.4f9beff18cc6": {
-      "text": "Gray",
-      "source_hash": "0d5adda3cdccf937bd9c9e66c8000f98d9d0a91e7c3a166e2dfdc91386911cd2"
-    },
-    "ui.auto.3e6075403853": {
-      "text": "Gray##2",
-      "source_hash": "8205d01f0974986452472044e7f59a3ff94e02a3d547e710c34a97a0229d262a"
-    },
-    "ui.auto.933bf21afdd5": {
-      "text": "Green",
-      "source_hash": "d486dfbd5fb578340bccbdd0a662527eab38550648d5f44517e5ac71b8824703"
-    },
-    "ui.auto.5448e89a04ff": {
-      "text": "Green##2",
-      "source_hash": "bd1de15a75508f1c055849031d229f26c94242bdfa1280ddac04b514405f2558"
-    },
     "ui.auto.0ce92088720d": {
       "text": "HDR",
       "source_hash": "607901812664e2261afcea97bdb6b6f74ab4a91cf88987b2dec0e46f31139b05"
@@ -386,14 +362,6 @@
       "text": "OptiScaler - %s for menu",
       "source_hash": "aa4920f0ea0ecbec3e3b0af20ae55988e48b7c2ca2ee77549fbb22610a948b25"
     },
-    "ui.auto.09fb6aaba794": {
-      "text": "Orange",
-      "source_hash": "78e7771b8b46e11ddb34ba48887e1330525215f96d94778980d1186e6f09f6b4"
-    },
-    "ui.auto.d8c5ccc477d6": {
-      "text": "Orange##2",
-      "source_hash": "c60aff093a8736e8841bf0ee29c8b9a73b649187f96f742ae887ada25d28ab39"
-    },
     "ui.auto.4bed336194a9": {
       "text": "Output",
       "source_hash": "b2439bcb8dee14b685f137f294b0e0cb62f5aadf45143ce01d79777d435a93b4"
@@ -414,21 +382,9 @@
       "text": "Please select DLSS Frame Generation in the game options\nYou might need to select DLSS first",
       "source_hash": "c741cdffade37230650016f81ecf0652c8b4cc077e159d04cd039595bd7bc816"
     },
-    "ui.auto.4aefba8b951d": {
-      "text": "Presets:",
-      "source_hash": "1d096828d28c5cc308ca93526a2d783458f829b8a4d5b6c647b4e24c059658c8"
-    },
     "ui.auto.da869d7ccf39": {
       "text": "Press any key...",
       "source_hash": "ff3e56ab0016131a020976f4d5114f6a7d81e8023b24658adc9c233dc2cdf38f"
-    },
-    "ui.auto.32576f4fedc0": {
-      "text": "Purple",
-      "source_hash": "7d465fb9b9314846b72698017691e756af05e0a548e347a3b7c54ca5b85270de"
-    },
-    "ui.auto.4cc25e9b4e6e": {
-      "text": "Purple##2",
-      "source_hash": "d2fbe6bf34996a37ceaef9f3e4507882647dffdf7a4c81f98562e8d933fb1a8e"
     },
     "ui.auto.a60f2c73604f": {
       "text": "Quality",
@@ -453,14 +409,6 @@
     "ui.auto.a56b24764411": {
       "text": "Rectangle Settings",
       "source_hash": "0a86d4773e586448c305d65faf22e046b5008ecc8b20aafa01f7a89ecc8454e8"
-    },
-    "ui.auto.cc9db3a79557": {
-      "text": "Red",
-      "source_hash": "ba19e9c3d5f49882ddaafed4f286a8a81491150426d321179270e27e74a89097"
-    },
-    "ui.auto.4b3854dee462": {
-      "text": "Red##2",
-      "source_hash": "c552fd848dcec7f9f13da1a0494d1e43eb2f61bd679ef92336a31e4062da3cf0"
     },
     "ui.auto.65ed4acb24e9": {
       "text": "Reflex not hooked",
@@ -502,10 +450,6 @@
       "text": "Restart the game to apply correct XeFG settings!",
       "source_hash": "cba0bf2dbf11904681c0232098cdf518882513bc9a7c913269568acd44f7bc7c"
     },
-    "ui.auto.0022a3e10caa": {
-      "text": "Save Settings",
-      "source_hash": "ec92e1dc9bb3bf7b98ee86042dc3380f3068e1163bd8a2bc707b189df617629f"
-    },
     "ui.auto.6eb83c91f488": {
       "text": "Scale Depth to fix DLSS RR",
       "source_hash": "5e8075b32386f1dd2be48ec0c4870bf308b9fac8dbf0a410833edaac7f5b6fbe"
@@ -529,14 +473,6 @@
     "ui.auto.785ca9526809": {
       "text": "Stability",
       "source_hash": "1e42d0c86af7a9c6a4d88038a3fe9043520f95c6b06afd2ac6ca5dcc885f6c36"
-    },
-    "ui.auto.df0ad373b7ff": {
-      "text": "Teal",
-      "source_hash": "fa15a5c1d61010553974997a19c7baef52cedd7f7ba0042d9cdf03aec5105c3d"
-    },
-    "ui.auto.763e55a2bfeb": {
-      "text": "Teal##2",
-      "source_hash": "044e531e0ac7ddca3ca21596b0644bb9b71533b92bee05bf15774ec1c96e0533"
     },
     "ui.auto.b4f437702a2d": {
       "text": "Tracking Settings",
@@ -609,14 +545,6 @@
     "ui.auto.bf32f391c628": {
       "text": "XeFG only supports HDR10",
       "source_hash": "342277a4776c85860090cc317a6af3bcfb336f7dc8daf9404907840071a5e779"
-    },
-    "ui.auto.3526f607bcd4": {
-      "text": "Yellow",
-      "source_hash": "19dd83f117525b931fccdafe808aaa6939af792ee549f359eff13fac0d622f5d"
-    },
-    "ui.auto.9d447dcc932f": {
-      "text": "Yellow##2",
-      "source_hash": "3a9fe156905817b067b44b30ff514509b660941d87613458244fde48dee69093"
     },
     "ui.auto.5397e0583f14": {
       "text": "Yes",
@@ -793,10 +721,6 @@
     "ui.auto.524e7769f7b8": {
       "text": "Open Wiki",
       "source_hash": "9a6868949d4ee588956c34a712868407e2058768b9e7820384efb70378eb5e75"
-    },
-    "ui.auto.42de5850ce6d": {
-      "text": "Click to open the OptiScaler Wiki page\nin your default browser\n\nCompatibility list with known game issues\nand workarounds, FG options explained\nand other useful info",
-      "source_hash": "072b285897e3e9694f96ecebb5c947bf9ca9073474ba1f9df0502a9fd1ef5c15"
     },
     "ui.auto.fd81e2455ee4": {
       "text": "Trace logging still active",
@@ -3342,21 +3266,17 @@
       "text": "Shows the current render -> output resolution and upscale ratio in the overlay",
       "source_hash": "6d72f0c38615d031fac823064387887bc6319096d92d4eebdf6b8e2034f44bdf"
     },
-    "ui.auto.281942eeebdc": {
-      "text": "%02lld:%02lld:%02lld",
-      "source_hash": "fae34a40329c5d70418626065a38d68641d321f3aa32a11d7463cb895633e5dd"
+    "ui.auto.484e71ed0220": {
+      "text": "Reset Custom Tab",
+      "source_hash": "13b381f7c7f7d064850493d008946162fa41c88f7755c6246862cef919da60a5"
     },
-    "ui.auto.6c35aa9c4b90": {
-      "text": "%02lld:%02lld",
-      "source_hash": "c423b3393ce1cea66a8793d7d4df850ecb6ba56d2554ecb86c049eeded03d27a"
+    "ui.auto.5f5f1ef2bcf6": {
+      "text": "Compatibility list, known issues and FG options explained",
+      "source_hash": "62e9fb8af2caf93015c84adedcca6c1b75f8a71a269449df89d43b045545c9ed"
     },
-    "ui.auto.6aafa80cab6f": {
-      "text": "Uptime",
-      "source_hash": "d63ab4711473b0398feb4b56622605d5d2ec7ecd3b1bb5070a7dd56de96aaf88"
-    },
-    "ui.auto.e3007085f4dc": {
-      "text": "%s - %s",
-      "source_hash": "85ca951878c2123897a5d44c0f9a0ba9bc88c9b16fb1a6c5f3abd0ea1f6441c8"
+    "ui.auto.9c2e7cd677e3": {
+      "text": "%s - %s###OptiScalerMenu",
+      "source_hash": "03a71360569942d518f2ae707ca4a3029d4248bb92e0ae376f57cbceb86fde11"
     }
   }
 }
