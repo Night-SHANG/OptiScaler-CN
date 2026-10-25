@@ -1210,42 +1210,6 @@
       "text": "Performance Overlay",
       "source_hash": "7fa0dcee50d0ea225bd3e39b539cdeefa411e6dcc38827c3d746375216189ea4"
     },
-    "ui.auto.f53b37ebb548": {
-      "text": "%6.1f/%5.1f ",
-      "source_hash": "3c4e46584093914ee20f6c6c9bb191b6a9431b99b4e5e2d9c4efd318f0233f7e"
-    },
-    "ui.auto.1a7edea27800": {
-      "text": "FPS: %6.1f/%5.1f, %7.2f ms",
-      "source_hash": "7fc0e14c029e83ef574bb60bc9c407da9df8be23542e13cee084c35f85a81e3b"
-    },
-    "ui.auto.bb2753332858": {
-      "text": "FPS: %6.1f/%5.1f, Avg: %6.1f",
-      "source_hash": "a57590b640be8c348fbf665064fb5ff91a349a1d0cb848608901e5d12b59323f"
-    },
-    "ui.auto.d40f160e7590": {
-      "text": "%6.1f ",
-      "source_hash": "222b29595dd4ac079a53948c75c90136ce6c4e50c1ed98a00b2ff7ff4dc0ce8c"
-    },
-    "ui.auto.b76a1ffe2196": {
-      "text": "FPS: %6.1f, %7.2f ms",
-      "source_hash": "625ecf49ad7478ccc516972e6937dba013e20067e8d30f147f27def7e527902f"
-    },
-    "ui.auto.69de7e60e24a": {
-      "text": "FPS: %6.1f, Avg: %6.1f",
-      "source_hash": "badec55e960cad003c4a97488bcd2979151c9d17390e055fc7ff9767215b98d1"
-    },
-    "ui.auto.9e01d34ff0c0": {
-      "text": "%s | %s%s%s",
-      "source_hash": "ab2d806a599ec499b754b9d44d65cd9057a73e8ccaec711d4745a8c7024e85d5"
-    },
-    "ui.auto.725c4b6b77eb": {
-      "text": "Frame Time: %7.2f ms, Avg: %7.2f ms",
-      "source_hash": "5395067f5d63362b2c58f290f9bfc67f74afa4d10b4e541295f3166ce153d00f"
-    },
-    "ui.auto.e135eb5ce26d": {
-      "text": "Upscaler Time: %7.2f ms, Avg: %7.2f ms",
-      "source_hash": "f81d0d2f492b2a19f1044a2e7104b17bfb9fbe1ba3879fb51b28bfc6c8141038"
-    },
     "ui.auto.5cd16465be49": {
       "text": "FGId: %llu, RfxId: %llu",
       "source_hash": "65e0ad104da5a43c5f44511cf2fd821fc70e630dc5209df58ce47926857955dc"
@@ -2550,25 +2514,13 @@
       "text": "Full + Graph",
       "source_hash": "e7fac553f9cec5bf0a402552fe20ea3a62fd63e46eae8a334c16ea22370182fe"
     },
-    "ui.auto.00c8e7a0a0fb": {
-      "text": "Reflex timings",
-      "source_hash": "3a141b17068234f17c92136f1d5bbd137a15e872c225a091bf6a389309fd79bd"
-    },
     "ui.auto.7e2d14eedf83": {
       "text": "Overlay Type",
       "source_hash": "03b2cbf5c2e9e75878b5a4bb97e205093b4594bcf5205d9dab23078a15bde187"
     },
-    "ui.auto.cb1c9169da32": {
-      "text": "Same as menu",
-      "source_hash": "5ccca3c9abf9cee79c2da035f87d5e25a0984fa32ffe93a4f1b9425d087880c1"
-    },
     "ui.auto.a29f0256272e": {
       "text": "Scale",
       "source_hash": "f102986b39effb31080ae442f61febe7ed58df1515c0711ccfadfe0311ccec81"
-    },
-    "ui.auto.158d2bc45dcc": {
-      "text": "Use Theme Colors",
-      "source_hash": "797a04db221ed7d38cc6f3e9cec094d72a6325a58c1aa88b13b087925b1af13d"
     },
     "ui.auto.f02e7523ea69": {
       "text": "V-Sync On",
@@ -3086,10 +3038,6 @@
       "text": "%s %u.%u.%u",
       "source_hash": "1366b872f2c416283b353faf80438490431d604ff12e756851f9199b55bc5912"
     },
-    "ui.auto.9ccf62c1fa2f": {
-      "text": " | %s -> %s%s",
-      "source_hash": "be4de39901ba3d0514f2492fc262bbe473a5d71776c6a493b720612071f55372"
-    },
     "ui.auto.dcf8c811cd7f": {
       "text": "Paused, 3rd person detected",
       "source_hash": "ac0a1a9da03300dcaeb313298cb3d570c12b10ca78aecf5ec2b00b16a3f8eb80"
@@ -3230,10 +3178,6 @@
       "text": "Enable if the game uses dynamic resolution\nPrevents FSR 4 from switching models when the render size changes",
       "source_hash": "36064aa401ca4511997d803192f15cd63b42a5caa95e7401b268cdd867e14fd0"
     },
-    "ui.auto.fd76b7e08334": {
-      "text": "Upscale: %ux%u -> %ux%u (%.2fx)",
-      "source_hash": "dfebdd3c22af2ed1cd1ab04bc1f4b29bcd36b43c2c51d2e0e7cf03bf236c1d87"
-    },
     "ui.auto.d4ae270ac49c": {
       "text": "Disable HW Flip Metering",
       "source_hash": "0b961a50a8c5273bb03a189db3fa143dbe7efa3a339d3e15197328f96d57f920"
@@ -3262,10 +3206,6 @@
       "text": "Upscale Ratio",
       "source_hash": "d3d7393049512d9ffcb6a0a4b203ebd18e33a6995117fa36ad950bac11dcb939"
     },
-    "ui.auto.0db9b0bd6aed": {
-      "text": "Shows the current render -> output resolution and upscale ratio in the overlay",
-      "source_hash": "6d72f0c38615d031fac823064387887bc6319096d92d4eebdf6b8e2034f44bdf"
-    },
     "ui.auto.484e71ed0220": {
       "text": "Reset Custom Tab",
       "source_hash": "13b381f7c7f7d064850493d008946162fa41c88f7755c6246862cef919da60a5"
@@ -3277,6 +3217,298 @@
     "ui.auto.9c2e7cd677e3": {
       "text": "%s - %s###OptiScalerMenu",
       "source_hash": "03a71360569942d518f2ae707ca4a3029d4248bb92e0ae376f57cbceb86fde11"
+    },
+    "ui.auto.ee4c907f5db2": {
+      "text": "fps",
+      "source_hash": "2f02a4f7da5ad4d639709057f6c4ed1aba56511ee494254315d0183d060604df"
+    },
+    "ui.auto.d103ff520433": {
+      "text": "upscale",
+      "source_hash": "d2c4f1b5a53698640ea320bebee33badb35ca092357041b42c180ef4ccb45080"
+    },
+    "ui.auto.bc09ec62c7bf": {
+      "text": "frametime",
+      "source_hash": "3fb340fe637041a1f00a5e39c50fc86ef534bc0f42bc738956425dead607fb2d"
+    },
+    "ui.auto.a13c7bdc5d05": {
+      "text": "frametimegraph",
+      "source_hash": "daeae1cd52925b540fc94400306e202297529b35d54988fa54a50a42de03cf90"
+    },
+    "ui.auto.dce8181c72a9": {
+      "text": "upscaler",
+      "source_hash": "b3ff5e5eb5baad52c7dcddbf4ab9c21c9044a635159309ef79ec3edef0b9d43b"
+    },
+    "ui.auto.696cfbc64a2c": {
+      "text": "upscalergraph",
+      "source_hash": "d984e3facc6409151f26fce123e073d9055d37157c135f77aff12b590dac5efe"
+    },
+    "ui.auto.cc955274a8cf": {
+      "text": "lowlatency",
+      "source_hash": "71357ec41e4e6942216e22033490dba38a188c5a9e88a45a7e214853bca6fe45"
+    },
+    "ui.auto.fce204ae554c": {
+      "text": "FPS",
+      "source_hash": "85869174459f3b9c451a9ae6cc9c32fbde46d2e83dd4ca3e2234f6558eb4f7dc"
+    },
+    "ui.auto.8d157cb60ddf": {
+      "text": "Frame Time",
+      "source_hash": "a515ca1bdfe466283c9700ac7bfdae05961801e7518eb7f696ab421428c16f74"
+    },
+    "ui.auto.e20d91ce105d": {
+      "text": "Frame Time Graph",
+      "source_hash": "041cbd13b696aab0b99a0be5b2dff8c4e7dd9ca5d13886690eb491d31a1d42b2"
+    },
+    "ui.auto.77e758cfb0ca": {
+      "text": "Upscaler Time",
+      "source_hash": "358cbaddaaec402e0174f838d43aefc56b601261084750bb75aac7ef3c987843"
+    },
+    "ui.auto.b0c27dcd909c": {
+      "text": "Upscaler Time Graph",
+      "source_hash": "765c33ffc99e23fb43bdb5b5cd4ff6bcf8e54b7be3d57c6553e092bb05b8a8b8"
+    },
+    "ui.auto.a5ed0068ce22": {
+      "text": "Low Latency Timings",
+      "source_hash": "26b340f205fc45539037226085cea17a8415846a9a8314ebc0ce4d5533f80452"
+    },
+    "ui.auto.c55a196c267c": {
+      "text": "The FPS, the frame generation and the upscaler, FPS Row below sets what's shown",
+      "source_hash": "15fc23f94421cfc361c5b9c2d3d1b03503d37b7283b7977e3227472630d1a42c"
+    },
+    "ui.auto.85c126f7eb17": {
+      "text": "Render -> output resolution and upscale ratio, while upscaling",
+      "source_hash": "e98bb6406ba499752489e3934e86f417fc5bde7f6b979215ee9f1db2b337d4df"
+    },
+    "ui.auto.6496624bcedc": {
+      "text": "The last frame time and the average",
+      "source_hash": "0a7d3b42d14dda8c72b74e4e4002b9ac8ad84d4dd24cfec16ad1045fb6c7e7e4"
+    },
+    "ui.auto.80bd93f89291": {
+      "text": "The frame times of the last frames",
+      "source_hash": "898209dcb80d62ccaa3a67e4d47d489f92afd65e17d38eaf36eccf38a022b401"
+    },
+    "ui.auto.826aba1cd8c3": {
+      "text": "The upscaler's last time and the average",
+      "source_hash": "7c409af4ff4f8a13ccab25db937fb6606deb73cacecf86da81acff68e6f7d4eb"
+    },
+    "ui.auto.eef12c7e4d42": {
+      "text": "The upscaler's times of the last frames",
+      "source_hash": "891d596281cf44247d61addc0ab4ceb412c2559a9a0edb3888c520166bf7e9f5"
+    },
+    "ui.auto.486a879e936d": {
+      "text": "Timings of the frame from the low latency markers, while there are any",
+      "source_hash": "c347378085af44cb4ec2a54593b9eb448a9b3ad782183dd0d6ec892087d6aa7c"
+    },
+    "ui.auto.a0e94d11dc81": {
+      "text": "%s -> %s%s",
+      "source_hash": "30510fc33085bd993a776cac322158d4f9d52d35f9a7a5d534e8a38ec40e810f"
+    },
+    "ui.auto.7432547a8a74": {
+      "text": "%.1f/%.1f",
+      "source_hash": "2a142504a1364c4bdbc7e0e1fa7cd4db5c187a294ff9aa74b9b51659036cf1d0"
+    },
+    "ui.auto.16b5d7df20f6": {
+      "text": "%.1f",
+      "source_hash": "92b69c9ce0b71ab61cfde91a99f232f39ed03c3201d75a1fc35b32eab2c53945"
+    },
+    "ui.auto.fd0816e5b5c5": {
+      "text": "%.2f ms",
+      "source_hash": "9a6f47397546f5b6ed84296ad0fec41551b726c2435805b3ce23e665b8415059"
+    },
+    "ui.auto.bd48993b9399": {
+      "text": "%ux%u -> %ux%u (%.2fx)",
+      "source_hash": "25bfb24af391fa46e6d6e24a32b61831987d78b6ceb65dc01c26cf3735030eda"
+    },
+    "ui.auto.aa0f57320c02": {
+      "text": "Corner Rounding",
+      "source_hash": "e2d5366a82eec420af81d025fc33af1fe59fe651d89d353653fca9b201e059e8"
+    },
+    "ui.auto.fc1405ade7ee": {
+      "text": "Top Center",
+      "source_hash": "271eac3418deb2925f32746a7f9360ab022935d8664ee79f4e5d109a3d114693"
+    },
+    "ui.auto.5f2793944623": {
+      "text": "Bottom Center",
+      "source_hash": "6818850e41371fb3ebd38f1ca5e8d74b003aeeb43d3f684c1b9bc079bf964ef4"
+    },
+    "ui.auto.081ae3fdc403": {
+      "text": "Custom",
+      "source_hash": "494ca78f7374e46fb2de9ad9f2dbd4aaae89b50b2ca044177a1566a59e06627e"
+    },
+    "ui.auto.e1c25102a7d3": {
+      "text": "Horizontal Position",
+      "source_hash": "2264b7d16037546c643e0c42759355991a1dfed25d13c521fa691335c776ef97"
+    },
+    "ui.auto.bcceda3c4e6f": {
+      "text": "Vertical Position",
+      "source_hash": "c4b1bb1aa5fd8cfd86f9ebdf3350033b7e0f00fca752e2b93e0b79d021e3e149"
+    },
+    "ui.auto.4c781596fe08": {
+      "text": "Low latency timings",
+      "source_hash": "f1fdd38ab90b1e3dd1fde5ffd0e900e0e80561accde5dc44e070a62e3ce007da"
+    },
+    "ui.auto.7f53f82f9aa2": {
+      "text": "Presets of the rows, Custom shows the ones chosen in Rows.\nThe Overlay Cycle key switches between them.",
+      "source_hash": "ef54006132c3b4b12561ae45955aa44b4d36126ccd81a2437f1e8b323847e4dd"
+    },
+    "ui.auto.1168a9de4cb6": {
+      "text": "Same as menu (%.1f)",
+      "source_hash": "d78228fbb52e9f7270b049896e107de473280301138c2520d9111ddd40245581"
+    },
+    "ui.auto.5749cfcb3867": {
+      "text": "Size of the FPS overlay, independent from the menu scale unless set to Same as menu",
+      "source_hash": "a3377ac7444bac7ff04f811f0db3574bb38fa465d76841d5bad94d044bc0f2de"
+    },
+    "ui.auto.52d0b35277ee": {
+      "text": "Rows",
+      "source_hash": "101f2ff3de22441fcab3e15ca0b09ac3428642cf628558f16fa404fc3137baea"
+    },
+    "ui.auto.86c00d91cbcd": {
+      "text": "The rows of %s, set Overlay Type to Custom to change them.",
+      "source_hash": "a2fa5025ad60e67063b98446846f11bbebbb24766a2242d80ad39ae8c85c2376"
+    },
+    "ui.auto.1d75774c0f96": {
+      "text": "Order",
+      "source_hash": "6be090825c9971035aee21d9ac0fc9c32f279b921e956026460e4cc1eb611dd6"
+    },
+    "ui.auto.9bf7a8e8909b": {
+      "text": "Row",
+      "source_hash": "95110d74c4c009126c967cac38ab0454d73e337c4fdafc280c04f67e66e5fe95"
+    },
+    "ui.auto.a23e297a1d31": {
+      "text": "With Frame Time",
+      "source_hash": "25247d9ae063300b92e9be7529313cce2b5a2daa89cc7d015217efd0112b23b8"
+    },
+    "ui.auto.6f65fca19a2f": {
+      "text": "With Average FPS",
+      "source_hash": "1b6a130927880be38bde57f5d634150920a75631d175ccf8fe7060f6a5b278b0"
+    },
+    "ui.auto.63add2e5d3dc": {
+      "text": "FPS Row",
+      "source_hash": "dc1b9e6202f536a9bf4857cc5497aa1191b9aaa185f1e014383534e8733f7d2d"
+    },
+    "ui.auto.5c8df007a773": {
+      "text": "Just the number, or with the API, frame time or average FPS, frame generation and upscaler",
+      "source_hash": "6ed3bffd24b0cd06ee097cb89fc7bf6bd1ce48fd68d7c9ad73f9144c0a7532cb"
+    },
+    "ui.auto.0facd5d2f3a2": {
+      "text": "Row Spacing",
+      "source_hash": "e11e1df2fca7ad29322a926125768aa7ecbd26ef3acbb36fa686fcdbbfad961d"
+    },
+    "ui.auto.b3e811fe7ef9": {
+      "text": "Custom's rows back to the ones of Full + Graph",
+      "source_hash": "d654ff60297e638df9b7d811df570f754e872e800bb8b8504ecb46f7e5c2753d"
+    },
+    "ui.auto.41def7a0febe": {
+      "text": "Appearance",
+      "source_hash": "3907fa7f80722a6fc58cd8c1bd30abf7638095d6774f183b6e831b7093957d1b"
+    },
+    "ui.auto.2d0764c9780d": {
+      "text": "Graph Height",
+      "source_hash": "d25ab7fedfb89ba7fcf89b468036b91a23ce564fdc8edac0d6f05da46097b1a5"
+    },
+    "ui.auto.b97c4d4cddf2": {
+      "text": "Font",
+      "source_hash": "64d0b3adcd2dbe33500fe9b96d2bc048601b19f4dc9db0d30f8648e156b583ad"
+    },
+    "ui.auto.725a65b6a9a8": {
+      "text": "Menu font",
+      "source_hash": "6ec28e2bcd8c93e1b11fc7aa1908c4d03785238907ee3fa2ca31f20c87511009"
+    },
+    "ui.auto.e3c93283fe51": {
+      "text": "Choose a Windows system font or enter any custom .ttf/.otf file below",
+      "source_hash": "c6826efff493406a75b55f194fdb75f3a1cf1e88923778326f77613d25be6ddf"
+    },
+    "ui.auto.b47dddaaf7bb": {
+      "text": "Custom Font File",
+      "source_hash": "ed6e90de8d65ffd298d9cfd46d5c9b670a069a85dae3d4906b51ce0027fd1672"
+    },
+    "ui.auto.f092f82a86e3": {
+      "text": "A file in C:\\Windows\\Fonts or a full path, Enter applies it",
+      "source_hash": "63c6c3888d4d9bda0c971652f98c7b49fe797b0b6aeffee0be5e98076723e74b"
+    },
+    "ui.auto.b456f452a115": {
+      "text": "Font Size",
+      "source_hash": "4dd6ff92e0d9d761b43f497e2b9b1fc3b6251a9f631186cacac737e5d8182c4d"
+    },
+    "ui.auto.0e352c79c264": {
+      "text": "Before the overlay's scale, the far left is the menu's font size",
+      "source_hash": "acfb0f684622ab5d948bb45378ee37df7276ff8ca86e7b1f72ad05c4d1bd724c"
+    },
+    "ui.auto.65346ea759aa": {
+      "text": "Letter Spacing",
+      "source_hash": "a953ac913a2fad455fe33839bcb3de4b9fa487e69e274e1110ed54c174d6b16f"
+    },
+    "ui.auto.d893f3a7f118": {
+      "text": "Extra horizontal tracking in pixels between characters",
+      "source_hash": "6119b4c765b9e57a32ef35920167fd3a77b8e8331eafe96756e873dd6a31cac0"
+    },
+    "ui.auto.ce1bdf99ee76": {
+      "text": "Names like FPS: and Avg:",
+      "source_hash": "e163a0d7b0885d63042ad55c76d6a11de549e307d940fa734bff065fb1e4ed0e"
+    },
+    "ui.auto.7b3cbf6411df": {
+      "text": "The numbers",
+      "source_hash": "2d915f82c872f278031f3e69949217dd9f8b712fec679dbc2044ec9ae0386914"
+    },
+    "ui.auto.d89a1275d85c": {
+      "text": "Update Interval",
+      "source_hash": "f974fa414bad99c0184a6c9ad65193163c21fb36795b7584498c77f0e1cbbc07"
+    },
+    "ui.auto.f9691ee95de6": {
+      "text": "How often FPS and times change, averaged in between. Higher is easier to read.",
+      "source_hash": "cc55095b31c1fb5fcad12743b9b3b93afe7f97f8263321da6542a9f949e179bf"
+    },
+    "ui.auto.aa0e7e86b7aa": {
+      "text": "Shadow",
+      "source_hash": "4c764cb6248ef9337fc1c8769d4b74fc1d4c1fff6a9e8d00ca6753a560b3e74b"
+    },
+    "ui.auto.cdd6290b6b28": {
+      "text": "Outline",
+      "source_hash": "eabbf3abaf8d98abb9763d83f29b04716524a9d697dfdd06ae3ed77bdd12c929"
+    },
+    "ui.auto.9fdf707e8126": {
+      "text": "Text Shadow",
+      "source_hash": "da2f47f1b01200dcaa31c215b07911c600f8e2bb300f1e4a600787ee838695a2"
+    },
+    "ui.auto.3c1d32f8f059": {
+      "text": "Shadow Strength",
+      "source_hash": "43a48a7256b6cf8a768462bed430735626f7ce55be36d05ccce373d37eb43424"
+    },
+    "ui.auto.d2852ddf2a1d": {
+      "text": "Thickness and darkness of the shadow, thickness of the outline",
+      "source_hash": "3515dc32c0334ec42432cd6d68f51ca10ee4243623deb80a5df7ace3d1568b17"
+    },
+    "ui.auto.914310478dc2": {
+      "text": "Use Theme",
+      "source_hash": "266d48971ecb37d3b4439a71826b5be1255742db20ad108bc3dee8b1f8f156cb"
+    },
+    "ui.auto.d3e67855db99": {
+      "text": "The menu theme's colors for the labels, values, graph and background",
+      "source_hash": "1f59e1708a5b837244894197bc0593687a444da651a6680c56faf84beeed53ba"
+    },
+    "ui.auto.6a59e45ba812": {
+      "text": "Reset Appearance",
+      "source_hash": "adc210523ff13d3e2c74d5f3403bd6deb1e7cc1d06d2244806a7266a73c8bda9"
+    },
+    "ui.auto.2ff4a58fa359": {
+      "text": "Share Settings",
+      "source_hash": "de140f97d703396ca8fec9c1f6a4bcd583c7b70736a1922df07e0c4778fc6297"
+    },
+    "ui.auto.1589b60a3b62": {
+      "text": "Copy Code",
+      "source_hash": "7638ccb4b85b63a66d053c0282f959a31de4a90878b84fe18346bcb20b3fa772"
+    },
+    "ui.auto.52e20276ea6e": {
+      "text": "Copies your overlay settings as a code to keep or share",
+      "source_hash": "b2a0538715d639683a01d3ff7e0e6e9f45d9b3499f0d354555836d761ed49776"
+    },
+    "ui.auto.2cee3d4e8fb4": {
+      "text": "Paste Code",
+      "source_hash": "09cd29bcd0e2fdd9d6b578348b4260eb6dc3c4b1cde96f5b9292199c2f65c2bd"
+    },
+    "ui.auto.ea610ddc4682": {
+      "text": "Applies a copied code. Settings it doesn't list go back to their defaults.",
+      "source_hash": "ed3d8f4a4d77a069ef202d385d5a6dde9fcf15b36a5033d24374dae988a7506e"
     }
   }
 }
