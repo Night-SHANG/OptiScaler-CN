@@ -1,14 +1,9 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [
-      "ui.auto.440141276c21"
-    ],
+    "added": [],
     "changed": [],
-    "removed": [
-      "ui.auto.5cd16465be49",
-      "ui.auto.40c498805679"
-    ]
+    "removed": []
   },
   "missing": [
     {
