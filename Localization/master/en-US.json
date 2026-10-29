@@ -2870,10 +2870,6 @@
       "text": "Upscaler GPU time: %.2fms (avg: %.2fms)",
       "source_hash": "44e795db700dd4ab99111e99e3ae1db8f6ccdc120ff414ccc5482cdbb1c38774"
     },
-    "ui.auto.ed0e8aca78f9": {
-      "text": "%s##%d",
-      "source_hash": "e8c07c8929f8b09881ddb749122d098348b680dc02e7e31db2065546e6759626"
-    },
     "ui.auto.763f65738a5a": {
       "text": "Frame Generation mode\nDefault follows the game's DLSS FG setting",
       "source_hash": "f18dd7a6e361f8524ba969b8c54e6755c6919e7e21105b84f58fc311917a521b"
@@ -3505,6 +3501,10 @@
     "ui.auto.440141276c21": {
       "text": "%.1fms",
       "source_hash": "3ad4b96675288967182009c5d37ccf687dcb24484258bb79ca6038cc69639e23"
+    },
+    "ui.auto.348a7a7b74d3": {
+      "text": "%s##%d%s",
+      "source_hash": "28af0ed3d945665c832016c6fe75fc304624c5553d2ba7e11428395d4aa2f3b4"
     }
   }
 }
