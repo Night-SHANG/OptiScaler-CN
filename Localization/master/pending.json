@@ -2,13 +2,17 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.348a7a7b74d3"
+      "ui.auto.7622867de9df",
+      "ui.auto.6a1e92a6a410",
+      "ui.auto.b68651a19f11",
+      "ui.auto.d48d4ad193fd"
     ],
     "changed": [
-      "ui.auto.348a7a7b74d3"
+      "ui.auto.6a1e92a6a410"
     ],
     "removed": [
-      "ui.auto.ed0e8aca78f9"
+      "ui.auto.c26a4d155d18",
+      "ui.auto.6e673b4a70eb"
     ]
   },
   "missing": [
@@ -1071,6 +1075,26 @@
       "key": "ui.auto.348a7a7b74d3",
       "source": "%s##%d%s",
       "source_hash": "28af0ed3d945665c832016c6fe75fc304624c5553d2ba7e11428395d4aa2f3b4"
+    },
+    {
+      "key": "ui.auto.7622867de9df",
+      "source": "Custom DLSSG from custom\\%s\\dlssg",
+      "source_hash": "b3adbe325e1361e974c77557095f67b780686b5024c348a1b2a6eaa30a3e2312"
+    },
+    {
+      "key": "ui.auto.6a1e92a6a410",
+      "source": "Missing amd_fidelityfx_framegeneration_vk.dll",
+      "source_hash": "8d9d2b78381bd15c1c265064c8353f1d73513208e659aec0d9ad5d032448395d"
+    },
+    {
+      "key": "ui.auto.b68651a19f11",
+      "source": "Frame Generation (%s)",
+      "source_hash": "118ee7c302d48f56b59417e11942a4cc9a2a68ed369df77efb83f9d1e7b623f9"
+    },
+    {
+      "key": "ui.auto.d48d4ad193fd",
+      "source": "Custom DLSSG from the custom folder",
+      "source_hash": "dc316c078aacef3b3b714c36f3cd61008e8536e6df5ee7322eb5a142466d303f"
     }
   ],
   "changed": []

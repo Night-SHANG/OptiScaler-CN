@@ -1494,10 +1494,6 @@
       "text": "The data source to be used for FG\nThe native FG which the game supports",
       "source_hash": "716bb5970572708b27fdab2bf6947e2cbe15f74b822fb5fb0519ad141db5249d"
     },
-    "ui.auto.c26a4d155d18": {
-      "text": "FG Nvngx",
-      "source_hash": "061c786fedf38e56f33967cbeb4a9e85f934042eae6a7baa6cabadc3ffbad7dc"
-    },
     "ui.auto.b1d769376482": {
       "text": "What backend to use instead of the real DLSSG",
       "source_hash": "c98ac85391afa647528e70ed361e5d3f11413464fedb2e4064dbc8c0047ceffb"
@@ -1509,10 +1505,6 @@
     "ui.auto.7b293b0ebcbf": {
       "text": "The FG that you will actually be using",
       "source_hash": "f0b6b28f24397b0d9e0fab3ce6d48676e31ed20444ae38bd997ca601b0356b54"
-    },
-    "ui.auto.6e673b4a70eb": {
-      "text": "FG Nvngx Replacement",
-      "source_hash": "0893bcec1994c0604251dcdf55ef4a6e507a5edcab675d3608feffafde0d5b79"
     },
     "ui.auto.8091b32f5fc6": {
       "text": "Save Settings and restart to apply the changes",
@@ -3505,6 +3497,22 @@
     "ui.auto.348a7a7b74d3": {
       "text": "%s##%d%s",
       "source_hash": "28af0ed3d945665c832016c6fe75fc304624c5553d2ba7e11428395d4aa2f3b4"
+    },
+    "ui.auto.7622867de9df": {
+      "text": "Custom DLSSG from custom\\%s\\dlssg",
+      "source_hash": "b3adbe325e1361e974c77557095f67b780686b5024c348a1b2a6eaa30a3e2312"
+    },
+    "ui.auto.6a1e92a6a410": {
+      "text": "Missing amd_fidelityfx_framegeneration_vk.dll",
+      "source_hash": "8d9d2b78381bd15c1c265064c8353f1d73513208e659aec0d9ad5d032448395d"
+    },
+    "ui.auto.b68651a19f11": {
+      "text": "Frame Generation (%s)",
+      "source_hash": "118ee7c302d48f56b59417e11942a4cc9a2a68ed369df77efb83f9d1e7b623f9"
+    },
+    "ui.auto.d48d4ad193fd": {
+      "text": "Custom DLSSG from the custom folder",
+      "source_hash": "dc316c078aacef3b3b714c36f3cd61008e8536e6df5ee7322eb5a142466d303f"
     }
   }
 }
