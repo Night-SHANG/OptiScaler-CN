@@ -88,12 +88,65 @@ def patch_font_and_init(path: Path):
     write_source_text(path, text, source_encoding)
 
 
+def patch_overlay_font(path: Path):
+    """The newer FPS overlay owns a second font; reuse the validated CJK path."""
+    text, encoding = read_source_text(path)
+    if 'static void UpdateOverlayFont()' not in text:
+        return  # Older stable source has no independent FPS font.
+    marker = '// CN FPS overlay: preserve the validated menu-font fallback.'
+    if marker in text:
+        return
+    start = text.index('static void UpdateOverlayFont()')
+    brace = text.index('{', start)
+    end = find_matching(text, brace, '{', '}')
+    anchor = 'fontConfig.GlyphExtraAdvanceX = letterSpacing;'
+    where = text.find(anchor, brace, end)
+    if end < 0 or where < 0:
+        raise RuntimeError('integration conflict: FPS overlay font anchor changed')
+    insertion = '''
+
+    // CN FPS overlay: preserve the validated menu-font fallback.
+    if (OptiScalerCN::Loc::IsChineseActive())
+    {
+        const auto requestedFont = wanted.empty() ? std::filesystem::path {} : OverlayFontPath(wanted);
+        const auto cnFont = OptiScalerCN::Loc::ResolveChineseFont(requestedFont);
+        if (!cnFont.empty())
+        {
+            const auto cnFontUtf8 = OptiScalerCN::Loc::PathUtf8(cnFont);
+            gOverlayFont = io.Fonts->AddFontFromFileTTF(cnFontUtf8.c_str(), fontSize, &fontConfig,
+                                                       OptiScalerCN::Loc::BuildGlyphRanges(io.Fonts));
+        }
+        // If no separate font is available, gOverlayFont stays null and the
+        // overlay uses the menu's already-validated font instead of Latin Hack.
+        return;
+    }'''
+    point = where + len(anchor)
+    text = text[:point] + insertion + text[point:]
+    write_source_text(path, text, encoding)
+
+
 def patch_dynamic_helpers(path: Path):
     text, source_encoding = read_source_text(path)
     # Central translation for labels/tooltips stored in MenuOption vectors and
     # for the rotating splash string container. These are not direct literal
     # arguments, so the literal scanner cannot rewrite their call sites itself.
     replacements={
+        # Global arrays initialize before font validation; resolve at draw time.
+        'ImGui::Checkbox(overlayRowNames[row], &rowOn)':
+            'ImGui::Checkbox(OptiScalerCN::Loc::TL(overlayRowNames[row]).c_str(), &rowOn)',
+        'ShowTooltip(overlayRowTips[row])':
+            'ShowTooltip(OptiScalerCN::Loc::TL(overlayRowTips[row]).c_str())',
+        'ImGui::Button(name.c_str())': 'ImGui::Button((OptiScalerCN::Loc::TL(name) + "###" + name).c_str())',
+        # These tables contain persistence keys and settings code: translate only
+        # display uses, not initializers. Keep original widget IDs with ###.
+        'ImGui::Button(presets[i].name,':
+            'ImGui::Button((OptiScalerCN::Loc::TL(presets[i].name) + "###" + presets[i].name).c_str(),',
+        'ShowTooltip(presets[i].tip)': 'ShowTooltip(OptiScalerCN::Loc::TL(presets[i].tip).c_str())',
+        'ImGui::TextDisabled("%s", box.tab)': 'ImGui::TextDisabled("%s", OptiScalerCN::Loc::TL(box.tab).c_str())',
+        'ImGui::Checkbox(box.name, &on)':
+            'ImGui::Checkbox((OptiScalerCN::Loc::TL(box.name) + "###" + box.name).c_str(), &on)',
+        'tabs[i].displayLabel != nullptr ? tabs[i].displayLabel(ctx) : tabs[i].label);':
+            'OptiScalerCN::Loc::TL(tabs[i].displayLabel != nullptr ? tabs[i].displayLabel(ctx) : tabs[i].label).c_str());',
         'preview = opt.label;':'preview = OptiScalerCN::Loc::TL(opt.label);',
         'ImGui::Selectable(opt.label.c_str(), isSelected)':'ImGui::Selectable(OptiScalerCN::Loc::TL(opt.label).c_str(), isSelected)',
         'ImGui::SetTooltip("%s", opt.tooltip.c_str())':'ImGui::SetTooltip("%s", OptiScalerCN::Loc::TL(opt.tooltip).c_str())',
@@ -117,6 +170,21 @@ def patch_dynamic_helpers(path: Path):
                           'ImGui::BeginCombo("Upscaler Quality", selectedQ.c_str())',1)
         # If the first argument was already instrumented, patch the second argument instead.
         text=re.sub(r'(ImGui::BeginCombo\(OptiScalerCN::Loc::T\([^\n]+?\),\s*)selectedQ(\))',r'\1selectedQ.c_str()\2',text,count=1)
+    # The literal pass may have wrapped "%s" already. Match the dynamic
+    # argument rather than requiring an untranslated formatting argument.
+    for raw, localized in {
+        ', box.tab);': ', OptiScalerCN::Loc::TL(box.tab).c_str());',
+        ', opt.tooltip.c_str())': ', OptiScalerCN::Loc::TL(opt.tooltip).c_str())',
+        ', flag.description.c_str())': ', OptiScalerCN::Loc::TL(flag.description).c_str())',
+    }.items():
+        text = text.replace(raw, localized)
+    # Catalog-only arrays must not silently lose their draw-time adapter.
+    for array, use in {
+        'overlayRowNames': 'OptiScalerCN::Loc::TL(overlayRowNames[row]).c_str()',
+        'overlayRowTips': 'OptiScalerCN::Loc::TL(overlayRowTips[row]).c_str()',
+    }.items():
+        if re.search(r'const\s+char\s*\*\s*' + array + r'\s*\[', text) and use not in text:
+            raise RuntimeError('integration conflict: missing draw-time adapter for ' + array)
     write_source_text(path, text, source_encoding)
 
 def instrument_file(path: Path, rel: str, rules: dict, source_to_key: dict):
@@ -177,6 +245,7 @@ def main():
     menu=args.source/'OptiScaler'/'menu'/'menu_common.cpp'
     if not menu.exists(): raise RuntimeError('integration conflict: OptiScaler/menu/menu_common.cpp missing')
     patch_font_and_init(menu)
+    patch_overlay_font(menu)
     patch_dynamic_helpers(menu)
     print(f'instrumented {total} literal UI arguments')
 

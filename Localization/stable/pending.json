@@ -1,7 +1,9 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.56a8f43337be"
+    ],
     "changed": [],
     "removed": []
   },

@@ -224,6 +224,20 @@ def should_exclude(source: str, rules: dict) -> bool:
 
 
 def _string_literals_in_region(text: str, start: int, end: int):
+    """Keep adjacent C++ literals together: separate runtime calls cannot concatenate."""
+    pending = None
+    for left, right, source, expr in _individual_string_literals_in_region(text, start, end):
+        if pending is not None and not mask_cpp(text[pending[1]:left]).strip():
+            pending = (pending[0], right, pending[2] + source, text[pending[0]:right])
+        else:
+            if pending is not None:
+                yield pending
+            pending = (left, right, source, expr)
+    if pending is not None:
+        yield pending
+
+
+def _individual_string_literals_in_region(text: str, start: int, end: int):
     """Yield string literals in a C++ region, excluding comments/chars."""
     i=start; state='code'
     while i < end:
@@ -385,8 +399,11 @@ def find_scoped_c_string_array_candidates(text: str, rel: str, rules: dict) -> l
     if not any(fnmatch.fnmatch(rel, glob) for glob in rules.get('c_string_array_globs', [])):
         return []
     masked=mask_cpp(text); out=[]
-    pattern=re.compile(r'(?:(?:static|constexpr)\s+)*const\s+char\s*\*\s*(?:const\s+)?[A-Za-z_]\w*\s*\[\s*\]\s*=')
+    pattern=re.compile(r'(?:(?:static|constexpr)\s+)*const\s+char\s*\*\s*(?:const\s+)?(?P<name>[A-Za-z_]\w*)\s*\[\s*\]\s*=')
     for m in pattern.finditer(masked):
+        # Persistence keys are data contracts, not display labels.
+        if m.group('name') in rules.get('c_string_array_exclude_names', []):
+            continue
         brace=masked.find('{',m.end())
         semi=masked.find(';',m.end())
         if brace < 0 or (semi >= 0 and brace > semi): continue
@@ -398,7 +415,8 @@ def find_scoped_c_string_array_candidates(text: str, rel: str, rules: dict) -> l
             if any(re.fullmatch(rx, visible) for rx in rules.get('c_string_array_exclude_regex', [])):
                 continue
             out.append(Candidate(rel,'c-string-array',0,source,left,right,
-                                 text.count('\n',0,left)+1,expr,True))
+                                 text.count('\n',0,left)+1,expr,
+                                 m.group('name') not in rules.get('c_string_array_catalog_only_names', [])))
     return out
 
 
@@ -410,7 +428,7 @@ def find_conditional_arg_literal_candidates(text: str, rel: str, rules: dict) ->
     """
     masked=mask_cpp(text); out=[]
     for name in rules.get('conditional_literal_calls', []):
-        pattern=re.compile(r'(?<![\w:])'+re.escape(name)+r'\s*\(')
+        pattern=re.compile(('' if name.startswith('.') else r'(?<![\w:])')+re.escape(name)+r'\s*\(')
         for m in pattern.finditer(masked):
             p=masked.find('(',m.start(),m.end()+2)
             if p < 0: continue
@@ -427,6 +445,151 @@ def find_conditional_arg_literal_candidates(text: str, rel: str, rules: dict) ->
                     out.append(Candidate(rel,f'{name}:conditional',idx,source,left,right,
                                          text.count('\n',0,left)+1,expr,True))
     return out
+
+def find_display_initializer_candidates(text: str, rel: str, rules: dict) -> list[Candidate]:
+    """Read only configured display fields, retaining raw keys/settings in tables."""
+    masked = mask_cpp(text)
+    out = []
+    for spec in rules.get('display_initializers', []):
+        if not fnmatch.fnmatch(rel, spec['glob']):
+            continue
+        typename = re.escape(spec['type'])
+        if spec.get('array'):
+            pattern = re.compile(r'\b' + typename + r'\s+\w+\s*\[\s*\]\s*=\s*\{')
+        else:
+            pattern = re.compile(r'\b' + typename + r'\s+\w+\s*\{')
+        for match in pattern.finditer(masked):
+            outer = masked.rfind('{', match.start(), match.end())
+            end = find_matching(text, outer, '{', '}')
+            if end < 0:
+                continue
+            regions = [(outer + 1, end)]
+            if spec.get('array'):
+                regions = []
+                for a, b in split_args(text, outer + 1, end):
+                    brace = masked.find('{', a, b)
+                    if brace < 0:
+                        continue
+                    close = find_matching(text, brace, '{', '}')
+                    if close >= 0 and close <= b:
+                        regions.append((brace + 1, close))
+            for a, b in regions:
+                fields = split_args(text, a, b)
+                for index in spec['fields']:
+                    if index >= len(fields):
+                        continue
+                    left, right = fields[index]
+                    expr = text[left:right]
+                    source = extract_string_expression(expr.strip())
+                    if source is None or should_exclude(source, rules):
+                        continue
+                    left += len(expr) - len(expr.lstrip())
+                    right -= len(expr) - len(expr.rstrip())
+                    out.append(Candidate(rel, 'display-initializer:' + spec['type'], index,
+                                         source, left, right, text.count('\n', 0, left) + 1,
+                                         text[left:right], spec.get('rewrite', False)))
+    return out
+
+
+def find_toast_candidates(text: str, rel: str, rules: dict) -> list[Candidate]:
+    """ImGuiToast's third aggregate field is display content, not a log/API value."""
+    if not rules.get('scan_imgui_toasts', False):
+        return []
+    masked=mask_cpp(text); out=[]
+    pattern=re.compile(r'\b(?:ImGui::InsertNotification\s*\(\s*|ImGuiToast\s+\w+\s*(?:\(\s*)?)\{')
+    for match in pattern.finditer(masked):
+        brace=match.end()-1
+        end=find_matching(text,brace,'{','}')
+        if end < 0: continue
+        args=split_args(text,brace+1,end)
+        if len(args)<3: continue
+        a,b=args[2]
+        # std::format requires its entire call to become Loc::F; wrapping only
+        # its literal in Loc::T would break compile-time format validation.
+        fmt=re.search(r'\bstd::format\s*\(',masked[a:b])
+        if fmt:
+            start=a+fmt.start(); p=masked.find('(',start)
+            q=find_matching(text,p)
+            if q < 0 or q>b: continue
+            fargs=split_args(text,p+1,q)
+            if not fargs: continue
+            fa,fb=fargs[0]; source=extract_string_expression(text[fa:fb].strip())
+            if source is None or should_exclude(source,rules): continue
+            out.append(Candidate(rel,'nested:std::format',0,source,start,q+1,
+                                 text.count('\n',0,start)+1,text[start:q+1],True))
+        else:
+            source=extract_string_expression(text[a:b].strip())
+            if source is None or should_exclude(source,rules): continue
+            left=a+len(text[a:b])-len(text[a:b].lstrip())
+            right=b-len(text[a:b])+len(text[a:b].rstrip())
+            out.append(Candidate(rel,'ImGuiToast:content',2,source,left,right,
+                                 text.count('\n',0,left)+1,text[left:right],True))
+    return out
+
+
+def find_scoped_initializer_candidates(text: str, rel: str, rules: dict) -> list[Candidate]:
+    """Only explicitly named UI variables; never collect arbitrary core strings."""
+    masked=mask_cpp(text); out=[]
+    for scoped in rules.get('scoped_calls', []):
+        if not fnmatch.fnmatch(rel, scoped.get('glob', '')):
+            continue
+        for name in scoped.get('ui_initializers', []):
+            pattern=re.compile(r'(?<![\w.])'+re.escape(name)+r'\s*=([^;]*);')
+            for match in pattern.finditer(masked):
+                for left,right,source,expr in _string_literals_in_region(text, *match.span(1)):
+                    if should_exclude(source,rules):
+                        continue
+                    out.append(Candidate(rel,'ui-initializer:'+name,0,source,left,right,
+                                         text.count('\n',0,left)+1,expr,scoped.get('rewrite_initializers', True)))
+    return out
+
+
+
+def find_display_return_candidates(text: str, rel: str, rules: dict) -> list[Candidate]:
+    """Scan return values of explicitly audited display-only helpers, not general code."""
+    masked = mask_cpp(text)
+    out = []
+    for spec in rules.get('display_return_scopes', []):
+        if not fnmatch.fnmatch(rel, spec['glob']):
+            continue
+        for anchor in spec['anchors']:
+            pos = 0
+            while True:
+                start = masked.find(anchor, pos)
+                if start < 0:
+                    break
+                brace = masked.find('{', start + len(anchor))
+                semi = masked.find(';', start + len(anchor))
+                pos = start + len(anchor)
+                if brace < 0 or (semi >= 0 and semi < brace):
+                    continue
+                end = find_matching(text, brace, '{', '}')
+                if end < 0:
+                    continue
+                pos = end + 1
+                for m in re.finditer(r'\breturn\b([^;]+);', masked[brace+1:end]):
+                    a, b = (brace+1+m.start(1), brace+1+m.end(1))
+                    formats = []
+                    for fm in re.finditer(r'\bstd::format\s*\(', masked[a:b]):
+                        left = a + fm.start()
+                        paren = masked.find('(', left)
+                        right = find_matching(text, paren)
+                        if right < 0 or right > b:
+                            continue
+                        args = split_args(text, paren+1, right)
+                        source = extract_string_expression(text[args[0][0]:args[0][1]].strip()) if args else None
+                        if source is None or should_exclude(source, rules):
+                            continue
+                        formats.append((left, right+1))
+                        out.append(Candidate(rel, 'nested:std::format', 0, source, left, right+1,
+                                             text.count('\n',0,left)+1,text[left:right+1],True))
+                    for left,right,source,expr in _string_literals_in_region(text,a,b):
+                        if any(x <= left < y for x,y in formats) or should_exclude(source,rules):
+                            continue
+                        out.append(Candidate(rel,'display-return',0,source,left,right,
+                                             text.count('\n',0,left)+1,expr,True))
+    return out
+
 
 def find_candidates(text: str, rel: str, rules: dict) -> list[Candidate]:
     masked=mask_cpp(text)
@@ -461,7 +624,11 @@ def find_candidates(text: str, rel: str, rules: dict) -> list[Candidate]:
                 # Preserve leading/trailing whitespace boundaries for rewrite.
                 left=a + (len(expr)-len(expr.lstrip()))
                 right=b - (len(expr)-len(expr.rstrip()))
-                results.append(Candidate(rel,name,idx,src,left,right,text.count('\n',0,left)+1,text[left:right]))
+                results.append(Candidate(rel,name,idx,src,left,right,text.count('\n',0,left)+1,text[left:right], name not in rules.get('catalog_only_calls', [])))
+    results.extend(find_scoped_initializer_candidates(text, rel, rules))
+    results.extend(find_display_return_candidates(text, rel, rules))
+    results.extend(find_toast_candidates(text, rel, rules))
+    results.extend(find_display_initializer_candidates(text, rel, rules))
     results.extend(find_container_candidates(text, rel, rules))
     results.extend(find_member_assignment_candidates(text, rel, rules))
     results.extend(find_vararg_literal_candidates(text, rel, rules))
