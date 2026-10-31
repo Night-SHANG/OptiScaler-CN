@@ -6089,6 +6089,2574 @@
       "source_hash": "46058655585683a13df014c198b5903b3f86a11c8d24aa763f2180aded61e459",
       "model": "GPT-5.6 Sol (curated stable batch 2026-09-12)",
       "note": "assistant-curated stable-only translation; preserve until human review or source changes"
+    },
+    "ui.auto.b356256367a6": {
+      "text": "启用重投影",
+      "state": "machine_translated",
+      "source_hash": "a4da8d7d83b341373d0d604841ed19ecdd6362a2ad3370b130cdfe63441b9da8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.8c888bbba498": {
+      "text": "显示静态元素",
+      "state": "machine_translated",
+      "source_hash": "f2b02450d58bb06aff50c456dfc4160e1692393a7036cfb8410623f624734f2a",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d7a9b9f8079f": {
+      "text": "用于微调深度截断\n显示 UI 和深度截断区域\n调整深度截断，使其仅标记枪械、双手等物体",
+      "state": "machine_translated",
+      "source_hash": "68a6e022893a903e1d487e2365b0559a7ad9941a2e496765fc12dd92edb14114",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.41706e24b849": {
+      "text": "拉伸边缘",
+      "state": "machine_translated",
+      "source_hash": "ddd5818c4b8fd8674ecc178f954c4ef67ee6b70e3a0fc4547b25f81ff7f874e4",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.67c0f24f18fb": {
+      "text": "抖动",
+      "state": "machine_translated",
+      "source_hash": "d83fddbfdf881d0f2825328f422d9e8c2c76cbacf6e878c91c8a8e2b1d3dc92c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.15b378e93aa0": {
+      "text": "噪声",
+      "state": "machine_translated",
+      "source_hash": "9ada8e83c1186cd632fb2ac8195abc11596b4a6cea30900c55d23a44c2724770",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.655830bfb7f1": {
+      "text": "边缘填充模式",
+      "state": "machine_translated",
+      "source_hash": "f3ef34cecbd1bed27765286b00cf67ceb060f80cd5abfb085d543ad4be922304",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.09f98e373168": {
+      "text": "深度截断",
+      "state": "machine_translated",
+      "source_hash": "1efae0d3541adaddee0feec028fc7a4ed35f73dccf4541a6bf5ab2326e1b9eb7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6f8b277addc5": {
+      "text": "选择有多少靠近摄像机的元素\n应显示在重投影图像上方。\n这可防止枪械出现异常移动。\n\n使用“显示静态元素”辅助调整\nUnreal Engine 游戏通常约为 0.10\nCyberpunk 通常约为 0.02",
+      "state": "machine_translated",
+      "source_hash": "837c2c20b4c6523e7da662007b2c4141f912b1e5e6803362c802288b61a7968b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.650bdad8f79e": {
+      "text": "摄像机旋转更新提前量：%.1fms",
+      "state": "machine_translated",
+      "source_hash": "6e34658e5275cc6baab1e0b1af615da634f2d3c3a22e65eb228c71bfb15bf1f7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.fb9419e9d7b3": {
+      "text": "未更新摄像机旋转",
+      "state": "machine_translated",
+      "source_hash": "36cd95bc231e3986f2c6c799c5e1eccb3c201b93c2ebf3203708ddded5a5c352",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.3559b5b3cf18": {
+      "text": "启用##5",
+      "state": "machine_translated",
+      "source_hash": "b55e5aa5f7578fcecdb1f8b00c8c219371e980f2443e2d22ab2dadd6fe67e2ed",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.8cb9a247d694": {
+      "text": "%s 已启用，但游戏目前尚未使用\n请进入游戏",
+      "state": "machine_translated",
+      "source_hash": "57924143d84c54316bdd1dee2715076843d5b7efaf12193908a5b3e07ac77296",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.9bee7d2804bb": {
+      "text": "（当前：%.3f）",
+      "state": "machine_translated",
+      "source_hash": "d96f96197e8aabb110fbd8e51ccd10e72ad046252c74e72e715bf05ad165229d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f000f7ae3916": {
+      "text": "（当前：已禁用）",
+      "state": "machine_translated",
+      "source_hash": "5d052425fb84d9fe455e686b6e53480f195cd506ce8ec29d48805acefde98e0c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.0b924488fd02": {
+      "text": "禁用 HUDFix 资源跟踪",
+      "state": "machine_translated",
+      "source_hash": "4172e23e451681917aeaf76f56022c5f6d9fc05364574996c4836c4d7b26d8e9",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.bdf9ce054dc4": {
+      "text": "禁用 HUDFix 资源跟踪，\n降低 CPU 开销。\n适合能良好处理 HUD 的 MLFG。\n\n修改后请保存设置并重启。",
+      "state": "machine_translated",
+      "source_hash": "b56e23b2925e36793dddd9e0ffe5951d97001aa30d517c8b139639a3151324d7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.a8cb5f990770": {
+      "text": "单个文件",
+      "state": "machine_translated",
+      "source_hash": "6a87f68f89982773b71b61759300fdd6b2392d697d118bc5377b361a0baea762",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6bcca82f3c61": {
+      "text": "覆盖垂直同步",
+      "state": "machine_translated",
+      "source_hash": "04ec197f0a0f235dbfca79a25b4c642edcb473f753525b0ca3f38845638f31d4",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.dbebc11cf8ed": {
+      "text": "强制覆盖游戏的垂直同步设置。\n\n例如关闭垂直同步后，XeFG 仍锁定在垂直同步\n帧率上限时适用（如 Nioh 3）。\n\n修改后请保存设置并重启。",
+      "state": "machine_translated",
+      "source_hash": "dbda2d3eed9fe8b8ecb2c75a0a1c79aa9ed31867a275e5592122ef7a7b8b97fc",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.47aac1714c83": {
+      "text": "%dx%d -> %dx%d (%.2fx)",
+      "state": "machine_translated",
+      "source_hash": "6977bd59c4fb6a921a9433d3788adb0102cb6b124467b8b698b4fc90654de238",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.24d3e4fdd9a8": {
+      "text": "强度",
+      "state": "machine_translated",
+      "source_hash": "63ee3a1b965a7bd2581227dff2147a504c3b0926f2120180630fdfe2fc1a5b77",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.3804033e328b": {
+      "text": "超分辨率器默认",
+      "state": "machine_translated",
+      "source_hash": "4c923fbabb531e838fc8fabafff4578226537bc2b2983e77737489dae1cfe448",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.88306943fea7": {
+      "text": "方法",
+      "state": "machine_translated",
+      "source_hash": "52a0f9b65b278850b53aad23136b5d574299e8fb92311304346d19736b7e9cce",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.4d2bc7a76976": {
+      "text": "选择要应用的锐化滤镜。\n\n超分辨率器默认：使用超分辨率器自带的锐化。\nRCAS：AMD 的 RCAS，经过修改以支持对比度和 MAS。\n深度感知：更智能的锐化，伪影更少（开销更高）。\n\n默认使用游戏提供的锐化值。\n在“锐化”下选择“覆盖”，再调整滑块即可修改。",
+      "state": "machine_translated",
+      "source_hash": "a92f211d771432c3a05e41f8c7d1d4eb4edcb2b791c8a12f7af00e49fd23c91f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.1d4d43cc6f3a": {
+      "text": "使用",
+      "state": "machine_translated",
+      "source_hash": "c36d819e7bc6d2b7da51394411c733db89c395987885ca6770167a3b9bc45c3c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.1fff6a31661b": {
+      "text": "模式匹配",
+      "state": "machine_translated",
+      "source_hash": "4288ade73ff9d32824e931c858f11acab4e0a323e6b1da9bfbe124473a13ac5a",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6506faba00a0": {
+      "text": "挂钩此 API 的输入，之后才能使用它们",
+      "state": "machine_translated",
+      "source_hash": "5919faddd543cf1bfd037fb313ca91071e74b52e732566a4e6ec1aa95a3cea55",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.5fa0a6881013": {
+      "text": "从此 API 获取超分辨率输入",
+      "state": "machine_translated",
+      "source_hash": "914a086bb65a238447db640f20c2cac3413b5bdb44c72c176b492c56dd44147f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.971e672a3f71": {
+      "text": "通过模式匹配查找输入",
+      "state": "machine_translated",
+      "source_hash": "99ad8e7359b10acdc2fb14c0f92530482e8f748bcf8f7b4e993eb25558e74933",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.98294884aebc": {
+      "text": "更改启用状态或模式匹配后，请保存设置并重启游戏以生效",
+      "state": "machine_translated",
+      "source_hash": "0cf16105b88eebd4c0f5fd5e2ae65b82bddc2a80f109ac78020a24c8fddba914",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.34892dc90695": {
+      "text": "兼容性修正",
+      "state": "machine_translated",
+      "source_hash": "12d0b77aba947d1c47867cde1ebe140847d84828da2b419a511ba23be226e604",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.7926798a5871": {
+      "text": "全部 %.2f",
+      "state": "machine_translated",
+      "source_hash": "85c28a1a6ccc50f4527039e0be3656f019279f231a8beb74690f57174293657b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.9bda272dbc2b": {
+      "text": "%s%s",
+      "state": "machine_translated",
+      "source_hash": "dbeaee05407accd04dababbd3607029981f29ae9795773dc3ff92466bf7e6648",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.558f578a3d87": {
+      "text": "%dx%d",
+      "state": "machine_translated",
+      "source_hash": "fc30954278e97cefadfdacba81c44fe9cabb3371ce1597d0de8a5b096edd4106",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.aa0593277eae": {
+      "text": "%dx%d (%.2fx)",
+      "state": "machine_translated",
+      "source_hash": "775c9b3fd22b99d60ebbd7b1ecc42d226d2dbe1d17599a5ac36da5fc531acefb",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.339567ab11a3": {
+      "text": "%.3f",
+      "state": "machine_translated",
+      "source_hash": "0e29a872795a929957702ca02a02eb31ad56eea9cc691ffb18cef6e6db71b294",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.81dcf82f9938": {
+      "text": "已覆盖屏障",
+      "state": "machine_translated",
+      "source_hash": "75416e1c4a59c0d176939859806115beedd130229a2dab68d5ca9ead7f9d28c3",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.fdf122cd1ef3": {
+      "text": "尚未选择，请在“菜单 > 自定义选项卡”中选择面板",
+      "state": "machine_translated",
+      "source_hash": "6d690e92c692aa2ae278b82439116895b2e3362fbf23d1869c21aaf17d6fc65d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f36e7d809238": {
+      "text": "当前没有可用的已选面板",
+      "state": "machine_translated",
+      "source_hash": "fa0ec3b33e827c2eb2f2739e16eb300697bd1db1c77452c9765e8ce34d88f78d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.77e4cd941826": {
+      "text": "要显示的面板",
+      "state": "machine_translated",
+      "source_hash": "bbc6898a8cabec2eb8997f435d8fdac9ba28cbad22ce040349798ba8c3909fdb",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.cd7216b44ce3": {
+      "text": "SR",
+      "state": "machine_translated",
+      "source_hash": "4418ba61334db484dbac70718aa91d59d8e47334fbcd739a260f0fb51b9a0f57",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.cc1ebdd04e76": {
+      "text": "空闲",
+      "state": "machine_translated",
+      "source_hash": "ab0171ca0494d441cb6fe96e2efbe1c2a129f1d87cd6c17f03613cfd111149dd",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.9913cdf871cb": {
+      "text": "FG",
+      "state": "machine_translated",
+      "source_hash": "2097d9edbebf7ccc834ac87b2bf4f2b871908a7f8ef80b35a8608cbb08e0ce07",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.e3de5ab0ca4c": {
+      "text": "关闭",
+      "state": "machine_translated",
+      "source_hash": "ca7981b46ecf2c1787b6d76d81d9fd7fa0ca95842e2fcc2a452869891a9334d1",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.0bb5ad9ece59": {
+      "text": "将截断区域扩大指定数量的深度像素\n仅在看到截断处理留下的轮廓时使用",
+      "state": "machine_translated",
+      "source_hash": "28f33783f6e06955ca28f7916e9237e4739b391ab19527c208c79f39223908a3",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.919a5892be29": {
+      "text": "请在游戏选项中选择 %s 作为超分辨率器，并载入存档以启用 Opti 设置。\n超分辨率器不一定能在菜单中工作。",
+      "state": "machine_translated",
+      "source_hash": "06c9e5ad62215a2c12b21eae02c6d6dff2805bc969472fc234ba099f21f4ad8d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.1b288c63d84d": {
+      "text": "延迟采样鼠标",
+      "state": "machine_translated",
+      "source_hash": "580f42b69b45f64f8c0349eaee35bd337485def852c2c25ec711557dfe24add4",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b0d5bab1138c": {
+      "text": "在 GPU 开始重投影时读取鼠标，\n而非在 CPU 提交帧时读取。\n可降低延迟，尤其是在 GPU 成为瓶颈时",
+      "state": "machine_translated",
+      "source_hash": "4f9697b8d313b9dae42ce84365f5d0f5bd7f167c0b237150a4da487bfd21cb8d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.e28dd2248b84": {
+      "text": "模糊强度",
+      "state": "machine_translated",
+      "source_hash": "d963ad2adcbfe409323e0e298beb059cd5431b72d8b38609112f3b4def749604",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b88c2542d844": {
+      "text": "自定义此选项卡",
+      "state": "machine_translated",
+      "source_hash": "fd7a51206fb48440412b43e13f616c0332d1d50166c0f59b54c8dd68c0ffb84f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.c5ab64d1dee4": {
+      "text": "范围：%.2f ms - %.2f ms",
+      "state": "machine_translated",
+      "source_hash": "9838a6dd84fdd9d35a3147d9cf185c0fab8074c855f11514e769969f40e4e17a",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.5d4f86629135": {
+      "text": "帧时间：%.2fms / %.1ffps（平均：%.1ffps）",
+      "state": "machine_translated",
+      "source_hash": "22bf11797c5a1484b04bcc3ffc03d9db04dffa2549e26a8ef7aa40cf45c2b2ca",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f59051ff105d": {
+      "text": "超分辨率器 GPU 时间：%.2fms（平均：%.2fms）",
+      "state": "machine_translated",
+      "source_hash": "44e795db700dd4ab99111e99e3ae1db8f6ccdc120ff414ccc5482cdbb1c38774",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.763f65738a5a": {
+      "text": "帧生成模式\n默认跟随游戏的 DLSS FG 设置",
+      "state": "machine_translated",
+      "source_hash": "f18dd7a6e361f8524ba969b8c54e6755c6919e7e21105b84f58fc311917a521b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.24da7bc6ada8": {
+      "text": "帧生成模式",
+      "state": "machine_translated",
+      "source_hash": "edaf649aa49390175b7b1ccb3ad8e2ad43d0301f7b80ffc4b07acc3311a7f0b4",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6af40ae2fe5f": {
+      "text": "FFX FG 版本",
+      "state": "machine_translated",
+      "source_hash": "1ff542e9c0769f0a0833dcb051d06320a5d0ef1b2efc1c4af83c794a9206775d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b0ab9dc01f7f": {
+      "text": "%s%s | %s | 输入：%s",
+      "state": "machine_translated",
+      "source_hash": "16b1291e3828912de7b342721e76e48c7e80f2d83aaf5dca1fe09f9ca9445d0a",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.61ae81e67bcb": {
+      "text": "%s (%.2f)",
+      "state": "machine_translated",
+      "source_hash": "df2d705420554fcb068404668fc1b83c3121e4fdbac99ffc8bc8b93176deda28",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.a0c076965fe8": {
+      "text": " %ux",
+      "state": "machine_translated",
+      "source_hash": "3671341499b9e1461534d4f0c598583e9b78a2fc004f84dcbde5824a0cf8a52d",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.10064ee6dc19": {
+      "text": "%s %ux",
+      "state": "machine_translated",
+      "source_hash": "4133dbc700c0710524401fe0c855c16d455e6e7d033c3e4d13b1aefb4ca80aee",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.ac6aaf62c596": {
+      "text": "伪装",
+      "state": "machine_translated",
+      "source_hash": "1f2c2a78aea4cb3fe62495d433633ae42c0e0ab726321a82e77e6c802bc52a69",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f9aca9fb84ce": {
+      "text": "OP",
+      "state": "machine_translated",
+      "source_hash": "9a526bb7420e1c78eab1106a3238449735c3510cbf1d60bd1de8a3ee5358dd06",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.c3f7e9501822": {
+      "text": "FSR Anti-Lag 2.0",
+      "state": "machine_translated",
+      "source_hash": "c5128f27f4c397e414b1624488521c43cec62e9fe25124a9db824067d25bd106",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.dedd2c92c055": {
+      "text": "OptiScaler",
+      "state": "machine_translated",
+      "source_hash": "f1a59411e0090ae0608b2e78d73533a7f6ba41442589345f46631822f2dbae02",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.8fa9218ab684": {
+      "text": "游戏发送的最佳输入：Reflex、游戏中启用的 XeLL、AntiLag 2、UE、XeLL。\n当游戏的 FSR-FG 通过 AntiLag 2 报告帧时，优先使用 AntiLag 2。\n若均不可用，则使用 OptiScaler 自身的输入及 DLSSG 输出。",
+      "state": "machine_translated",
+      "source_hash": "586479b21fad99ce28e935d7b7dcff3150eca26b175d33712933bd1603808b98",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6522c72186b2": {
+      "text": "由 XeFG 设置：游戏自带的帧生成保留其 XeLL",
+      "state": "machine_translated",
+      "source_hash": "631302c447c4a2772f8ddcd215bcd903fbb7bc6bb1aa863bfa4ddedf8de72f16",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.72b69e87efd6": {
+      "text": "不兼容：%s",
+      "state": "machine_translated",
+      "source_hash": "c94ee35494e27432a0dd4e9e3976685d48185a9f988798aa0068c14db7360f9d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.94f65d59fc0c": {
+      "text": "帧率限制器",
+      "state": "machine_translated",
+      "source_hash": "f89e13532a1376690ede4cc5549d5e11fb03724555e54aa323a64d6a3f9fd3d8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.10997f413426": {
+      "text": "仅限制帧率",
+      "state": "machine_translated",
+      "source_hash": "0e7a74d5a6d3553063ec8c639ab3ed5f53ec386cd33ed8a024b0f6988c233fa7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.4db988729e05": {
+      "text": "由 XeFG 设置：游戏自带的帧生成保留其 XeLL（仅帧率限制由 OptiScaler 提供）",
+      "state": "machine_translated",
+      "source_hash": "0ff0fef742b954f3e634310a4905773f0480c63bc3c9c233b8eb54b8cd447c0b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.3672f57d858f": {
+      "text": "请保存设置并重启游戏：XeFG 会保留启动时使用的低延迟输出",
+      "state": "machine_translated",
+      "source_hash": "6849a62229c7b4f28f85f8a64aa59e226dedba281f2c5e687c6e90af711fe348",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.509ea3189ef0": {
+      "text": "%s %dx",
+      "state": "machine_translated",
+      "source_hash": "9d05e389f10fbc435f11ca2cf91982bd977e667fc866fee6af1393cab9321325",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.732675d25b68": {
+      "text": "我都不知道自己在这里干什么",
+      "state": "machine_translated",
+      "source_hash": "0af45cae3caf41ddafea803c3626e61aa3d62c3c2b6233b09c23ebf212ac2e1f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.bc41d5a2ec8d": {
+      "text": "别再调设置了，快去玩吧",
+      "state": "machine_translated",
+      "source_hash": "60e2ef11893d692edf96ccd302068bbc0a3ade8d6278079c83d986e05db5852f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.a6b7d50ddaa1": {
+      "text": "好家伙，又是一台土豆电脑",
+      "state": "machine_translated",
+      "source_hash": "8652aad921a94bea42a60e623956f411e3ec2c69833efdb7587c209cdb9892d7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.42d6cc408a12": {
+      "text": "XeFG 是王，那谁是后？",
+      "state": "machine_translated",
+      "source_hash": "86f86a901dc5f8c436f91f4b4fca4e8e1aaaaa73d1cd0dfbdc99a56efbc5ba8b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.8ef54101bfb6": {
+      "text": "原生分辨率？你一定是在开玩笑",
+      "state": "machine_translated",
+      "source_hash": "de80a743eff8de7c38e477b21e90b8e907866c5c2598140801918360dd51e849",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.5ea1efcfa498": {
+      "text": "享受你的生成帧吧",
+      "state": "machine_translated",
+      "source_hash": "1165a7aed3213dead7118897dac32dc8dfeb53715b206dd2c20f0504863cc8d8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.07d14ce8f320": {
+      "text": "别看这条",
+      "state": "machine_translated",
+      "source_hash": "be421241f42e19c8b5f8ca17763fb312080ab497aa0011080adfb681b51b9cde",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f9b07c290207": {
+      "text": "你知道我能看见你的 GPU 吗？",
+      "state": "machine_translated",
+      "source_hash": "cd00249d0d7d94d01adef3629a25212a0d6b5bc5da3725e39c9ca85dffbb9fc8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.523c585ff061": {
+      "text": "这回帧生成可得加班了",
+      "state": "machine_translated",
+      "source_hash": "d66e6965fe69faac1cabdc0c03e144a533ba1888ef13fcddf41e3cf95bbeaaf4",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.94dd9e08c129": {
+      "text": "你好",
+      "state": "machine_translated",
+      "source_hash": "3639efcd08abb273b1619e82e78c29a7df02c1051b1820e99fc395dcaa3326b8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f6223772272a": {
+      "text": "很高兴见到你",
+      "state": "machine_translated",
+      "source_hash": "b53e4ca217e5c6daec649203fec300355cbb149f689532c216751bda211c9ae8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.8efe1e34bcf3": {
+      "text": "最近怎么样？",
+      "state": "machine_translated",
+      "source_hash": "ec3db42c7f1e7ed8b05e55506e18a5cd06216b097b029da89105e3983ddd2689",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.2a4f49a8f8dd": {
+      "text": "游戏要是崩了，可不是我们的错",
+      "state": "machine_translated",
+      "source_hash": "900fe934cb9ca4c14125ced3f758cdd4f990910b4acc01c7790f6a3781991256",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6e50469e8eba": {
+      "text": "ASI",
+      "state": "machine_translated",
+      "source_hash": "fc676c4f82a534e903723dc8f10b4e5e3a35ef76928f4a5535e8be52de0f9aa4",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.d0d9d3df6272": {
+      "text": "接受任意格式的无 HUD 候选资源",
+      "state": "machine_translated",
+      "source_hash": "26f979a6297398591a0e661248612b356d648caa91ef16ed9b001fd1d0eb6604",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.7760b3dd8f95": {
+      "text": "UI 纹理",
+      "state": "machine_translated",
+      "source_hash": "82b314026a1778e7b8292016c209b64c02c3dd47d1b5e8e2344b2edee4722f24",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.2a7323dc12de": {
+      "text": "使用游戏在最后一次计算通道中混合到画面上的 UI 纹理",
+      "state": "machine_translated",
+      "source_hash": "8b3cdb8c1a31406cb0af2ef5d3629b1251eacedb3b328fb6d70c6d389aeb1c00",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.69e55aa462ae": {
+      "text": "移除 UI 混合",
+      "state": "machine_translated",
+      "source_hash": "91cecd39833d79e338c0cd3fe8e68b9df06231a75020ab7bf9f68706ecc1d342",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.70b4aa1752ad": {
+      "text": "从帧中去除 UI 纹理，重建无 HUD 画面\nFSR-FG 只能通过此方式获取 UI，DLSSG 也可直接接收 UI 纹理",
+      "state": "machine_translated",
+      "source_hash": "b67d35f740877ccf2595cd51ad9b909f616975db02d1bbb8862b152cb2cf5c17",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.a62203943568": {
+      "text": "%s %u.%u.%u",
+      "state": "machine_translated",
+      "source_hash": "1366b872f2c416283b353faf80438490431d604ff12e756851f9199b55bc5912",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.dcf8c811cd7f": {
+      "text": "已暂停，检测到第三人称",
+      "state": "machine_translated",
+      "source_hash": "ac0a1a9da03300dcaeb313298cb3d570c12b10ca78aecf5ec2b00b16a3f8eb80",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.38aaa7c4bcde": {
+      "text": "柔化边缘",
+      "state": "machine_translated",
+      "source_hash": "1ed6ba2a4d1f2c11f37814b4553d507cf415d5bf4853b366ac6f1cf52869583c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d2e88823b44f": {
+      "text": "柔化边缘和拉伸使用边缘像素填充屏幕边缘，\n柔化边缘会在向外延伸时增加模糊。\n抖动和噪声使用未经重投影的图像填充，\n再在边缘进行混合以减轻视觉突兀",
+      "state": "machine_translated",
+      "source_hash": "f311704be05847151ed480658238f8dfc4fccad945b4bfac7d94b5a7119be95e",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.db6ab358c74e": {
+      "text": "方向缓存",
+      "state": "machine_translated",
+      "source_hash": "407757c2da9558118a28a8b699eab12ae7bd9589a9bf6c9a49fcba07216d358d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.42f0911be9c8": {
+      "text": "记住前几帧摄像机周围的画面，\n并用它填充屏幕边缘和双手下方的区域。\n仅在缓存无内容的区域使用边缘填充模式。\n调试模式中以蓝色显示",
+      "state": "machine_translated",
+      "source_hash": "6d3b1bb6fd8cd155348e948ca7b27cf109b789c151b68f80cfa4d82f0214b5a6",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.7e964178426c": {
+      "text": "自动##parallax",
+      "state": "machine_translated",
+      "source_hash": "df276a4b5bd06a5c39684f8b08c475ea10877739708e47ec7c5369eb4d884fd7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.a32145da88fa": {
+      "text": "根据游戏的运动矢量估算视差比例\n需要走动一段距离；此前缓存仅跟随旋转",
+      "state": "machine_translated",
+      "source_hash": "c1741020faf5b376d7a59c9bfb3f1c94d8c564b9d216acc28b82caa22c77c432",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.751d7ce2959a": {
+      "text": "缓存视差比例",
+      "state": "machine_translated",
+      "source_hash": "530b837bced3b74eba35b39d0c8668209e1963d7e95f19cbf32cdd1a45f8c13b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.e77144aa7f96": {
+      "text": "将深度距离转换为摄像机位置使用的单位，\n使缓存能在走动时跟随摄像机。\n0 = 仅跟随旋转\n错误的值会使缓存填充在走动时晃动\n第三人称检测也会使用此值\nUnreal Engine 通常约为 1000",
+      "state": "machine_translated",
+      "source_hash": "e8e2e0e53ee971cd649076f5f395cdb60c9755c802adee8580a00b4771b3927b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.68614e8d542b": {
+      "text": "第三人称时暂停",
+      "state": "machine_translated",
+      "source_hash": "91767f1d3c6ce879094dc3f2b788bddf39b237e491736342d9e2e15a9ed194c9",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.47fb9d6c7ae9": {
+      "text": "重投影会使角色随摄像机摆动，\n因此当屏幕中央的物体跟随摄像机时会暂停重投影。\n使用游戏运动矢量和缓存视差比例进行检测。\n载具驾驶舱也可能被视为第三人称。\n禁用此项可始终保持重投影启用",
+      "state": "machine_translated",
+      "source_hash": "a8f4b4cd7933ac17881a30a05c79228e4d034dd9d9ec4888300d659e6d95be1e",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.32eba959ed1c": {
+      "text": "（无可用运动矢量）",
+      "state": "machine_translated",
+      "source_hash": "75943bb10f00b39f68ee7a58f0cad81bb2d477fc0812926b138bf2bea6546e77",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.357a5610b3cf": {
+      "text": "（需要视差比例）",
+      "state": "machine_translated",
+      "source_hash": "931bba3e1b8333324bf186ed1b8f65f30d06ca72a01b5e5690dd8edcf0566cf6",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.799ddbd16915": {
+      "text": "检测到第三人称（%.2f，环绕 %.2f）",
+      "state": "machine_translated",
+      "source_hash": "e1d0883bb079c0d1ab0be088e3794dceac1ed6f4ae0f71de964f0dff5a20fe8a",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.22e3838c920d": {
+      "text": "第一人称（%.2f，环绕 %.2f）",
+      "state": "machine_translated",
+      "source_hash": "450bc9ddcb4f654e0ba47c8fbd11167f918fadd410284bac5558c195d3554278",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.683116b1a49c": {
+      "text": "FSR4 模型",
+      "state": "machine_translated",
+      "source_hash": "f9bd5fd52d04ae7037ac995440a13a0b01b87efea75a86eea410f704d89f9471",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d5f6ea63c574": {
+      "text": "要运行的 FSR 4 网络。\n自动模式让 FFX 选择 GPU 支持的最佳网络。",
+      "state": "machine_translated",
+      "source_hash": "7db3e933809a82503805e78cc89139bbf1d082745ce8c24c13b14c53bd1ef226",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d67d2d5e6cdf": {
+      "text": "（启用：%s）",
+      "state": "machine_translated",
+      "source_hash": "db7a860f6649603ea3c2a1ddfde66fe413194360c0c3c3848271516fb697cb4b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.bae71199ba5e": {
+      "text": "当前 XeFG 状态：",
+      "state": "machine_translated",
+      "source_hash": "a08ec5de39bd9640ae0d8587e3ed653f2bef6f801e46e634aaedce1666f43f47",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6411da306665": {
+      "text": "（动态）",
+      "state": "machine_translated",
+      "source_hash": "17c866a1db417ae4c18cd5802eeb2ae8156caff1ffe341f8dcb6e2e11fc25767",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b2a5670f4958": {
+      "text": "动态 MFG##xefg",
+      "state": "machine_translated",
+      "source_hash": "742fc9b286f968b43e27fff5a0b328b113e717ac31f6df73173a62d43f0177c5",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.db871f4b47b5": {
+      "text": "动态调整倍率以达到目标帧率，\n不超过帧生成设置（2X 时为启用或关闭帧生成）。",
+      "state": "machine_translated",
+      "source_hash": "ce597fa089120fe41c781adda252c3b3d10c6d07e8b7d9da2b0292f4cf795ad5",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.daa6570f5f41": {
+      "text": "目标帧率##xefg",
+      "state": "machine_translated",
+      "source_hash": "5ac25d3d897097300b836372c26f2bc9beba6a595465604e967bdcfc45a5efd7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.af72a74e7613": {
+      "text": "希望达到的显示帧率，不超过帧率上限。\n自动：采用帧率上限，或略低于刷新率。",
+      "state": "machine_translated",
+      "source_hash": "5c97348074445b1153002053920db015d993e1f8d45e4f53d6078b8c6cdac44f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d6ee2aa4d012": {
+      "text": "用作帧率上限##xefg",
+      "state": "machine_translated",
+      "source_hash": "6535bef007518da6f67ceb7fcea93ce44f964dec5ff9bd0c77e64a98c92c5cdd",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.9d0247a27c57": {
+      "text": "同时将帧率限制为目标值，\n并使用能达到目标的最低倍率。",
+      "state": "machine_translated",
+      "source_hash": "e29904d26cb13196dea3083467d72ab42e752697eb73cebdba51d0e12ae0142a",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.786ceffec393": {
+      "text": "不高于目标",
+      "state": "machine_translated",
+      "source_hash": "433c37f51d58c5db5945aa54e78ba7a22fed6da6af83611af1e1d355088fbcd9",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.14650dccc231": {
+      "text": "接近目标",
+      "state": "machine_translated",
+      "source_hash": "c4829698c47389a4ec471a7ea83ae664d07be8046c0ce9bda988a803c09e6b0f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6605f0fc0d78": {
+      "text": "不低于目标",
+      "state": "machine_translated",
+      "source_hash": "81bec90dc6389371197ad19fe06eb2234c5ab2ebdbb8aab1777aae8290b066c7",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.ba56e3c8b7bd": {
+      "text": "倍率只能按档位变化，因此帧率可能落在：\n不高于、接近或不低于目标帧率。",
+      "state": "machine_translated",
+      "source_hash": "20c8fc04defa727e4fda2360424dbb1d91f23979e504096443c03323c2738eaa",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.82cf8d555900": {
+      "text": "允许 1X##xefg",
+      "state": "machine_translated",
+      "source_hash": "3fc59a24dd17ad62ac52775fac577a271aa3c324d9c17f309ccf0eb15f4f214c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.7200f0338304": {
+      "text": "当游戏自身帧率已足够接近目标时，\n关闭帧生成。",
+      "state": "machine_translated",
+      "source_hash": "2eebe85b72c9d865612b93175cd4e7263f9f7f8b41520e785b9d925e0a4259f1",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.c2c70054210f": {
+      "text": "(DRS)",
+      "state": "machine_translated",
+      "source_hash": "c8b636f30947602ac122525f4c8079c6771b8f972d12a7dcef73e2958aa164d4",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.5373b1a29039": {
+      "text": "动态分辨率（DRS）",
+      "state": "machine_translated",
+      "source_hash": "65115ab8105de4fc9c3f871f31c6922224970e9aa51a25766b96a1a83993019f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.3d7002960675": {
+      "text": "游戏使用动态分辨率时启用\n防止 FSR 4 在渲染尺寸变化时切换模型",
+      "state": "machine_translated",
+      "source_hash": "36064aa401ca4511997d803192f15cd63b42a5caa95e7401b268cdd867e14fd0",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d4ae270ac49c": {
+      "text": "禁用硬件翻转节拍控制",
+      "state": "machine_translated",
+      "source_hash": "0b961a50a8c5273bb03a189db3fa143dbe7efa3a339d3e15197328f96d57f920",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.92e4628d28ff": {
+      "text": "覆盖 FSR 请求的 AMD 硬件翻转节拍控制",
+      "state": "machine_translated",
+      "source_hash": "1c1193543ff9705afb4fc5337c145153aa09037a0b595cb9d290473dac75937d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.2fd42203c942": {
+      "text": "（模式 %u）",
+      "state": "machine_translated",
+      "source_hash": "0c6f2040ba9b13b134fb8e780224895a88a3837df1bf590e927ddb7a35063a0d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f5c11a5b1e56": {
+      "text": "（关闭）",
+      "state": "machine_translated",
+      "source_hash": "559ecddd2696c27547ab813d48c3612168e4e6d829143fb570a6f0b64fd9ff85",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.2c5ebe2d444f": {
+      "text": "驱动中应用的翻转节拍控制模式\nFSR 仅在独占或无边框全屏时请求此功能",
+      "state": "machine_translated",
+      "source_hash": "d173d16f16125572118a1d18fea7943976c09ce018282a72cfb13dfa246690d8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d3073e6bd240": {
+      "text": "超分辨率比例",
+      "state": "machine_translated",
+      "source_hash": "d3d7393049512d9ffcb6a0a4b203ebd18e33a6995117fa36ad950bac11dcb939",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.484e71ed0220": {
+      "text": "重置自定义选项卡",
+      "state": "machine_translated",
+      "source_hash": "13b381f7c7f7d064850493d008946162fa41c88f7755c6246862cef919da60a5",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.5f5f1ef2bcf6": {
+      "text": "兼容性列表、已知问题及帧生成选项说明",
+      "state": "machine_translated",
+      "source_hash": "62e9fb8af2caf93015c84adedcca6c1b75f8a71a269449df89d43b045545c9ed",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.9c2e7cd677e3": {
+      "text": "%s - %s###OptiScalerMenu",
+      "state": "machine_translated",
+      "source_hash": "03a71360569942d518f2ae707ca4a3029d4248bb92e0ae376f57cbceb86fde11",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.fce204ae554c": {
+      "text": "FPS",
+      "state": "machine_translated",
+      "source_hash": "85869174459f3b9c451a9ae6cc9c32fbde46d2e83dd4ca3e2234f6558eb4f7dc",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.8d157cb60ddf": {
+      "text": "帧时间",
+      "state": "machine_translated",
+      "source_hash": "a515ca1bdfe466283c9700ac7bfdae05961801e7518eb7f696ab421428c16f74",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.e20d91ce105d": {
+      "text": "帧时间曲线",
+      "state": "machine_translated",
+      "source_hash": "041cbd13b696aab0b99a0be5b2dff8c4e7dd9ca5d13886690eb491d31a1d42b2",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.77e758cfb0ca": {
+      "text": "超分辨率器耗时",
+      "state": "machine_translated",
+      "source_hash": "358cbaddaaec402e0174f838d43aefc56b601261084750bb75aac7ef3c987843",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b0c27dcd909c": {
+      "text": "超分辨率器耗时曲线",
+      "state": "machine_translated",
+      "source_hash": "765c33ffc99e23fb43bdb5b5cd4ff6bcf8e54b7be3d57c6553e092bb05b8a8b8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.a5ed0068ce22": {
+      "text": "低延迟时序",
+      "state": "machine_translated",
+      "source_hash": "26b340f205fc45539037226085cea17a8415846a9a8314ebc0ce4d5533f80452",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.c55a196c267c": {
+      "text": "帧率、帧生成和超分辨率器；下方“帧率行”设置显示内容",
+      "state": "machine_translated",
+      "source_hash": "15fc23f94421cfc361c5b9c2d3d1b03503d37b7283b7977e3227472630d1a42c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.85c126f7eb17": {
+      "text": "渲染 -> 输出分辨率及超分辨率比例，仅在使用超分辨率时显示",
+      "state": "machine_translated",
+      "source_hash": "e98bb6406ba499752489e3934e86f417fc5bde7f6b979215ee9f1db2b337d4df",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6496624bcedc": {
+      "text": "上一帧时间与平均值",
+      "state": "machine_translated",
+      "source_hash": "0a7d3b42d14dda8c72b74e4e4002b9ac8ad84d4dd24cfec16ad1045fb6c7e7e4",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.80bd93f89291": {
+      "text": "最近各帧的帧时间",
+      "state": "machine_translated",
+      "source_hash": "898209dcb80d62ccaa3a67e4d47d489f92afd65e17d38eaf36eccf38a022b401",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.826aba1cd8c3": {
+      "text": "超分辨率器上次耗时与平均值",
+      "state": "machine_translated",
+      "source_hash": "7c409af4ff4f8a13ccab25db937fb6606deb73cacecf86da81acff68e6f7d4eb",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.eef12c7e4d42": {
+      "text": "超分辨率器最近各帧的耗时",
+      "state": "machine_translated",
+      "source_hash": "891d596281cf44247d61addc0ab4ceb412c2559a9a0edb3888c520166bf7e9f5",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.486a879e936d": {
+      "text": "来自低延迟标记的帧时序，有标记时显示",
+      "state": "machine_translated",
+      "source_hash": "c347378085af44cb4ec2a54593b9eb448a9b3ad782183dd0d6ec892087d6aa7c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.a0e94d11dc81": {
+      "text": "%s -> %s%s",
+      "state": "machine_translated",
+      "source_hash": "30510fc33085bd993a776cac322158d4f9d52d35f9a7a5d534e8a38ec40e810f",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.7432547a8a74": {
+      "text": "%.1f/%.1f",
+      "state": "machine_translated",
+      "source_hash": "2a142504a1364c4bdbc7e0e1fa7cd4db5c187a294ff9aa74b9b51659036cf1d0",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.16b5d7df20f6": {
+      "text": "%.1f",
+      "state": "machine_translated",
+      "source_hash": "92b69c9ce0b71ab61cfde91a99f232f39ed03c3201d75a1fc35b32eab2c53945",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.fd0816e5b5c5": {
+      "text": "%.2f ms",
+      "state": "machine_translated",
+      "source_hash": "9a6f47397546f5b6ed84296ad0fec41551b726c2435805b3ce23e665b8415059",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.bd48993b9399": {
+      "text": "%ux%u -> %ux%u (%.2fx)",
+      "state": "machine_translated",
+      "source_hash": "25bfb24af391fa46e6d6e24a32b61831987d78b6ceb65dc01c26cf3735030eda",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.aa0f57320c02": {
+      "text": "圆角",
+      "state": "machine_translated",
+      "source_hash": "e2d5366a82eec420af81d025fc33af1fe59fe651d89d353653fca9b201e059e8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.fc1405ade7ee": {
+      "text": "顶部居中",
+      "state": "machine_translated",
+      "source_hash": "271eac3418deb2925f32746a7f9360ab022935d8664ee79f4e5d109a3d114693",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.5f2793944623": {
+      "text": "底部居中",
+      "state": "machine_translated",
+      "source_hash": "6818850e41371fb3ebd38f1ca5e8d74b003aeeb43d3f684c1b9bc079bf964ef4",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.081ae3fdc403": {
+      "text": "自定义",
+      "state": "machine_translated",
+      "source_hash": "494ca78f7374e46fb2de9ad9f2dbd4aaae89b50b2ca044177a1566a59e06627e",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.e1c25102a7d3": {
+      "text": "水平位置",
+      "state": "machine_translated",
+      "source_hash": "2264b7d16037546c643e0c42759355991a1dfed25d13c521fa691335c776ef97",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.bcceda3c4e6f": {
+      "text": "垂直位置",
+      "state": "machine_translated",
+      "source_hash": "c4b1bb1aa5fd8cfd86f9ebdf3350033b7e0f00fca752e2b93e0b79d021e3e149",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.4c781596fe08": {
+      "text": "低延迟时序",
+      "state": "machine_translated",
+      "source_hash": "f1fdd38ab90b1e3dd1fde5ffd0e900e0e80561accde5dc44e070a62e3ce007da",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.7f53f82f9aa2": {
+      "text": "行预设；“自定义”显示在“行”中选择的项目。\n使用悬浮层循环切换键在各预设间切换。",
+      "state": "machine_translated",
+      "source_hash": "ef54006132c3b4b12561ae45955aa44b4d36126ccd81a2437f1e8b323847e4dd",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.1168a9de4cb6": {
+      "text": "与菜单相同（%.1f）",
+      "state": "machine_translated",
+      "source_hash": "d78228fbb52e9f7270b049896e107de473280301138c2520d9111ddd40245581",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.5749cfcb3867": {
+      "text": "帧率悬浮层的尺寸；除非设为“与菜单相同”，否则独立于菜单缩放",
+      "state": "machine_translated",
+      "source_hash": "a3377ac7444bac7ff04f811f0db3574bb38fa465d76841d5bad94d044bc0f2de",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.52d0b35277ee": {
+      "text": "行",
+      "state": "machine_translated",
+      "source_hash": "101f2ff3de22441fcab3e15ca0b09ac3428642cf628558f16fa404fc3137baea",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.86c00d91cbcd": {
+      "text": "%s 的显示行；将悬浮层类型设为“自定义”后可修改。",
+      "state": "machine_translated",
+      "source_hash": "a2fa5025ad60e67063b98446846f11bbebbb24766a2242d80ad39ae8c85c2376",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.1d75774c0f96": {
+      "text": "顺序",
+      "state": "machine_translated",
+      "source_hash": "6be090825c9971035aee21d9ac0fc9c32f279b921e956026460e4cc1eb611dd6",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.9bf7a8e8909b": {
+      "text": "行",
+      "state": "machine_translated",
+      "source_hash": "95110d74c4c009126c967cac38ab0454d73e337c4fdafc280c04f67e66e5fe95",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.a23e297a1d31": {
+      "text": "包含帧时间",
+      "state": "machine_translated",
+      "source_hash": "25247d9ae063300b92e9be7529313cce2b5a2daa89cc7d015217efd0112b23b8",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6f65fca19a2f": {
+      "text": "包含平均帧率",
+      "state": "machine_translated",
+      "source_hash": "1b6a130927880be38bde57f5d634150920a75631d175ccf8fe7060f6a5b278b0",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.63add2e5d3dc": {
+      "text": "帧率行",
+      "state": "machine_translated",
+      "source_hash": "dc1b9e6202f536a9bf4857cc5497aa1191b9aaa185f1e014383534e8733f7d2d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.5c8df007a773": {
+      "text": "仅显示数字，或同时显示 API、帧时间或平均帧率、帧生成和超分辨率器",
+      "state": "machine_translated",
+      "source_hash": "6ed3bffd24b0cd06ee097cb89fc7bf6bd1ce48fd68d7c9ad73f9144c0a7532cb",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.0facd5d2f3a2": {
+      "text": "行间距",
+      "state": "machine_translated",
+      "source_hash": "e11e1df2fca7ad29322a926125768aa7ecbd26ef3acbb36fa686fcdbbfad961d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b3e811fe7ef9": {
+      "text": "将自定义行恢复为“完整 + 曲线”的内容",
+      "state": "machine_translated",
+      "source_hash": "d654ff60297e638df9b7d811df570f754e872e800bb8b8504ecb46f7e5c2753d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.41def7a0febe": {
+      "text": "外观",
+      "state": "machine_translated",
+      "source_hash": "3907fa7f80722a6fc58cd8c1bd30abf7638095d6774f183b6e831b7093957d1b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.2d0764c9780d": {
+      "text": "曲线高度",
+      "state": "machine_translated",
+      "source_hash": "d25ab7fedfb89ba7fcf89b468036b91a23ce564fdc8edac0d6f05da46097b1a5",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b97c4d4cddf2": {
+      "text": "字体",
+      "state": "machine_translated",
+      "source_hash": "64d0b3adcd2dbe33500fe9b96d2bc048601b19f4dc9db0d30f8648e156b583ad",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.725a65b6a9a8": {
+      "text": "菜单字体",
+      "state": "machine_translated",
+      "source_hash": "6ec28e2bcd8c93e1b11fc7aa1908c4d03785238907ee3fa2ca31f20c87511009",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.e3c93283fe51": {
+      "text": "选择 Windows 系统字体，或在下方输入自定义 .ttf/.otf 文件",
+      "state": "machine_translated",
+      "source_hash": "c6826efff493406a75b55f194fdb75f3a1cf1e88923778326f77613d25be6ddf",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b47dddaaf7bb": {
+      "text": "自定义字体文件",
+      "state": "machine_translated",
+      "source_hash": "ed6e90de8d65ffd298d9cfd46d5c9b670a069a85dae3d4906b51ce0027fd1672",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f092f82a86e3": {
+      "text": "C:\\Windows\\Fonts 中的文件或完整路径，按 Enter 应用",
+      "state": "machine_translated",
+      "source_hash": "63c6c3888d4d9bda0c971652f98c7b49fe797b0b6aeffee0be5e98076723e74b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b456f452a115": {
+      "text": "字号",
+      "state": "machine_translated",
+      "source_hash": "4dd6ff92e0d9d761b43f497e2b9b1fc3b6251a9f631186cacac737e5d8182c4d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.0e352c79c264": {
+      "text": "悬浮层缩放前的字号，最左端为菜单字号",
+      "state": "machine_translated",
+      "source_hash": "acfb0f684622ab5d948bb45378ee37df7276ff8ca86e7b1f72ad05c4d1bd724c",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.65346ea759aa": {
+      "text": "字间距",
+      "state": "machine_translated",
+      "source_hash": "a953ac913a2fad455fe33839bcb3de4b9fa487e69e274e1110ed54c174d6b16f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d893f3a7f118": {
+      "text": "字符间额外的水平间距（像素）",
+      "state": "machine_translated",
+      "source_hash": "6119b4c765b9e57a32ef35920167fd3a77b8e8331eafe96756e873dd6a31cac0",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.ce1bdf99ee76": {
+      "text": "FPS:、Avg: 等标签",
+      "state": "machine_translated",
+      "source_hash": "e163a0d7b0885d63042ad55c76d6a11de549e307d940fa734bff065fb1e4ed0e",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.7b3cbf6411df": {
+      "text": "数值",
+      "state": "machine_translated",
+      "source_hash": "2d915f82c872f278031f3e69949217dd9f8b712fec679dbc2044ec9ae0386914",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d89a1275d85c": {
+      "text": "更新间隔",
+      "state": "machine_translated",
+      "source_hash": "f974fa414bad99c0184a6c9ad65193163c21fb36795b7584498c77f0e1cbbc07",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.f9691ee95de6": {
+      "text": "帧率和耗时的更新频率，间隔内取平均值。间隔越大越容易阅读。",
+      "state": "machine_translated",
+      "source_hash": "cc55095b31c1fb5fcad12743b9b3b93afe7f97f8263321da6542a9f949e179bf",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.aa0e7e86b7aa": {
+      "text": "阴影",
+      "state": "machine_translated",
+      "source_hash": "4c764cb6248ef9337fc1c8769d4b74fc1d4c1fff6a9e8d00ca6753a560b3e74b",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.cdd6290b6b28": {
+      "text": "描边",
+      "state": "machine_translated",
+      "source_hash": "eabbf3abaf8d98abb9763d83f29b04716524a9d697dfdd06ae3ed77bdd12c929",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.9fdf707e8126": {
+      "text": "文字阴影",
+      "state": "machine_translated",
+      "source_hash": "da2f47f1b01200dcaa31c215b07911c600f8e2bb300f1e4a600787ee838695a2",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.3c1d32f8f059": {
+      "text": "阴影强度",
+      "state": "machine_translated",
+      "source_hash": "43a48a7256b6cf8a768462bed430735626f7ce55be36d05ccce373d37eb43424",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d2852ddf2a1d": {
+      "text": "阴影的粗细和深浅，以及描边的粗细",
+      "state": "machine_translated",
+      "source_hash": "3515dc32c0334ec42432cd6d68f51ca10ee4243623deb80a5df7ace3d1568b17",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.914310478dc2": {
+      "text": "使用主题",
+      "state": "machine_translated",
+      "source_hash": "266d48971ecb37d3b4439a71826b5be1255742db20ad108bc3dee8b1f8f156cb",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d3e67855db99": {
+      "text": "使用菜单主题中的标签、数值、曲线和背景颜色",
+      "state": "machine_translated",
+      "source_hash": "1f59e1708a5b837244894197bc0593687a444da651a6680c56faf84beeed53ba",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6a59e45ba812": {
+      "text": "重置外观",
+      "state": "machine_translated",
+      "source_hash": "adc210523ff13d3e2c74d5f3403bd6deb1e7cc1d06d2244806a7266a73c8bda9",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.2ff4a58fa359": {
+      "text": "分享设置",
+      "state": "machine_translated",
+      "source_hash": "de140f97d703396ca8fec9c1f6a4bcd583c7b70736a1922df07e0c4778fc6297",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.1589b60a3b62": {
+      "text": "复制代码",
+      "state": "machine_translated",
+      "source_hash": "7638ccb4b85b63a66d053c0282f959a31de4a90878b84fe18346bcb20b3fa772",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.52e20276ea6e": {
+      "text": "将悬浮层设置复制为代码，以便保存或分享",
+      "state": "machine_translated",
+      "source_hash": "b2a0538715d639683a01d3ff7e0e6e9f45d9b3499f0d354555836d761ed49776",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.2cee3d4e8fb4": {
+      "text": "粘贴代码",
+      "state": "machine_translated",
+      "source_hash": "09cd29bcd0e2fdd9d6b578348b4260eb6dc3c4b1cde96f5b9292199c2f65c2bd",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.ea610ddc4682": {
+      "text": "应用已复制的代码。代码未列出的设置将恢复默认值。",
+      "state": "machine_translated",
+      "source_hash": "ed3d8f4a4d77a069ef202d385d5a6dde9fcf15b36a5033d24374dae988a7506e",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.440141276c21": {
+      "text": "%.1fms",
+      "state": "machine_translated",
+      "source_hash": "3ad4b96675288967182009c5d37ccf687dcb24484258bb79ca6038cc69639e23",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.348a7a7b74d3": {
+      "text": "%s##%d%s",
+      "state": "machine_translated",
+      "source_hash": "28af0ed3d945665c832016c6fe75fc304624c5553d2ba7e11428395d4aa2f3b4",
+      "note": "Retained verbatim: technical name, unit or formatting-only template; no natural-language text"
+    },
+    "ui.auto.7622867de9df": {
+      "text": "来自 custom\\%s\\dlssg 的自定义 DLSSG",
+      "state": "machine_translated",
+      "source_hash": "b3adbe325e1361e974c77557095f67b780686b5024c348a1b2a6eaa30a3e2312",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.6a1e92a6a410": {
+      "text": "缺少 amd_fidelityfx_framegeneration_vk.dll",
+      "state": "machine_translated",
+      "source_hash": "8d9d2b78381bd15c1c265064c8353f1d73513208e659aec0d9ad5d032448395d",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.b68651a19f11": {
+      "text": "帧生成（%s）",
+      "state": "machine_translated",
+      "source_hash": "118ee7c302d48f56b59417e11942a4cc9a2a68ed369df77efb83f9d1e7b623f9",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.d48d4ad193fd": {
+      "text": "来自 custom 文件夹的自定义 DLSSG",
+      "state": "machine_translated",
+      "source_hash": "dc316c078aacef3b3b714c36f3cd61008e8536e6df5ee7322eb5a142466d303f",
+      "note": "AI-maintained Chinese translation; human UI review pending"
+    },
+    "ui.auto.c1d4f0465906": {
+      "text": " | FPS: ",
+      "state": "machine_translated",
+      "source_hash": "6f5f6b09f9d166090ceeeb8e55f830c44b625d3094d48ba5f88ca3082da9287e",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.a884ec9f3983": {
+      "text": " | FPS ",
+      "state": "machine_translated",
+      "source_hash": "3a70a4354afec1f5eb99e82a9939e61feb47a6503dc8f6487e9cbf5b5821a743",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.1826e1604e5f": {
+      "text": "，平均：",
+      "state": "machine_translated",
+      "source_hash": "12bdeff20d4d6b288ac6d4bafda4982a5c090ebbd970b9ac0f435f4cf381383e",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.d65bf43a59fb": {
+      "text": " 平均 ",
+      "state": "machine_translated",
+      "source_hash": "c6556be197c169f68ab81b30240eed86d5007ce32d84944a37bdc145661a9d86",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.6c010b1204d4": {
+      "text": "超分辨率：",
+      "state": "machine_translated",
+      "source_hash": "3083f27d06f37ad41ff374ee7dd29606d58a9b62596070832dda0e3d238a5c66",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.b7aa110f546c": {
+      "text": "超分 ",
+      "state": "machine_translated",
+      "source_hash": "cb1378818861447ec1a7902c2ba4e7cfe6ca9d608ce7589a5827bbda11ef4a2b",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.69e20cf73d83": {
+      "text": "帧时间：",
+      "state": "machine_translated",
+      "source_hash": "f89b79ca48af148fcd4c94146ad31b3fb3d3a288b46492178dd5a902eb679561",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.27d2ea3fea77": {
+      "text": "帧时 ",
+      "state": "machine_translated",
+      "source_hash": "4f3521dffee2d9fbdc7f834ec28a49ee5bb553c00fa1196cd6303d2b97d5dd94",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.2db8059f05c3": {
+      "text": "超分辨率耗时：",
+      "state": "machine_translated",
+      "source_hash": "cccda0559b28135ef8b241747db7d269ce0798a2a8924831c9b0f8aea3acb880",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.84f8a342af12": {
+      "text": "超分耗时 ",
+      "state": "machine_translated",
+      "source_hash": "e7e2232636a4fc9121ab1fe9c21d7c85d3603eeda89df9521753a04300394799",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.5a453640f60a": {
+      "text": "低延迟时序，整帧：",
+      "state": "machine_translated",
+      "source_hash": "f494cb7db38f5a0948ab939ef40fc208003385b08c3f702bb005c94f47fb839f",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.8e34943c353e": {
+      "text": "模拟",
+      "state": "machine_translated",
+      "source_hash": "45314e97b0c26a862b5411d0a943d801583e13bb5d104382ed7a2f4773969e66",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.154da6d4dc1b": {
+      "text": "渲染提交",
+      "state": "machine_translated",
+      "source_hash": "2b4713d34f5b385f50b2b2760b9247b7c17ea8d3d3af6d3f21a8ab6205dac897",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.4e9f7a31eef4": {
+      "text": "呈现",
+      "state": "machine_translated",
+      "source_hash": "43f9b89c0b9d22d8110ead813ea3949f20592a8bfc3c777d2d49e64da3b0cc9b",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.b5c7d8b545ea": {
+      "text": "驱动",
+      "state": "machine_translated",
+      "source_hash": "9fe4c68ec20dda7c6b1d3f760e5e6af6b9802897cd59f084b99c68b2ac01574c",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.89422a4b6271": {
+      "text": "渲染队列",
+      "state": "machine_translated",
+      "source_hash": "95e7d02c935d0d1ea495654ee431e85f1ab74c12ffd032f0b3deb84708faf729",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.e018cfb511ee": {
+      "text": "GPU 渲染",
+      "state": "machine_translated",
+      "source_hash": "4880e7e873e86537817fcdc3669974e2d0efea25533a235aba02b5dbcb889fdf",
+      "note": "AI-maintained overlay display translation; technical FPS abbreviation retained; human UI review pending"
+    },
+    "ui.auto.dbdc3de69463": {
+      "text": "DXGI 伪装",
+      "state": "machine_translated",
+      "source_hash": "69597931765b07096bbc33c12a161b74472803ac7760356833bfd66f0aa32dbb",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9f04e490700d": {
+      "text": "VLK 伪装",
+      "state": "machine_translated",
+      "source_hash": "499d8caef8687b986d15564289aa56ca16eebe7dac4fe2ebff4a9a9528bcc886",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.efc5bcb21079": {
+      "text": "VLK 扩展伪装",
+      "state": "machine_translated",
+      "source_hash": "0ca0f7f5ba47b874aa03135accee14c00275a8ca5876cb76b577b1742bb21f99",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.bdf5e616ffda": {
+      "text": "Ntdll 挂钩",
+      "state": "machine_translated",
+      "source_hash": "2f0aa9dc3c7cd655b0ba228c11e43cea0d88318f343fbdde33bec9570bfb2012",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.2fb022255482": {
+      "text": "禁用悬浮层",
+      "state": "machine_translated",
+      "source_hash": "61a1010e4ed22c70a54d1e9a7d2c7911f3282876bbd50e5e5bf65fbc152ec1ff",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.53f76ddca2b9": {
+      "text": "加载 ASI 插件",
+      "state": "machine_translated",
+      "source_hash": "28350782de7447fb3e9f4e74ee585ed7da52316c22319a9a6cfa250dd7609892",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.545147a7b674": {
+      "text": "禁用启动提示",
+      "state": "machine_translated",
+      "source_hash": "ea4c5ad635852d37a1652e84b487601534c6a3d55b31a8b12552900de3e4cad7",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.2e515a5eca29": {
+      "text": "检查更新",
+      "state": "machine_translated",
+      "source_hash": "6f25f68393efbdeee731beafd8de5f3c719f66d838e52f1f75f9d58453831bd7",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.37ee1fb5481f": {
+      "text": "覆盖预设",
+      "state": "machine_translated",
+      "source_hash": "9cea63393766c4e811ef3671778ad1ce5ec06c83888b03ae5f176db1329e0dc8",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.3120d76cf371": {
+      "text": "DLAA 预设",
+      "state": "machine_translated",
+      "source_hash": "ee72ea1915db8ac7624bf2a72b116b7c4c4a952657ad57707753f937f68b3dc5",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.43891b35a99a": {
+      "text": "超级质量预设",
+      "state": "machine_translated",
+      "source_hash": "ce50022e89a971ccc7bd43b2d994aa5398ee211bc342efc6fe593fa8eeab782b",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.65f498cfe552": {
+      "text": "质量预设",
+      "state": "machine_translated",
+      "source_hash": "d730f56026c68ded1f1f683046f1699b59290449b0a4c4c2295047c02eab053d",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.84c337b236c3": {
+      "text": "均衡预设",
+      "state": "machine_translated",
+      "source_hash": "5f72a283af002d13d89765730edf93894f84c08cdfaf87802636c64e4eced1ad",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.07e724ff00bd": {
+      "text": "性能预设",
+      "state": "machine_translated",
+      "source_hash": "d29093df1feb489ad8ab4e38ca55053db469c86ebffa1947eda9d6ad17e58257",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a27c5ab1f230": {
+      "text": "超级性能预设",
+      "state": "machine_translated",
+      "source_hash": "a8a89d27d3c7101b8db06a559d918de1be86e9dd2fc52192842258fc45032589",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.659749763736": {
+      "text": "FSR FG 设置",
+      "state": "machine_translated",
+      "source_hash": "1a25205f434145925dd358575db9e67572266298fbe62d16ea96329756ea3cca",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.856b2cecdea9": {
+      "text": "启用 FSR FG 水印",
+      "state": "machine_translated",
+      "source_hash": "e47cba64f046b92172d458e9e080ba10594411a631f53eb03ec5f3d064bcf82a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.09df901ad18e": {
+      "text": "XeFG 设置",
+      "state": "machine_translated",
+      "source_hash": "2271b7d2ef1871127e2275d102ff2501ffd88ba305909bd2841314b3b93b68cd",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.5bb7525327ef": {
+      "text": "DLSSG 设置",
+      "state": "machine_translated",
+      "source_hash": "c50c9cd4666df123e7f68a3b44b0b6052ffd20e0538f096340e95fc608896a0e",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.8ad5c1917616": {
+      "text": "重投影设置",
+      "state": "machine_translated",
+      "source_hash": "17c6d3b0f1bbbc3890b6246f4ff15c08e64c56343fa5f5e2e791aa8a630e29b3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.86cd18818025": {
+      "text": "截断扩展",
+      "state": "machine_translated",
+      "source_hash": "a83de056048bc737a91d32d90c840951ab70d8ca1275fee35b71b39bca16830e",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a6ae9a533d0e": {
+      "text": "OptiFG 设置",
+      "state": "machine_translated",
+      "source_hash": "267326bb946dd611f27d4d0c9b507990b4fc58336dbf5f04c9115e188e9c8c0a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.cf7167f7e8c2": {
+      "text": "可用时效果最佳，但部分游戏不兼容（如 Cyberpunk），\n将回退到激进模式",
+      "state": "machine_translated",
+      "source_hash": "f9e917e4b67a8f5d3ab550d0fba01bb791232ed84eb3fcad2bcf7f3d43906083",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.01cea3e08aa9": {
+      "text": "已加载的 ASI 插件",
+      "state": "machine_translated",
+      "source_hash": "594953602c7de0681e14fb24a42cde8d894bc2285e3465e71c8a923dfa80d569",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.c10af6692ced": {
+      "text": "伪装",
+      "state": "machine_translated",
+      "source_hash": "e05ad740d5657e0073d2a689d9c9321c6772b7b189d0750d7924ac1cde529da4",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.490004006d48": {
+      "text": "为 DXGI 适配器启用 Nvidia GPU 伪装\n可在 INI 中进行详细修改",
+      "state": "machine_translated",
+      "source_hash": "30d6f71e123344837885588c7192384f5aad5060900520229044f9c894a51e91",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.13ccd7ae0261": {
+      "text": "仅挂钩 ntdll.dll 方法\n禁用可切回内核挂钩",
+      "state": "machine_translated",
+      "source_hash": "bf3f52356b3ef5eea7b2dc2df476d70b081cd9c686a54990885bcd860219d745",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.2f3185ad27bc": {
+      "text": "为 Vulkan 启用 Nvidia GPU 伪装\n可在 INI 中进行详细修改",
+      "state": "machine_translated",
+      "source_hash": "185680215a893c9a53345d1eab0ac3348a9eb2064ddfa907a183d49b1b293e49",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.b794efdbad60": {
+      "text": "为 Vulkan 启用 Nvidia 扩展伪装\n可在 INI 中进行详细修改",
+      "state": "machine_translated",
+      "source_hash": "6eefcdbdbd3849ed136c91ceace5bee7a5b6e93f606a8f9dc8a4b02e5c77429b",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.b19cbd05b5e8": {
+      "text": "禁用支持的悬浮层（OptiFG 会自动启用）\n包括 Steam Input（可能导致手柄问题）",
+      "state": "machine_translated",
+      "source_hash": "59c7a5994b5c4ee1ad3753adec8d6d994749cfeea59c0a4d456dd5436a9f6050",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.79ce33706ca0": {
+      "text": "启动",
+      "state": "machine_translated",
+      "source_hash": "65d48235a91ee221de87e916e0af62297cbf181562666332a02cbfd03de87cf8",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.37a49a7b8fa4": {
+      "text": "让 OptiScaler 从 plugins 文件夹加载 *.asi 文件",
+      "state": "machine_translated",
+      "source_hash": "b952026e72f2f07480e50ead542a2378ed4e1811f6c212bd0be15dda2b9cc813",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.471f841785a7": {
+      "text": "禁用启动提示（左下角）",
+      "state": "machine_translated",
+      "source_hash": "4dfecccbeff56c4af351542f32588ff06228ef84fe4555d59450c01757bd9e98",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.e7c6a75a9b4a": {
+      "text": "启用从 Github 检查最新版本\n仅适用于稳定版/最终版",
+      "state": "machine_translated",
+      "source_hash": "8f61c71b956d5be863ba087c35dc2682d96dff0736221ab8070045e1ba9a65b3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.92973587e76f": {
+      "text": "着色器",
+      "state": "machine_translated",
+      "source_hash": "ce323f074444c4ff85aa325df7057edcc8770845b02299bfa55be44e738eafcd",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.25f6cc3c0ded": {
+      "text": "覆盖 DRS 最小值",
+      "state": "machine_translated",
+      "source_hash": "d5f8eba76a442983a11a706376ad683a308e11468acfdd221dab6b3391bd6fe6",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.f7cdc0fd6ada": {
+      "text": "动态分辨率缩放\n修复部分游戏忽略官方 DRS 限制的问题",
+      "state": "machine_translated",
+      "source_hash": "1072f98a4bf41d939367b032663e30363614b4366339439d1021590fc674aec0",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9f5b7a21ab61": {
+      "text": "覆盖 DRS 最大值",
+      "state": "machine_translated",
+      "source_hash": "3a24c5326f0c8ee4ccb2791dc401b302e2aa9ab21271bdffc7fd948ab3b0e848",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.1d0c8304baed": {
+      "text": "颜色",
+      "state": "machine_translated",
+      "source_hash": "6b73191a0a4b67420e61d51c9f207c35277eaf18fbbf5beb52a320a23fe09653",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.df0e298e3562": {
+      "text": "深度",
+      "state": "machine_translated",
+      "source_hash": "f1dbc33978a95b952b19bfc0da8f928e8e3958930810988de2f6e4bd8b27ce01",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.862ee3b17a82": {
+      "text": "曝光",
+      "state": "machine_translated",
+      "source_hash": "cc5454a4b7ce211370dcd2aa0ae58d6b564eee7940b42de516d05f5b269c414b",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.8aadf1657da5": {
+      "text": "遮罩",
+      "state": "machine_translated",
+      "source_hash": "e368929abd3614e92ad17e56175b67d1f6ba94aca92ab43b7f16f31764ff7447",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.13a7771f4a31": {
+      "text": "背景模糊",
+      "state": "machine_translated",
+      "source_hash": "c21c38d1cc8bda35bf00cce20ff856f01689eff6b906b07ba234f6a2cf0b39b9",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.f735f3b4fd65": {
+      "text": "模糊菜单后的游戏画面\n仅在背景透明度低于 1 时可见",
+      "state": "machine_translated",
+      "source_hash": "43dd217eeaead1a0cb3a44d41281f99ccc0801981dc09eb13673845f5ad9c94b",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.45881aa861f5": {
+      "text": "预设中显示超分辨率比例",
+      "state": "machine_translated",
+      "source_hash": "8ecc85e715660c3cf3ea2ebe688370d230d1180bb06344f42fcd934ae5e9ee63",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.01e170f3b7e0": {
+      "text": "在“简单”及之后的预设中显示超分辨率比例行；“自定义”在其行列表中设置",
+      "state": "machine_translated",
+      "source_hash": "e69487f1379798c790003e795518d57cbb706e5fd95f3669468c1e7ea2a8b4e7",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.172f41b9f884": {
+      "text": "隐藏平均值",
+      "state": "machine_translated",
+      "source_hash": "f513b4ddaf9f724297ed42cf71d756560c7a230fa7cbe696048a989df51087c3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9fc505b72046": {
+      "text": "仅显示当前值，不显示帧率、帧时间和超分辨率耗时的平均值",
+      "state": "machine_translated",
+      "source_hash": "67a88c5206768fc92baca3abe1124b70b4c16d0a2395e2967c6daf0b66152f6a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.e709e76ff542": {
+      "text": "预设",
+      "state": "machine_translated",
+      "source_hash": "954f93fe1c66ae447f4d9e75eb0dc5a32f3a45dfc1cfb6df391a9d5947a97d10",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.5779d69f4234": {
+      "text": "OptiScaler 悬浮层：显示所有行及曲线，灰色标签带阴影",
+      "state": "machine_translated",
+      "source_hash": "c1076d730f5591726bf7944b7c2a01e8fda20871e3ee0b4df5350818127fc24a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.130cd7fe3334": {
+      "text": "经典",
+      "state": "machine_translated",
+      "source_hash": "ae25d6481fc1741ffee4a95cd05de7b6375f7e1b0c63c006640b366094f2c4a9",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.60099d50da8f": {
+      "text": "OptiScaler 早期悬浮层：仅显示白色帧率，无阴影",
+      "state": "machine_translated",
+      "source_hash": "34c81a762cbf6f573c6f8dec62da7cc151bf761891bd8c7d60995b21d07050dd",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.63f88b424a95": {
+      "text": "Afterburner 风格",
+      "state": "machine_translated",
+      "source_hash": "e3030e38e3cd1ce8afd8c0d8837c61df4d8673e4714982b295cd09ff808365ac",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.3119452c58ea": {
+      "text": "类似 MSI Afterburner：Unispace Bold 字体、橙色标签、描边、无背景",
+      "state": "machine_translated",
+      "source_hash": "57ce627b955ab8217c2508f2cc0b7daef6950af070468b7fb97ea96b17472a42",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.97dbb8252fe5": {
+      "text": "横条",
+      "state": "machine_translated",
+      "source_hash": "58f0cabedaa244fc26e83c786a23521527ca262befdc61a8e167d465a94df901",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.244afe2ac8bd": {
+      "text": "顶部居中的横条：Bahnschrift 字体，在深色面板上以橙色显示帧率和超分辨率耗时",
+      "state": "machine_translated",
+      "source_hash": "da0dc76e8c5b2ac1b8d83bff3394f6d1f73f527912e6aa10958cff67030113f3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.972ad8d8a503": {
+      "text": "布局",
+      "state": "machine_translated",
+      "source_hash": "a511909161e1b84fb81b52028fc2ce79525a96b40ccda823caa4a66ee64772b5",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.633277ceb156": {
+      "text": "紧凑标签",
+      "state": "machine_translated",
+      "source_hash": "df5c5d42f5b18fd93928b213bea669e420f38c487a876579c4d948275aabc41d",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.1b1cefb8e359": {
+      "text": "使用更短的标签缩窄悬浮层：UPS、FT、UT",
+      "state": "machine_translated",
+      "source_hash": "48d770393364ab0da3da8f5a8650829051821475803e0872219d1e588ed8f945",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.c3328c39b0e2": {
+      "text": "文字",
+      "state": "machine_translated",
+      "source_hash": "71988c4d8e0803ba4519f0b2864c1331c14a1890bf8694e251379177bfedb5c3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.624b070128b6": {
+      "text": "标签大小",
+      "state": "machine_translated",
+      "source_hash": "c4841bfcb58e36d76e75b1666aa4b80e0dc284f120421100f45ba2b47659c2d9",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.7879b3f32cce": {
+      "text": "数值大小",
+      "state": "machine_translated",
+      "source_hash": "472f4fbf5a603132681c2f082aabbec4072c054b39f2ef08bf67bd3dd191bce7",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.88d5e4cac104": {
+      "text": "颜色",
+      "state": "machine_translated",
+      "source_hash": "88c45d9e526c08dd7f8b9d1d3ab96a72d68205232090be5da57e05251bfea650",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.2228985493d9": {
+      "text": "标签",
+      "state": "machine_translated",
+      "source_hash": "934b8899c3d918d4b40bbb3512aed9c4ecd639c4be8e2263106536922a423121",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.b1564f6b1512": {
+      "text": "数值",
+      "state": "machine_translated",
+      "source_hash": "53b09e104f608daac0a306abc28a053b592f4518cfc1dc28d81c5b52813eb599",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9a7405ebcedd": {
+      "text": "曲线",
+      "state": "machine_translated",
+      "source_hash": "32ab018fd38a7b42f8a42c77d3453516c4f7fefdddbf18bc6eab14a4a1b0a10e",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.64dd60fe1a04": {
+      "text": "背景",
+      "state": "machine_translated",
+      "source_hash": "ea2b8a878841df5955c78edc6cae47446483b86e3f5ccb04e1a8d940cf7e59fd",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.e0269a27caa0": {
+      "text": "挂钩此 API 的输入",
+      "state": "machine_translated",
+      "source_hash": "b4aaaf4ccc7ad6bd7d81cd38dbbe5e9c33cf30cf738c0b022ecd195cf3d46b14",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.ab192b31187a": {
+      "text": "FSR2",
+      "state": "machine_translated",
+      "source_hash": "ae4e3ef8f9cb765cffb7a2a5999686c44fb1ab7fb2c6401e69f808bc23c3e968",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.06425ba136a9": {
+      "text": "FSR3",
+      "state": "machine_translated",
+      "source_hash": "4a2d4ea4aeede5c6ae3047d554346e60a50b5581b5ba4036fa73b60cea46d6b0",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a6f43456d76f": {
+      "text": "FFX",
+      "state": "machine_translated",
+      "source_hash": "94b92ed294ba1786147722f4815e313cc4c15bf48dd63acc40626926745cc6ac",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.57f5f5efbc59": {
+      "text": "菜单",
+      "state": "machine_translated",
+      "source_hash": "99af6606ff9d6cd5154d4d4e9c21e325086d3e904677cdb41d363c8a3480f862",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.74fb2cc6c8de": {
+      "text": "已检测",
+      "state": "machine_translated",
+      "source_hash": "756a8ba97dce249a0f1d377b9756d370aee12fc9e43a6750109fd12dc880bd8e",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.3acbb47959d9": {
+      "text": "nvngx.dll",
+      "state": "machine_translated",
+      "source_hash": "2bf62b42c789a78de87bc20543d0972e1c9e811823045bef649b7230efa3253c",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.55dbd3cd2af9": {
+      "text": "nvngx_dlss",
+      "state": "machine_translated",
+      "source_hash": "c6338bfe154ea2dc9cc9ef9a26fea6b0d8d918fb63066983803726675a5d36e5",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.7cc3a082ff2a": {
+      "text": "nvngx_dlssd",
+      "state": "machine_translated",
+      "source_hash": "9c682769b21567ad4ada4a842cdbd1207fd7f0ca1ac45ca17c616ed32e117063",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.077fadd0e1aa": {
+      "text": "nvngx 替代库",
+      "state": "machine_translated",
+      "source_hash": "1a75ad67225b5e2ac875084ec248f62e79578deadb309683a2f64d8278eafdde",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.cabf00125c1f": {
+      "text": "libxess",
+      "state": "machine_translated",
+      "source_hash": "eec13b5c48201edffb43accdaa7946205c5c42103b4d5d9bcc60731f1be876b6",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9b79894fc469": {
+      "text": "FSR 挂钩",
+      "state": "machine_translated",
+      "source_hash": "11e462e5526ae3bf36d66c53308ab71407ba271be3992fcc91f80b5edaa3d2bc",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.2bcba76d422f": {
+      "text": "FFX 3.1",
+      "state": "machine_translated",
+      "source_hash": "19a5d7aaf52e7adbbeeb74140f6f04c23067ec5cc4656ce3de338c3962d59f8f",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a3dde958dd14": {
+      "text": "FFX SR",
+      "state": "machine_translated",
+      "source_hash": "7b6ebad8fdffe6a11cb0469f67ffb61d1f45a78362ace02d3cd2719b2bb27535",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a8aee33113a8": {
+      "text": "FFX Vk",
+      "state": "machine_translated",
+      "source_hash": "835e600a461098bac2e1de0ae3ce30b8441559b0c42631e408cce0b1975b9a86",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.fdfc34616b42": {
+      "text": "FFX Vk SR",
+      "state": "machine_translated",
+      "source_hash": "5e2eae691367ef32a1c91fcf7bc9dab8c223abd8d409cfc054fed8879891e538",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.0ba82cf159d7": {
+      "text": "FFX Vk FG",
+      "state": "machine_translated",
+      "source_hash": "24370f711fbc8bc29a6860dfe0c94ae55ce9e04c3ee128a8f27258fdf366436f",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.382442cbdf93": {
+      "text": "OptiPatcher",
+      "state": "machine_translated",
+      "source_hash": "15b6f007701ea8872283811d7a58c51a07420ba0f5181d2984f7622293e2ddbc",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.83ad8510bbd3": {
+      "text": "Linux",
+      "state": "machine_translated",
+      "source_hash": "4828e60247c1636f57b7446a314e7f599c12b53d40061cc851a1442004354fed",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.4d0c3b79a7d7": {
+      "text": "支持 DLSS 的 GPU",
+      "state": "machine_translated",
+      "source_hash": "6ac5078ceaa70b562400ab1cbc0d8a0b0c5401897f6c140434891238778e4563",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.599d9082a27f": {
+      "text": "支持 FSR4 的 GPU",
+      "state": "machine_translated",
+      "source_hash": "6f7a4cab63e1f525ca0146df824e1b5c1682eb94e5080d681d77622a6aa01d1e",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.bc0792d8dc81": {
+      "text": "系统",
+      "state": "machine_translated",
+      "source_hash": "6725e7bbcd28f3a8a586fa34bf191fd72dde8b61756932cd3237c17a6f196f1a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a6a6318544c9": {
+      "text": "GPU",
+      "state": "machine_translated",
+      "source_hash": "ea49523d744c40bc900b4462c43132d1c8a8de5216fa8436cc0e8b3e89dddbe3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.e3e82846c325": {
+      "text": "游戏",
+      "state": "machine_translated",
+      "source_hash": "5c412a262086b9701cda06302f6667f9265b1807d0368fcec6cc03bf64fc250b",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.d93d10ff0fbe": {
+      "text": "API",
+      "state": "machine_translated",
+      "source_hash": "c8e5998f6a3955c21d858936fe05c69621724d7f825c6e17793002a0fa798bf9",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.5228a346c343": {
+      "text": "交换链",
+      "state": "machine_translated",
+      "source_hash": "e780f2e59a816729daf213d7a31788e03aef478a785a47eb30029e7bffe5b6e3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.b2e402b4da01": {
+      "text": "渲染",
+      "state": "machine_translated",
+      "source_hash": "6d89eb7d0938564938636b4a5ee73c09e55c2e6e5aaa9e3016781bf54805e8d3",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.574ff9b0c49c": {
+      "text": "显示",
+      "state": "machine_translated",
+      "source_hash": "34e108c0896d0158ca4f2797d4f12a143943803be2151aa5d2136ea1bcd9a468",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.e3e7a3833d19": {
+      "text": "帧数",
+      "state": "machine_translated",
+      "source_hash": "2c447e8d059850552a75c6a6b35a2f49a9af88ac428a73e533bfd44ca099c39a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.6b9629afedde": {
+      "text": "比例覆盖",
+      "state": "machine_translated",
+      "source_hash": "9c7290c3475f1d5edbc3fef957b12d37064f0188b958e49816cb0c6841b3dc90",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.970654e8aa7d": {
+      "text": "Mipmap 偏移",
+      "state": "machine_translated",
+      "source_hash": "32bdaa366633f8e6f5c6897a5f7f0d2248015c8f4e2ca5e51140ddc71884c728",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.964eb2fd822f": {
+      "text": "各向异性",
+      "state": "machine_translated",
+      "source_hash": "8d92c2498f5ca083b4554452796bb60e0c21fed9667a057002c36465571d949d",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.4bd8f3f03a57": {
+      "text": "挂钩",
+      "state": "machine_translated",
+      "source_hash": "d412a062620ef57bace76558a0384077b1919e66ba0a35af91e5a372f873e65e",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.d0e1289e857d": {
+      "text": "DXGI 伪装",
+      "state": "machine_translated",
+      "source_hash": "98439b2337060d47b68ddf1edd75d7029fc822c4043a2eb243c102bd54ba673d",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.d5cb60b98f4b": {
+      "text": "VLK 伪装",
+      "state": "machine_translated",
+      "source_hash": "6b0c87511db87df1da172a2d10db56ef7889f9ff0ada2df3c3688071a1482fe4",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.f8407d02284c": {
+      "text": "VLK 扩展伪装",
+      "state": "machine_translated",
+      "source_hash": "b6706a322aa305e8c297c7e43bd4e82acff25a51fb5e66629f7ceb7735be7be2",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.787afc205d44": {
+      "text": "Ntdll 挂钩",
+      "state": "machine_translated",
+      "source_hash": "5c239f4be91150e4081e97c461e3cf1c80948216377a7572823fdcd26f97cd72",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a9c0f1af34ef": {
+      "text": "禁用悬浮层",
+      "state": "machine_translated",
+      "source_hash": "21017d46d520f5f6670d22ed7e4688a4afc17e0cd8208aa2bf128c6b313ee157",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.cd2dce1f77f0": {
+      "text": "ASI 插件",
+      "state": "machine_translated",
+      "source_hash": "777c382fdd4fbec2afb67b2009f3bae7e80dddf0bbe0ce56ce588d0c83a78056",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.f586a10862b1": {
+      "text": "预编译着色器",
+      "state": "machine_translated",
+      "source_hash": "bc65232631129cf54006de5d267e2687054266e4ad2717cbdcea741299cdfd85",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a7b8c2f6f01b": {
+      "text": "扩展限制",
+      "state": "machine_translated",
+      "source_hash": "a7161a3b39b1174bc370e2cda3078191358171a4fcd3bba5ea7f43471a162a58",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9b9fb29148f7": {
+      "text": "DRS 最小值覆盖",
+      "state": "machine_translated",
+      "source_hash": "13e2ea0b64d2d775a0c633ff5aa1015372994e308a9bd4f239aab74112b0c8be",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.bc61c479e738": {
+      "text": "DRS 最大值覆盖",
+      "state": "machine_translated",
+      "source_hash": "d6a011775e8db1f931f646c80bc30ac773cc79982cfa54bc96c81a4f5b47b263",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.1412444835b0": {
+      "text": "计算根签名",
+      "state": "machine_translated",
+      "source_hash": "65430335a2bc424439e01e32bec6005c1894dcad4f9675e6107bc38152cd448b",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.6bbb5d04e8da": {
+      "text": "图形根签名",
+      "state": "machine_translated",
+      "source_hash": "e25a522c483e9761a033c032d8831f71f85df141a841ca44d15c359420f75a29",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.7711b0747e13": {
+      "text": "自动曝光",
+      "state": "machine_translated",
+      "source_hash": "69ac233c47b38eb088636a8e72578b823cda1152af53e077d9169cf86571649a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.82e51fdd8ec3": {
+      "text": "深度反转",
+      "state": "machine_translated",
+      "source_hash": "84c58ba79d3a6c70b26c4a5e3cd9d20cb2371b8835ba322cec2e3e5ae51a2c8e",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.366e8119cfb4": {
+      "text": "显示分辨率运动矢量",
+      "state": "machine_translated",
+      "source_hash": "53ddbebce961c63dee100d03101db11fe1a533c1e35d1dd7c842b190ff1153a6",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.83f8b1495ef2": {
+      "text": "抖动抵消",
+      "state": "machine_translated",
+      "source_hash": "360c72d93125337d2716bfdffb963b10f511940fcfec3138a2ab455422605468",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.42b412184004": {
+      "text": "动态分辨率",
+      "state": "machine_translated",
+      "source_hash": "f342cd15365b73a6462372c2a89fb91510814e38268a26c54cfc82459f73adb8",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.ae02f9118f50": {
+      "text": "输出缩放",
+      "state": "machine_translated",
+      "source_hash": "427200a2a7d232ad4b99ebeafbc182a4f3a66cc71849188b5c922482957744e0",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.e8ecabab16c3": {
+      "text": "锐化覆盖",
+      "state": "machine_translated",
+      "source_hash": "113ac0de84fa25326a16ac4d124eb455c22dec80ba9e7134b0c79254b6242534",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.153a48fbb2cd": {
+      "text": "垂直同步覆盖",
+      "state": "machine_translated",
+      "source_hash": "3ef3c3edbba4806ac6075f8fb961e9b418dcd7b45b03b3697e5629debe5924ee",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.754a68b52585": {
+      "text": "超分辨率",
+      "state": "machine_translated",
+      "source_hash": "d827fea4f9a0bc998b1452bcba27fb41c77bc422a03e2711c6278e5473532f3c",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.af837182a798": {
+      "text": "各着色器 GPU 耗时",
+      "state": "machine_translated",
+      "source_hash": "51373327153e2b1e1973f8897cd36f1244f10bd5bfc7fd6471408c4b457a17ad",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.64c7316179ba": {
+      "text": "帧生成",
+      "state": "machine_translated",
+      "source_hash": "55ad02abf80975e93f8737a60beb0f3eff8e29a7ec2cf11f0029959e8042c91c",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.17b85bad2e5c": {
+      "text": "Nvngx FG 替代库",
+      "state": "machine_translated",
+      "source_hash": "9e1584b2cf1ca6e5f498c727d093dc9383f48f46c22be0efc664d84d7e3a2b6f",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.8cd61ffe6c0c": {
+      "text": "FSR-FG 输入",
+      "state": "machine_translated",
+      "source_hash": "f8468a0683486731f304dd78ed2cb59516589714f0cd2cbe59c81cc8bb61671a",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.28fbe052d99c": {
+      "text": "Streamline FG 输入",
+      "state": "machine_translated",
+      "source_hash": "250638ee5e96cd21c02fd970a6249b2133641bbc4859c04fe1a9f5bffc3c2a12",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.3e399725267d": {
+      "text": "延迟",
+      "state": "machine_translated",
+      "source_hash": "e0e7d293043c8cf606a531a927363d5bc80aee9f4da6eaeaecc3787e6ed9eebe",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.c785dc24bd60": {
+      "text": "垂直同步",
+      "state": "machine_translated",
+      "source_hash": "784de207526e7b9ecbf9753e9a9c97b38612bbecb1127e7d9311f934e7969ade",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.5aa8824d5c30": {
+      "text": "纹理",
+      "state": "machine_translated",
+      "source_hash": "b5779457b3993ccc9cc5712da7d59fa2a633249c2c186c476b838306099e7662",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.5d60c7dd62fd": {
+      "text": "兼容性",
+      "state": "machine_translated",
+      "source_hash": "b37ddf1f6e0fac69414c5ed7f6e65f8f0a7ea1922afd602483392d695ee92065",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.fae487e6377a": {
+      "text": "主题与颜色",
+      "state": "machine_translated",
+      "source_hash": "27a6b9d81d2f04c0b8f356fe000610d09b6f8a68c24cdd2da11e81286b999bd6",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9e02cc230fc5": {
+      "text": "自定义选项卡",
+      "state": "machine_translated",
+      "source_hash": "39093fb1f265f786ef78e67d7739f7bc67d92d5714da0820300234d2fbb37afc",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.33583cef7a95": {
+      "text": "兼容性修正 / ASI",
+      "state": "machine_translated",
+      "source_hash": "c846bad61b312c8da57941007b1ce2a0134a8cad2723706c766555cc6bf97042",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.bae7d5be7082": {
+      "text": "状态",
+      "state": "machine_translated",
+      "source_hash": "920e413c7d411b61ef3e8c63b1cb6ad058d5f95f8b481dbafe60248387d8c355",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.e89c8efba6c4": {
+      "text": "初始化标志（当前启用）",
+      "state": "machine_translated",
+      "source_hash": "a315b97bb88446fe8db57d87d5fe27498379824b4a3bc4054fa5112c59cbf123",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.70c3dd3e5594": {
+      "text": "显示自定义选项卡",
+      "state": "machine_translated",
+      "source_hash": "ad3c5d83169f15ed569d42f00f5e08fea678e261d9c5b35c860d34d57c759c88",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.a89152102ed6": {
+      "text": "在列表顶部添加仅显示所选面板的选项卡",
+      "state": "machine_translated",
+      "source_hash": "c0368ab077ceeefa16317763fedf7c543451b2207de9586d72511105f384014b",
+      "note": "AI-maintained UI helper translation; technical API/file/product tokens retained; human UI review pending"
+    },
+    "ui.auto.9c74c2e5830d": {
+      "text": "这通常不是预期设置，会导致 OptiScaler.log 变得很大\n请禁用文件日志并删除 OptiScaler.log",
+      "state": "machine_translated",
+      "source_hash": "ab98b926407fdc0dd34c04cf5cb2883b573a92100e63d70e2536140ec8005de7",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.5553c187b667": {
+      "text": "编译着色器时出错！",
+      "state": "machine_translated",
+      "source_hash": "5b5c53d9fc417c11f4f2489f8cf161a9c76caaf24a2d35bad46bf0cf70d4ae28",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.3a6d1a65cef0": {
+      "text": "无法初始化 FSR FG\n是否缺少所需的 DLL？",
+      "state": "machine_translated",
+      "source_hash": "e84ed7ba32112810c5597bf4fa45f8680caeb922081e91d4fede00089c0b54f6",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.78247856dac9": {
+      "text": "无法初始化 XeFG\n是否缺少所需的 DLL？",
+      "state": "machine_translated",
+      "source_hash": "66e5a7124d268a816fa6a2599a63b5c9eed2f348db2579b85a6201c66db52f29",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.b81959bf086c": {
+      "text": "无法初始化 DLSSG 输出\n是否缺少 streamline 文件夹？",
+      "state": "machine_translated",
+      "source_hash": "6e79609f89dd9ecf10e4f842f201a90973a5823122703964609e2e34043c4991",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.4856ea8afba7": {
+      "text": "回退到 FSR 2.2",
+      "state": "machine_translated",
+      "source_hash": "e7506ec26d4fa59a4663ecc621cdd4486562d7f75191eecb83f66b70ad7c8d09",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.50c4c35ac3a9": {
+      "text": "回退到 XeSS",
+      "state": "machine_translated",
+      "source_hash": "a3566816ed445488413d4fdfeb4deebfda34362dee2f215b2703cbd71c3aeec4",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.1351bb9361ee": {
+      "text": "回退到 FSR 2.1.2",
+      "state": "machine_translated",
+      "source_hash": "4ddf7f344713aa0787bffa255dbe8f457b51f6340b81414e05e849a32e149c01",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.00aa84c10b99": {
+      "text": "创建共享纹理失败\n请确保使用 Wine/Proton 11 或更新版本",
+      "state": "machine_translated",
+      "source_hash": "14f897eb855e83a5c64b951b95be47fc76650baeed2376172dfb2c64ca5d5ce9",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.2fedcaaa860e": {
+      "text": "超分辨率器运行失败！",
+      "state": "machine_translated",
+      "source_hash": "b56065ec389295dd66a8793b9e8ffe23010f6918996c5de5867a6a5eb0c6cd3e",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.9c24f2b186a5": {
+      "text": "{} 不可用。\n回退到 {}。",
+      "state": "machine_translated",
+      "source_hash": "1f7664cf90cd5ead402f90fb23e121fa766714a828fc6760e92fe3fa9936dd29",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.589b9087814e": {
+      "text": "{} 不可用，且无法回退",
+      "state": "machine_translated",
+      "source_hash": "944347b8b4d667297700a16f1855c51ede7d1e919583e3586a8d720e9529a690",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.2a5d9bc79507": {
+      "text": "无法加载自定义超分辨率器 %s",
+      "state": "machine_translated",
+      "source_hash": "fce59acb4906379b04244ccbb040c4cac014447ab6e8a4ae53214c8c4db30e75",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.8b8cbadb6131": {
+      "text": "无法加载 libxess.dll\n请检查该 DLL 是否存在",
+      "state": "machine_translated",
+      "source_hash": "8137ed6de522f8d13e0efa13496d9f086d09ef2c0e83cb117e9b88481687a776",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.58be238dd555": {
+      "text": "无法创建 XeSS 上下文\n{}",
+      "state": "machine_translated",
+      "source_hash": "7304a1c7fde13ea43eb2554a6f5c45230f85ebdc4ff55b34ad1587ee89bfd075",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.b4e9232d42ef": {
+      "text": "无法加载 libxess_dx11.dll\n请检查该 DLL 是否存在",
+      "state": "machine_translated",
+      "source_hash": "c3976b861e4aae80cf5d3b7ff5cb616f10d3a31aa85e3911afbb95b32bc3e2c7",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.fa0bfebd7847": {
+      "text": "无法加载 amd_fidelityfx_dx12\n是否忘记解压该 DLL？",
+      "state": "machine_translated",
+      "source_hash": "d7242fcf690bf26f8a8281badd1a2ac3b2d95f9a57eaa7f706087ee06bb8660a",
+      "note": "AI-maintained user-visible notification translation; human review pending"
+    },
+    "ui.auto.5c196f375030": {
+      "text": "覆盖 XeFG 比例",
+      "state": "machine_translated",
+      "source_hash": "8541f9f9b8883f7981de8f15129b46b6429db878d428c8d4de5c44e6d31524f9",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.94a96543200e": {
+      "text": "streamline 文件夹中缺少以下 DLL：\n",
+      "state": "machine_translated",
+      "source_hash": "5944b9d3efa476407050ba1f816743f8a32a962af471fe1c05232b9507146b38",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.768787f432a5": {
+      "text": "{} 不支持超过 {}x",
+      "state": "machine_translated",
+      "source_hash": "6f60cf0ea0451dcb522505b692f50c6f25cebaa21711be876d3455c8611d25dd",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.5e65e7560ef5": {
+      "text": "{} 已关闭",
+      "state": "machine_translated",
+      "source_hash": "4523980f589f89533be6bba4faa7a8f799dc782b5edb0588411e7976ebb192f8",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.1abcea3f55e9": {
+      "text": "{} x{}",
+      "state": "machine_translated",
+      "source_hash": "d5257c21b3ec2f676df1bc299bbf78595d36590516f6f94a27de968f12542ef3",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.e08881abe942": {
+      "text": "{}X",
+      "state": "machine_translated",
+      "source_hash": "296949b27295f923b6b6c4c9d947cdf59fc8c4a9341d6b593ad31b9605332d0a",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.1c9306cd791f": {
+      "text": "OptiFG（超分辨率器）",
+      "state": "machine_translated",
+      "source_hash": "e8d691a8b21638b8b9e90728c2509d55ad07821e0749d662784e4ef2eee3a922",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.cff7a591518d": {
+      "text": "必须启用超分辨率器\n\n可搭配任意帧生成输出，但某些组合效果可能不理想\n需要 HUDfix 以防止 UI 异常",
+      "state": "machine_translated",
+      "source_hash": "8536ba96d88fb131ac3f4a423ffd237a178e759ca4e757db62d9c567ce0c0ea9",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.87149bf80417": {
+      "text": "通过 Streamline 的 DLSSG",
+      "state": "machine_translated",
+      "source_hash": "6d897aa8e4d8a73cd3b23853b8f900efeb6610979d76e79f7dc3c5356be6b929",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.6d2fea459e8d": {
+      "text": "可搭配任意帧生成输出\n\n需要在游戏设置中启用 DLSS-FG\n原生支持无 HUD 画面\n\n仅适用于使用 Streamline 的游戏",
+      "state": "machine_translated",
+      "source_hash": "53f63aa1fcabacc565b5e797e9fb959c26d266174473a2fcb840056fdd5304e1",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.8909616dbfd7": {
+      "text": "通过 Nvngx 的 DLSSG",
+      "state": "machine_translated",
+      "source_hash": "dd766f84885610885954c40893492ff714b0f299e63ea3b610236b71e468d83f",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.614d7af28e90": {
+      "text": "仅适用于 FSR FG 的各个变体\n\n需要在游戏设置中启用 DLSS-FG\n原生支持无 HUD 画面\n使用 Streamline 交换链控制帧节奏",
+      "state": "machine_translated",
+      "source_hash": "13047e7bdaa6dbabbd0f848c607fa54f95e55ae48fbe63822bccd75b9fe6ad3a",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.eb3bfe56255f": {
+      "text": "FSR 3.1 FG",
+      "state": "machine_translated",
+      "source_hash": "ac913f7ac5c8ba74d4833bc0bb9de0611d32ec0b7c12d6d24dda31cdc715cdbb",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.521fdb316d6c": {
+      "text": "可搭配任意帧生成输出\n\n需要在游戏设置中启用 FSR-FG\n原生支持无 HUD 画面",
+      "state": "machine_translated",
+      "source_hash": "8d99d960510b58c5be0ae28eca332eeab81481aeff2cc69d587d91540c4e6681",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.bb451b06bba4": {
+      "text": "FSR 3.0 FG",
+      "state": "machine_translated",
+      "source_hash": "99851a2481bad9ee51e62c9b97d72557e4c7a369e34bb29076f701e96137752c",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.ff977a24a7fe": {
+      "text": "可搭配任意帧生成输出\n\n需要在游戏设置中启用 XeSS-FG\n原生支持无 HUD 画面",
+      "state": "machine_translated",
+      "source_hash": "8fa9ee9605557c98df332694388ee343d5d895a6d2f33bfcf1c041d88cfb8cc1",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.936c676a8416": {
+      "text": "FSR FG",
+      "state": "machine_translated",
+      "source_hash": "1564475c50b22306b0f530a0057fdca4e39bdeec0946105589f219ffdf03d8dd",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.69ee8643e0b4": {
+      "text": "FSR3/4-FG，RDNA4 自动升级为 FSR4-FG\n\nFSR4-FG 的效果有时优于 XeFG，有时不如 XeFG",
+      "state": "machine_translated",
+      "source_hash": "9e95299cbe456e5bf2739bd6949277fe2b91591ce11fed3cf075cbd573ebb65c",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.9b677f7cc165": {
+      "text": "DLSSG 输出\n例如可与 Nukem's 搭配使用",
+      "state": "machine_translated",
+      "source_hash": "5a63463a85ebbd23879acc83f2e91daa38bae6f8a9f6d1cdd7d4b1e0e1545380",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.f7decf4a0a09": {
+      "text": "XeFG - 开销最大，但通用性和效果最佳的帧生成\n\nXeFG 3 总体上对 HUD 的处理最好\n\n出现 HUD 拖影时请启用 UI 合成",
+      "state": "machine_translated",
+      "source_hash": "f9b323c1517e2a477ee700857b0fb15a52515e0bf230bd81a63d629195680a8f",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.be5aa1de471a": {
+      "text": "重投影（开发中）",
+      "state": "machine_translated",
+      "source_hash": "c2972b6f117150271564055d46346aac3a7b3057c5de5d9161a9a6c7e1fd80eb",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.833175a10bcd": {
+      "text": "使用新的鼠标数据重投影游戏画面\n类似 Reflex 2，可改善感知延迟\n\n- 要求使用通过 STREAMLINE 的 DLSSG 作为输入\n- 仅适用于第一人称视角游戏\n- 仅支持鼠标，不支持手柄\n- 如有可能，请关闭游戏中的鼠标/摄像机平滑\n",
+      "state": "machine_translated",
+      "source_hash": "4c897f63a73c262db3c3950c691218ba9b86b3bcc0bb9c3d321ff6f7d905c795",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.5273b49a8e1b": {
+      "text": "无（原生 DLSSG）",
+      "state": "machine_translated",
+      "source_hash": "c21078b5f5efa98f50a56d848a8977ded2a361003afd9c8f5b02cd12d325af62",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.8c2c4b3c4e60": {
+      "text": "原生 DLSSG，适用于 RTX 40xx 及更新系列",
+      "state": "machine_translated",
+      "source_hash": "d68b85ffbeb6ad7622f45fbca07dcb9b0949ab8db6019263ade6a14ea1e973af",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.0183de320a81": {
+      "text": "Nukem's",
+      "state": "machine_translated",
+      "source_hash": "cba21e52089ffb97d675bb240a75d9949dff04e33ee0c35ce58a14b5a421fda7",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.0ecf2b250d87": {
+      "text": "FSR 3 FG",
+      "state": "machine_translated",
+      "source_hash": "f28b7b8f1fc9c1ce3b54c188eae2c711fb833e6fa8f80a2d4e8a191232ce3fbb",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.f601466a9d7e": {
+      "text": "Enabler",
+      "state": "machine_translated",
+      "source_hash": "966318b8383bb496e6878035fd40f8b2e96a331a6ca82a71a53f6f2d3b074b9b",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.189b08bbce61": {
+      "text": "FSR 3 多帧生成模组",
+      "state": "machine_translated",
+      "source_hash": "0453649fc4edbaa21dd747d7c0a342a601b422792624f499e4ab284cf6f6ac7a",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.1b9ee8be7d56": {
+      "text": "FSR 3/4 FG",
+      "state": "machine_translated",
+      "source_hash": "807d272601ad8d38ad1ab872eb743648cb4103b73430ae806a547bdaf1287e98",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.e20548b39c76": {
+      "text": "通过 FFX 升级的 FSR 3/4 FG\n\n部分基于 Nukems，使用 SL 交换链\n与 FSR-FG 输出相比，可能具有更好的性能和帧节奏",
+      "state": "machine_translated",
+      "source_hash": "aa5beed352ad9e38788f1598d2a61ca03838a50f700152d79db763f165f5973d",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.42a870de562d": {
+      "text": "FFX + Enabler",
+      "state": "machine_translated",
+      "source_hash": "01787e96f82bfd5a82821d62c71299fd02dd1da21c6d4e2db5f8f939f6731d60",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.2d86b698450c": {
+      "text": "支持 FSR4-FG 时使用，否则继续使用 Enabler\n\nFFX 用于中间的生成帧，其余帧由 Enabler 生成\n\n2x - FFX\n3x - Enabler\n4x - FFX + Enabler\n5x - Enabler\n6x - FFX + Enabler\n\n受帧节奏限制，仅在生成帧数为奇数时才能使用 FFX",
+      "state": "machine_translated",
+      "source_hash": "b5dba2b231c77fec39bb604b6ab0f6fcd44408de270fcf09c7199bb19ea1089e",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.e0049a66519c": {
+      "text": "开启",
+      "state": "machine_translated",
+      "source_hash": "130011756125313c72f2cab730db4347e2841526d236a89cb25f38789fa49229",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.52bd9faffa28": {
+      "text": "兼容性修正与 ASI",
+      "state": "machine_translated",
+      "source_hash": "57bc233d4e40d5670b344e3532596b247464b0d4fd6d66c5845e2356eecb0363",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.e9dd5680192f": {
+      "text": "已复制到剪贴板",
+      "state": "machine_translated",
+      "source_hash": "9b6c86b7a59a5246b44954d0ccdde8bce40bf261818da25bc4c02352e41761fa",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.16f031b02cf4": {
+      "text": "已应用，请保存设置以保留",
+      "state": "machine_translated",
+      "source_hash": "40fba8b0d6082e8216db7774e3ef62fd37d923a757f6f5befe49455b2b151f47",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.83133dc348fd": {
+      "text": "剪贴板中没有帧率悬浮层设置代码",
+      "state": "machine_translated",
+      "source_hash": "2170e0c12efc8bd3889333ffdee05bdae9d08022049348343fad60ac1c364c54",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.6c31f0812b8a": {
+      "text": "帧率悬浮层循环切换",
+      "state": "machine_translated",
+      "source_hash": "d991c22962b414ff90b5ae44bfdedabb7f9decf0cd03bd16704c60cca2a8141f",
+      "note": "AI-maintained dynamic UI translation; technical tokens preserved; human review pending"
+    },
+    "ui.auto.3a50e73dfb64": {
+      "text": "无帧生成",
+      "state": "machine_translated",
+      "source_hash": "b3615e11b8ee14cada92eba351fa917ea6f0431558dd6a0eeecc6153f27d4654",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.3bdf051962f9": {
+      "text": "Nukem's DLSSG",
+      "state": "machine_translated",
+      "source_hash": "aa0747ac502e37c0998d4f4e7995c834881ab9bbe4a891144502e4322a189513",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.24285862b65d": {
+      "text": "仅适用于 FSR3-FG\n\n原生支持无 HUD 画面\n\n使用 Streamline 交换链控制帧节奏",
+      "state": "machine_translated",
+      "source_hash": "43d632ca6fe2574f061dcbbde9a3ca3171eb0b1548a9fdb08eada3f12346bc8a",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.d9fca2f56cf5": {
+      "text": "可搭配任意帧生成输出\n\n原生支持无 HUD 画面",
+      "state": "machine_translated",
+      "source_hash": "0085135d0054a87143d388f017cce8569d1a615e66f66324d4efa30c185c7519",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.09bd9e1f144c": {
+      "text": "可搭配任意帧生成输出\n\n原生支持无 HUD 画面\n\n仅适用于使用 Streamline v2 的游戏",
+      "state": "machine_translated",
+      "source_hash": "74225e36f6959ae6a70c320d6d6ae1c15b06819adae85eb17fab2877d543a37a",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.7aeb2dd21edf": {
+      "text": "必须启用超分辨率器\n\n可搭配任意帧生成输出，但某些组合效果可能不理想\n\n需要 HUDfix 以防止 UI 异常",
+      "state": "machine_translated",
+      "source_hash": "7767bb66173682876ec51d6c8909c5a8d20ee91b6cacaf7e4cb489398c107d82",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.990e71c8e8f8": {
+      "text": "通过 Nukem's 的 FSR3-FG",
+      "state": "machine_translated",
+      "source_hash": "01ebac629817fee4ee6c10b785053dab5606b1a91a9734496c242ad4ad98f416",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.480bbc3ea9fd": {
+      "text": "在游戏中启用 DLSS-FG",
+      "state": "machine_translated",
+      "source_hash": "b68e63b03b334587dbd3cba023046af05164a79df541e7cdc0bd328857d87e17",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.a78a85f6a791": {
+      "text": "FSR3/4 FG",
+      "state": "machine_translated",
+      "source_hash": "9388461f9eccc8fa17bb7cd18d0a41f3fb19cabe17357956ac568ec2abbd706a",
+      "note": "AI-maintained stable UI translation; human review pending"
+    },
+    "ui.auto.56a8f43337be": {
+      "text": "打开 Wiki (?)",
+      "state": "machine_translated",
+      "source_hash": "668cc0d362a9d1b3091db966c3c7717551a07ed59e63dbe2bc5bfce6dbfcf54d",
+      "note": "AI-maintained translated text measurement label; human review pending"
     }
   }
 }

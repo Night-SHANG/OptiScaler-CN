@@ -3272,6 +3272,12 @@
           "line": 3469,
           "callee": "ImGui::Button",
           "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5932,
+          "callee": "AddResourceBarrier",
+          "arg": 0
         }
       ],
       "obsolete": false,
@@ -3609,6 +3615,12 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3807,
+          "callee": "container:outputOptions =",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
           "line": 3815,
           "callee": ".set_disabled",
           "arg": 1
@@ -3743,6 +3755,12 @@
           "file": "OptiScaler/menu/menu_common.cpp",
           "line": 3861,
           "callee": "ImGui::SeparatorText",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 6874,
+          "callee": "Keybind",
           "arg": 0
         }
       ],
@@ -7022,29 +7040,15 @@
     "ui.auto.af60e2fad244": {
       "source": "Best when can be used, some games are not compatible (e.g. Cyberpunk)\n",
       "source_hash": "b411dd450cc73b57edd7e1087ee6fc87cfe2dddfb62f7ea7b3d90e1f178f5fb6",
-      "occurrences": [
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5223,
-          "callee": "container:std::vector<MenuOption",
-          "arg": 0
-        }
-      ],
-      "obsolete": false,
+      "occurrences": [],
+      "obsolete": true,
       "previous_sources": []
     },
     "ui.auto.3cfc7e4a4be5": {
       "source": "and will fallback to Aggressive",
       "source_hash": "a562e5d3532f3d08a4ad7cf5f3e437624ee9e1974613f2b91f24e94b3a959f5b",
-      "occurrences": [
-        {
-          "file": "OptiScaler/menu/menu_common.cpp",
-          "line": 5224,
-          "callee": "container:std::vector<MenuOption",
-          "arg": 0
-        }
-      ],
-      "obsolete": false,
+      "occurrences": [],
+      "obsolete": true,
       "previous_sources": []
     },
     "ui.auto.370e518fc5e1": {
@@ -9178,6 +9182,12 @@
           "line": 6460,
           "callee": "ScopedCollapsingHeader",
           "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 6872,
+          "callee": "Keybind",
+          "arg": 0
         }
       ],
       "obsolete": false,
@@ -10199,6 +10209,12 @@
         },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 7187,
+          "callee": "ImGui::CalcTextSize",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
           "line": 7201,
           "callee": "ImGui::Button",
           "arg": 0
@@ -10309,6 +10325,12 @@
       "source": "Use Value",
       "source_hash": "4f351d39ea67797ae536d4edcdc404af60c23e65c6219fe079c5202ebbc2c034",
       "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 7186,
+          "callee": "ImGui::CalcTextSize",
+          "arg": 0
+        },
         {
           "file": "OptiScaler/menu/menu_common.cpp",
           "line": 7193,
@@ -10425,6 +10447,592 @@
           "file": "OptiScaler/menu/menu_common.cpp",
           "line": 7274,
           "callee": "ImGui::Button",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.8fbf9c7d0bf5": {
+      "source": "Unbound",
+      "source_hash": "6c9fa4e7961ea18064615efdabb4ea377a35f348b4c70853cc347492749ac73a",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 795,
+          "callee": "display-return",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.bc7819b34ff8": {
+      "source": "Unknown",
+      "source_hash": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 828,
+          "callee": "display-return",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.8e34943c353e": {
+      "source": "Simulation",
+      "source_hash": "45314e97b0c26a862b5411d0a943d801583e13bb5d104382ed7a2f4773969e66",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2772,
+          "callee": "drawTiming",
+          "arg": 1
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.154da6d4dc1b": {
+      "source": "RenderSubmit",
+      "source_hash": "2b4713d34f5b385f50b2b2760b9247b7c17ea8d3d3af6d3f21a8ab6205dac897",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2773,
+          "callee": "drawTiming",
+          "arg": 1
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.4e9f7a31eef4": {
+      "source": "Present",
+      "source_hash": "43f9b89c0b9d22d8110ead813ea3949f20592a8bfc3c777d2d49e64da3b0cc9b",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2774,
+          "callee": "drawTiming",
+          "arg": 1
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.b5c7d8b545ea": {
+      "source": "Driver",
+      "source_hash": "9fe4c68ec20dda7c6b1d3f760e5e6af6b9802897cd59f084b99c68b2ac01574c",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2775,
+          "callee": "drawTiming",
+          "arg": 1
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.89422a4b6271": {
+      "source": "RenderQueue",
+      "source_hash": "95e7d02c935d0d1ea495654ee431e85f1ab74c12ffd032f0b3deb84708faf729",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2776,
+          "callee": "drawTiming",
+          "arg": 1
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.e018cfb511ee": {
+      "source": "GpuRender",
+      "source_hash": "4880e7e873e86537817fcdc3669974e2d0efea25533a235aba02b5dbcb889fdf",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 2777,
+          "callee": "drawTiming",
+          "arg": 1
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.37ee1fb5481f": {
+      "source": "Override Preset",
+      "source_hash": "9cea63393766c4e811ef3671778ad1ce5ec06c83888b03ae5f176db1329e0dc8",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3620,
+          "callee": "AddDLSSDRenderPreset",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3648,
+          "callee": "AddDLSSRenderPreset",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.3120d76cf371": {
+      "source": "DLAA Preset",
+      "source_hash": "ee72ea1915db8ac7624bf2a72b116b7c4c4a952657ad57707753f937f68b3dc5",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3698,
+          "callee": "AddDLSSDRenderPreset",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3707,
+          "callee": "AddDLSSRenderPreset",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.43891b35a99a": {
+      "source": "UltraQ Preset",
+      "source_hash": "ce50022e89a971ccc7bd43b2d994aa5398ee211bc342efc6fe593fa8eeab782b",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3699,
+          "callee": "AddDLSSDRenderPreset",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3708,
+          "callee": "AddDLSSRenderPreset",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.65f498cfe552": {
+      "source": "Quality Preset",
+      "source_hash": "d730f56026c68ded1f1f683046f1699b59290449b0a4c4c2295047c02eab053d",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3700,
+          "callee": "AddDLSSDRenderPreset",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3709,
+          "callee": "AddDLSSRenderPreset",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.84c337b236c3": {
+      "source": "Balanced Preset",
+      "source_hash": "5f72a283af002d13d89765730edf93894f84c08cdfaf87802636c64e4eced1ad",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3701,
+          "callee": "AddDLSSDRenderPreset",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3710,
+          "callee": "AddDLSSRenderPreset",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.07e724ff00bd": {
+      "source": "Perf Preset",
+      "source_hash": "d29093df1feb489ad8ab4e38ca55053db469c86ebffa1947eda9d6ad17e58257",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3702,
+          "callee": "AddDLSSDRenderPreset",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3711,
+          "callee": "AddDLSSRenderPreset",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.a27c5ab1f230": {
+      "source": "UltraP Preset",
+      "source_hash": "a8a89d27d3c7101b8db06a559d918de1be86e9dd2fc52192842258fc45032589",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3703,
+          "callee": "AddDLSSDRenderPreset",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3712,
+          "callee": "AddDLSSRenderPreset",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.3a50e73dfb64": {
+      "source": "No Frame Generation",
+      "source_hash": "b3615e11b8ee14cada92eba351fa917ea6f0431558dd6a0eeecc6153f27d4654",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3731,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3804,
+          "callee": "container:outputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.3bdf051962f9": {
+      "source": "Nukem's DLSSG",
+      "source_hash": "aa0747ac502e37c0998d4f4e7995c834881ab9bbe4a891144502e4322a189513",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3732,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.24285862b65d": {
+      "source": "Limited to FSR3-FG\n\nSupports Hudless out of the box\n\nUses Streamline swapchain for pacing",
+      "source_hash": "43d632ca6fe2574f061dcbbde9a3ca3171eb0b1548a9fdb08eada3f12346bc8a",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3733,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.eb3bfe56255f": {
+      "source": "FSR 3.1 FG",
+      "source_hash": "ac913f7ac5c8ba74d4833bc0bb9de0611d32ec0b7c12d6d24dda31cdc715cdbb",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3734,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.d9fca2f56cf5": {
+      "source": "Can be used with any FG Output\n\nSupports Hudless out of the box",
+      "source_hash": "0085135d0054a87143d388f017cce8569d1a615e66f66324d4efa30c185c7519",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3735,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        },
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3742,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.87149bf80417": {
+      "source": "DLSSG via Streamline",
+      "source_hash": "6d897aa8e4d8a73cd3b23853b8f900efeb6610979d76e79f7dc3c5356be6b929",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3736,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.09bd9e1f144c": {
+      "source": "Can be used with any FG Output\n\nSupports Hudless out of the box\n\nLimited to games that use Streamline v2",
+      "source_hash": "74225e36f6959ae6a70c320d6d6ae1c15b06819adae85eb17fab2877d543a37a",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3737,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.1c9306cd791f": {
+      "source": "OptiFG (Upscaler)",
+      "source_hash": "e8d691a8b21638b8b9e90728c2509d55ad07821e0749d662784e4ef2eee3a922",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3739,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.7aeb2dd21edf": {
+      "source": "Upscaler must be enabled\n\nCan be used with any FG Output, but might be imperfect with some\n\nTo prevent UI glitching, HUDfix required",
+      "source_hash": "7767bb66173682876ec51d6c8909c5a8d20ee91b6cacaf7e4cb489398c107d82",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3740,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.bb451b06bba4": {
+      "source": "FSR 3.0 FG",
+      "source_hash": "99851a2481bad9ee51e62c9b97d72557e4c7a369e34bb29076f701e96137752c",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3741,
+          "callee": "container:inputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.990e71c8e8f8": {
+      "source": "FSR3-FG via Nukem's",
+      "source_hash": "01ebac629817fee4ee6c10b785053dab5606b1a91a9734496c242ad4ad98f416",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3805,
+          "callee": "container:outputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.480bbc3ea9fd": {
+      "source": "Enable DLSS-FG in-game",
+      "source_hash": "b68e63b03b334587dbd3cba023046af05164a79df541e7cdc0bd328857d87e17",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3805,
+          "callee": "container:outputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.936c676a8416": {
+      "source": "FSR FG",
+      "source_hash": "1564475c50b22306b0f530a0057fdca4e39bdeec0946105589f219ffdf03d8dd",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3806,
+          "callee": "container:outputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.a78a85f6a791": {
+      "source": "FSR3/4 FG",
+      "source_hash": "9388461f9eccc8fa17bb7cd18d0a41f3fb19cabe17357956ac568ec2abbd706a",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 3806,
+          "callee": "container:outputOptions =",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.cf7167f7e8c2": {
+      "source": "Best when can be used, some games are not compatible (e.g. Cyberpunk)\nand will fallback to Aggressive",
+      "source_hash": "f9e917e4b67a8f5d3ab550d0fba01bb791232ed84eb3fcad2bcf7f3d43906083",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5223,
+          "callee": "container:std::vector<MenuOption",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.1d0c8304baed": {
+      "source": "Color",
+      "source_hash": "6b73191a0a4b67420e61d51c9f207c35277eaf18fbbf5beb52a320a23fe09653",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5930,
+          "callee": "AddResourceBarrier",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.df0e298e3562": {
+      "source": "Depth",
+      "source_hash": "f1dbc33978a95b952b19bfc0da8f928e8e3958930810988de2f6e4bd8b27ce01",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5931,
+          "callee": "AddResourceBarrier",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.862ee3b17a82": {
+      "source": "Exposure",
+      "source_hash": "cc5454a4b7ce211370dcd2aa0ae58d6b564eee7940b42de516d05f5b269c414b",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5933,
+          "callee": "AddResourceBarrier",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.8aadf1657da5": {
+      "source": "Mask",
+      "source_hash": "e368929abd3614e92ad17e56175b67d1f6ba94aca92ab43b7f16f31764ff7447",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5934,
+          "callee": "AddResourceBarrier",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.4bed336194a9": {
+      "source": "Output",
+      "source_hash": "b2439bcb8dee14b685f137f294b0e0cb62f5aadf45143ce01d79777d435a93b4",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 5935,
+          "callee": "AddResourceBarrier",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.57f5f5efbc59": {
+      "source": "Menu",
+      "source_hash": "99af6606ff9d6cd5154d4d4e9c21e325086d3e904677cdb41d363c8a3480f862",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 6871,
+          "callee": "Keybind",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.6c31f0812b8a": {
+      "source": "FPS Overlay Cycle",
+      "source_hash": "d991c22962b414ff90b5ae44bfdedabb7f9decf0cd03bd16704c60cca2a8141f",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 6873,
+          "callee": "Keybind",
+          "arg": 0
+        }
+      ],
+      "obsolete": false,
+      "previous_sources": []
+    },
+    "ui.auto.56a8f43337be": {
+      "source": "Open Wiki (?)",
+      "source_hash": "668cc0d362a9d1b3091db966c3c7717551a07ed59e63dbe2bc5bfce6dbfcf54d",
+      "occurrences": [
+        {
+          "file": "OptiScaler/menu/menu_common.cpp",
+          "line": 6992,
+          "callee": "ImGui::CalcTextSize",
           "arg": 0
         }
       ],

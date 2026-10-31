@@ -161,7 +161,10 @@
     "std::vector<MenuOption",
     "std::vector<MenuOption<",
     "const char* q[]",
-    "std::vector<FlagDefinition>"
+    "std::vector<FlagDefinition>",
+    "inputOptions =",
+    "outputOptions =",
+    "nvngxOptions ="
   ],
   "exclude_exact": [
     "",
@@ -205,6 +208,87 @@
           0
         ]
       }
+    },
+    {
+      "glob": "OptiScaler/menu/menu_common.cpp",
+      "calls": {
+        "L": [
+          0,
+          1
+        ],
+        ".Label": [
+          0
+        ],
+        "drawTiming": [
+          1
+        ],
+        "ConfigCheckbox": [
+          0,
+          2
+        ],
+        "SectionTitle": [
+          0
+        ],
+        "optionCheckbox": [
+          0,
+          2
+        ],
+        "scaleSlider": [
+          0
+        ],
+        "colorEdit": [
+          0
+        ],
+        "pair": [
+          0,
+          1
+        ],
+        "flag": [
+          0
+        ],
+        "StatusFlag": [
+          0
+        ],
+        "addBarrier": [
+          0
+        ],
+        "nvngxCombo": [
+          0
+        ],
+        "SliderUInt": [
+          0
+        ],
+        "AddResourceBarrier": [
+          0
+        ],
+        "AddDLSSRenderPreset": [
+          0
+        ],
+        "AddDLSSDRenderPreset": [
+          0
+        ],
+        "row": [
+          0
+        ],
+        "Keybind": [
+          0
+        ],
+        "RenderRatioOverrideSlider": [
+          0
+        ],
+        "ImGui::CalcTextSize": [
+          0
+        ]
+      },
+      "ui_initializers": [
+        "settingsCodeStatus"
+      ]
+    },
+    {
+      "glob": "OptiScaler/hooks/Streamline_Hooks.cpp",
+      "ui_initializers": [
+        "toastMsg"
+      ]
     }
   ],
   "vararg_literal_calls": {
@@ -229,9 +313,73 @@
     "OptiScaler/menu/*.cpp"
   ],
   "conditional_literal_calls": [
-    "ScopedCollapsingHeader"
+    "ScopedCollapsingHeader",
+    ".setContent"
   ],
   "c_string_array_exclude_regex": [
     "^[A-Z][A-Z0-9]+(?:_[A-Z0-9]+)+$"
+  ],
+  "c_string_array_exclude_names": [
+    "overlayRowKeys"
+  ],
+  "display_initializers": [
+    {
+      "glob": "OptiScaler/menu/menu_common.cpp",
+      "type": "OverlayPreset",
+      "array": true,
+      "fields": [
+        0,
+        1
+      ],
+      "rewrite": false
+    },
+    {
+      "glob": "OptiScaler/menu/menu_common.cpp",
+      "type": "Tab",
+      "array": true,
+      "fields": [
+        1
+      ],
+      "rewrite": false
+    },
+    {
+      "glob": "OptiScaler/menu/menu_common.cpp",
+      "type": "MenuBox",
+      "array": true,
+      "fields": [
+        1,
+        2
+      ],
+      "rewrite": false
+    },
+    {
+      "glob": "OptiScaler/menu/menu_common.cpp",
+      "type": "ScopedCard",
+      "array": false,
+      "fields": [
+        0
+      ],
+      "rewrite": true
+    }
+  ],
+  "scan_imgui_toasts": true,
+  "catalog_only_calls": [
+    "Keybind"
+  ],
+  "display_return_scopes": [
+    {
+      "glob": "OptiScaler/menu/menu_common.cpp",
+      "anchors": [
+        "auto modeName =",
+        "auto stepName =",
+        "auto formatFg =",
+        "KeyNameFromVirtualKeyCode(USHORT",
+        "QuirksTabLabel(State&"
+      ]
+    }
+  ],
+  "c_string_array_catalog_only_names": [
+    "overlayRowNames",
+    "overlayRowTips"
   ]
 }

@@ -1890,14 +1890,6 @@
       "text": "Reflex ID",
       "source_hash": "1c668f754d1b1c4c99b15823605ab2abba2235ff28ba6722112c03699b7aecca"
     },
-    "ui.auto.af60e2fad244": {
-      "text": "Best when can be used, some games are not compatible (e.g. Cyberpunk)\n",
-      "source_hash": "b411dd450cc73b57edd7e1087ee6fc87cfe2dddfb62f7ea7b3d90e1f178f5fb6"
-    },
-    "ui.auto.3cfc7e4a4be5": {
-      "text": "and will fallback to Aggressive",
-      "source_hash": "a562e5d3532f3d08a4ad7cf5f3e437624ee9e1974613f2b91f24e94b3a959f5b"
-    },
     "ui.auto.370e518fc5e1": {
       "text": "LatencyFlex mode",
       "source_hash": "732fa42b820bf93e4cb72beb0dea957f4b40ab4faf49219c639ab4533aeee9cd"
@@ -2833,6 +2825,158 @@
     "ui.auto.d6ea6183dc0d": {
       "text": "Close##4",
       "source_hash": "7a9e6528b9791d1df4507d8e20958eb1f8645cc2a838062a3490f23851617885"
+    },
+    "ui.auto.8fbf9c7d0bf5": {
+      "text": "Unbound",
+      "source_hash": "6c9fa4e7961ea18064615efdabb4ea377a35f348b4c70853cc347492749ac73a"
+    },
+    "ui.auto.bc7819b34ff8": {
+      "text": "Unknown",
+      "source_hash": "b764cdc0eab7137467211272fa539f1260d1bf2e71bcf6ff3bdc960f5c16aa14"
+    },
+    "ui.auto.8e34943c353e": {
+      "text": "Simulation",
+      "source_hash": "45314e97b0c26a862b5411d0a943d801583e13bb5d104382ed7a2f4773969e66"
+    },
+    "ui.auto.154da6d4dc1b": {
+      "text": "RenderSubmit",
+      "source_hash": "2b4713d34f5b385f50b2b2760b9247b7c17ea8d3d3af6d3f21a8ab6205dac897"
+    },
+    "ui.auto.4e9f7a31eef4": {
+      "text": "Present",
+      "source_hash": "43f9b89c0b9d22d8110ead813ea3949f20592a8bfc3c777d2d49e64da3b0cc9b"
+    },
+    "ui.auto.b5c7d8b545ea": {
+      "text": "Driver",
+      "source_hash": "9fe4c68ec20dda7c6b1d3f760e5e6af6b9802897cd59f084b99c68b2ac01574c"
+    },
+    "ui.auto.89422a4b6271": {
+      "text": "RenderQueue",
+      "source_hash": "95e7d02c935d0d1ea495654ee431e85f1ab74c12ffd032f0b3deb84708faf729"
+    },
+    "ui.auto.e018cfb511ee": {
+      "text": "GpuRender",
+      "source_hash": "4880e7e873e86537817fcdc3669974e2d0efea25533a235aba02b5dbcb889fdf"
+    },
+    "ui.auto.37ee1fb5481f": {
+      "text": "Override Preset",
+      "source_hash": "9cea63393766c4e811ef3671778ad1ce5ec06c83888b03ae5f176db1329e0dc8"
+    },
+    "ui.auto.3120d76cf371": {
+      "text": "DLAA Preset",
+      "source_hash": "ee72ea1915db8ac7624bf2a72b116b7c4c4a952657ad57707753f937f68b3dc5"
+    },
+    "ui.auto.43891b35a99a": {
+      "text": "UltraQ Preset",
+      "source_hash": "ce50022e89a971ccc7bd43b2d994aa5398ee211bc342efc6fe593fa8eeab782b"
+    },
+    "ui.auto.65f498cfe552": {
+      "text": "Quality Preset",
+      "source_hash": "d730f56026c68ded1f1f683046f1699b59290449b0a4c4c2295047c02eab053d"
+    },
+    "ui.auto.84c337b236c3": {
+      "text": "Balanced Preset",
+      "source_hash": "5f72a283af002d13d89765730edf93894f84c08cdfaf87802636c64e4eced1ad"
+    },
+    "ui.auto.07e724ff00bd": {
+      "text": "Perf Preset",
+      "source_hash": "d29093df1feb489ad8ab4e38ca55053db469c86ebffa1947eda9d6ad17e58257"
+    },
+    "ui.auto.a27c5ab1f230": {
+      "text": "UltraP Preset",
+      "source_hash": "a8a89d27d3c7101b8db06a559d918de1be86e9dd2fc52192842258fc45032589"
+    },
+    "ui.auto.3a50e73dfb64": {
+      "text": "No Frame Generation",
+      "source_hash": "b3615e11b8ee14cada92eba351fa917ea6f0431558dd6a0eeecc6153f27d4654"
+    },
+    "ui.auto.3bdf051962f9": {
+      "text": "Nukem's DLSSG",
+      "source_hash": "aa0747ac502e37c0998d4f4e7995c834881ab9bbe4a891144502e4322a189513"
+    },
+    "ui.auto.24285862b65d": {
+      "text": "Limited to FSR3-FG\n\nSupports Hudless out of the box\n\nUses Streamline swapchain for pacing",
+      "source_hash": "43d632ca6fe2574f061dcbbde9a3ca3171eb0b1548a9fdb08eada3f12346bc8a"
+    },
+    "ui.auto.eb3bfe56255f": {
+      "text": "FSR 3.1 FG",
+      "source_hash": "ac913f7ac5c8ba74d4833bc0bb9de0611d32ec0b7c12d6d24dda31cdc715cdbb"
+    },
+    "ui.auto.d9fca2f56cf5": {
+      "text": "Can be used with any FG Output\n\nSupports Hudless out of the box",
+      "source_hash": "0085135d0054a87143d388f017cce8569d1a615e66f66324d4efa30c185c7519"
+    },
+    "ui.auto.87149bf80417": {
+      "text": "DLSSG via Streamline",
+      "source_hash": "6d897aa8e4d8a73cd3b23853b8f900efeb6610979d76e79f7dc3c5356be6b929"
+    },
+    "ui.auto.09bd9e1f144c": {
+      "text": "Can be used with any FG Output\n\nSupports Hudless out of the box\n\nLimited to games that use Streamline v2",
+      "source_hash": "74225e36f6959ae6a70c320d6d6ae1c15b06819adae85eb17fab2877d543a37a"
+    },
+    "ui.auto.1c9306cd791f": {
+      "text": "OptiFG (Upscaler)",
+      "source_hash": "e8d691a8b21638b8b9e90728c2509d55ad07821e0749d662784e4ef2eee3a922"
+    },
+    "ui.auto.7aeb2dd21edf": {
+      "text": "Upscaler must be enabled\n\nCan be used with any FG Output, but might be imperfect with some\n\nTo prevent UI glitching, HUDfix required",
+      "source_hash": "7767bb66173682876ec51d6c8909c5a8d20ee91b6cacaf7e4cb489398c107d82"
+    },
+    "ui.auto.bb451b06bba4": {
+      "text": "FSR 3.0 FG",
+      "source_hash": "99851a2481bad9ee51e62c9b97d72557e4c7a369e34bb29076f701e96137752c"
+    },
+    "ui.auto.990e71c8e8f8": {
+      "text": "FSR3-FG via Nukem's",
+      "source_hash": "01ebac629817fee4ee6c10b785053dab5606b1a91a9734496c242ad4ad98f416"
+    },
+    "ui.auto.480bbc3ea9fd": {
+      "text": "Enable DLSS-FG in-game",
+      "source_hash": "b68e63b03b334587dbd3cba023046af05164a79df541e7cdc0bd328857d87e17"
+    },
+    "ui.auto.936c676a8416": {
+      "text": "FSR FG",
+      "source_hash": "1564475c50b22306b0f530a0057fdca4e39bdeec0946105589f219ffdf03d8dd"
+    },
+    "ui.auto.a78a85f6a791": {
+      "text": "FSR3/4 FG",
+      "source_hash": "9388461f9eccc8fa17bb7cd18d0a41f3fb19cabe17357956ac568ec2abbd706a"
+    },
+    "ui.auto.cf7167f7e8c2": {
+      "text": "Best when can be used, some games are not compatible (e.g. Cyberpunk)\nand will fallback to Aggressive",
+      "source_hash": "f9e917e4b67a8f5d3ab550d0fba01bb791232ed84eb3fcad2bcf7f3d43906083"
+    },
+    "ui.auto.1d0c8304baed": {
+      "text": "Color",
+      "source_hash": "6b73191a0a4b67420e61d51c9f207c35277eaf18fbbf5beb52a320a23fe09653"
+    },
+    "ui.auto.df0e298e3562": {
+      "text": "Depth",
+      "source_hash": "f1dbc33978a95b952b19bfc0da8f928e8e3958930810988de2f6e4bd8b27ce01"
+    },
+    "ui.auto.862ee3b17a82": {
+      "text": "Exposure",
+      "source_hash": "cc5454a4b7ce211370dcd2aa0ae58d6b564eee7940b42de516d05f5b269c414b"
+    },
+    "ui.auto.8aadf1657da5": {
+      "text": "Mask",
+      "source_hash": "e368929abd3614e92ad17e56175b67d1f6ba94aca92ab43b7f16f31764ff7447"
+    },
+    "ui.auto.4bed336194a9": {
+      "text": "Output",
+      "source_hash": "b2439bcb8dee14b685f137f294b0e0cb62f5aadf45143ce01d79777d435a93b4"
+    },
+    "ui.auto.57f5f5efbc59": {
+      "text": "Menu",
+      "source_hash": "99af6606ff9d6cd5154d4d4e9c21e325086d3e904677cdb41d363c8a3480f862"
+    },
+    "ui.auto.6c31f0812b8a": {
+      "text": "FPS Overlay Cycle",
+      "source_hash": "d991c22962b414ff90b5ae44bfdedabb7f9decf0cd03bd16704c60cca2a8141f"
+    },
+    "ui.auto.56a8f43337be": {
+      "text": "Open Wiki (?)",
+      "source_hash": "668cc0d362a9d1b3091db966c3c7717551a07ed59e63dbe2bc5bfce6dbfcf54d"
     }
   }
 }
