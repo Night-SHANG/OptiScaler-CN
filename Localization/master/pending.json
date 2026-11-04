@@ -1,7 +1,9 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.1c38490f5de1"
+    ],
     "changed": [],
     "removed": []
   },
@@ -1085,6 +1087,11 @@
       "key": "ui.auto.d48d4ad193fd",
       "source": "Custom DLSSG from the custom folder",
       "source_hash": "dc316c078aacef3b3b714c36f3cd61008e8536e6df5ee7322eb5a142466d303f"
+    },
+    {
+      "key": "ui.auto.1c38490f5de1",
+      "source": "This plugin crashed while drawing its tab and was disabled.\nCheck the log for details.",
+      "source_hash": "8bdc0ce19959a5a0937fdcbef026b6e78d69e510ee6badf38100ce0050736316"
     }
   ],
   "changed": []
