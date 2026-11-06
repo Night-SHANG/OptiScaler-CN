@@ -1366,10 +1366,6 @@
       "text": "Top left: Dilated Motion Vectors\nTop right: Predicted Blend Factor",
       "source_hash": "10a2756195f9cdc427661e6b69e595a7795e4ece87d767efa34e25be56381839"
     },
-    "ui.auto.52d42b3c28e0": {
-      "text": "Top left: Dilated Motion Vectors\nTop middle: Protected Areas\nTop right: Dilated Depth\nMiddle: Upscaled frame\nBottom left: Disocclusion mask\nBottom middle: Reactiveness\nBottom right: Detail Protection Takedown",
-      "source_hash": "0177439cd7c19b37d20c16c299603cb42c30b7b981a41ccbc3c17c7489893d64"
-    },
     "ui.auto.e040db2b7f13": {
       "text": "Motion",
       "source_hash": "8ca344247c18317ebe13c11e1943cc39d955ce937100f53a8129768c9334819d"
@@ -1529,10 +1525,6 @@
     "ui.auto.595d066d151c": {
       "text": "UI Premult. alpha",
       "source_hash": "0609728ef04d6665dd42477717ae68fadb9cf4e5c005fbf2943b8f9cc83e8f02"
-    },
-    "ui.auto.f68619f79fc4": {
-      "text": "If UI is too faint, disable this option",
-      "source_hash": "c155261869df846c33d6804cf08038c1690e6939a670c2644f445c8446ca0540"
     },
     "ui.auto.7fe1fa654581": {
       "text": "Advanced FG Settings",
@@ -2161,10 +2153,6 @@
     "ui.auto.c4fc37ad99a3": {
       "text": "Contrast",
       "source_hash": "08795ba031bcd121e4e1ce47c1c2828a796ffbf6bb4e93daeee3937017bc7a04"
-    },
-    "ui.auto.4bba4c93c95a": {
-      "text": "Positive values decrease sharpness at high contrast areas.\nNegative values increase sharpness at high contrast areas.",
-      "source_hash": "8af595007cb4b89bcd9148d811b1e44f7ff1bced2f48dc96e9d8788e3c972be9"
     },
     "ui.auto.d610006c7df9": {
       "text": "Motion Adaptive Sharpness##2",
@@ -3010,10 +2998,6 @@
       "text": "Unblend UI",
       "source_hash": "91cecd39833d79e338c0cd3fe8e68b9df06231a75020ab7bf9f68706ecc1d342"
     },
-    "ui.auto.70b4aa1752ad": {
-      "text": "Rebuild the HUDless by removing the UI texture from the frame\nFSR-FG gets the UI only this way, DLSSG also takes the UI texture directly",
-      "source_hash": "b67d35f740877ccf2595cd51ad9b909f616975db02d1bbb8862b152cb2cf5c17"
-    },
     "ui.auto.a62203943568": {
       "text": "%s %u.%u.%u",
       "source_hash": "1366b872f2c416283b353faf80438490431d604ff12e756851f9199b55bc5912"
@@ -3517,6 +3501,18 @@
     "ui.auto.1c38490f5de1": {
       "text": "This plugin crashed while drawing its tab and was disabled.\nCheck the log for details.",
       "source_hash": "8bdc0ce19959a5a0937fdcbef026b6e78d69e510ee6badf38100ce0050736316"
+    },
+    "ui.auto.6a830a0367a2": {
+      "text": "If UI is too bright, disable this option",
+      "source_hash": "30c12dcbb46cd07714df7bff0fb959e7fcb66f4853c930494d988f123d5639f0"
+    },
+    "ui.auto.81e4887f9a34": {
+      "text": "Rebuild the HUDless by removing the UI texture from the frame\nFSR-FG gets the UI only this way, DLSSG takes the UI texture directly",
+      "source_hash": "11a947b975942ed2056b8c9874b92afe9722d188c5f0a5b334f1a10e0d921715"
+    },
+    "ui.auto.19f28b9470cb": {
+      "text": "Lowers sharpness at high contrast areas.",
+      "source_hash": "90ae390b046776ab3bc912a286a447d1adc6dd8d3cb675f6577e2390b117e1e3"
     }
   }
 }

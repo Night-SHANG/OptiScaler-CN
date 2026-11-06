@@ -1,9 +1,21 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
-    "changed": [],
-    "removed": []
+    "added": [
+      "ui.auto.6a830a0367a2",
+      "ui.auto.81e4887f9a34",
+      "ui.auto.19f28b9470cb"
+    ],
+    "changed": [
+      "ui.auto.6a830a0367a2",
+      "ui.auto.81e4887f9a34"
+    ],
+    "removed": [
+      "ui.auto.52d42b3c28e0",
+      "ui.auto.f68619f79fc4",
+      "ui.auto.4bba4c93c95a",
+      "ui.auto.70b4aa1752ad"
+    ]
   },
   "missing": [
     {
@@ -460,11 +472,6 @@
       "key": "ui.auto.69e55aa462ae",
       "source": "Unblend UI",
       "source_hash": "91cecd39833d79e338c0cd3fe8e68b9df06231a75020ab7bf9f68706ecc1d342"
-    },
-    {
-      "key": "ui.auto.70b4aa1752ad",
-      "source": "Rebuild the HUDless by removing the UI texture from the frame\nFSR-FG gets the UI only this way, DLSSG also takes the UI texture directly",
-      "source_hash": "b67d35f740877ccf2595cd51ad9b909f616975db02d1bbb8862b152cb2cf5c17"
     },
     {
       "key": "ui.auto.a62203943568",
@@ -1090,6 +1097,21 @@
       "key": "ui.auto.1c38490f5de1",
       "source": "This plugin crashed while drawing its tab and was disabled.\nCheck the log for details.",
       "source_hash": "8bdc0ce19959a5a0937fdcbef026b6e78d69e510ee6badf38100ce0050736316"
+    },
+    {
+      "key": "ui.auto.6a830a0367a2",
+      "source": "If UI is too bright, disable this option",
+      "source_hash": "30c12dcbb46cd07714df7bff0fb959e7fcb66f4853c930494d988f123d5639f0"
+    },
+    {
+      "key": "ui.auto.81e4887f9a34",
+      "source": "Rebuild the HUDless by removing the UI texture from the frame\nFSR-FG gets the UI only this way, DLSSG takes the UI texture directly",
+      "source_hash": "11a947b975942ed2056b8c9874b92afe9722d188c5f0a5b334f1a10e0d921715"
+    },
+    {
+      "key": "ui.auto.19f28b9470cb",
+      "source": "Lowers sharpness at high contrast areas.",
+      "source_hash": "90ae390b046776ab3bc912a286a447d1adc6dd8d3cb675f6577e2390b117e1e3"
     }
   ],
   "changed": []
