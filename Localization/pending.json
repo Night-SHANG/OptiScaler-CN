@@ -2,20 +2,16 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.6a830a0367a2",
-      "ui.auto.81e4887f9a34",
-      "ui.auto.19f28b9470cb"
+      "ui.auto.42a18699b45f",
+      "ui.auto.ff643b6b25cb",
+      "ui.auto.26a0ee53a4ac",
+      "ui.auto.ea2adb72e65f",
+      "ui.auto.0ef2decebdb3",
+      "ui.auto.d9c0c27efd79",
+      "ui.auto.3c27e842bb19"
     ],
-    "changed": [
-      "ui.auto.6a830a0367a2",
-      "ui.auto.81e4887f9a34"
-    ],
-    "removed": [
-      "ui.auto.52d42b3c28e0",
-      "ui.auto.f68619f79fc4",
-      "ui.auto.4bba4c93c95a",
-      "ui.auto.70b4aa1752ad"
-    ]
+    "changed": [],
+    "removed": []
   },
   "missing": [
     {
@@ -1112,6 +1108,41 @@
       "key": "ui.auto.19f28b9470cb",
       "source": "Lowers sharpness at high contrast areas.",
       "source_hash": "90ae390b046776ab3bc912a286a447d1adc6dd8d3cb675f6577e2390b117e1e3"
+    },
+    {
+      "key": "ui.auto.42a18699b45f",
+      "source": "Flip HUDless",
+      "source_hash": "d97ca11348d89bc6accacef41a4fe0d5e255c72a3f68d05c977f961069990bee"
+    },
+    {
+      "key": "ui.auto.ff643b6b25cb",
+      "source": "Flip the HUDless texture\nGames can also request it with the Opti.Hudless.Flip parameter",
+      "source_hash": "c4252653cd27dc8bd14fb3958b425428713fba027ae574e9846bdfcdc213b575"
+    },
+    {
+      "key": "ui.auto.26a0ee53a4ac",
+      "source": "GB Ver: %d.%d",
+      "source_hash": "eb7add426bbe8c34ae4dfde4f352a334697253b6e629b8f26429a6d4f8b8f573"
+    },
+    {
+      "key": "ui.auto.ea2adb72e65f",
+      "source": "Present Mode",
+      "source_hash": "c79882ffeb02fbd9ececb7c659e0725f0e92935ef279b81217c42c74c17e848f"
+    },
+    {
+      "key": "ui.auto.0ef2decebdb3",
+      "source": "Game's",
+      "source_hash": "318ba508b7b84e7cc181b970fdccda5639fe38020f66d25fd9aeb9455b8913de"
+    },
+    {
+      "key": "ui.auto.d9c0c27efd79",
+      "source": "Overrides the game's Vulkan present mode, the game recreates its swapchain to apply it.\n\nImmediate: no V-Sync, tears.\nMailbox: no tearing, newest frame replaces the queued one.\nFIFO: V-Sync.\nFIFO Relaxed: V-Sync, tears when below the refresh rate.\nFIFO Latest Ready: V-Sync, shows the newest ready frame at each refresh.\n\nMailbox and FIFO Latest Ready can drop generated frames above the refresh rate.\nOnly modes the display supports are listed.",
+      "source_hash": "985dd2eae5e9209602c314a4914c50bae7b2a2e19c75e4be3f8f865caf88b4cc"
+    },
+    {
+      "key": "ui.auto.3c27e842bb19",
+      "source": "Game's present mode: %s",
+      "source_hash": "580f9fc9a1fdae91f6ba59056c46ee330fa52d9e395cfb226ec4e7a7dc3d3816"
     }
   ],
   "changed": []
