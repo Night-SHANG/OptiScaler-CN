@@ -3541,6 +3541,10 @@
     "ui.auto.3c27e842bb19": {
       "text": "Game's present mode: %s",
       "source_hash": "580f9fc9a1fdae91f6ba59056c46ee330fa52d9e395cfb226ec4e7a7dc3d3816"
+    },
+    "ui.auto.4aa6737967fc": {
+      "text": "%s##rr%s",
+      "source_hash": "d166bdd1167c06e0599b64341fa1b823bb02180e635ee9832481e0785f36984e"
     }
   }
 }
