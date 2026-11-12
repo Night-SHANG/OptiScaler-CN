@@ -2,7 +2,14 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.4aa6737967fc"
+      "ui.auto.aa13406640aa",
+      "ui.auto.f941a0537642",
+      "ui.auto.d086ed997636",
+      "ui.auto.ff75b94a2369",
+      "ui.auto.39f69b6d9851",
+      "ui.auto.f4a43116faf0",
+      "ui.auto.1cbac0fbfa20",
+      "ui.auto.cbbe484651aa"
     ],
     "changed": [],
     "removed": []
@@ -1142,6 +1149,46 @@
       "key": "ui.auto.4aa6737967fc",
       "source": "%s##rr%s",
       "source_hash": "d166bdd1167c06e0599b64341fa1b823bb02180e635ee9832481e0785f36984e"
+    },
+    {
+      "key": "ui.auto.aa13406640aa",
+      "source": "Off##rrOff",
+      "source_hash": "7722e528eab0875cd22fb9fad7c21760f1657293b7ba5618aab1c5146d8ad8d2"
+    },
+    {
+      "key": "ui.auto.f941a0537642",
+      "source": "%s##rrRegular%d",
+      "source_hash": "a5f66a044edc15dffaa71ad19dc7b12ec584e7c68d3ce72aad6036f5acedaa70"
+    },
+    {
+      "key": "ui.auto.d086ed997636",
+      "source": "No denoise",
+      "source_hash": "154d81ccac5cb8d58550b40490ce1dce4b092070520425c4c5ba738fcb65749d"
+    },
+    {
+      "key": "ui.auto.ff75b94a2369",
+      "source": "Upscaler used when Ray Reconstruction is turned on in the game.",
+      "source_hash": "9880156c76d3a9098342b62911a418bbff7b735ab20df92689ace3f46339791c"
+    },
+    {
+      "key": "ui.auto.39f69b6d9851",
+      "source": "No DLSSD can run on this GPU, so the game doesn't offer Ray Reconstruction.\nPicking an upscaler here lets you turn it on in the game.",
+      "source_hash": "1235f883ae2d953b0e150700faea1305ee10ea717ba8f7685181b76b4de5aec7"
+    },
+    {
+      "key": "ui.auto.f4a43116faf0",
+      "source": "This upscaler can't denoise.\nWith DLSSD on in the game, image may look grainy or noisy.",
+      "source_hash": "edbac50474cbb7379a405a6135c115d2cbdc2fc1ead3afda5c970633ea1974c2"
+    },
+    {
+      "key": "ui.auto.1cbac0fbfa20",
+      "source": "Save Settings and restart the game to apply",
+      "source_hash": "9153f6f9802b0c73aa837218d2afc98e4865217501c229cdcc1b504c4a55f303"
+    },
+    {
+      "key": "ui.auto.cbbe484651aa",
+      "source": "DLSSD is on in the game, but this upscaler can't denoise.\nImage may look grainy or noisy.",
+      "source_hash": "1ce4d8f1387c75d235dcece8732db84ed8435c94e3b8e04e6a674b8737bc767b"
     }
   ],
   "changed": []
