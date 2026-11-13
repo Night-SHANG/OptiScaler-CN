@@ -2,14 +2,25 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.aa13406640aa",
-      "ui.auto.f941a0537642",
-      "ui.auto.d086ed997636",
-      "ui.auto.ff75b94a2369",
-      "ui.auto.39f69b6d9851",
-      "ui.auto.f4a43116faf0",
-      "ui.auto.1cbac0fbfa20",
-      "ui.auto.cbbe484651aa"
+      "ui.auto.b81c00493257",
+      "ui.auto.f75e25518bd9",
+      "ui.auto.2628552d322d",
+      "ui.auto.2f3445538abe",
+      "ui.auto.c9ea8d112e54",
+      "ui.auto.447bcef3f080",
+      "ui.auto.91d73eeec9f0",
+      "ui.auto.93f0add8ed20",
+      "ui.auto.92e29566c571",
+      "ui.auto.c9fc5e865df4",
+      "ui.auto.328c5cff63c3",
+      "ui.auto.2bbf1965c0be",
+      "ui.auto.97dd2d3b73e8",
+      "ui.auto.c4387e776a7e",
+      "ui.auto.c0104c2d9bbe",
+      "ui.auto.f3e6ebef191d",
+      "ui.auto.b593e52038a2",
+      "ui.auto.aa3c49f07b84",
+      "ui.auto.70d5aa858afa"
     ],
     "changed": [],
     "removed": []
@@ -1189,6 +1200,101 @@
       "key": "ui.auto.cbbe484651aa",
       "source": "DLSSD is on in the game, but this upscaler can't denoise.\nImage may look grainy or noisy.",
       "source_hash": "1ce4d8f1387c75d235dcece8732db84ed8435c94e3b8e04e6a674b8737bc767b"
+    },
+    {
+      "key": "ui.auto.b81c00493257",
+      "source": "Flip metering isn't supported by the driver",
+      "source_hash": "f302c01239f003fec2ba667ffbbd06b47ed1a84b2b13c0dee39277ffefdb87a4"
+    },
+    {
+      "key": "ui.auto.f75e25518bd9",
+      "source": "FSR FG Provider",
+      "source_hash": "8d98ce95ec4e205c5803f687b505fd71d1b810103284f341467e1a46472d96d1"
+    },
+    {
+      "key": "ui.auto.2628552d322d",
+      "source": "FFX frame generation and swapchain used by FSR FG\nCustom ones are from custom\\<name>\\ffx_fg(_vk) or plugins",
+      "source_hash": "93916329e7c35dcac6959793c64042b08a97d505b4b0330a1439f62671d1bb5d"
+    },
+    {
+      "key": "ui.auto.2f3445538abe",
+      "source": "Driver pacing: %s, %uX",
+      "source_hash": "4174e87493dafed4abb89ba8f0ca1f0bbb6c5b3f021f7bd2a41a1613f25f9154"
+    },
+    {
+      "key": "ui.auto.c9ea8d112e54",
+      "source": "frame index mode",
+      "source_hash": "c608a7c0d7f4a68650de744643390154f0c2f6dc9baafe97714b6f98c548c847"
+    },
+    {
+      "key": "ui.auto.447bcef3f080",
+      "source": "adaptive mode",
+      "source_hash": "e4d99bc5cebf59e43bb6dcc336a1c38b905e2def18305abffedef0641d29ad28"
+    },
+    {
+      "key": "ui.auto.91d73eeec9f0",
+      "source": "AMD driver flip metering holds the flips of the generated frames\nAdaptive mode is FSR's and paces one generated frame,\nframe index mode paces more",
+      "source_hash": "8729835f4d81e1c9e0fd8243b1ecc76e3edc2c729495b8cb584f17c91afc0b81"
+    },
+    {
+      "key": "ui.auto.93f0add8ed20",
+      "source": "Driver pacing: off while no frames are generated",
+      "source_hash": "1b58e42bd7de0b8b3c3cf4a0ecedfd3a88167cef4e9dc0da4266c0caa297673b"
+    },
+    {
+      "key": "ui.auto.92e29566c571",
+      "source": "Frame generation is off, or the game doesn't send\nits inputs, like in menus and loading screens",
+      "source_hash": "32389c3544855027cc14727db667f68b3b43373f68126e35aab053a5a14ef5b9"
+    },
+    {
+      "key": "ui.auto.c9fc5e865df4",
+      "source": "Driver pacing: off, only the game's frames are shown",
+      "source_hash": "4bd1531c1995362ac174a0762ab77527515df5be2bdef151794fd606947c52c2"
+    },
+    {
+      "key": "ui.auto.328c5cff63c3",
+      "source": "Needs exclusive fullscreen or a window covering the whole display",
+      "source_hash": "9a693c37e6c2e6ed662b0b932b00b9cfb909e28bdf96cac55a714c434974ec17"
+    },
+    {
+      "key": "ui.auto.2bbf1965c0be",
+      "source": "The driver rejected the config: %08X, status %u",
+      "source_hash": "55412eb3a67eb23365642be075b79282ed2bdae9d131d61970cc32a84c09bccb"
+    },
+    {
+      "key": "ui.auto.97dd2d3b73e8",
+      "source": "The driver allows up to %dX, the FG replacement %dX",
+      "source_hash": "0325eb9922b8a46373b123c7f3643eea6f9245ed6e6de9fcfa580212e588fe49"
+    },
+    {
+      "key": "ui.auto.c4387e776a7e",
+      "source": "AMD's driver only paces 2X by default. More needs a registry setting.\nButton below creates a .reg file next to the game's exe.\nRun it and restart your computer.",
+      "source_hash": "14fc1e3dc3e052a5d40cf8acc4d1b5fc9d9bc33cfc8364b3ee798f16fd0a3b60"
+    },
+    {
+      "key": "ui.auto.c0104c2d9bbe",
+      "source": "Create .reg file##flipmeter",
+      "source_hash": "d08ce08fcd0400ac7193f17dd681b1e1ffd2e5ffb9145acc5d9be688656c79a3"
+    },
+    {
+      "key": "ui.auto.f3e6ebef191d",
+      "source": "Sets the DWORD Gmx_DriverFramePacingMaxGenFrames to {} ({}X) in the GPU's\ndriver key under HKLM\\SYSTEM\\CurrentControlSet\\Control\\Class\\\n{{4d36e968-e325-11ce-bfc1-08002be10318}}",
+      "source_hash": "67bb041b06664107789bd6df81bc64c6560b515343ee89167194354fc556e04d"
+    },
+    {
+      "key": "ui.auto.b593e52038a2",
+      "source": "Saved %s",
+      "source_hash": "a1feb3dcb35010a7fb607d23f74714c7a772b5e058e64ca202a08ed8bbd2c001"
+    },
+    {
+      "key": "ui.auto.aa3c49f07b84",
+      "source": "Double-click it and allow the change (needs admin), then restart Windows. The file says how to undo it.",
+      "source_hash": "a70c222eecb58c4cd026931ad2b1758a846805ed390fd28d385d45838ea48bdb"
+    },
+    {
+      "key": "ui.auto.70d5aa858afa",
+      "source": "Couldn't create it: %s",
+      "source_hash": "14110a1bcc42ca650a2d3c06deae67fe977f9d3fe67385bfd796498e83e65d7b"
     }
   ],
   "changed": []
