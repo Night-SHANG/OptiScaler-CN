@@ -2,25 +2,10 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.b81c00493257",
-      "ui.auto.f75e25518bd9",
-      "ui.auto.2628552d322d",
-      "ui.auto.2f3445538abe",
-      "ui.auto.c9ea8d112e54",
-      "ui.auto.447bcef3f080",
-      "ui.auto.91d73eeec9f0",
-      "ui.auto.93f0add8ed20",
-      "ui.auto.92e29566c571",
-      "ui.auto.c9fc5e865df4",
-      "ui.auto.328c5cff63c3",
-      "ui.auto.2bbf1965c0be",
-      "ui.auto.97dd2d3b73e8",
-      "ui.auto.c4387e776a7e",
-      "ui.auto.c0104c2d9bbe",
-      "ui.auto.f3e6ebef191d",
-      "ui.auto.b593e52038a2",
-      "ui.auto.aa3c49f07b84",
-      "ui.auto.70d5aa858afa"
+      "ui.auto.290fdad91b60",
+      "ui.auto.36ca85205da8",
+      "ui.auto.a30a2dc7b07b",
+      "ui.auto.42f3d1814c8a"
     ],
     "changed": [],
     "removed": []
@@ -1295,6 +1280,26 @@
       "key": "ui.auto.70d5aa858afa",
       "source": "Couldn't create it: %s",
       "source_hash": "14110a1bcc42ca650a2d3c06deae67fe977f9d3fe67385bfd796498e83e65d7b"
+    },
+    {
+      "key": "ui.auto.290fdad91b60",
+      "source": "VLK + Ext",
+      "source_hash": "2cef5ab36890046b8be4e94735d2e762b3a78cdc91b01d2e159c605342b404b1"
+    },
+    {
+      "key": "ui.auto.36ca85205da8",
+      "source": "VLK",
+      "source_hash": "49cd6195fdcc106ff3e52d0403c725faa37ded2e6f45d0aa7a4b2b8946bfb80b"
+    },
+    {
+      "key": "ui.auto.a30a2dc7b07b",
+      "source": "VLK Ext",
+      "source_hash": "7f81370e3730d4ab55a1e642d2b1ed8cc979464092add753fe9a2827b5a434ff"
+    },
+    {
+      "key": "ui.auto.42f3d1814c8a",
+      "source": "DXGI",
+      "source_hash": "633301d6b942bb738b0c0b1ae27384dd08ca0ed90a2b9328152431a750e08474"
     }
   ],
   "changed": []

@@ -3653,6 +3653,22 @@
     "ui.auto.70d5aa858afa": {
       "text": "Couldn't create it: %s",
       "source_hash": "14110a1bcc42ca650a2d3c06deae67fe977f9d3fe67385bfd796498e83e65d7b"
+    },
+    "ui.auto.290fdad91b60": {
+      "text": "VLK + Ext",
+      "source_hash": "2cef5ab36890046b8be4e94735d2e762b3a78cdc91b01d2e159c605342b404b1"
+    },
+    "ui.auto.36ca85205da8": {
+      "text": "VLK",
+      "source_hash": "49cd6195fdcc106ff3e52d0403c725faa37ded2e6f45d0aa7a4b2b8946bfb80b"
+    },
+    "ui.auto.a30a2dc7b07b": {
+      "text": "VLK Ext",
+      "source_hash": "7f81370e3730d4ab55a1e642d2b1ed8cc979464092add753fe9a2827b5a434ff"
+    },
+    "ui.auto.42f3d1814c8a": {
+      "text": "DXGI",
+      "source_hash": "633301d6b942bb738b0c0b1ae27384dd08ca0ed90a2b9328152431a750e08474"
     }
   }
 }
