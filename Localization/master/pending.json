@@ -2,13 +2,43 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.290fdad91b60",
-      "ui.auto.36ca85205da8",
-      "ui.auto.a30a2dc7b07b",
-      "ui.auto.42f3d1814c8a"
+      "ui.auto.11dc9e195292",
+      "ui.auto.c93d56ca52d8",
+      "ui.auto.efe497d6eea0",
+      "ui.auto.6b5d2b02c6a4",
+      "ui.auto.86221c8e6fe7",
+      "ui.auto.d4978f912c54",
+      "ui.auto.e942d107da61"
     ],
-    "changed": [],
-    "removed": []
+    "changed": [
+      "ui.auto.6b5d2b02c6a4",
+      "ui.auto.e942d107da61"
+    ],
+    "removed": [
+      "ui.auto.2ec3f7414d7a",
+      "ui.auto.b7fbbb308e96",
+      "ui.auto.77e95560da18",
+      "ui.auto.484ecbc5668f",
+      "ui.auto.f80c6ead9cc1",
+      "ui.auto.387d7a59dbaa",
+      "ui.auto.864564451c20",
+      "ui.auto.8e05b7ef41bd",
+      "ui.auto.67af2750b89f",
+      "ui.auto.b26edbc13352",
+      "ui.auto.fcab2580c13c",
+      "ui.auto.9d28ea0c0397",
+      "ui.auto.e0125bc7c78a",
+      "ui.auto.65d8301a875f",
+      "ui.auto.655746f7be5c",
+      "ui.auto.fa8a0bd617b4",
+      "ui.auto.9acb08bb383d",
+      "ui.auto.a0c076965fe8",
+      "ui.auto.bae71199ba5e",
+      "ui.auto.6411da306665",
+      "ui.auto.2f3445538abe",
+      "ui.auto.93f0add8ed20",
+      "ui.auto.92e29566c571"
+    ]
   },
   "missing": [
     {
@@ -307,11 +337,6 @@
       "source_hash": "df2d705420554fcb068404668fc1b83c3121e4fdbac99ffc8bc8b93176deda28"
     },
     {
-      "key": "ui.auto.a0c076965fe8",
-      "source": " %ux",
-      "source_hash": "3671341499b9e1461534d4f0c598583e9b78a2fc004f84dcbde5824a0cf8a52d"
-    },
-    {
       "key": "ui.auto.10064ee6dc19",
       "source": "%s %ux",
       "source_hash": "4133dbc700c0710524401fe0c855c16d455e6e7d033c3e4d13b1aefb4ca80aee"
@@ -560,16 +585,6 @@
       "key": "ui.auto.d67d2d5e6cdf",
       "source": "(Active: %s)",
       "source_hash": "db7a860f6649603ea3c2a1ddfde66fe413194360c0c3c3848271516fb697cb4b"
-    },
-    {
-      "key": "ui.auto.bae71199ba5e",
-      "source": "Current XeFG state:",
-      "source_hash": "a08ec5de39bd9640ae0d8587e3ed653f2bef6f801e46e634aaedce1666f43f47"
-    },
-    {
-      "key": "ui.auto.6411da306665",
-      "source": "(Dynamic)",
-      "source_hash": "17c866a1db417ae4c18cd5802eeb2ae8156caff1ffe341f8dcb6e2e11fc25767"
     },
     {
       "key": "ui.auto.b2a5670f4958",
@@ -1202,11 +1217,6 @@
       "source_hash": "93916329e7c35dcac6959793c64042b08a97d505b4b0330a1439f62671d1bb5d"
     },
     {
-      "key": "ui.auto.2f3445538abe",
-      "source": "Driver pacing: %s, %uX",
-      "source_hash": "4174e87493dafed4abb89ba8f0ca1f0bbb6c5b3f021f7bd2a41a1613f25f9154"
-    },
-    {
       "key": "ui.auto.c9ea8d112e54",
       "source": "frame index mode",
       "source_hash": "c608a7c0d7f4a68650de744643390154f0c2f6dc9baafe97714b6f98c548c847"
@@ -1220,16 +1230,6 @@
       "key": "ui.auto.91d73eeec9f0",
       "source": "AMD driver flip metering holds the flips of the generated frames\nAdaptive mode is FSR's and paces one generated frame,\nframe index mode paces more",
       "source_hash": "8729835f4d81e1c9e0fd8243b1ecc76e3edc2c729495b8cb584f17c91afc0b81"
-    },
-    {
-      "key": "ui.auto.93f0add8ed20",
-      "source": "Driver pacing: off while no frames are generated",
-      "source_hash": "1b58e42bd7de0b8b3c3cf4a0ecedfd3a88167cef4e9dc0da4266c0caa297673b"
-    },
-    {
-      "key": "ui.auto.92e29566c571",
-      "source": "Frame generation is off, or the game doesn't send\nits inputs, like in menus and loading screens",
-      "source_hash": "32389c3544855027cc14727db667f68b3b43373f68126e35aab053a5a14ef5b9"
     },
     {
       "key": "ui.auto.c9fc5e865df4",
@@ -1300,6 +1300,41 @@
       "key": "ui.auto.42f3d1814c8a",
       "source": "DXGI",
       "source_hash": "633301d6b942bb738b0c0b1ae27384dd08ca0ed90a2b9328152431a750e08474"
+    },
+    {
+      "key": "ui.auto.11dc9e195292",
+      "source": "Status:",
+      "source_hash": "755c8b2a9fb114460e0909ab65c8cd47696b7648cbcdad3dbccd937c40660d0f"
+    },
+    {
+      "key": "ui.auto.c93d56ca52d8",
+      "source": "ON %dx",
+      "source_hash": "7707a277a3d1f89653a06fce473dca2257b2af651d4b8e1c13a96a87a898ff47"
+    },
+    {
+      "key": "ui.auto.efe497d6eea0",
+      "source": "(the replacement supports up to %dx)",
+      "source_hash": "329971a6ae0eeefb7880c20a16557b5c59fe58751a5bd6511f53a73898e34e46"
+    },
+    {
+      "key": "ui.auto.6b5d2b02c6a4",
+      "source": "Please select %s Frame Generation in the game options\nYou might need to select %s first",
+      "source_hash": "7600ee63aa8224bd022cb9c6047d5578de23c46d7aea8e0273b4032f18a52e08"
+    },
+    {
+      "key": "ui.auto.86221c8e6fe7",
+      "source": "(turn on Frame Gen below)",
+      "source_hash": "431668a8b35b013521f0cdf49dc4038b7559e7f69647285f1d5e74bfe78ebb4f"
+    },
+    {
+      "key": "ui.auto.d4978f912c54",
+      "source": "For when the game sends a UI texture, but you want to disable it\nGreyed out while the game doesn't send one",
+      "source_hash": "b6d1290fa8a0b1142ec9d0eca3c33f8c1219da2dd126fcc1615b80e601b5e519"
+    },
+    {
+      "key": "ui.auto.e942d107da61",
+      "source": "Driver pacing: %s",
+      "source_hash": "7628018f775b349013d4291a822a74ce39aa7d9569aa2d9d5ec0b20a15163c49"
     }
   ],
   "changed": []

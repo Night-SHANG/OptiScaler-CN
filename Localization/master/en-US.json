@@ -102,10 +102,6 @@
       "text": "Current : %.3f / %.3f, Target: Base + %.3f",
       "source_hash": "6653120b4e73c36123145e31737954dbb403278aa1496c0470972bb82f60a9ec"
     },
-    "ui.auto.2ec3f7414d7a": {
-      "text": "Current DLSSG state:",
-      "source_hash": "2ad97adbc55e6c34ec7438808b0a597638ae7b2b1ec5bec5c71362179aacebbc"
-    },
     "ui.auto.55ae380d32a8": {
       "text": "Custom Accent Color",
       "source_hash": "e5f233b47f5b40c508b561be08f1a0c17bb07487ec8e79a027feb91f1f78df54"
@@ -270,10 +266,6 @@
       "text": "Frame Generation (FSR3-MFG via DLSS Enabler)",
       "source_hash": "83615e03304b2ddd76b3662f682687be431ea891987e406c966d9591c1906c59"
     },
-    "ui.auto.b7fbbb308e96": {
-      "text": "Frame Generation (Streamline FG Inputs)",
-      "source_hash": "4bd67b86e9295949a66a60ed1d616ae9665b008fc60ca2e36d1e22c3361d64aa"
-    },
     "ui.auto.634e5abf9cc7": {
       "text": "FSR 3.1 Presets:",
       "source_hash": "c8fe20373a31430fa85bbb857024683df000d526fea2634ecd1bccc71ddb3e38"
@@ -293,10 +285,6 @@
     "ui.auto.1825e3a5e4c3": {
       "text": "HUDFix",
       "source_hash": "2938aee6634e8463b02afbeb49c82a5ad2adb965d11c93002c11acc1bc9306d5"
-    },
-    "ui.auto.77e95560da18": {
-      "text": "If you are using an AMD/Intel GPU, then make sure you have Fakenvapi",
-      "source_hash": "e222e0eacb63fda37d221e3cf57948f1baa3cf4794bc5c7b63213b39a0125d19"
     },
     "ui.auto.f82d0d1f7f8b": {
       "text": "Ignore Init Checks",
@@ -378,10 +366,6 @@
       "text": "Performance",
       "source_hash": "442aded87a55aa8c8f7d5ff0c30228150d4b1cb8756e4be138d615ca4708fc26"
     },
-    "ui.auto.484ecbc5668f": {
-      "text": "Please select DLSS Frame Generation in the game options\nYou might need to select DLSS first",
-      "source_hash": "c741cdffade37230650016f81ecf0652c8b4cc077e159d04cd039595bd7bc816"
-    },
     "ui.auto.da869d7ccf39": {
       "text": "Press any key...",
       "source_hash": "ff3e56ab0016131a020976f4d5114f6a7d81e8023b24658adc9c233dc2cdf38f"
@@ -453,10 +437,6 @@
     "ui.auto.6eb83c91f488": {
       "text": "Scale Depth to fix DLSS RR",
       "source_hash": "5e8075b32386f1dd2be48ec0c4870bf308b9fac8dbf0a410833edaac7f5b6fbe"
-    },
-    "ui.auto.f80c6ead9cc1": {
-      "text": "Select DLSS-FG in-game",
-      "source_hash": "966e8bb803557c9bd083de7ce7550ffb27de5dc0c35a9c7b2f7e883e7116ee8d"
     },
     "ui.auto.448ab73ba1c2": {
       "text": "Set",
@@ -554,21 +534,9 @@
       "text": "You shouldn't need to change it",
       "source_hash": "27ee98547eb8364c98b97f82f10fcea8dd0bc9ccca8dad361f6eb9835fda141a"
     },
-    "ui.auto.387d7a59dbaa": {
-      "text": "ON",
-      "source_hash": "e8a01133b1351e5fa434167135400d1998d3daa8ce74e3dd9bb57582fa4d7b97"
-    },
     "ui.auto.ad50489054dd": {
       "text": "OFF",
       "source_hash": "38cca6bea010af8adaf4be7d270456fa9adef8c0252db91f2767c607d077319b"
-    },
-    "ui.auto.864564451c20": {
-      "text": "ON {}x",
-      "source_hash": "c4c0ed057a705cc2ae3ad4351d35aa5ea8014ab4af7831ac7e22ae3b6b573aca"
-    },
-    "ui.auto.8e05b7ef41bd": {
-      "text": "ACTIVATE FG",
-      "source_hash": "d6fe51b616d83ac9a041100dad57436a74eb3a36662625f1f3fdfaa42f0dc710"
     },
     "ui.auto.64f9a7197352": {
       "text": "Unsupported API",
@@ -637,18 +605,6 @@
     "ui.auto.581888d9290b": {
       "text": "Interpolated frames only",
       "source_hash": "1bc35752b05eb0af66ed62387396ccbf72b84b986a70c448d2d6c17105649a9e"
-    },
-    "ui.auto.67af2750b89f": {
-      "text": "Select FSR-FG in-game",
-      "source_hash": "b211d415e166b19100e76a6e44115affd792a4fc242cabac070c55c1b74e42c2"
-    },
-    "ui.auto.b26edbc13352": {
-      "text": "Current FSR-FG state:",
-      "source_hash": "22da40de97d2294ee5f55cfb0f6b13b8d4373506934c8d8d0ee13f12e366f691"
-    },
-    "ui.auto.fcab2580c13c": {
-      "text": "Please select FSR Frame Generation in the game options\nYou might need to select FSR first",
-      "source_hash": "ee3b15d6440429b88ad5782f15527f6d67362da8eae3597688b2c77a0693137d"
     },
     "ui.auto.ce8f157c15fb": {
       "text": "Fix broken visuals",
@@ -1534,17 +1490,9 @@
       "text": "Disable UI texture",
       "source_hash": "64038e74943815f8d3bb1785c23aced988782c56fde9888c72b1c280b9fc7f26"
     },
-    "ui.auto.9d28ea0c0397": {
-      "text": "For when the game sends a UI texture, but you want to disable it",
-      "source_hash": "8b81d13049f1f4fbf43e17641fc6ea1aacddb98e1f8c036b58f970695c197a62"
-    },
     "ui.auto.74d77760db01": {
       "text": "Disable HUDless",
       "source_hash": "2afc5e418bd539d945f331aaa3d0c10fd02b55d605fb3e4a5837a0a517eddc9a"
-    },
-    "ui.auto.e0125bc7c78a": {
-      "text": "For when the game sends HUDless, but you want to disable it",
-      "source_hash": "a1df4e9c3a7fb3f931d446e24c3d3daf4493b8308ce630f9728b141c6d07f63b"
     },
     "ui.auto.ec3f2e5af5d6": {
       "text": "Depth as ValidNow",
@@ -1589,10 +1537,6 @@
     "ui.auto.bf7648e2257b": {
       "text": "Hud Cutoff",
       "source_hash": "6fb8f609a088e41677d6d18c6a365c969b2aba78645164a7d887da2ae2b8c324"
-    },
-    "ui.auto.65d8301a875f": {
-      "text": "Cutoffs transparency from UI to help with interpolation\nYou can use Show Detected UI to see the difference\n0.0 is auto",
-      "source_hash": "d12f632ffc824189d77bbdac91665f6a1436d84181395fb6d1648802e1ce945c"
     },
     "ui.auto.4e8d646301a0": {
       "text": "FFX FG",
@@ -1906,14 +1850,6 @@
       "text": "Debug View##3",
       "source_hash": "c6f83b2d5057d63f629242f8de1a571d448d4bc8b85206f761ede5c926d3cf33"
     },
-    "ui.auto.655746f7be5c": {
-      "text": "Might be required for some sets of DispatchFlags",
-      "source_hash": "501bac9d596b22d64df69cc57f741d647d545b35f9be8b59b954d4d577bd3dfe"
-    },
-    "ui.auto.fa8a0bd617b4": {
-      "text": "Frame Generation (FSR-FG Inputs)",
-      "source_hash": "8c95bc97645cb11503ae3d15f74a0c8e86d51ab02715420a14fa0da7b9cd037c"
-    },
     "ui.auto.205c4545e845": {
       "text": "Skip Config for HUDless",
       "source_hash": "59a2c33415920111038629fb19a9d6c3f4ccc3b57c1c95b4005921b7adaf3096"
@@ -1933,10 +1869,6 @@
     "ui.auto.2dc77b9842aa": {
       "text": "If you are using an AMD/Intel GPU, then make sure you have fakenvapi",
       "source_hash": "307ad0ad2b166fbaee6c39534103cd09738413221e10adaa2df318669b587361"
-    },
-    "ui.auto.9acb08bb383d": {
-      "text": "Current Streamline FG state:",
-      "source_hash": "e0cd370dd10b56bc699bf5b4b88e24d53a0eb953b1c461c5039b89518dfff701"
     },
     "ui.auto.282583e8f5a3": {
       "text": "Use FSR Input Values",
@@ -2870,10 +2802,6 @@
       "text": "%s (%.2f)",
       "source_hash": "df2d705420554fcb068404668fc1b83c3121e4fdbac99ffc8bc8b93176deda28"
     },
-    "ui.auto.a0c076965fe8": {
-      "text": " %ux",
-      "source_hash": "3671341499b9e1461534d4f0c598583e9b78a2fc004f84dcbde5824a0cf8a52d"
-    },
     "ui.auto.10064ee6dc19": {
       "text": "%s %ux",
       "source_hash": "4133dbc700c0710524401fe0c855c16d455e6e7d033c3e4d13b1aefb4ca80aee"
@@ -3073,14 +3001,6 @@
     "ui.auto.d67d2d5e6cdf": {
       "text": "(Active: %s)",
       "source_hash": "db7a860f6649603ea3c2a1ddfde66fe413194360c0c3c3848271516fb697cb4b"
-    },
-    "ui.auto.bae71199ba5e": {
-      "text": "Current XeFG state:",
-      "source_hash": "a08ec5de39bd9640ae0d8587e3ed653f2bef6f801e46e634aaedce1666f43f47"
-    },
-    "ui.auto.6411da306665": {
-      "text": "(Dynamic)",
-      "source_hash": "17c866a1db417ae4c18cd5802eeb2ae8156caff1ffe341f8dcb6e2e11fc25767"
     },
     "ui.auto.b2a5670f4958": {
       "text": "Dynamic MFG##xefg",
@@ -3590,10 +3510,6 @@
       "text": "FFX frame generation and swapchain used by FSR FG\nCustom ones are from custom\\<name>\\ffx_fg(_vk) or plugins",
       "source_hash": "93916329e7c35dcac6959793c64042b08a97d505b4b0330a1439f62671d1bb5d"
     },
-    "ui.auto.2f3445538abe": {
-      "text": "Driver pacing: %s, %uX",
-      "source_hash": "4174e87493dafed4abb89ba8f0ca1f0bbb6c5b3f021f7bd2a41a1613f25f9154"
-    },
     "ui.auto.c9ea8d112e54": {
       "text": "frame index mode",
       "source_hash": "c608a7c0d7f4a68650de744643390154f0c2f6dc9baafe97714b6f98c548c847"
@@ -3605,14 +3521,6 @@
     "ui.auto.91d73eeec9f0": {
       "text": "AMD driver flip metering holds the flips of the generated frames\nAdaptive mode is FSR's and paces one generated frame,\nframe index mode paces more",
       "source_hash": "8729835f4d81e1c9e0fd8243b1ecc76e3edc2c729495b8cb584f17c91afc0b81"
-    },
-    "ui.auto.93f0add8ed20": {
-      "text": "Driver pacing: off while no frames are generated",
-      "source_hash": "1b58e42bd7de0b8b3c3cf4a0ecedfd3a88167cef4e9dc0da4266c0caa297673b"
-    },
-    "ui.auto.92e29566c571": {
-      "text": "Frame generation is off, or the game doesn't send\nits inputs, like in menus and loading screens",
-      "source_hash": "32389c3544855027cc14727db667f68b3b43373f68126e35aab053a5a14ef5b9"
     },
     "ui.auto.c9fc5e865df4": {
       "text": "Driver pacing: off, only the game's frames are shown",
@@ -3669,6 +3577,34 @@
     "ui.auto.42f3d1814c8a": {
       "text": "DXGI",
       "source_hash": "633301d6b942bb738b0c0b1ae27384dd08ca0ed90a2b9328152431a750e08474"
+    },
+    "ui.auto.11dc9e195292": {
+      "text": "Status:",
+      "source_hash": "755c8b2a9fb114460e0909ab65c8cd47696b7648cbcdad3dbccd937c40660d0f"
+    },
+    "ui.auto.c93d56ca52d8": {
+      "text": "ON %dx",
+      "source_hash": "7707a277a3d1f89653a06fce473dca2257b2af651d4b8e1c13a96a87a898ff47"
+    },
+    "ui.auto.efe497d6eea0": {
+      "text": "(the replacement supports up to %dx)",
+      "source_hash": "329971a6ae0eeefb7880c20a16557b5c59fe58751a5bd6511f53a73898e34e46"
+    },
+    "ui.auto.6b5d2b02c6a4": {
+      "text": "Please select %s Frame Generation in the game options\nYou might need to select %s first",
+      "source_hash": "7600ee63aa8224bd022cb9c6047d5578de23c46d7aea8e0273b4032f18a52e08"
+    },
+    "ui.auto.86221c8e6fe7": {
+      "text": "(turn on Frame Gen below)",
+      "source_hash": "431668a8b35b013521f0cdf49dc4038b7559e7f69647285f1d5e74bfe78ebb4f"
+    },
+    "ui.auto.d4978f912c54": {
+      "text": "For when the game sends a UI texture, but you want to disable it\nGreyed out while the game doesn't send one",
+      "source_hash": "b6d1290fa8a0b1142ec9d0eca3c33f8c1219da2dd126fcc1615b80e601b5e519"
+    },
+    "ui.auto.e942d107da61": {
+      "text": "Driver pacing: %s",
+      "source_hash": "7628018f775b349013d4291a822a74ce39aa7d9569aa2d9d5ec0b20a15163c49"
     }
   }
 }
