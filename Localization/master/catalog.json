@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "channel": "master",
-  "upstream_commit": "ccf3b8c6a75824d0c9c7cc7156bf666afddde3cc",
+  "upstream_commit": "1e568bb3df081988416b8aa85fa4efe0b22c58cf",
   "entries": {
     "ui.auto.d01f6c691e27": {
       "source": "%s is active, but not currently used by the game\nPlease enter the game",
@@ -3642,7 +3642,7 @@
       "occurrences": [
         {
           "file": "OptiScaler/dllmain.cpp",
-          "line": 2209,
+          "line": 2208,
           "callee": ".setTitle",
           "arg": 0
         }

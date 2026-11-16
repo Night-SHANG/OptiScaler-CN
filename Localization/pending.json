@@ -1,44 +1,9 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [
-      "ui.auto.11dc9e195292",
-      "ui.auto.c93d56ca52d8",
-      "ui.auto.efe497d6eea0",
-      "ui.auto.6b5d2b02c6a4",
-      "ui.auto.86221c8e6fe7",
-      "ui.auto.d4978f912c54",
-      "ui.auto.e942d107da61"
-    ],
-    "changed": [
-      "ui.auto.6b5d2b02c6a4",
-      "ui.auto.e942d107da61"
-    ],
-    "removed": [
-      "ui.auto.2ec3f7414d7a",
-      "ui.auto.b7fbbb308e96",
-      "ui.auto.77e95560da18",
-      "ui.auto.484ecbc5668f",
-      "ui.auto.f80c6ead9cc1",
-      "ui.auto.387d7a59dbaa",
-      "ui.auto.864564451c20",
-      "ui.auto.8e05b7ef41bd",
-      "ui.auto.67af2750b89f",
-      "ui.auto.b26edbc13352",
-      "ui.auto.fcab2580c13c",
-      "ui.auto.9d28ea0c0397",
-      "ui.auto.e0125bc7c78a",
-      "ui.auto.65d8301a875f",
-      "ui.auto.655746f7be5c",
-      "ui.auto.fa8a0bd617b4",
-      "ui.auto.9acb08bb383d",
-      "ui.auto.a0c076965fe8",
-      "ui.auto.bae71199ba5e",
-      "ui.auto.6411da306665",
-      "ui.auto.2f3445538abe",
-      "ui.auto.93f0add8ed20",
-      "ui.auto.92e29566c571"
-    ]
+    "added": [],
+    "changed": [],
+    "removed": []
   },
   "missing": [
     {
