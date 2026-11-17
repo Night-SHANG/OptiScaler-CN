@@ -1,9 +1,28 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
+    "added": [
+      "ui.auto.11e7a7424479",
+      "ui.auto.645e31dba0f0",
+      "ui.auto.aa7effc5cc37",
+      "ui.auto.9de9c6b28746",
+      "ui.auto.ab06d6f2412f",
+      "ui.auto.40a32fa391ab",
+      "ui.auto.585b010622c1",
+      "ui.auto.fc635fa41cb7",
+      "ui.auto.51c4a1ef7eba",
+      "ui.auto.fbca755f44c5",
+      "ui.auto.45e118d0563e",
+      "ui.auto.13ebd096499a",
+      "ui.auto.75666d17d60e",
+      "ui.auto.49fd816abcda",
+      "ui.auto.8f46241bbdc5"
+    ],
     "changed": [],
-    "removed": []
+    "removed": [
+      "ui.auto.9d8fc6c0b56d",
+      "ui.auto.4d2bc7a76976"
+    ]
   },
   "missing": [
     {
@@ -125,11 +144,6 @@
       "key": "ui.auto.88306943fea7",
       "source": "Method",
       "source_hash": "52a0f9b65b278850b53aad23136b5d574299e8fb92311304346d19736b7e9cce"
-    },
-    {
-      "key": "ui.auto.4d2bc7a76976",
-      "source": "Select the sharpening filter to apply.\n\nUpscaler's default: Uses the sharpening provided by the upscaler.\nRCAS: AMD's RCAS, modified for Contrast and MAS.\nDepth Aware: Smarter sharpening with fewer artifacts (heavier).\n\nBy default uses a sharpening value provided by the game.\nSelect 'Override' under 'Sharpness' and adjust the slider to change it.",
-      "source_hash": "a92f211d771432c3a05e41f8c7d1d4eb4edcb2b791c8a12f7af00e49fd23c91f"
     },
     {
       "key": "ui.auto.1d4d43cc6f3a",
@@ -1300,6 +1314,81 @@
       "key": "ui.auto.e942d107da61",
       "source": "Driver pacing: %s",
       "source_hash": "7628018f775b349013d4291a822a74ce39aa7d9569aa2d9d5ec0b20a15163c49"
+    },
+    {
+      "key": "ui.auto.11e7a7424479",
+      "source": "Neural (BaBa)",
+      "source_hash": "98a75b2e59142dab9a659a15bd0cf3184369545140b738c247a0efde1c79aeb9"
+    },
+    {
+      "key": "ui.auto.645e31dba0f0",
+      "source": "Select the sharpening filter to apply.\n\nUpscaler's default: Uses the sharpening provided by the upscaler.\nRCAS: AMD's RCAS, modified for Contrast and MAS.\nDepth Aware: Smarter sharpening with fewer artifacts (heavier).\nNeural (BaBa): Small neural network from the BaBa ReShade shaders. Only changes the luma and\nskips aliased edges and fireflies. 0.5 strength is the default intensity of the ReShade shader.\nUses RCAS when its shader isn't available for the current API.\n\nBy default uses a sharpening value provided by the game.\nSelect 'Override' under 'Sharpness' and adjust the slider to change it.",
+      "source_hash": "3d72bb6fdcc3b277e00a65bdd6fcb61aecf138f8a94b92878f2d13c352c91f04"
+    },
+    {
+      "key": "ui.auto.aa7effc5cc37",
+      "source": "Clamps the final image to the [0, 1] range.\n\nPrevents overshoot artifacts such as bright halos or negative colors.\nRecommended for LDR pipelines; optional for HDR depending on tone-mapping.\n\nOff when not set, games that report SDR can still send HDR color",
+      "source_hash": "cad025b43d9fb7ccf4eb0a61b5aaf64b426f1e882b681ddf6bc6c056a1006f95"
+    },
+    {
+      "key": "ui.auto.9de9c6b28746",
+      "source": "Neural Sharpening Parameters",
+      "source_hash": "781c88316ea99d6d43929c48d175fcb499769406c9b3b8fbed2de08a424e82b7"
+    },
+    {
+      "key": "ui.auto.ab06d6f2412f",
+      "source": "Model A (standard)",
+      "source_hash": "89ee73c23e27896bde1e80dee30f93eb3306f2cf9c852aa69effa80d0a0a74f2"
+    },
+    {
+      "key": "ui.auto.40a32fa391ab",
+      "source": "Model B (edge-enhanced)",
+      "source_hash": "9e986b058a81fb8f22b0d68273894cf7f4a6df35959e14da496ecd055a83506b"
+    },
+    {
+      "key": "ui.auto.585b010622c1",
+      "source": "Neural Model",
+      "source_hash": "63faec56aff6ae47a9b3f621e54078483764e62a9a69b23070a76116a09d5fd2"
+    },
+    {
+      "key": "ui.auto.fc635fa41cb7",
+      "source": "Model A: Standard sharpening.\nModel B: Edge-enhanced.",
+      "source_hash": "6f774727771f4f8081a14f1709e067ab9bc1ad09bd8a84e3d0733b3179c6f996"
+    },
+    {
+      "key": "ui.auto.51c4a1ef7eba",
+      "source": "Edge Response",
+      "source_hash": "307663180d650327174bbdba4d3fc4bbc4b5d498f53a5e07e1598f39b24154ec"
+    },
+    {
+      "key": "ui.auto.fbca755f44c5",
+      "source": "Controls how the sharpening adapts to the detected edges.\n\nNegative values smooth the edges.\nPositive values enhance the edges.\n0 is uniform.",
+      "source_hash": "3d3221a7135873fcbd8e7ec675b0d04d3e23dc1d4f580341101159ed5feaaf0c"
+    },
+    {
+      "key": "ui.auto.45e118d0563e",
+      "source": "Normal",
+      "source_hash": "a7248eeb45eb1ce247f81693283e22e8b39e8a50890cecd22d02e75025547d90"
+    },
+    {
+      "key": "ui.auto.13ebd096499a",
+      "source": "Sharpening map",
+      "source_hash": "f9231aa4968c59a89f7c96f6c5e6596a2efa5c590d4d3e05e6bc9223ee04fe42"
+    },
+    {
+      "key": "ui.auto.75666d17d60e",
+      "source": "Residual map",
+      "source_hash": "3e4e1152ad5374476fbe802e39081d3d3ca5c53af5eb9213bbc157c8d585f79f"
+    },
+    {
+      "key": "ui.auto.49fd816abcda",
+      "source": "Normal: The final image.\nSharpening map: The sharpening that gets applied, plain gray means no change.\nResidual map: Where the network wants to change the image.",
+      "source_hash": "08cd4bd5c32480c17c1dbe86a7a46316bf7c761bfbb41c9f9bd954c58d90fa7a"
+    },
+    {
+      "key": "ui.auto.8f46241bbdc5",
+      "source": "Reset Neural Values",
+      "source_hash": "e68993a3b5eb96ea44cc715dcf8d96e9294482d5b6ba18c919878f33796008fe"
     }
   ],
   "changed": []

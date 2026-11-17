@@ -1,10 +1,351 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [],
-    "changed": [],
-    "removed": []
+    "added": [
+      "ui.auto.a098e0e34326",
+      "ui.auto.ca6d7875e793",
+      "ui.auto.8cb9a247d694",
+      "ui.auto.5ab1c0463054",
+      "ui.auto.683116b1a49c",
+      "ui.auto.d5f6ea63c574",
+      "ui.auto.d67d2d5e6cdf",
+      "ui.auto.e7e58278e1f4",
+      "ui.auto.3ea2dd7fb2be",
+      "ui.auto.37306cc865ee",
+      "ui.auto.d369481c7339",
+      "ui.auto.6a830a0367a2",
+      "ui.auto.6af40ae2fe5f",
+      "ui.auto.d4ae270ac49c",
+      "ui.auto.955428c80069",
+      "ui.auto.2fd42203c942",
+      "ui.auto.f5c11a5b1e56",
+      "ui.auto.2c5ebe2d444f",
+      "ui.auto.02c83d9b002f",
+      "ui.auto.524be9cb94a3",
+      "ui.auto.d697065b530e",
+      "ui.auto.13c02455f20a",
+      "ui.auto.0b924488fd02",
+      "ui.auto.bdf9ce054dc4",
+      "ui.auto.e3a7ad1e354e",
+      "ui.auto.e6951fc46a51",
+      "ui.auto.9f298520a655",
+      "ui.auto.30d14d12ea67",
+      "ui.auto.89373fce8d3b",
+      "ui.auto.28d010627e48",
+      "ui.auto.0d3c8f1ddb8c",
+      "ui.auto.816318b4543e",
+      "ui.auto.be067117d995",
+      "ui.auto.747894299569",
+      "ui.auto.9d8325e8117c",
+      "ui.auto.205c4545e845",
+      "ui.auto.07b8c4d71f6a",
+      "ui.auto.26af3c0a347f",
+      "ui.auto.c1f50a75de91",
+      "ui.auto.9bee7d2804bb",
+      "ui.auto.f000f7ae3916",
+      "ui.auto.19f28b9470cb",
+      "ui.auto.b6d4b021baae",
+      "ui.auto.093d05889ead",
+      "ui.auto.6dded8e38e1a",
+      "ui.auto.b23382b26c57",
+      "ui.auto.dbdc3de69463",
+      "ui.auto.39ecc157b001",
+      "ui.auto.9f04e490700d",
+      "ui.auto.924544c28fcb",
+      "ui.auto.efc5bcb21079",
+      "ui.auto.8184e65f6bcf",
+      "ui.auto.bdf5e616ffda",
+      "ui.auto.eeaa410f068b",
+      "ui.auto.2fb022255482",
+      "ui.auto.f4d25beaf448",
+      "ui.auto.b80497a191b0",
+      "ui.auto.6e894af4233c",
+      "ui.auto.5bdf349c2b93",
+      "ui.auto.53f76ddca2b9",
+      "ui.auto.bda057a69401",
+      "ui.auto.545147a7b674",
+      "ui.auto.56b60085260d",
+      "ui.auto.2e515a5eca29",
+      "ui.auto.9a4731d04eca",
+      "ui.auto.a8cb5f990770",
+      "ui.auto.6bcca82f3c61",
+      "ui.auto.dbebc11cf8ed",
+      "ui.auto.888ff4c6f29c"
+    ],
+    "changed": [
+      "ui.auto.a098e0e34326",
+      "ui.auto.8cb9a247d694",
+      "ui.auto.e7e58278e1f4",
+      "ui.auto.37306cc865ee",
+      "ui.auto.6a830a0367a2",
+      "ui.auto.d697065b530e",
+      "ui.auto.13c02455f20a",
+      "ui.auto.e3a7ad1e354e",
+      "ui.auto.e6951fc46a51",
+      "ui.auto.9f298520a655",
+      "ui.auto.30d14d12ea67",
+      "ui.auto.89373fce8d3b",
+      "ui.auto.28d010627e48",
+      "ui.auto.0d3c8f1ddb8c",
+      "ui.auto.816318b4543e",
+      "ui.auto.be067117d995",
+      "ui.auto.747894299569",
+      "ui.auto.9d8325e8117c",
+      "ui.auto.205c4545e845",
+      "ui.auto.07b8c4d71f6a",
+      "ui.auto.26af3c0a347f",
+      "ui.auto.c1f50a75de91",
+      "ui.auto.6dded8e38e1a",
+      "ui.auto.888ff4c6f29c"
+    ],
+    "removed": [
+      "ui.auto.5391376f8580",
+      "ui.auto.6769dec68875",
+      "ui.auto.156703218c55",
+      "ui.auto.d01f6c691e27",
+      "ui.auto.24efee53e078",
+      "ui.auto.33e38b2c17ed",
+      "ui.auto.817c7dc1233b",
+      "ui.auto.f68619f79fc4",
+      "ui.auto.4e8d646301a0",
+      "ui.auto.071edebfc3a2",
+      "ui.auto.06c4acd5292a",
+      "ui.auto.0ae1c471e5be",
+      "ui.auto.c83164cf4aab",
+      "ui.auto.350b77b922a7",
+      "ui.auto.cf9ef85834fb",
+      "ui.auto.15a28dc2df8a",
+      "ui.auto.b220e0065439",
+      "ui.auto.c76ec1a9f58c",
+      "ui.auto.b08bccb22d5d",
+      "ui.auto.4bdd68714873",
+      "ui.auto.33dcd3305da5",
+      "ui.auto.b6f70fc37bab",
+      "ui.auto.96f1c6a29689",
+      "ui.auto.be0a7d5ca2f9",
+      "ui.auto.df0a3327c4e3",
+      "ui.auto.511e2c1bf991",
+      "ui.auto.337d94dd6314",
+      "ui.auto.26e7ca840042",
+      "ui.auto.9c82ff9074a6",
+      "ui.auto.4bba4c93c95a",
+      "ui.auto.3616ec5b2617",
+      "ui.auto.36489a0b8f36",
+      "ui.auto.c870da649cf0",
+      "ui.auto.f8f5513e69e7"
+    ]
   },
-  "missing": [],
+  "missing": [
+    {
+      "key": "ui.auto.a098e0e34326",
+      "source": "%s | %6.1f/%5.1f %s",
+      "source_hash": "8b0591328bf99c3b655382254b5e54838685bfb165b50d1389c6777b43421658"
+    },
+    {
+      "key": "ui.auto.ca6d7875e793",
+      "source": "%s | %6.1f %s",
+      "source_hash": "d1f8436481cbf54c388847624c85ba50194b4a27d6bf60bb68db9b640a350ea1"
+    },
+    {
+      "key": "ui.auto.8cb9a247d694",
+      "source": "%s active, but currently not used by the game\nPlease load into the game",
+      "source_hash": "57924143d84c54316bdd1dee2715076843d5b7efaf12193908a5b3e07ac77296"
+    },
+    {
+      "key": "ui.auto.683116b1a49c",
+      "source": "FSR4 Model",
+      "source_hash": "f9bd5fd52d04ae7037ac995440a13a0b01b87efea75a86eea410f704d89f9471"
+    },
+    {
+      "key": "ui.auto.d5f6ea63c574",
+      "source": "FSR 4 network to run.\nAuto lets FFX pick the best one the GPU supports.",
+      "source_hash": "7db3e933809a82503805e78cc89139bbf1d082745ce8c24c13b14c53bd1ef226"
+    },
+    {
+      "key": "ui.auto.d67d2d5e6cdf",
+      "source": "(Active: %s)",
+      "source_hash": "db7a860f6649603ea3c2a1ddfde66fe413194360c0c3c3848271516fb697cb4b"
+    },
+    {
+      "key": "ui.auto.6a830a0367a2",
+      "source": "If UI is too bright, disable this option",
+      "source_hash": "30c12dcbb46cd07714df7bff0fb959e7fcb66f4853c930494d988f123d5639f0"
+    },
+    {
+      "key": "ui.auto.6af40ae2fe5f",
+      "source": "FFX FG Version",
+      "source_hash": "1ff542e9c0769f0a0833dcb051d06320a5d0ef1b2efc1c4af83c794a9206775d"
+    },
+    {
+      "key": "ui.auto.d4ae270ac49c",
+      "source": "Disable HW Flip Metering",
+      "source_hash": "0b961a50a8c5273bb03a189db3fa143dbe7efa3a339d3e15197328f96d57f920"
+    },
+    {
+      "key": "ui.auto.955428c80069",
+      "source": "Overrides the AMD hardware flip metering requested by FSR\n(Driver-Assisted Frame Pacing)",
+      "source_hash": "d0ffad9080e2ba26aecc29394e99496c3303a586d43540764cb18d7a292c94d7"
+    },
+    {
+      "key": "ui.auto.2fd42203c942",
+      "source": "(Mode %u)",
+      "source_hash": "0c6f2040ba9b13b134fb8e780224895a88a3837df1bf590e927ddb7a35063a0d"
+    },
+    {
+      "key": "ui.auto.f5c11a5b1e56",
+      "source": "(Off)",
+      "source_hash": "559ecddd2696c27547ab813d48c3612168e4e6d829143fb570a6f0b64fd9ff85"
+    },
+    {
+      "key": "ui.auto.2c5ebe2d444f",
+      "source": "Flip metering mode applied in the driver\nFSR only requests it in exclusive or borderless fullscreen",
+      "source_hash": "d173d16f16125572118a1d18fea7943976c09ce018282a72cfb13dfa246690d8"
+    },
+    {
+      "key": "ui.auto.0b924488fd02",
+      "source": "Disable HUDFix Resource Tracking",
+      "source_hash": "4172e23e451681917aeaf76f56022c5f6d9fc05364574996c4836c4d7b26d8e9"
+    },
+    {
+      "key": "ui.auto.bdf9ce054dc4",
+      "source": "Disables HUDFix resource tracking and\nreduces CPU overhead.\nUseful for MLFG which deals well with the HUD.\n\nAfter changing, please Save Settings and restart.",
+      "source_hash": "b56e23b2925e36793dddd9e0ffe5951d97001aa30d517c8b139639a3151324d7"
+    },
+    {
+      "key": "ui.auto.9bee7d2804bb",
+      "source": "(Current: %.3f)",
+      "source_hash": "d96f96197e8aabb110fbd8e51ccd10e72ad046252c74e72e715bf05ad165229d"
+    },
+    {
+      "key": "ui.auto.f000f7ae3916",
+      "source": "(Current: disabled)",
+      "source_hash": "5d052425fb84d9fe455e686b6e53480f195cd506ce8ec29d48805acefde98e0c"
+    },
+    {
+      "key": "ui.auto.19f28b9470cb",
+      "source": "Lowers sharpness at high contrast areas.",
+      "source_hash": "90ae390b046776ab3bc912a286a447d1adc6dd8d3cb675f6577e2390b117e1e3"
+    },
+    {
+      "key": "ui.auto.6dded8e38e1a",
+      "source": "Specialised to prevent artifacts.\nEliminates harsh halos for a natural look, but can appear extremely soft.",
+      "source_hash": "570b13a12cc52983c32ac8471224c77be18eca3253b888f81a1471d308e22337"
+    },
+    {
+      "key": "ui.auto.b23382b26c57",
+      "source": "Spoofing/Hooking",
+      "source_hash": "9dece93c3cd85969c32a897ea2b6888b2e936e9948d35618633d9598018bb908"
+    },
+    {
+      "key": "ui.auto.dbdc3de69463",
+      "source": "DXGI Spoofing",
+      "source_hash": "69597931765b07096bbc33c12a161b74472803ac7760356833bfd66f0aa32dbb"
+    },
+    {
+      "key": "ui.auto.39ecc157b001",
+      "source": "Enable Nvidia GPU spoofing for DXGI adapter\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "c089cb23a78af730ed260e58998c047546ea9a1c11f53415a5273f5b356c688c"
+    },
+    {
+      "key": "ui.auto.9f04e490700d",
+      "source": "VLK Spoofing",
+      "source_hash": "499d8caef8687b986d15564289aa56ca16eebe7dac4fe2ebff4a9a9528bcc886"
+    },
+    {
+      "key": "ui.auto.924544c28fcb",
+      "source": "Enable Nvidia GPU spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "dd2f06e7fe06f9046335585b24bb47451faf90a81f640e549ab04629dc5a298c"
+    },
+    {
+      "key": "ui.auto.efc5bcb21079",
+      "source": "VLK Extension Spoofing",
+      "source_hash": "0ca0f7f5ba47b874aa03135accee14c00275a8ca5876cb76b577b1742bb21f99"
+    },
+    {
+      "key": "ui.auto.8184e65f6bcf",
+      "source": "Enable Nvidia Extension spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "951bf9eb6ea58c6b523f9c8b24554ea93fe3e6153c7199df32fb663feb8e16de"
+    },
+    {
+      "key": "ui.auto.bdf5e616ffda",
+      "source": "Ntdll Hooks",
+      "source_hash": "2f0aa9dc3c7cd655b0ba228c11e43cea0d88318f343fbdde33bec9570bfb2012"
+    },
+    {
+      "key": "ui.auto.eeaa410f068b",
+      "source": "Only hook ntdll.dll methods\nDisable for switching back to kernel hooks\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "5130b694ac252c8da5b5b5b3b24091fa614a3d9c52dd5b0ecd99a37e3614f97b"
+    },
+    {
+      "key": "ui.auto.2fb022255482",
+      "source": "Disable Overlays",
+      "source_hash": "61a1010e4ed22c70a54d1e9a7d2c7911f3282876bbd50e5e5bf65fbc152ec1ff"
+    },
+    {
+      "key": "ui.auto.f4d25beaf448",
+      "source": "Disable supported overlays (autoenabled with OptiFG)\nIncluding Steam Input (controller issues)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "6d17f87c6ba82194d828e86fe89de7eafd68a6e29cf996b265a0607759297866"
+    },
+    {
+      "key": "ui.auto.b80497a191b0",
+      "source": "Manual Input Polling",
+      "source_hash": "3792b4d1d6c73c9cdb91eb02db538cb32d94ba76293a10d099596788e54aa1d7"
+    },
+    {
+      "key": "ui.auto.6e894af4233c",
+      "source": "Use manual input polling instead of hooking WndProc\nMight help games which do not capture inputs properly\nAs a downside, it will not be able to block inputs when menu is open\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "cf640ebe1b799bbc46246ec49cf85791da8aa856dcb346712952d5c84cb751ea"
+    },
+    {
+      "key": "ui.auto.5bdf349c2b93",
+      "source": "Plugins/Misc",
+      "source_hash": "64f1951f01ef8230768a29c1b75104da0331704142a15d4214f0e0181eaf90f3"
+    },
+    {
+      "key": "ui.auto.53f76ddca2b9",
+      "source": "Load ASI plugins",
+      "source_hash": "28350782de7447fb3e9f4e74ee585ed7da52316c22319a9a6cfa250dd7609892"
+    },
+    {
+      "key": "ui.auto.bda057a69401",
+      "source": "Let OptiScaler load *.asi files from plugins folder\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "7e0a4cdfaeb0390ff7866f959c701e9c930c0ab4931dacb434f99c9091dada5a"
+    },
+    {
+      "key": "ui.auto.545147a7b674",
+      "source": "Disable Splash message",
+      "source_hash": "ea4c5ad635852d37a1652e84b487601534c6a3d55b31a8b12552900de3e4cad7"
+    },
+    {
+      "key": "ui.auto.56b60085260d",
+      "source": "Disables Startup Splash message (bottom left corner)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "d2f6d980cc562287716845fd54797cfb566a73de403d054a2774fcf4e73398ee"
+    },
+    {
+      "key": "ui.auto.2e515a5eca29",
+      "source": "Check for Update",
+      "source_hash": "6f25f68393efbdeee731beafd8de5f3c719f66d838e52f1f75f9d58453831bd7"
+    },
+    {
+      "key": "ui.auto.9a4731d04eca",
+      "source": "Enable checking Github for latest version\nOnly works on stable/final releases\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "57303b76fcee867dd3f8bed49b7eb903bc1b71876b9c417656a16d4437cee665"
+    },
+    {
+      "key": "ui.auto.a8cb5f990770",
+      "source": "Single File",
+      "source_hash": "6a87f68f89982773b71b61759300fdd6b2392d697d118bc5377b361a0baea762"
+    },
+    {
+      "key": "ui.auto.6bcca82f3c61",
+      "source": "Override Vsync",
+      "source_hash": "04ec197f0a0f235dbfca79a25b4c642edcb473f753525b0ca3f38845638f31d4"
+    },
+    {
+      "key": "ui.auto.dbebc11cf8ed",
+      "source": "Force override the game's V-Sync settings.\n\nUseful for example when XeFG is locked to V-sync\nframe cap despite toggling Vsync off (e.g. Nioh 3)\n\nAfter changing, please Save Settings and restart.",
+      "source_hash": "dbda2d3eed9fe8b8ecb2c75a0a1c79aa9ed31867a275e5592122ef7a7b8b97fc"
+    }
+  ],
   "changed": []
 }

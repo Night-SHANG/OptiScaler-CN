@@ -318,10 +318,6 @@
       "text": "FSR 2.1.2",
       "source_hash": "981f433ffac7b3a28443c08fd53e8149f1a515a416f92117372e09386d2a5577"
     },
-    "ui.auto.5391376f8580": {
-      "text": "FSR 3.X w/Dx12",
-      "source_hash": "d10f5c8978d45482b5d993535ea21908493e03e8579a0818dfa4066396da5616"
-    },
     "ui.auto.50c3f10f5b1c": {
       "text": "AUTO",
       "source_hash": "6ea56fae9eacbb0ebed74bbbe731cf1179b7d41146162fe9b8c26cf0615c2367"
@@ -506,14 +502,6 @@
       "text": "Performance Overlay",
       "source_hash": "7fa0dcee50d0ea225bd3e39b539cdeefa411e6dcc38827c3d746375216189ea4"
     },
-    "ui.auto.6769dec68875": {
-      "text": "%s | FPS: %6.1f/%5.1f %s",
-      "source_hash": "799743fe6510ab784ef2a31ccf90ad8d6c836461df163fa3e3986755f8f9db47"
-    },
-    "ui.auto.156703218c55": {
-      "text": "%s | FPS: %6.1f %s",
-      "source_hash": "9256ecb44be79b882ecf2f6fc68e3512fd59420497f75cdb2e3b8667df609211"
-    },
     "ui.auto.26a431266bf8": {
       "text": "%s | FPS: %6.1f/%5.1f, %7.2f ms %s | %s -> %s %u.%u.%u",
       "source_hash": "76e82ab2866ecc4e00f4587dade6389e1b833d08f639b83c32fcc2544893f656"
@@ -641,10 +629,6 @@
     "ui.auto.1a07901dc8c0": {
       "text": "Can't find nvngx.dll and libxess.dll and FSR inputs\nUpscaling support will NOT work.",
       "source_hash": "18bf074faed9568925994a17d7219be6ed46d0bce4f362b0b595bdb8d4842101"
-    },
-    "ui.auto.d01f6c691e27": {
-      "text": "%s is active, but not currently used by the game\nPlease enter the game",
-      "source_hash": "9f9915b3569bbba260ea0da96b1221f66798d3bec209cef418e9a393474dfb5b"
     },
     "ui.auto.a56aaaf2c8ef": {
       "text": "Upscalers",
@@ -846,10 +830,6 @@
       "text": "Watermark",
       "source_hash": "3bebd4c4e3fb7ee44a15eff981abdaefd4fbebef40f399a66ed61abae96efdfb"
     },
-    "ui.auto.24efee53e078": {
-      "text": "After changing this option, please Save Settings\nIt will be applied on next launch.",
-      "source_hash": "650f659419e009fbf0d8759bf432f28e012cbcd74f2182297330cf72481b8db5"
-    },
     "ui.auto.634e5abf9cc7": {
       "text": "FSR 3.1 Presets:",
       "source_hash": "c8fe20373a31430fa85bbb857024683df000d526fea2634ecd1bccc71ddb3e38"
@@ -869,10 +849,6 @@
     "ui.auto.d233724b1601": {
       "text": "Velocity Factor",
       "source_hash": "4c211e2d5bdd9121f18c8d405ffefdb6e257f28a0e26e3c49ccfe9876bf744df"
-    },
-    "ui.auto.33e38b2c17ed": {
-      "text": "Value of 0.0f can improve temporal stability of bright pixels\nLower values are more stable with ghosting\nHigher values are more pixelly but less ghosting.",
-      "source_hash": "6dc16a51b8445226dd859b9b350eb15effff63b00dced3ab1278255c4855412c"
     },
     "ui.auto.4bad81eacfcb": {
       "text": "Reactive Scale",
@@ -946,10 +922,6 @@
       "text": "Use Generic App Id with DLSS",
       "source_hash": "aca20349b9f4ef07037d215bd6b35b01b0f20da21324462eb17f5ee10427ec43"
     },
-    "ui.auto.817c7dc1233b": {
-      "text": "Use generic appid with NGX\nFixes OptiScaler preset override not working with certain games\nRequires a game restart.",
-      "source_hash": "2b107e621490d3e78df8cff579c7e93746000f07df5a51f1119d85c32cd8ece8"
-    },
     "ui.auto.b308632c7a01": {
       "text": "Support not implemented",
       "source_hash": "f4afe7e6db80a02deabb64430b01cfb2e2195f4e09a22532d8671a8bc4b6d80c"
@@ -1021,10 +993,6 @@
     "ui.auto.595d066d151c": {
       "text": "UI Premult. alpha",
       "source_hash": "0609728ef04d6665dd42477717ae68fadb9cf4e5c005fbf2943b8f9cc83e8f02"
-    },
-    "ui.auto.f68619f79fc4": {
-      "text": "If UI is too faint, disable this option",
-      "source_hash": "c155261869df846c33d6804cf08038c1690e6939a670c2644f445c8446ca0540"
     },
     "ui.auto.7fe1fa654581": {
       "text": "Advanced FG Settings",
@@ -1126,17 +1094,9 @@
       "text": "Frame Generation (FSR FG)",
       "source_hash": "b5bdb698ea6e943e61ddd795fbf6f2ff0bf556cebe2928be0b69348a0283e397"
     },
-    "ui.auto.4e8d646301a0": {
-      "text": "FFX FG",
-      "source_hash": "630e3fcd040e3eb37f7b81239b67e5ed95bfb025c544b5e17bdb1d077176ef71"
-    },
     "ui.auto.8dfff9c0dfd1": {
       "text": "List of FGs reported by FFX SDK",
       "source_hash": "71692ab07904e12c20ad59b07b6eae217bb00e1d24c0f62ad6eca1562abf7ff1"
-    },
-    "ui.auto.071edebfc3a2": {
-      "text": "Change FG",
-      "source_hash": "cfdfc928776980d1f67c0ac8c3ed48bd039bf31372bdcdca1865c60649106cf2"
     },
     "ui.auto.59c2add9983b": {
       "text": "Active##2",
@@ -1165,10 +1125,6 @@
     "ui.auto.c919eab7cb2d": {
       "text": "FG Watermark",
       "source_hash": "cebc29461afa64f1ef47d81986330f1585753fcda7d6a4fc62b4750ff84b0c4b"
-    },
-    "ui.auto.06c4acd5292a": {
-      "text": "Advanced FSR FG Settings",
-      "source_hash": "cdda53b13bc2480a538be840b245e93cfaf674dd86140242bd7a8da5a50b046e"
     },
     "ui.auto.b028cd3332f7": {
       "text": "FG Only Generated",
@@ -1362,10 +1318,6 @@
       "text": "Forces Borderless display mode\n\nFor best results, set fullscreen \nresolution to your display resolution\nMight cause some instability issues.\n\nNEEDS GAME RESTART TO BE ACTIVE!",
       "source_hash": "62bc39039fb7ff69deaded3c881142bc5b492d94e159eb14a72446a3515cddec"
     },
-    "ui.auto.0ae1c471e5be": {
-      "text": "Advanced XeFG Settings",
-      "source_hash": "a07aa419585a1ea59e001fcc15e148541708de74969a2adeb3dc3fa162fb6697"
-    },
     "ui.auto.a56b24764411": {
       "text": "Rectangle Settings",
       "source_hash": "0a86d4773e586448c305d65faf22e046b5008ecc8b20aafa01f7a89ecc8454e8"
@@ -1430,17 +1382,9 @@
       "text": "Extended",
       "source_hash": "97b165f2f4e4ca544bb7aaa49d8ab5cd38566aa11aff9dfb7ae0609376148cd7"
     },
-    "ui.auto.c83164cf4aab": {
-      "text": "Extended format checks for possible Hudless\nMight cause crashes and slowdowns!",
-      "source_hash": "288a060692b79a13cf1a63e8bc34de66a5d131a91094047fd375df1be6aecce7"
-    },
     "ui.auto.b40a29942960": {
       "text": "Immediate Capture",
       "source_hash": "9bea62c5d93332400e79116c32f51b67f4ca98a34813bae977e700b85fd5450e"
-    },
-    "ui.auto.350b77b922a7": {
-      "text": "Enables capturing of resources before shader execution.\nIncrease Hudless capture chances, but might cause capturing of unnecessary resources.",
-      "source_hash": "17803ccfe82788d8f7ad574b445df39db34428090fceb5ae9f8cdf872ada8e56"
     },
     "ui.auto.6eb83c91f488": {
       "text": "Scale Depth to fix DLSS RR",
@@ -1474,17 +1418,9 @@
       "text": "Resource Blocking",
       "source_hash": "7210b7c9c8ffcc120378702976185387a31f39c76b6b6af3347baeb2b38c6d32"
     },
-    "ui.auto.cf9ef85834fb": {
-      "text": "Block rarely used resources from using as Hudless \nto prevent flickers and other issues\n\nHUDfix enable/disable will reset the block list!",
-      "source_hash": "233ea04be2cde237a792561f3adcd221173c15f36403b7aa51f8ca3332a64109"
-    },
     "ui.auto.c657a2d8e72d": {
       "text": "Relaxed Resource Check",
       "source_hash": "01c3d58935c2819f11b9c91f84d988cf238878dcc8cba739b48530ed99540bc7"
-    },
-    "ui.auto.15a28dc2df8a": {
-      "text": "Relax resolution checks for Hudless by 32 pixels \nHelps games which use black borders for some \nresolutions and screen ratios (e.g. Witcher 3)",
-      "source_hash": "c1f830205b255e1d50d0b54866dc27b22a58822601bff40a0afba73141f3107f"
     },
     "ui.auto.4696b997176d": {
       "text": "FG Create List",
@@ -1518,73 +1454,37 @@
       "text": "Disable RTV Tracking",
       "source_hash": "b72db476c6abecc1b01239f733bbf3261ff1f1cb05a8307d5c5fec2d8d77ea4c"
     },
-    "ui.auto.b220e0065439": {
-      "text": "Disable tracking of CreateRenderTargetView\nThis might help filtering of wrong hudless resources",
-      "source_hash": "2176619516526b639661a5452f9f4a38e871baee27b493c87f09cb0cd7c6b370"
-    },
     "ui.auto.7ee51771092d": {
       "text": "Disable SRV Tracking",
       "source_hash": "611fe5dbd31ed9be54b05b1faf3bc5bc52f2ff1be07382a0ab4f1db966db1c5c"
-    },
-    "ui.auto.c76ec1a9f58c": {
-      "text": "Disable tracking of CreateShaderResourceView\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "95f0815fde80e5dd48d4239cf64ce4d6cf3d5b55a6bf8fd51eb2f756e062fb5e"
     },
     "ui.auto.ef85f2cfcbd4": {
       "text": "Disable UAV Tracking",
       "source_hash": "35a7432f1d11bd50b78013d1867ce49f3701f28067539a12c5aa136891fdb5fc"
     },
-    "ui.auto.b08bccb22d5d": {
-      "text": "Disable tracking of CreateUnorderedAccessView\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "af14d5480aaf1bfb2e29c2d6f432a3f9e42f68976ff56177aa9c6b13b25f347d"
-    },
     "ui.auto.74c2b946cabd": {
       "text": "Disable OM Tracking",
       "source_hash": "51d14af79a32d381e1e45800aecd5c739cb8d6d431d5ae7dc21fe702daad72e7"
-    },
-    "ui.auto.4bdd68714873": {
-      "text": "Disable tracking of OMSetRenderTargets\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "20649f57ea48178727dd1a5b2f48dc0742fc5db7d736d8948f048fa0e85bcaad"
     },
     "ui.auto.3c6b7b38d68a": {
       "text": "Disable SCR Tracking",
       "source_hash": "0008dfc90998ca5fc305d6233bbe1fe5054abd63df4f2651e0ff72bcec145185"
     },
-    "ui.auto.33dcd3305da5": {
-      "text": "Disable tracking of SetComputeRootDescriptorTable\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "044feaa564bf619f3902fdca4287905791184297124e71db4c4472d67db6f0c5"
-    },
     "ui.auto.a30c8329cf24": {
       "text": "Disable SGR Tracking",
       "source_hash": "abd53f49bc40fda308cf62e1f1019702205f39245a04690a076809d5c9eb4ab0"
-    },
-    "ui.auto.b6f70fc37bab": {
-      "text": "Disable tracking of SetGraphicsRootDescriptorTable\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "843cb8d7b122d6a1b27d0cb8afedfc677fb2717fb34a3e5a870f38793e24b40e"
     },
     "ui.auto.420c9621b37d": {
       "text": "Disable DI Tracking",
       "source_hash": "cfb109f36f802e863def591b0ee2901062081c6c9902bbafb795d4b8a711151a"
     },
-    "ui.auto.96f1c6a29689": {
-      "text": "Disable tracking of DrawInstanced\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "48677e373ef9fa67d72e82551e172f9f655a6a2106264ea15e388349e764ac08"
-    },
     "ui.auto.028adb3c7f10": {
       "text": "Disable DII Tracking",
       "source_hash": "642920c1fa9369b49577d48299310f65ce9d08fe1b104352dbe7c3d1b209b1d2"
     },
-    "ui.auto.be0a7d5ca2f9": {
-      "text": "Disable tracking of DrawIndexedInstanced\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "123eb9969c9116d136b11e55c425c7d08d5ef37c27bc2df851f5b6472322ea3d"
-    },
     "ui.auto.720d36626538": {
       "text": "Disable Dispatch Tracking",
       "source_hash": "ac090d800d4e045bf6f78b9f28dba7203616d1eda18a11501dcb0f1d8f78612d"
-    },
-    "ui.auto.df0a3327c4e3": {
-      "text": "Disable tracking of Dispatch\nThis might help filtering of wrong Hudless resources",
-      "source_hash": "d7a1dd2b9f6721ed205d1fb80484ec70b7d4bb530f8cad8f91e3154de017ffa4"
     },
     "ui.auto.50d813ae8bb0": {
       "text": "Resource Settings",
@@ -1713,22 +1613,6 @@
     "ui.auto.fcab2580c13c": {
       "text": "Please select FSR Frame Generation in the game options\nYou might need to select FSR first",
       "source_hash": "ee3b15d6440429b88ad5782f15527f6d67362da8eae3597688b2c77a0693137d"
-    },
-    "ui.auto.511e2c1bf991": {
-      "text": "Skip Config for Hudless",
-      "source_hash": "8325d74f138e85f98f1ed6fcb4b15d602fc33eaf6b083008d5724e2c17dd2574"
-    },
-    "ui.auto.337d94dd6314": {
-      "text": "Do not use Hudless set at ffxConfig",
-      "source_hash": "960d0540dbb98d0f956691d3f630cf851540725747ede03ae0276a35e76a7242"
-    },
-    "ui.auto.26e7ca840042": {
-      "text": "Skip Dispatch for Hudless",
-      "source_hash": "212f6975661d2144c9d5021d3fa04f14142a26e073506a97b86068e0fb35da05"
-    },
-    "ui.auto.9c82ff9074a6": {
-      "text": "Do not use Hudless set at ffxDispatch",
-      "source_hash": "9160be05881c452ab2071f150a1b4640746c1e3a22679775e7432cb8aece4f78"
     },
     "ui.auto.b7fbbb308e96": {
       "text": "Frame Generation (Streamline FG Inputs)",
@@ -2034,10 +1918,6 @@
       "text": "Contrast",
       "source_hash": "08795ba031bcd121e4e1ce47c1c2828a796ffbf6bb4e93daeee3937017bc7a04"
     },
-    "ui.auto.4bba4c93c95a": {
-      "text": "Positive values decrease sharpness at high contrast areas.\nNegative values increase sharpness at high contrast areas.",
-      "source_hash": "8af595007cb4b89bcd9148d811b1e44f7ff1bced2f48dc96e9d8788e3c972be9"
-    },
     "ui.auto.d610006c7df9": {
       "text": "Motion Adaptive Sharpness##2",
       "source_hash": "dc7956841be84aac3a5eeae99b3fa3d07464b7cc9b7dea77e10f1d2d77e221ee"
@@ -2166,10 +2046,6 @@
       "text": "Lanczos3",
       "source_hash": "9feb40edb86bc9d0ce4c0c54f783d6879560aa4ee2c9832a1686cf3d4830144b"
     },
-    "ui.auto.3616ec5b2617": {
-      "text": "Heavier version of Lanczos2.\nOffers the sharpest image, but is the most prone to ringing.",
-      "source_hash": "fb501627f050cd72704b56f5fed96e3bd5789da88f7b041913295965c027d15c"
-    },
     "ui.auto.4f6d0008aeb1": {
       "text": "Kaiser2",
       "source_hash": "6de2fa3781854eb3b9dd03c011ce30a2113aba42efdf44b0a42c073a4ba22ca1"
@@ -2182,17 +2058,9 @@
       "text": "Kaiser3",
       "source_hash": "592782aa7dcbfa25aebd0bb6a25197235471bb860e8761118132aa0b892a0a28"
     },
-    "ui.auto.36489a0b8f36": {
-      "text": "Similar to Lanczos3.\nFar less prone to artefacting than Lanczos3, but much heavier on the GPU.",
-      "source_hash": "15b782d93a2f2243f975ace6becf516468307f91e632cc18224632817d35aa19"
-    },
     "ui.auto.c716084845f6": {
       "text": "MAGIC",
       "source_hash": "e7b0c01604266fd889ba808bb54be0932fabdbae6c8347ed940b81c0a6a89e66"
-    },
-    "ui.auto.c870da649cf0": {
-      "text": "Specialised to prevent artifacts.\nEliminates harsh halos for a natural look, but can appear slightly soft.",
-      "source_hash": "6a004b09d5e21ce08afd47070c329c245ffad9089e893be75c78abb6db4c339d"
     },
     "ui.auto.012e8762e3ea": {
       "text": "Downscaler",
@@ -2802,10 +2670,6 @@
       "text": "Use Value",
       "source_hash": "4f351d39ea67797ae536d4edcdc404af60c23e65c6219fe079c5202ebbc2c034"
     },
-    "ui.auto.f8f5513e69e7": {
-      "text": "Hudless Resources",
-      "source_hash": "bdaefe14e1aebbbd4a303632bde70a78742f55c3ac2b88dedbcd4f78b3f6674f"
-    },
     "ui.auto.be3374cab25f": {
       "text": "%08x, %s->%s, Count: %llu, %s",
       "source_hash": "fdaebff90637296791c6f95cfc854ababda58bcdc9cb68ca68e03fb61b5eb55d"
@@ -2833,6 +2697,282 @@
     "ui.auto.d6ea6183dc0d": {
       "text": "Close##4",
       "source_hash": "7a9e6528b9791d1df4507d8e20958eb1f8645cc2a838062a3490f23851617885"
+    },
+    "ui.auto.a098e0e34326": {
+      "text": "%s | %6.1f/%5.1f %s",
+      "source_hash": "8b0591328bf99c3b655382254b5e54838685bfb165b50d1389c6777b43421658"
+    },
+    "ui.auto.ca6d7875e793": {
+      "text": "%s | %6.1f %s",
+      "source_hash": "d1f8436481cbf54c388847624c85ba50194b4a27d6bf60bb68db9b640a350ea1"
+    },
+    "ui.auto.8cb9a247d694": {
+      "text": "%s active, but currently not used by the game\nPlease load into the game",
+      "source_hash": "57924143d84c54316bdd1dee2715076843d5b7efaf12193908a5b3e07ac77296"
+    },
+    "ui.auto.5ab1c0463054": {
+      "text": "FSR %s##%d",
+      "source_hash": "8f4935bbcb43bd0547ac6f497b54dadd3ea4b984c0338f3bd352e6aa8a335760"
+    },
+    "ui.auto.683116b1a49c": {
+      "text": "FSR4 Model",
+      "source_hash": "f9bd5fd52d04ae7037ac995440a13a0b01b87efea75a86eea410f704d89f9471"
+    },
+    "ui.auto.d5f6ea63c574": {
+      "text": "FSR 4 network to run.\nAuto lets FFX pick the best one the GPU supports.",
+      "source_hash": "7db3e933809a82503805e78cc89139bbf1d082745ce8c24c13b14c53bd1ef226"
+    },
+    "ui.auto.d67d2d5e6cdf": {
+      "text": "(Active: %s)",
+      "source_hash": "db7a860f6649603ea3c2a1ddfde66fe413194360c0c3c3848271516fb697cb4b"
+    },
+    "ui.auto.e7e58278e1f4": {
+      "text": "Value of 0.0f can improve temporal stability of bright pixels\nLower values are more stable with ghosting\nHigher values are more pixelly, but less ghosting",
+      "source_hash": "d46abcc13dfc85466159e74359c811e49ac0c87c0fdb95ff2e11a9df41657ef8"
+    },
+    "ui.auto.3ea2dd7fb2be": {
+      "text": "Each render preset has it strengths and weaknesses\nOverride to potentially improve image quality\nPress Apply after enable/disable",
+      "source_hash": "ddc012512895382c6834f9896961cf8906b116bc3bdcdcb2a84bfb692b6e39d9"
+    },
+    "ui.auto.37306cc865ee": {
+      "text": "Use generic appid with NGX\nFixes OptiScaler preset override not working with certain games\nRequires a game restart",
+      "source_hash": "9323ca6a23175cd7f41867fc774cd61652a855f171694d6fc6812d252036365f"
+    },
+    "ui.auto.d369481c7339": {
+      "text": "Support not implemented, they meant FG Output",
+      "source_hash": "8332bd90ce5bef353e0cdad9504bae2e029bfdc7bcc652c09c58122f91ae773a"
+    },
+    "ui.auto.6a830a0367a2": {
+      "text": "If UI is too bright, disable this option",
+      "source_hash": "30c12dcbb46cd07714df7bff0fb959e7fcb66f4853c930494d988f123d5639f0"
+    },
+    "ui.auto.6af40ae2fe5f": {
+      "text": "FFX FG Version",
+      "source_hash": "1ff542e9c0769f0a0833dcb051d06320a5d0ef1b2efc1c4af83c794a9206775d"
+    },
+    "ui.auto.d4ae270ac49c": {
+      "text": "Disable HW Flip Metering",
+      "source_hash": "0b961a50a8c5273bb03a189db3fa143dbe7efa3a339d3e15197328f96d57f920"
+    },
+    "ui.auto.955428c80069": {
+      "text": "Overrides the AMD hardware flip metering requested by FSR\n(Driver-Assisted Frame Pacing)",
+      "source_hash": "d0ffad9080e2ba26aecc29394e99496c3303a586d43540764cb18d7a292c94d7"
+    },
+    "ui.auto.2fd42203c942": {
+      "text": "(Mode %u)",
+      "source_hash": "0c6f2040ba9b13b134fb8e780224895a88a3837df1bf590e927ddb7a35063a0d"
+    },
+    "ui.auto.f5c11a5b1e56": {
+      "text": "(Off)",
+      "source_hash": "559ecddd2696c27547ab813d48c3612168e4e6d829143fb570a6f0b64fd9ff85"
+    },
+    "ui.auto.2c5ebe2d444f": {
+      "text": "Flip metering mode applied in the driver\nFSR only requests it in exclusive or borderless fullscreen",
+      "source_hash": "d173d16f16125572118a1d18fea7943976c09ce018282a72cfb13dfa246690d8"
+    },
+    "ui.auto.02c83d9b002f": {
+      "text": "Extended FSR FG Settings",
+      "source_hash": "b02908c177d3d693ac18d48c4d01cc11f2c87c3e52762125c0e40f5244afb377"
+    },
+    "ui.auto.524be9cb94a3": {
+      "text": "Extended XeFG Settings",
+      "source_hash": "2a0db113fac81cf6f13df3fe15ad024e913620f25ee4d27a23c3ecc1322cc920"
+    },
+    "ui.auto.d697065b530e": {
+      "text": "Extended format checks for possible HUDless\nMight cause crashes and slowdowns!",
+      "source_hash": "02d0c99fcdb212d68c02f2a1aa03d84cbd156497ffded184be7452d369c8c056"
+    },
+    "ui.auto.13c02455f20a": {
+      "text": "Enables capturing of resources before shader execution.\nIncrease HUDless capture chances, but might cause capturing of unnecessary resources.",
+      "source_hash": "1d379dc21a6d416a49a386697e41e55a34ce99736d8f58a5bca4af4e8a87091d"
+    },
+    "ui.auto.0b924488fd02": {
+      "text": "Disable HUDFix Resource Tracking",
+      "source_hash": "4172e23e451681917aeaf76f56022c5f6d9fc05364574996c4836c4d7b26d8e9"
+    },
+    "ui.auto.bdf9ce054dc4": {
+      "text": "Disables HUDFix resource tracking and\nreduces CPU overhead.\nUseful for MLFG which deals well with the HUD.\n\nAfter changing, please Save Settings and restart.",
+      "source_hash": "b56e23b2925e36793dddd9e0ffe5951d97001aa30d517c8b139639a3151324d7"
+    },
+    "ui.auto.e3a7ad1e354e": {
+      "text": "Block rarely used resources from using as HUDless \nto prevent flickers and other issues\n\nHUDfix enable/disable will reset the block list!",
+      "source_hash": "e1aae7bdf41f139297805a8b8d6ded5dd4ea4979d765b708b5d12a1df9644f27"
+    },
+    "ui.auto.e6951fc46a51": {
+      "text": "Relax resolution checks for HUDless by 32 pixels \nHelps games which use black borders for some \nresolutions and screen ratios (e.g. Witcher 3)",
+      "source_hash": "b8e0b5d1fb63fb56b511aa0fd2db79505123bf41080f3046012d4c830d41f7a8"
+    },
+    "ui.auto.9f298520a655": {
+      "text": "Disable tracking of CreateRenderTargetView\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "6334151451cf6f30a5fa820b3b48e90593f5371fcf6dcee24673fa530e9c9a48"
+    },
+    "ui.auto.30d14d12ea67": {
+      "text": "Disable tracking of CreateShaderResourceView\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "2195090359c1b3656250b161fd3e73dbfe7430c8ac75571e4b570a76a38a4064"
+    },
+    "ui.auto.89373fce8d3b": {
+      "text": "Disable tracking of CreateUnorderedAccessView\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "d35d84e0910ed0d7a600a0010a967a68b45044d030a38714318d3df2ffc9afc8"
+    },
+    "ui.auto.28d010627e48": {
+      "text": "Disable tracking of OMSetRenderTargets\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "e0c92ab9e04e6c76da0b86e3a33f07a6f3fab124094a592712ef32b213ea150f"
+    },
+    "ui.auto.0d3c8f1ddb8c": {
+      "text": "Disable tracking of SetComputeRootDescriptorTable\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "42ea7b16fce80f04c062d6013d7655412a39ccead940533faeefca2fb3e75737"
+    },
+    "ui.auto.816318b4543e": {
+      "text": "Disable tracking of SetGraphicsRootDescriptorTable\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "a4369ac282b55322846f0312c76212028cfc41ae7c0422c2b9d063c2335c61b4"
+    },
+    "ui.auto.be067117d995": {
+      "text": "Disable tracking of DrawInstanced\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "68ccf38eb306e946a6ba87b2514ced66ce0407da26e07dd9998864ad102a28c4"
+    },
+    "ui.auto.747894299569": {
+      "text": "Disable tracking of DrawIndexedInstanced\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "509cd3d1b1d5f521da2199b1e57a1c11b089ef2d6e147689c000910a90f7b94e"
+    },
+    "ui.auto.9d8325e8117c": {
+      "text": "Disable tracking of Dispatch\nThis might help filtering of wrong HUDless resources",
+      "source_hash": "6fdbb0ca0a463710598568d400783abf9965a6e45b49ce27080f5a2f35668b50"
+    },
+    "ui.auto.205c4545e845": {
+      "text": "Skip Config for HUDless",
+      "source_hash": "59a2c33415920111038629fb19a9d6c3f4ccc3b57c1c95b4005921b7adaf3096"
+    },
+    "ui.auto.07b8c4d71f6a": {
+      "text": "Do not use HUDless set at ffxConfig",
+      "source_hash": "38914eadc9f3a871f23a63dcacb0095daa6691ffca7b674ecf7ab7cbb2b0601b"
+    },
+    "ui.auto.26af3c0a347f": {
+      "text": "Skip Dispatch for HUDless",
+      "source_hash": "0c08512ec6e9c28b9e23284a9214bac1085457eec414bc9090cdc6cce82e541f"
+    },
+    "ui.auto.c1f50a75de91": {
+      "text": "Do not use HUDless set at ffxDispatch",
+      "source_hash": "4aa870b6aeb29b6a637757c7ea4f58625241ef97c772a49ba77a3be13333825e"
+    },
+    "ui.auto.9bee7d2804bb": {
+      "text": "(Current: %.3f)",
+      "source_hash": "d96f96197e8aabb110fbd8e51ccd10e72ad046252c74e72e715bf05ad165229d"
+    },
+    "ui.auto.f000f7ae3916": {
+      "text": "(Current: disabled)",
+      "source_hash": "5d052425fb84d9fe455e686b6e53480f195cd506ce8ec29d48805acefde98e0c"
+    },
+    "ui.auto.19f28b9470cb": {
+      "text": "Lowers sharpness at high contrast areas.",
+      "source_hash": "90ae390b046776ab3bc912a286a447d1adc6dd8d3cb675f6577e2390b117e1e3"
+    },
+    "ui.auto.b6d4b021baae": {
+      "text": "Heavier version of Lanczos2.\nOffers the sharpest image, but is the most prone to ringing.\nConsidered the best along with Kaiser3.",
+      "source_hash": "1859e1a0b8a2431da10bd54deaf69267417663c83c123bfd289c6ffc20a2c848"
+    },
+    "ui.auto.093d05889ead": {
+      "text": "Similar to Lanczos3.\nFar less prone to artefacting than Lanczos3, but much heavier on the GPU.\nConsidered the best along with Lanczos3.",
+      "source_hash": "67f7a1c6f892d387d6dce99d8193b1200fc2153dcb558d177ede56d2c6a7648f"
+    },
+    "ui.auto.6dded8e38e1a": {
+      "text": "Specialised to prevent artifacts.\nEliminates harsh halos for a natural look, but can appear extremely soft.",
+      "source_hash": "570b13a12cc52983c32ac8471224c77be18eca3253b888f81a1471d308e22337"
+    },
+    "ui.auto.b23382b26c57": {
+      "text": "Spoofing/Hooking",
+      "source_hash": "9dece93c3cd85969c32a897ea2b6888b2e936e9948d35618633d9598018bb908"
+    },
+    "ui.auto.dbdc3de69463": {
+      "text": "DXGI Spoofing",
+      "source_hash": "69597931765b07096bbc33c12a161b74472803ac7760356833bfd66f0aa32dbb"
+    },
+    "ui.auto.39ecc157b001": {
+      "text": "Enable Nvidia GPU spoofing for DXGI adapter\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "c089cb23a78af730ed260e58998c047546ea9a1c11f53415a5273f5b356c688c"
+    },
+    "ui.auto.9f04e490700d": {
+      "text": "VLK Spoofing",
+      "source_hash": "499d8caef8687b986d15564289aa56ca16eebe7dac4fe2ebff4a9a9528bcc886"
+    },
+    "ui.auto.924544c28fcb": {
+      "text": "Enable Nvidia GPU spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "dd2f06e7fe06f9046335585b24bb47451faf90a81f640e549ab04629dc5a298c"
+    },
+    "ui.auto.efc5bcb21079": {
+      "text": "VLK Extension Spoofing",
+      "source_hash": "0ca0f7f5ba47b874aa03135accee14c00275a8ca5876cb76b577b1742bb21f99"
+    },
+    "ui.auto.8184e65f6bcf": {
+      "text": "Enable Nvidia Extension spoofing for Vulkan\nDetailed modifications available in the INI\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "951bf9eb6ea58c6b523f9c8b24554ea93fe3e6153c7199df32fb663feb8e16de"
+    },
+    "ui.auto.bdf5e616ffda": {
+      "text": "Ntdll Hooks",
+      "source_hash": "2f0aa9dc3c7cd655b0ba228c11e43cea0d88318f343fbdde33bec9570bfb2012"
+    },
+    "ui.auto.eeaa410f068b": {
+      "text": "Only hook ntdll.dll methods\nDisable for switching back to kernel hooks\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "5130b694ac252c8da5b5b5b3b24091fa614a3d9c52dd5b0ecd99a37e3614f97b"
+    },
+    "ui.auto.2fb022255482": {
+      "text": "Disable Overlays",
+      "source_hash": "61a1010e4ed22c70a54d1e9a7d2c7911f3282876bbd50e5e5bf65fbc152ec1ff"
+    },
+    "ui.auto.f4d25beaf448": {
+      "text": "Disable supported overlays (autoenabled with OptiFG)\nIncluding Steam Input (controller issues)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "6d17f87c6ba82194d828e86fe89de7eafd68a6e29cf996b265a0607759297866"
+    },
+    "ui.auto.b80497a191b0": {
+      "text": "Manual Input Polling",
+      "source_hash": "3792b4d1d6c73c9cdb91eb02db538cb32d94ba76293a10d099596788e54aa1d7"
+    },
+    "ui.auto.6e894af4233c": {
+      "text": "Use manual input polling instead of hooking WndProc\nMight help games which do not capture inputs properly\nAs a downside, it will not be able to block inputs when menu is open\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "cf640ebe1b799bbc46246ec49cf85791da8aa856dcb346712952d5c84cb751ea"
+    },
+    "ui.auto.5bdf349c2b93": {
+      "text": "Plugins/Misc",
+      "source_hash": "64f1951f01ef8230768a29c1b75104da0331704142a15d4214f0e0181eaf90f3"
+    },
+    "ui.auto.53f76ddca2b9": {
+      "text": "Load ASI plugins",
+      "source_hash": "28350782de7447fb3e9f4e74ee585ed7da52316c22319a9a6cfa250dd7609892"
+    },
+    "ui.auto.bda057a69401": {
+      "text": "Let OptiScaler load *.asi files from plugins folder\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "7e0a4cdfaeb0390ff7866f959c701e9c930c0ab4931dacb434f99c9091dada5a"
+    },
+    "ui.auto.545147a7b674": {
+      "text": "Disable Splash message",
+      "source_hash": "ea4c5ad635852d37a1652e84b487601534c6a3d55b31a8b12552900de3e4cad7"
+    },
+    "ui.auto.56b60085260d": {
+      "text": "Disables Startup Splash message (bottom left corner)\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "d2f6d980cc562287716845fd54797cfb566a73de403d054a2774fcf4e73398ee"
+    },
+    "ui.auto.2e515a5eca29": {
+      "text": "Check for Update",
+      "source_hash": "6f25f68393efbdeee731beafd8de5f3c719f66d838e52f1f75f9d58453831bd7"
+    },
+    "ui.auto.9a4731d04eca": {
+      "text": "Enable checking Github for latest version\nOnly works on stable/final releases\n\nAfter changing this option, please Save Settings.\nIt will be applied on next launch.",
+      "source_hash": "57303b76fcee867dd3f8bed49b7eb903bc1b71876b9c417656a16d4437cee665"
+    },
+    "ui.auto.a8cb5f990770": {
+      "text": "Single File",
+      "source_hash": "6a87f68f89982773b71b61759300fdd6b2392d697d118bc5377b361a0baea762"
+    },
+    "ui.auto.6bcca82f3c61": {
+      "text": "Override Vsync",
+      "source_hash": "04ec197f0a0f235dbfca79a25b4c642edcb473f753525b0ca3f38845638f31d4"
+    },
+    "ui.auto.dbebc11cf8ed": {
+      "text": "Force override the game's V-Sync settings.\n\nUseful for example when XeFG is locked to V-sync\nframe cap despite toggling Vsync off (e.g. Nioh 3)\n\nAfter changing, please Save Settings and restart.",
+      "source_hash": "dbda2d3eed9fe8b8ecb2c75a0a1c79aa9ed31867a275e5592122ef7a7b8b97fc"
+    },
+    "ui.auto.888ff4c6f29c": {
+      "text": "HUDless Resources",
+      "source_hash": "c13ec26572d7c88b14b8db8a5b5e4212a3a8938970c5633c07df3ae33890f1fe"
     }
   }
 }
