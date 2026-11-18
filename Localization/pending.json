@@ -1,28 +1,9 @@
 {
   "locale": "zh-CN",
   "scan": {
-    "added": [
-      "ui.auto.11e7a7424479",
-      "ui.auto.645e31dba0f0",
-      "ui.auto.aa7effc5cc37",
-      "ui.auto.9de9c6b28746",
-      "ui.auto.ab06d6f2412f",
-      "ui.auto.40a32fa391ab",
-      "ui.auto.585b010622c1",
-      "ui.auto.fc635fa41cb7",
-      "ui.auto.51c4a1ef7eba",
-      "ui.auto.fbca755f44c5",
-      "ui.auto.45e118d0563e",
-      "ui.auto.13ebd096499a",
-      "ui.auto.75666d17d60e",
-      "ui.auto.49fd816abcda",
-      "ui.auto.8f46241bbdc5"
-    ],
+    "added": [],
     "changed": [],
-    "removed": [
-      "ui.auto.9d8fc6c0b56d",
-      "ui.auto.4d2bc7a76976"
-    ]
+    "removed": []
   },
   "missing": [
     {
