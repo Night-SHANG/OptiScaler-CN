@@ -2,26 +2,19 @@
   "locale": "zh-CN",
   "scan": {
     "added": [
-      "ui.auto.74572a1ed988",
-      "ui.auto.7913bfd26508",
-      "ui.auto.4218becdf9b0",
-      "ui.auto.fa893d87e1fa",
-      "ui.auto.c41f4ff9c1f4",
-      "ui.auto.e983b8f82229",
-      "ui.auto.fc7d7f69817c",
-      "ui.auto.06db27c4f5c8",
-      "ui.auto.bf10fab8d46b",
-      "ui.auto.68c2cc7f0cea",
-      "ui.auto.41d5e9c4e9ae",
-      "ui.auto.8198c098dbc9",
-      "ui.auto.f3de1b36d7cf",
-      "ui.auto.2ab7a1b57d86"
+      "ui.auto.03bd2cf30fd8",
+      "ui.auto.dd9626f74eff"
     ],
-    "changed": [
-      "ui.auto.7913bfd26508"
-    ],
+    "changed": [],
     "removed": [
-      "ui.auto.645e31dba0f0"
+      "ui.auto.ee4c907f5db2",
+      "ui.auto.d103ff520433",
+      "ui.auto.bc09ec62c7bf",
+      "ui.auto.a13c7bdc5d05",
+      "ui.auto.dce8181c72a9",
+      "ui.auto.696cfbc64a2c",
+      "ui.auto.cc955274a8cf",
+      "ui.auto.86221c8e6fe7"
     ]
   },
   "missing": [
@@ -686,41 +679,6 @@
       "source_hash": "03a71360569942d518f2ae707ca4a3029d4248bb92e0ae376f57cbceb86fde11"
     },
     {
-      "key": "ui.auto.ee4c907f5db2",
-      "source": "fps",
-      "source_hash": "2f02a4f7da5ad4d639709057f6c4ed1aba56511ee494254315d0183d060604df"
-    },
-    {
-      "key": "ui.auto.d103ff520433",
-      "source": "upscale",
-      "source_hash": "d2c4f1b5a53698640ea320bebee33badb35ca092357041b42c180ef4ccb45080"
-    },
-    {
-      "key": "ui.auto.bc09ec62c7bf",
-      "source": "frametime",
-      "source_hash": "3fb340fe637041a1f00a5e39c50fc86ef534bc0f42bc738956425dead607fb2d"
-    },
-    {
-      "key": "ui.auto.a13c7bdc5d05",
-      "source": "frametimegraph",
-      "source_hash": "daeae1cd52925b540fc94400306e202297529b35d54988fa54a50a42de03cf90"
-    },
-    {
-      "key": "ui.auto.dce8181c72a9",
-      "source": "upscaler",
-      "source_hash": "b3ff5e5eb5baad52c7dcddbf4ab9c21c9044a635159309ef79ec3edef0b9d43b"
-    },
-    {
-      "key": "ui.auto.696cfbc64a2c",
-      "source": "upscalergraph",
-      "source_hash": "d984e3facc6409151f26fce123e073d9055d37157c135f77aff12b590dac5efe"
-    },
-    {
-      "key": "ui.auto.cc955274a8cf",
-      "source": "lowlatency",
-      "source_hash": "71357ec41e4e6942216e22033490dba38a188c5a9e88a45a7e214853bca6fe45"
-    },
-    {
       "key": "ui.auto.fce204ae554c",
       "source": "FPS",
       "source_hash": "85869174459f3b9c451a9ae6cc9c32fbde46d2e83dd4ca3e2234f6558eb4f7dc"
@@ -1301,11 +1259,6 @@
       "source_hash": "7600ee63aa8224bd022cb9c6047d5578de23c46d7aea8e0273b4032f18a52e08"
     },
     {
-      "key": "ui.auto.86221c8e6fe7",
-      "source": "(turn on Frame Gen below)",
-      "source_hash": "431668a8b35b013521f0cdf49dc4038b7559e7f69647285f1d5e74bfe78ebb4f"
-    },
-    {
       "key": "ui.auto.d4978f912c54",
       "source": "For when the game sends a UI texture, but you want to disable it\nGreyed out while the game doesn't send one",
       "source_hash": "b6d1290fa8a0b1142ec9d0eca3c33f8c1219da2dd126fcc1615b80e601b5e519"
@@ -1454,6 +1407,16 @@
       "key": "ui.auto.2ab7a1b57d86",
       "source": "Reset OptiSharpen Values",
       "source_hash": "29f890502184bd64038ae3c172e2a5f88c6fd2b574afa4ed978f64e49985dee4"
+    },
+    {
+      "key": "ui.auto.03bd2cf30fd8",
+      "source": "MacType detected",
+      "source_hash": "f39670d89bc5092728553545ccda332a51b076a263c022987b8efa2f58a0d3dc"
+    },
+    {
+      "key": "ui.auto.dd9626f74eff",
+      "source": "MacType is known to cause performance issues,\nespecially with high polling rate mice.\nPlease disable it while playing.",
+      "source_hash": "f41c7117e52a287435df6c23a05d80197c329bab719fc05485fce807ff0b1e78"
     }
   ],
   "changed": []
