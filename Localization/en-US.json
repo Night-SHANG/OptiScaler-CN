@@ -3638,37 +3638,9 @@
       "text": "OptiSharpen Parameters",
       "source_hash": "a2071746b57f06625093463e0e1126baf4bc392443eaf98ffbb1f8885379b538"
     },
-    "ui.auto.fa893d87e1fa": {
-      "text": "Clean",
-      "source_hash": "5137c8760c9411860cdc0eccf0e2e3ae66cc0379c45c89104b477351d3cce57f"
-    },
-    "ui.auto.c41f4ff9c1f4": {
-      "text": "TAA",
-      "source_hash": "6273a002bf1413e21563a99baf470468223fca63b52b00584ef173c311e246ca"
-    },
-    "ui.auto.e983b8f82229": {
-      "text": "TAA Wide",
-      "source_hash": "0f6ac2d3725f2eb0d008b6c4e1340814f050b44e7c8ba7a895a9a5ff16346d77"
-    },
-    "ui.auto.fc7d7f69817c": {
-      "text": "TAA Wide 12",
-      "source_hash": "70a407525e2a3e22ffebaf0d306b83ca3009e96120571ea5ef6787399a4cfcd3"
-    },
-    "ui.auto.06db27c4f5c8": {
-      "text": "Punch 10",
-      "source_hash": "2e0d9afe2166079a6c6b52fada28d7fc6a1e571e0969a072e302714db8f501a0"
-    },
-    "ui.auto.bf10fab8d46b": {
-      "text": "Punch 15",
-      "source_hash": "00163da40fde9d81362ba4821f03cd459ebf84fbd80c9c8b20671aeb54e437cd"
-    },
     "ui.auto.68c2cc7f0cea": {
       "text": "Model",
       "source_hash": "5e2c614c23f02239bc03c6c04fcb681950f9e72bf8fdff6be79c79841cbb10c0"
-    },
-    "ui.auto.41d5e9c4e9ae": {
-      "text": "Clean: The first 3x3 model.\nTAA: Model trained for TAA / upscaler output.\nTAA Wide: TAA model with a wider 13 tap window.\nTAA Wide 12 (default): TAA Wide with a larger network (12 hidden units).\nPunch 10: Stronger TAA Wide 12, allowed to overshoot the local range a little.\nPunch 15: Stronger than Punch 10, overshoots a bit more.",
-      "source_hash": "0eaa09ba098a83f2118514fae34a57420f83fc0691f2317ea12ebc780022b255"
     },
     "ui.auto.8198c098dbc9": {
       "text": "Change magnitude",
@@ -3689,6 +3661,26 @@
     "ui.auto.dd9626f74eff": {
       "text": "MacType is known to cause performance issues,\nespecially with high polling rate mice.\nPlease disable it while playing.",
       "source_hash": "f41c7117e52a287435df6c23a05d80197c329bab719fc05485fce807ff0b1e78"
+    },
+    "ui.auto.0cb1444df79c": {
+      "text": "Natural D10",
+      "source_hash": "dad1cb023276b3a55b2d029dd65f09d79f8d0031a423d2b263cfa4c0924f36d8"
+    },
+    "ui.auto.081bb99dc1a3": {
+      "text": "Crisp D10 p50",
+      "source_hash": "4657886ae92b369d46162a5d395c5775e0089f41278883d97c5f59c70debe5cf"
+    },
+    "ui.auto.3f6b997ceaa3": {
+      "text": "Natural D10 (fp16 packed)",
+      "source_hash": "87d53ce6c94ad0ff1675314af8edf62d7e9ed88ef48bea38d8de007ff429bd22"
+    },
+    "ui.auto.32bfc6e5eeaa": {
+      "text": "Crisp D10 p50 (fp16 packed)",
+      "source_hash": "009e26960372f01e3bcda5120ae592e36723c17c89cce7ef2fdff821011e0e0c"
+    },
+    "ui.auto.887c392619fb": {
+      "text": "Natural D10 (default): Natural sharpening.\nCrisp D10 p50: Stronger.\n(fp16 packed): The same networks in half precision, written for packed math.\nFaster on Dx12 / Vulkan, Dx11 runs them in fp32.\nAll use a 25 tap (5x5) window and overshoot the local range by up to 15%.\nEach model scales the strength, the top of the slider is its best point.",
+      "source_hash": "405f9f44ab7f3884e5cd506ea819d4ef0576a5518f1b5e677a0d1c698292545b"
     }
   }
 }
