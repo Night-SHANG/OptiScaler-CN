@@ -3681,6 +3681,34 @@
     "ui.auto.887c392619fb": {
       "text": "Natural D10 (default): Natural sharpening.\nCrisp D10 p50: Stronger.\n(fp16 packed): The same networks in half precision, written for packed math.\nFaster on Dx12 / Vulkan, Dx11 runs them in fp32.\nAll use a 25 tap (5x5) window and overshoot the local range by up to 15%.\nEach model scales the strength, the top of the slider is its best point.",
       "source_hash": "405f9f44ab7f3884e5cd506ea819d4ef0576a5518f1b5e677a0d1c698292545b"
+    },
+    "ui.auto.c6ad55b3c271": {
+      "text": "Driver pacing: the driver doesn't pace the flips (%08X, status %u)",
+      "source_hash": "331b631bc3d6de4f03da7b7a744b80687e2fe0f619d9fa96df9ca055c7566609"
+    },
+    "ui.auto.0239fa6eee7a": {
+      "text": "The driver doesn't see the game as a fullscreen app flipped straight to the display. Try exclusive fullscreen and closing overlays (Discord, Steam, Game Bar, RTSS) and windows on top of the game.",
+      "source_hash": "00346696a6717d15af0bf0dd15fdd30525b2a6c43ce7780ae6b23f5f9afce1c9"
+    },
+    "ui.auto.128e5548add0": {
+      "text": "Status 7: the driver's window manager doesn't report the swapchain's window\nin its fullscreen state, the window is likely composed by DWM\nor shown on an overlay plane",
+      "source_hash": "01b52d6cf6b8c29bc3f93a564ccf44f0caabe038d5788035d7b10a24d69799aa"
+    },
+    "ui.auto.7e2d2cfc5ee2": {
+      "text": "The driver got flips without usable pacing info.",
+      "source_hash": "0b889cf35a373effb06441fc64631a57159df75aa84dd01ef3842424473f06c0"
+    },
+    "ui.auto.f9b371fd10f3": {
+      "text": "Status 8: a flip came without a flip meter Present, with a target time of 0\nor with more generated frames than configured",
+      "source_hash": "6299eaf7100a7c9afbdc9d6d54a3988692dc98ba3b3fc339324288952d69b35e"
+    },
+    "ui.auto.78cf90c403af": {
+      "text": "The driver has no pacing config for the swapchain.",
+      "source_hash": "2f764589cebce9d563142dff0fb5be3a7317db56294143f801dc8f01d277408c"
+    },
+    "ui.auto.371f363fe1ab": {
+      "text": "The driver hasn't reported on the flips yet.",
+      "source_hash": "61d0d466d3201145577e21471edb3ee74e6c74e0d3214644c08701ced3bf5ee8"
     }
   }
 }
